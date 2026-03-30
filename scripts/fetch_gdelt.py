@@ -15,6 +15,7 @@
 # - A story trending in Japanese media appears here even if Reddit ignores it
 
 import json
+import time
 import requests
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -84,6 +85,7 @@ def fetch_gdelt_region(query: str, region: str) -> list:
     }
 
     try:
+        time.sleep(2)  # Respect GDELT rate limits
         resp = requests.get(GDELT_API, params=params, timeout=15)
         resp.raise_for_status()
         data = resp.json()
