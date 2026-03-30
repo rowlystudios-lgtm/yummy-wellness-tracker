@@ -22,53 +22,38 @@ from pathlib import Path
 GDELT_API = 'https://api.gdeltproject.org/api/v2/doc/doc'
 
 # Search queries per region — in English (GDELT translates from all languages)
+# Trimmed to 2 queries per region — reduces GDELT runtime from ~10min to ~3min
 REGIONAL_QUERIES = {
     'US': [
         'seed oil health inflammation',
-        'raw milk safety pasteurization',
         'ultra processed food disease',
-        'supplement vitamin health claim',
-        'carnivore diet health',
     ],
     'GB': [
         'NHS food nutrition health UK',
         'British diet health obesity',
-        'UK food standard agency',
-        'British nutrition foundation',
     ],
     'DE': [
-        'Ernaehrung Gesundheit Deutschland',  # German — GDELT handles it
-        'Lebensmittel Inhaltsstoffe Gesundheit',
+        'Ernaehrung Gesundheit Deutschland',
         'German food health nutrition',
-        'BfR Lebensmittelsicherheit',
     ],
     'JP': [
         'Japan diet health longevity',
-        'Japanese food nutrition traditional',
         'fermented food Japan health',
-        'washoku health benefit',
     ],
     'FR': [
-        'alimentation sante France',  # French — GDELT handles it
-        'regime alimentaire sante',
+        'alimentation sante France',
         'French diet paradox health',
-        'ANSES alimentation',
     ],
     'BR': [
-        'alimentacao saude Brasil',  # Portuguese — GDELT handles it
+        'alimentacao saude Brasil',
         'dieta brasileira saude',
-        'alimento funcional Brasil',
     ],
     'IN': [
         'Ayurveda food health India',
-        'Indian diet nutrition health',
-        'spices health benefit India',
         'turmeric curcumin India',
     ],
     'GLOBAL': [
         'nutrition health claim viral',
-        'food safety international',
-        'diet health research 2025',
         'WHO nutrition guidelines',
     ]
 }
