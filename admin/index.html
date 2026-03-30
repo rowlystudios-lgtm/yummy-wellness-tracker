@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yummy — Editorial Review</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="app-header">
+    <h1>yummy <span>editorial</span></h1>
+    <span class="header-meta" id="header-date"></span>
+  </header>
+
+  <main class="main">
+
+    <!-- Stats -->
+    <div class="stats-bar" id="stats-bar"></div>
+
+    <!-- Filters -->
+    <div class="filters">
+      <strong style="font-size:12px;color:#9A918E;align-self:center">Status:</strong>
+      <button class="filter-btn filter-status active" data-value="ALL"      onclick="setFilter('status','ALL')">All</button>
+      <button class="filter-btn filter-status"        data-value="PENDING"  onclick="setFilter('status','PENDING')">Pending</button>
+      <button class="filter-btn filter-status"        data-value="APPROVED" onclick="setFilter('status','APPROVED')">Approved</button>
+      <button class="filter-btn filter-status"        data-value="REJECTED" onclick="setFilter('status','REJECTED')">Rejected</button>
+
+      <span style="width:1px;background:#E5DDD5;margin:0 4px"></span>
+
+      <strong style="font-size:12px;color:#9A918E;align-self:center">Region:</strong>
+      <button class="filter-btn filter-region active" data-value="ALL" onclick="setFilter('region','ALL')">All</button>
+      <button class="filter-btn filter-region" data-value="US" onclick="setFilter('region','US')">🇺🇸 US</button>
+      <button class="filter-btn filter-region" data-value="GB" onclick="setFilter('region','GB')">🇬🇧 UK</button>
+      <button class="filter-btn filter-region" data-value="DE" onclick="setFilter('region','DE')">🇩🇪 DE</button>
+      <button class="filter-btn filter-region" data-value="JP" onclick="setFilter('region','JP')">🇯🇵 JP</button>
+      <button class="filter-btn filter-region" data-value="FR" onclick="setFilter('region','FR')">🇫🇷 FR</button>
+      <button class="filter-btn filter-region" data-value="BR" onclick="setFilter('region','BR')">🇧🇷 BR</button>
+    </div>
+
+    <!-- Claims -->
+    <div class="claims-list" id="claims-container"></div>
+
+    <!-- Bottom padding for publish bar -->
+    <div style="height:72px"></div>
+
+  </main>
+
+  <!-- Publish bar -->
+  <div class="publish-bar">
+    <span class="summary" id="publish-summary">Loading…</span>
+    <button class="btn-publish" id="btn-publish" disabled onclick="publishApproved()">
+      Download approved JSON
+    </button>
+  </div>
+
+  <script src="review.js"></script>
+  <script>
+    document.getElementById('header-date').textContent =
+      new Date().toLocaleDateString('en-GB', { weekday:'long', day:'numeric', month:'long', year:'numeric' })
+  </script>
+
+</body>
+</html>

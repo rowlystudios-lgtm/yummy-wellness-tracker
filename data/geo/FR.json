@@ -1,0 +1,15 @@
+{
+  "region": "FR",
+  "language": "fr",
+  "published": "2026-03-29T06:00:00Z",
+  "next_refresh": "2026-03-30T11:00:00Z",
+  "week_headline": "Les mythes sur les huiles de graines dominent les États-Unis pendant que le Japon débat des aliments fermentés",
+  "stats": {
+    "total_claims_tracked": 0,
+    "misleading_pct": "—",
+    "true_pct": "—",
+    "most_active_region": "US",
+    "most_contested_claim": "Pipeline not yet run — trigger workflow to populate"
+  },
+  "top10": []
+}

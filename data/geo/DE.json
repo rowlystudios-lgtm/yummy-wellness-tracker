@@ -1,0 +1,15 @@
+{
+  "region": "DE",
+  "language": "de",
+  "published": "2026-03-29T06:00:00Z",
+  "next_refresh": "2026-03-30T11:00:00Z",
+  "week_headline": "Samenöl-Mythen dominieren US-Feeds, während Japan Fermentationsklaims diskutiert",
+  "stats": {
+    "total_claims_tracked": 0,
+    "misleading_pct": "—",
+    "true_pct": "—",
+    "most_active_region": "US",
+    "most_contested_claim": "Pipeline not yet run — trigger workflow to populate"
+  },
+  "top10": []
+}

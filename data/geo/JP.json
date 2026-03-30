@@ -1,0 +1,15 @@
+{
+  "region": "JP",
+  "language": "ja",
+  "published": "2026-03-29T06:00:00Z",
+  "next_refresh": "2026-03-30T11:00:00Z",
+  "week_headline": "アメリカではシードオイル神話が蔓延、日本では発酵食品の効果を議論",
+  "stats": {
+    "total_claims_tracked": 0,
+    "misleading_pct": "—",
+    "true_pct": "—",
+    "most_active_region": "US",
+    "most_contested_claim": "Pipeline not yet run — trigger workflow to populate"
+  },
+  "top10": []
+}
