@@ -1,20 +1,9 @@
 {
-  "published": "2026-04-01T21:20:49.788052+00:00",
-  "next_refresh": "2026-04-02T11:00:00+00:00",
   "week_headline": "Detox teas and heavy metal scares dominate health headlines as consumers wrestle with what 'natural' actually means",
-  "stats": {
-    "misleading_pct": "55%",
-    "true_pct": "45%",
-    "total_scored": 2
-  },
-  "top10": [
+  "misleading_pct": "55%",
+  "true_pct": "45%",
+  "claims": [
     {
-      "rank": 1,
-      "claim": "Slim Boost Tea Claims Evaluated : The Detox Tea Blend That Works All - Day with Proven Slimming Ingredients",
-      "source": "News",
-      "platform": "manilatimes.net",
-      "url": "https://www.manilatimes.net/2026/04/02/tmt-newswire/globenewswire/slim-boost-tea-claims-evaluated-the-detox-tea-blend-that-works-all-day-with-proven-slimming-ingredients/2312932",
-      "hours_ago": 12,
       "score": 18,
       "score_label": "Misleading",
       "score_type": "false",
@@ -28,15 +17,15 @@
         "EFSA: safety assessments of senna and stimulant laxative botanicals"
       ],
       "global_opinion": "In the US, the FDA does not require detox tea brands to prove their claims before selling, which allows bold marketing language to flourish largely unchecked. The EU's EFSA applies stricter rules, and most 'slimming' health claims for herbal teas have been rejected for lack of evidence. In Australia, the TGA has issued repeated warnings about detox and weight-loss teas containing undisclosed laxatives.",
-      "brit_take": "A cup of tea is one of life's genuine pleasures \u2014 it just won't slim your waistline, no matter what the packaging promises."
+      "brit_take": "A cup of tea is one of life's genuine pleasures \u2014 it just won't slim your waistline, no matter what the packaging promises.",
+      "source": "News",
+      "platform": "manilatimes.net",
+      "url": "https://www.manilatimes.net/2026/04/02/tmt-newswire/globenewswire/slim-boost-tea-claims-evaluated-the-detox-tea-blend-that-works-all-day-with-proven-slimming-ingredients/2312932",
+      "claim": "Slim Boost Tea Claims Evaluated : The Detox Tea Blend That Works All - Day with Proven Slimming Ingredients",
+      "hours_ago": 12,
+      "engagement": 40
     },
     {
-      "rank": 2,
-      "claim": "Cadmium warning triggers backlash from France organic farmers",
-      "source": "News",
-      "platform": "bignewsnetwork.com",
-      "url": "http://www.bignewsnetwork.com/news/278957550/cadmium-warning-triggers-backlash-from-france-organic-farmers",
-      "hours_ago": 12,
       "score": 72,
       "score_label": "Nuanced",
       "score_type": "mixed",
@@ -50,7 +39,13 @@
         "European Commission: contaminants in food regulation (EC) No 1881/2006"
       ],
       "global_opinion": "France has some of Europe's most active organic farming communities, and tighter EU cadmium limits proposed for 2025 have caused genuine alarm among producers who feel they're being punished for soil conditions outside their control. Japan, which has historical experience with severe cadmium contamination from industrial pollution, applies strict food limits and views the issue as a serious public health matter rather than a regulatory overreach. In the US, cadmium limits in food are less uniformly enforced, and the debate gets far less public attention.",
-      "brit_take": "British organic farmers are watching France's fight closely \u2014 because whatever Brussels decides tends to arrive on UK doorsteps eventually, deal or no deal."
+      "brit_take": "British organic farmers are watching France's fight closely \u2014 because whatever Brussels decides tends to arrive on UK doorsteps eventually, deal or no deal.",
+      "source": "News",
+      "platform": "bignewsnetwork.com",
+      "url": "http://www.bignewsnetwork.com/news/278957550/cadmium-warning-triggers-backlash-from-france-organic-farmers",
+      "claim": "Cadmium warning triggers backlash from France organic farmers",
+      "hours_ago": 12,
+      "engagement": 40
     }
   ]
 }
