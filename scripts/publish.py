@@ -1,50 +1,63 @@
-# scripts/publish.py
-#
-# Commits all generated data files and pushes to GitHub.
-# Runs as the final step in the GitHub Actions workflow.
-# Uses the GITHUB_TOKEN provided by the Actions runner.
-
-import subprocess
-import sys
-from datetime import datetime, timezone
-
-def run(cmd: list, check: bool = True) -> subprocess.CompletedProcess:
-    print(f"  $ {' '.join(cmd)}")
-    result = subprocess.run(cmd, capture_output=True, text=True)
-    if result.stdout.strip():
-        print(result.stdout.strip())
-    if result.stderr.strip():
-        print(result.stderr.strip(), file=sys.stderr)
-    if check and result.returncode != 0:
-        print(f"Command failed with exit code {result.returncode}")
-        sys.exit(result.returncode)
-    return result
+import json
+from datetime import datetime, timezone, timedelta
+from pathlib import Path
 
 def main():
+    with open('data/scored_claims.json') as f:
+        scored = json.load(f)
+
+    claims = scored.get('claims', [])
     now = datetime.now(timezone.utc)
+    next_refresh = (now + timedelta(days=1)).replace(
+        hour=11, minute=0, second=0, microsecond=0
+    )
+
+    # Build top 10
+    top10 = []
+    for i, c in enumerate(claims[:10]):
+        top10.append({
+            'rank':              i + 1,
+            'claim':             c.get('claim', ''),
+            'source':            c.get('source', ''),
+            'platform':          c.get('platform', ''),
+            'url':               c.get('url', ''),
+            'hours_ago':         c.get('hours_ago', 24),
+            'score':             c.get('score', 0),
+            'score_label':       c.get('score_label', ''),
+            'score_type':        c.get('score_type', 'mixed'),
+            'claim_tag':         c.get('claim_tag', ''),
+            'verdict':           c.get('verdict', ''),
+            'verdict_highlight': c.get('verdict_highlight', ''),
+            'sources':           c.get('sources', []),
+            'global_opinion':    c.get('global_opinion', ''),
+            'brit_take':         c.get('brit_take', ''),
+        })
+
+    daily = {
+        'published':     now.isoformat(),
+        'next_refresh':  next_refresh.isoformat(),
+        'week_headline': scored.get('week_headline', ''),
+        'stats': {
+            'misleading_pct': scored.get('misleading_pct', ''),
+            'true_pct':       scored.get('true_pct', ''),
+            'total_scored':   len(claims),
+        },
+        'top10': top10,
+    }
+
+    # Write main output
+    with open('data/daily.json', 'w') as f:
+        json.dump(daily, f, indent=2)
+
+    # Archive
+    archive_dir = Path('data/archive')
+    archive_dir.mkdir(exist_ok=True)
     date_str = now.strftime('%Y-%m-%d')
-    time_str = now.strftime('%H:%M UTC')
+    with open(archive_dir / f'{date_str}.json', 'w') as f:
+        json.dump(daily, f, indent=2)
 
-    # Configure git identity for the Actions bot
-    run(['git', 'config', 'user.name',  'yummy-tracker-bot'])
-    run(['git', 'config', 'user.email', 'bot@yummywellness.com'])
-
-    # Stage all generated output
-    run(['git', 'add', 'data/daily.json'])
-    run(['git', 'add', 'data/geo/'])
-    run(['git', 'add', 'data/archive/'])
-
-    # Check if there is anything to commit
-    status = run(['git', 'status', '--porcelain'], check=False)
-    if not status.stdout.strip():
-        print("Nothing to commit — data unchanged since last run.")
-        return
-
-    commit_msg = f"data: daily update {date_str} at {time_str} [skip ci]"
-    run(['git', 'commit', '-m', commit_msg])
-    run(['git', 'push'])
-
-    print(f"Published: {commit_msg}")
+    print(f'Published {len(top10)} claims to data/daily.json')
+    print(f'Headline: {daily["week_headline"]}')
 
 if __name__ == '__main__':
     main()

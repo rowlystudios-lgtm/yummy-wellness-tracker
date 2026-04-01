@@ -1,0 +1,44 @@
+name: Daily Yummy Wellness Tracker
+
+on:
+  schedule:
+    - cron: '0 11 * * *'
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests anthropic feedparser
+
+      - name: Fetch trending claims
+        run: python scripts/fetch.py
+
+      - name: Score claims with Claude
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/score.py
+
+      - name: Publish to daily.json
+        run: python scripts/publish.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "Yummy Bot"
+          git config user.email "bot@yummywellness.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "Daily update $(date -u +%Y-%m-%d)"
+          git push

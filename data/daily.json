@@ -1,21 +1,11 @@
 {
-  "published": "2026-03-29T06:00:00Z",
-  "week_headline": {
-    "en": "Seed oil myths dominate US feeds while Japan debates fermented food claims",
-    "de": "Samenöl-Mythen dominieren US-Feeds, während Japan Fermentationsklaims diskutiert",
-    "fr": "Les mythes sur les huiles de graines dominent les États-Unis pendant que le Japon débat des aliments fermentés",
-    "ja": "アメリカではシードオイル神話が蔓延、日本では発酵食品の効果を議論",
-    "es": "Los mitos sobre aceites de semillas dominan en EE.UU. mientras Japón debate sobre alimentos fermentados",
-    "pt": "Mitos sobre óleos de sementes dominam EUA enquanto Japão debate alimentos fermentados",
-    "ko": "미국에서는 씨앗 기름 신화가, 일본에서는 발효식품 논쟁이 화제",
-    "hi": "अमेरिका में बीज तेल के मिथक, जापान में किण्वित खाद्य पर बहस"
-  },
+  "published": "2026-01-01T06:00:00Z",
+  "next_refresh": "2026-01-02T11:00:00Z",
+  "week_headline": "Tracker initialising — first results publish at 11am UTC daily.",
   "stats": {
-    "total_claims_tracked": 0,
     "misleading_pct": "—",
     "true_pct": "—",
-    "most_active_region": "US",
-    "most_contested_claim": "Pipeline not yet run — trigger workflow to populate"
+    "total_scored": 0
   },
-  "all_claims": []
+  "top10": []
 }
