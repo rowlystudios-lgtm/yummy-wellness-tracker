@@ -237,6 +237,9 @@ def main():
         print("No claims to score.")
         return
 
+    # Cap at top 10 — app shows 10 per region, and 20 claims × 8 languages exceeds token limits
+    claims = claims[:10]
+
     claim_lines = []
     for i, c in enumerate(claims, 1):
         region = c.get('region', 'GLOBAL')
@@ -266,7 +269,7 @@ def main():
 
     response = client.messages.create(
         model='claude-sonnet-4-6',
-        max_tokens=8192,  # More tokens for multilingual + global cooking sections
+        max_tokens=16000,  # 10 claims × 8 languages × all fields needs ~12-15k tokens
         system=SYSTEM_PROMPT,
         messages=[{'role': 'user', 'content': user_message}],
     )
