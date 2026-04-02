@@ -363,12 +363,55 @@ body {
   border-top: 1px solid rgba(255,255,255,0.06); padding-top: 14px;
 }
 
+/* ── BOTTOM TAB BAR (mobile) ── */
+.tab-bar {
+  display: none;
+  position: fixed; bottom: 0; left: 0; right: 0; z-index: 60;
+  background: rgba(244, 237, 224, 0.97);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-top: 1px solid var(--nav-border);
+  padding: 8px 0 max(8px, env(safe-area-inset-bottom));
+}
+.tab-bar-inner {
+  display: flex; justify-content: space-around; align-items: flex-start;
+  max-width: 500px; margin: 0 auto;
+}
+.tab-item {
+  display: flex; flex-direction: column; align-items: center; gap: 3px;
+  padding: 4px 10px; cursor: pointer;
+  background: none; border: none; font-family: 'DM Sans', sans-serif;
+  color: var(--text-muted); text-decoration: none;
+  transition: color 0.15s;
+  -webkit-tap-highlight-color: transparent;
+}
+.tab-item.active { color: var(--teal-text); }
+.tab-icon { font-size: 20px; line-height: 1; }
+.tab-label { font-size: 10px; font-weight: 500; letter-spacing: 0.01em; }
+
+/* ── TAB PAGE SECTIONS ── */
+.tab-page { display: none; animation: fadeSlideIn 0.3s ease-out both; }
+.tab-page.active { display: block; }
+
+/* ── COMING SOON PLACEHOLDER ── */
+.coming-soon { text-align: center; padding: 80px 32px; }
+.coming-soon-icon { font-size: 48px; margin-bottom: 20px; }
+.coming-soon h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px; font-weight: 700;
+  margin-bottom: 12px; letter-spacing: -0.5px;
+}
+.coming-soon h2 em { font-weight: 400; font-style: italic; }
+.coming-soon p {
+  font-size: 15px; color: var(--text-secondary);
+  font-weight: 300; line-height: 1.7; max-width: 360px; margin: 0 auto;
+}
+
 /* ── RESPONSIVE ── */
-@media (max-width: 600px) {
-  .app-nav { padding: 14px 20px; }
-  .nav-links { gap: 16px; }
-  .nav-links a { font-size: 13px; }
-  .page-wrap { padding: 32px 16px 60px; }
+@media (max-width: 700px) {
+  .app-nav .nav-links { display: none; }
+  .tab-bar { display: block; }
+  .page-wrap { padding: 28px 16px 100px; }
   .page-heading { font-size: 30px; }
   .topic-row { padding: 16px 18px; }
   .topic-rank { font-size: 22px; min-width: 28px; }
@@ -377,6 +420,10 @@ body {
   .stat-row { flex-wrap: wrap; }
   .panel-header { padding: 18px 20px; }
   .consensus-wrap, .stat-row, .opinions-grid { padding-left: 20px; padding-right: 20px; }
+}
+@media (min-width: 701px) {
+  .tab-bar { display: none !important; }
+  .tab-page { display: block !important; }
 }
 
 /* ── Live badge ────────────────────────────────────────────────── */
