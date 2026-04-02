@@ -1,382 +1,1734 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <meta name="mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-  <meta name="apple-mobile-web-app-title" content="Yummy" />
-  <meta name="theme-color" content="#f4ede0" />
-  <link rel="manifest" href="/manifest.json" />
-  <link rel="apple-touch-icon" href="/icon-192.png" />
-  <title>Yummy Wellness — Today's Top Claims</title>
-  <link rel="stylesheet" href="styles/global.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="apple-mobile-web-app-title" content="Yummy" />
+<meta name="theme-color" content="#FEFCF8" />
+<link rel="manifest" href="/manifest.json" />
+<link rel="apple-touch-icon" href="/icon-192.png" />
+<title>Yummy Wellness Company — Nutrition Intelligence</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400;1,600;1,700&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+:root{
+  --bg:#FEFCF8;--bg2:#FFFFFF;--bg3:#F5EDD9;--bg4:#EDE5CC;
+  --border:rgba(180,140,80,0.13);--border2:rgba(180,140,80,0.22);
+  --ink:#1E1812;--ink2:#4A4240;--ink3:#9A918E;--ink4:#C4B8B2;
+  --mint:#4FBFB5;--mint-d:#3A9E94;--mint-p:#E8F7F6;--mint-dim:rgba(79,191,181,0.12);
+  --orange:#E8874A;--orange-d:#C96830;--orange-p:#FEF0E6;--orange-dim:rgba(232,135,74,0.12);
+  --score-red:#E85A4A;--score-amber:#D4882A;--score-green:#6BA86A;
+  --score-red-p:#FEF0EE;--score-amber-p:#FEF4E0;--score-green-p:#EEF7EA;
+  --r:18px;--r-sm:12px;--r-xs:8px;
+}
+html,body{height:100%;background:var(--bg4);font-family:'DM Sans',sans-serif;color:var(--ink)}
+body{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;min-height:100vh}
+
+/* ── BETA BANNER ── */
+.beta-banner{
+  width:100%;max-width:430px;height:28px;
+  background:linear-gradient(90deg,var(--mint-dim),var(--orange-dim));
+  border-bottom:1px solid var(--border);
+  font-size:9px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;
+  color:var(--ink3);display:flex;align-items:center;justify-content:center;gap:6px;
+  position:sticky;top:0;z-index:200;flex-shrink:0;
+}
+
+/* ── APP SHELL ── */
+.app{
+  width:100%;max-width:430px;
+  background:var(--bg);
+  display:flex;flex-direction:column;
+  height:calc(100vh - 28px);
+  position:relative;overflow:hidden;
+  box-shadow:0 0 60px rgba(0,0,0,0.12);
+}
+
+/* ── TOP BAR ── */
+.topbar{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:12px 16px 10px;
+  background:var(--bg2);
+  border-bottom:1px solid var(--border);
+  flex-shrink:0;
+  z-index:100;
+}
+.topbar-left{}
+.logo{font-family:'Playfair Display',serif;font-style:italic;font-size:20px;line-height:1;letter-spacing:-0.3px}
+.logo .mint{color:var(--mint-d)}
+.logo .orange{color:var(--orange-d)}
+.logo-sub{font-size:8.5px;letter-spacing:3px;text-transform:uppercase;color:var(--ink4);font-weight:400;margin-top:1px}
+.topbar-right{display:flex;align-items:center;gap:10px}
+.live-badge{
+  display:flex;align-items:center;gap:5px;
+  padding:4px 9px;border-radius:20px;
+  background:var(--score-red-p);border:1px solid rgba(232,90,74,0.2);
+  font-size:8.5px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--score-red);
+}
+.pulse-dot{
+  width:6px;height:6px;border-radius:50%;background:var(--score-red);
+  animation:pulse 1.5s ease-in-out infinite;
+}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:0.5;transform:scale(0.7)}}
+.avatar{
+  width:32px;height:32px;border-radius:50%;
+  background:linear-gradient(135deg,var(--mint-p),var(--orange-p));
+  border:1.5px solid var(--border2);
+  display:flex;align-items:center;justify-content:center;
+  font-size:12px;
+}
+
+/* ── SCREENS ── */
+.screens{flex:1;overflow:hidden;position:relative}
+.screen{
+  position:absolute;inset:0;
+  overflow-y:auto;overflow-x:hidden;
+  -webkit-overflow-scrolling:touch;
+  display:none;
+  scroll-behavior:smooth;
+}
+.screen.active{display:block}
+.screen::-webkit-scrollbar{display:none}
+
+/* ── BOTTOM NAV ── */
+.bottom-nav{
+  display:flex;height:64px;
+  background:rgba(254,252,248,0.97);
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  border-top:1px solid var(--border);
+  flex-shrink:0;z-index:100;
+}
+.bn{
+  flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:3px;cursor:pointer;border:none;background:none;padding:0;
+  color:var(--ink4);transition:color 0.15s;
+}
+.bn.active{color:var(--mint-d)}
+.bn svg{transition:stroke 0.15s}
+.bn.active svg{stroke:var(--mint-d) !important}
+.bn-lbl{font-size:8px;font-weight:700;letter-spacing:0.8px;text-transform:uppercase;white-space:nowrap}
+
+/* ── EXPLAINER CARD ── */
+.explainer-card{
+  margin:12px 12px 0;
+  background:var(--bg2);border:1px solid var(--border);border-radius:var(--r);
+  padding:14px 14px 12px;
+  box-shadow:0 2px 12px rgba(180,140,80,0.07);
+}
+.explainer-headline{
+  font-family:'Playfair Display',serif;font-style:italic;font-size:14px;
+  color:var(--ink);line-height:1.4;margin-bottom:12px;
+}
+.explainer-cols{display:flex;align-items:flex-start;gap:0}
+.exp-col{flex:1;text-align:center;padding:0 6px}
+.exp-icon{font-size:20px;margin-bottom:4px}
+.exp-title{font-size:10px;font-weight:700;letter-spacing:0.5px;color:var(--ink);margin-bottom:3px}
+.exp-body{font-size:9.5px;color:var(--ink3);line-height:1.45;font-weight:300}
+.exp-divider{width:1px;background:var(--border);align-self:stretch;flex-shrink:0;margin:4px 0}
+
+/* ── HERO CARD ── */
+.hero-card{
+  margin:12px 12px 0;
+  background:var(--bg2);
+  border:1px solid var(--border);
+  border-radius:var(--r);
+  box-shadow:0 2px 16px rgba(180,140,80,0.08);
+  overflow:hidden;
+  background:linear-gradient(135deg,rgba(79,191,181,0.04) 0%,rgba(232,135,74,0.04) 100%),var(--bg2);
+}
+.hero-top{padding:14px 16px 12px}
+.hero-tracking{
+  display:flex;align-items:center;gap:5px;
+  font-size:8.5px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--ink4);
+  margin-bottom:10px;
+}
+.hero-tracking .ht-dot{width:5px;height:5px;border-radius:50%;background:var(--mint)}
+.hero-headline{
+  font-family:'Playfair Display',serif;font-style:italic;font-size:15px;
+  line-height:1.45;color:var(--ink);
+  min-height:42px;
+}
+.hero-stats{
+  display:flex;border-top:1px solid var(--border);
+}
+.stat-col{
+  flex:1;padding:10px 12px 11px;text-align:center;
+  position:relative;
+}
+.stat-col+.stat-col::before{
+  content:'';position:absolute;left:0;top:20%;bottom:20%;
+  width:1px;background:var(--border);
+}
+.stat-n{font-size:22px;font-weight:700;line-height:1}
+.stat-l{font-size:8.5px;font-weight:500;letter-spacing:0.5px;text-transform:uppercase;color:var(--ink4);margin-top:2px}
+#statMisinfo.stat-n{color:var(--orange-d)}
+#statTrue.stat-n{color:var(--mint-d)}
+
+/* ── TICKER ── */
+.ticker-wrap{
+  margin:10px 0 0;overflow:hidden;
+  background:var(--orange-p);
+  border-top:1px solid rgba(232,135,74,0.15);
+  border-bottom:1px solid rgba(232,135,74,0.15);
+  padding:7px 0;
+}
+.ticker-label{
+  display:inline-flex;align-items:center;gap:4px;
+  padding:0 10px;
+  font-size:8px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--orange-d);
+  flex-shrink:0;
+}
+.ticker-inner{display:flex;align-items:center;overflow:hidden}
+.ticker-track{
+  display:flex;align-items:center;gap:0;white-space:nowrap;
+  animation:ticker-scroll 30s linear infinite;
+}
+@keyframes ticker-scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.ti{
+  display:inline-flex;align-items:center;gap:6px;
+  padding:0 18px;font-size:11px;color:var(--ink2);font-weight:300;
+}
+.ti::after{content:'·';color:var(--ink4);margin-left:6px}
+
+/* ── SECTION HEADER ── */
+.sec-head{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:14px 16px 6px;
+}
+.sec-title{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--ink4)}
+.sec-link{
+  font-size:11px;font-weight:500;color:var(--mint-d);
+  cursor:pointer;text-decoration:none;background:none;border:none;padding:0;
+}
+
+/* ── FILTER PILLS ── */
+.filter-row{display:flex;gap:6px;padding:0 14px 10px;flex-wrap:nowrap;overflow-x:auto}
+.filter-row::-webkit-scrollbar{display:none}
+.fp{
+  padding:5px 12px;border-radius:20px;
+  background:var(--bg3);color:var(--ink4);
+  border:1px solid var(--border);
+  font-size:11px;font-weight:500;white-space:nowrap;
+  cursor:pointer;transition:all 0.15s;
+}
+.fp.on{background:var(--mint-dim);color:var(--mint-d);border-color:rgba(79,191,181,0.3)}
+
+/* ── CLAIM CARDS ── */
+.claims-list{padding:0 12px 8px}
+.claim-card{
+  background:var(--bg2);border:1px solid var(--border);border-radius:var(--r-sm);
+  margin-bottom:8px;overflow:hidden;
+  box-shadow:0 1px 6px rgba(180,140,80,0.05);
+  animation:cardIn 0.35s ease both;
+}
+@keyframes cardIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.cc-head{
+  display:flex;align-items:center;gap:10px;padding:12px 12px 11px;
+  cursor:pointer;user-select:none;
+}
+.cc-rank{
+  width:26px;height:26px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-size:10px;font-weight:700;flex-shrink:0;
+}
+.cc-rank.r{background:var(--score-red-p);color:var(--score-red)}
+.cc-rank.a{background:var(--score-amber-p);color:var(--score-amber)}
+.cc-rank.g{background:var(--score-green-p);color:var(--score-green)}
+.cc-mid{flex:1;min-width:0}
+.cc-meta{display:flex;align-items:center;gap:4px;margin-bottom:3px}
+.cc-dot{width:5px;height:5px;border-radius:50%;flex-shrink:0}
+.cc-src{font-size:8.5px;font-weight:600;letter-spacing:0.5px;text-transform:uppercase;color:var(--ink3)}
+.cc-age{font-size:8.5px;color:var(--ink4);font-weight:300}
+.cc-title{
+  font-family:'Playfair Display',serif;font-style:italic;font-size:13px;
+  color:var(--ink);line-height:1.35;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+}
+.cc-right{display:flex;flex-direction:column;align-items:flex-end;gap:5px;flex-shrink:0}
+.score-pill{
+  padding:3px 7px;border-radius:8px;text-align:center;flex-shrink:0;
+  display:flex;flex-direction:column;align-items:center;
+}
+.sp-n{font-size:14px;font-weight:700;line-height:1}
+.sp-l{font-size:7.5px;font-weight:600;letter-spacing:0.3px;text-transform:uppercase;line-height:1.2;white-space:nowrap}
+.chevron{transition:transform 0.25s ease;flex-shrink:0}
+.claim-card.open .chevron{transform:rotate(180deg)}
+
+/* ── CARD BODY ── */
+.cc-body{
+  max-height:0;overflow:hidden;
+  transition:max-height 0.35s cubic-bezier(0.4,0,0.2,1);
+}
+.claim-card.open .cc-body{max-height:600px}
+.cc-body-in{
+  padding:12px 14px 14px;
+  border-top:1.5px dashed rgba(180,140,80,0.15);
+  background:rgba(248,244,238,0.3);
+}
+.cc-verdict-row{display:flex;align-items:center;justify-content:space-between;margin-bottom:9px}
+.cc-tag{
+  padding:3px 9px;border-radius:20px;
+  font-size:9px;font-weight:700;letter-spacing:0.5px;text-transform:uppercase;
+}
+.sci-lbl{
+  display:flex;align-items:center;gap:4px;
+  font-size:8.5px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--mint-d);
+}
+.score-bar{
+  height:5px;background:var(--bg3);border-radius:3px;margin-bottom:10px;overflow:hidden;
+}
+.score-fill{height:100%;border-radius:3px;transition:width 1.2s cubic-bezier(0.4,0,0.2,1)}
+.verdict-text{font-size:12px;color:var(--ink2);line-height:1.65;margin-bottom:8px;font-weight:300}
+.verdict-text strong{font-weight:600;color:var(--ink)}
+.sources-text{font-size:10px;color:var(--ink4);line-height:1.4;margin-bottom:8px;font-weight:300}
+.global-pill{
+  display:flex;align-items:flex-start;gap:8px;
+  background:var(--mint-dim);border:1px solid rgba(79,191,181,0.15);
+  border-radius:var(--r-xs);padding:9px 11px;margin-bottom:8px;
+}
+.global-txt{font-size:11px;color:var(--ink2);line-height:1.55;font-weight:300}
+.brit-box{
+  border-left:2.5px solid var(--orange);
+  background:var(--orange-dim);
+  border-radius:0 var(--r-xs) var(--r-xs) 0;
+  padding:9px 12px 9px 11px;margin-bottom:10px;
+}
+.brit-lbl{font-size:8px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--orange-d);margin-bottom:3px}
+.brit-txt{font-size:11px;color:var(--ink2);line-height:1.55;font-weight:300}
+.full-btn{
+  display:block;width:100%;padding:9px;border-radius:var(--r-xs);
+  background:var(--bg3);border:1px solid var(--border2);
+  font-size:11px;font-weight:600;color:var(--mint-d);letter-spacing:0.3px;
+  cursor:pointer;text-align:center;transition:all 0.15s;
+}
+.full-btn:hover{background:var(--mint-dim);border-color:rgba(79,191,181,0.3)}
+
+/* ── EMPTY STATE ── */
+.empty-state{
+  text-align:center;padding:36px 24px;
+  font-size:12px;color:var(--ink4);font-weight:300;line-height:1.7;
+}
+
+/* ── SUBMIT CLAIM ── */
+.submit-section{
+  margin:4px 12px 16px;
+  background:var(--bg2);border:1px solid var(--border);border-radius:var(--r);
+  padding:16px;
+}
+.sub-title{font-size:9px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--ink4);margin-bottom:4px}
+.sub-desc{font-size:11px;color:var(--ink3);margin-bottom:12px;line-height:1.5;font-weight:300}
+.sub-row{display:flex;gap:8px}
+.sub-input{
+  flex:1;padding:9px 12px;
+  background:var(--bg3);border:1px solid var(--border2);border-radius:var(--r-xs);
+  font-size:12px;color:var(--ink);font-family:'DM Sans',sans-serif;outline:none;
+}
+.sub-input::placeholder{color:var(--ink4)}
+.sub-input:focus{border-color:rgba(79,191,181,0.4);background:var(--bg2)}
+.sub-btn{
+  padding:9px 14px;border-radius:var(--r-xs);
+  background:var(--mint-d);border:none;color:#fff;
+  font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;
+  cursor:pointer;white-space:nowrap;transition:opacity 0.15s;
+}
+.sub-btn:disabled{opacity:0.5}
+.sub-result{
+  margin-top:10px;padding:10px 12px;border-radius:var(--r-xs);
+  font-size:12px;line-height:1.6;display:none;
+}
+
+/* ── SCREEN 2: ALL CLAIMS ── */
+#s-allclaims .sec-head{padding-top:16px}
+
+/* ── SCREEN 3: RECIPES ── */
+.recipe-section-head{
+  padding:16px 16px 10px;
+  border-bottom:1px solid var(--border);
+  background:linear-gradient(135deg,rgba(79,191,181,0.03),rgba(232,135,74,0.03));
+}
+.recipe-loading{
+  display:flex;flex-direction:column;align-items:center;gap:12px;
+  padding:40px 24px;text-align:center;
+  font-size:12px;color:var(--ink3);font-weight:300;
+}
+.recipe-spinner{
+  width:28px;height:28px;border-radius:50%;
+  border:2.5px solid var(--border2);border-top-color:var(--mint-d);
+  animation:spin 0.8s linear infinite;
+}
+@keyframes spin{to{transform:rotate(360deg)}}
+.recipe-list{padding:12px}
+.recipe-block{
+  background:var(--bg2);border:1px solid var(--border);border-radius:var(--r-sm);
+  margin-bottom:12px;overflow:hidden;
+  animation:cardIn 0.4s ease both;
+  box-shadow:0 2px 12px rgba(180,140,80,0.06);
+}
+.rb-head{
+  display:flex;align-items:center;gap:11px;
+  padding:13px 14px 10px;
+  background:linear-gradient(135deg,rgba(79,191,181,0.05),rgba(232,135,74,0.05));
+  border-bottom:1px solid var(--border);
+}
+.rb-emoji{font-size:28px;flex-shrink:0}
+.rb-meta{flex:1;min-width:0}
+.rb-label{font-size:8.5px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--ink4);margin-bottom:2px}
+.rb-claim{font-family:'Playfair Display',serif;font-style:italic;font-size:12px;color:var(--ink);line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.rb-score{font-size:18px;font-weight:700;flex-shrink:0;text-align:center}
+.rb-sci{
+  font-size:11px;color:var(--mint-d);padding:9px 14px;
+  border-bottom:1px solid var(--border);line-height:1.5;font-weight:300;
+  background:var(--mint-dim);
+}
+.recipes-inner{padding:0}
+.recipe-card{padding:13px 14px;border-bottom:1px solid var(--border)}
+.recipe-card:last-child{border-bottom:none}
+.rc-top{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;margin-bottom:4px}
+.rc-name{font-size:13px;font-weight:600;color:var(--ink);line-height:1.2}
+.rc-time{font-size:10px;color:var(--ink4);font-weight:400;flex-shrink:0;margin-top:1px}
+.rc-why{font-size:10.5px;color:var(--mint-d);margin-bottom:7px;line-height:1.45;font-weight:400}
+.rc-ingr{display:flex;flex-wrap:wrap;gap:4px 10px;margin-bottom:8px}
+.rc-ingr span{font-size:10px;color:var(--ink3);font-weight:300}
+.rc-div{height:1px;background:var(--bg3);margin-bottom:8px;border-radius:1px}
+.rc-method{font-size:11px;color:var(--ink2);line-height:1.6;font-weight:300}
+
+/* ── SCREEN 4: GLOBAL ── */
+.global-hero{
+  padding:20px 16px 16px;
+  background:linear-gradient(135deg,rgba(79,191,181,0.08),rgba(232,135,74,0.08));
+  border-bottom:1px solid var(--border);
+}
+.gh-eyebrow{font-size:8.5px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--mint-d);margin-bottom:6px}
+.gh-title{font-family:'Playfair Display',serif;font-style:italic;font-size:18px;color:var(--ink);line-height:1.3;margin-bottom:8px}
+.gh-body{font-size:12px;color:var(--ink3);line-height:1.6;font-weight:300}
+.country-strip{
+  display:flex;gap:6px;padding:12px 14px;overflow-x:auto;
+  border-bottom:1px solid var(--border);
+  flex-wrap:nowrap;
+}
+.country-strip::-webkit-scrollbar{display:none}
+.country-btn{
+  padding:5px 12px;border-radius:20px;
+  background:var(--bg2);border:1px solid var(--border2);
+  font-size:11px;font-weight:500;color:var(--ink3);cursor:pointer;white-space:nowrap;
+  transition:all 0.15s;
+}
+.country-btn.on{background:var(--mint-dim);border-color:rgba(79,191,181,0.35);color:var(--mint-d)}
+#globalList{padding:12px}
+
+/* ── SCREEN 5: ABOUT ── */
+.about-hero{
+  padding:24px 18px 20px;
+  background:linear-gradient(135deg,rgba(79,191,181,0.07),rgba(232,135,74,0.07));
+  border-bottom:1px solid var(--border);
+}
+.ah-eyebrow{font-size:8.5px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--ink4);margin-bottom:6px}
+.ah-title{font-family:'Playfair Display',serif;font-style:italic;font-size:20px;color:var(--ink);line-height:1.3;margin-bottom:8px}
+.ah-body{font-size:12px;color:var(--ink3);line-height:1.65;font-weight:300}
+.about-cards{padding:12px}
+.about-card{
+  background:var(--bg2);border:1px solid var(--border);border-radius:var(--r-sm);
+  padding:16px;margin-bottom:10px;
+  box-shadow:0 1px 6px rgba(180,140,80,0.05);
+}
+.ac-head{
+  display:flex;align-items:center;gap:8px;margin-bottom:10px;
+}
+.ac-icon{
+  width:32px;height:32px;border-radius:var(--r-xs);
+  background:var(--mint-dim);display:flex;align-items:center;justify-content:center;flex-shrink:0;
+}
+.ac-title{font-size:12px;font-weight:700;color:var(--ink)}
+.ac-body{font-size:11px;color:var(--ink3);line-height:1.65;font-weight:300}
+.score-legend{display:flex;flex-direction:column;gap:8px;margin-top:10px}
+.sl-row{display:flex;align-items:center;gap:10px}
+.sl-circ{
+  width:32px;height:32px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-size:10px;font-weight:700;flex-shrink:0;
+}
+.sl-text{font-size:11px;color:var(--ink2);line-height:1.4;font-weight:300}
+
+/* ── QR SECTION ── */
+.qr-section{
+  margin:10px 12px 16px;
+  background:var(--bg2);border:1px solid var(--border);border-radius:var(--r);
+  overflow:hidden;
+  box-shadow:0 2px 12px rgba(180,140,80,0.07);
+}
+.qr-head{
+  padding:14px 16px 12px;
+  background:linear-gradient(135deg,rgba(79,191,181,0.05),rgba(232,135,74,0.05));
+  border-bottom:1px solid var(--border);
+}
+.qr-head-row{display:flex;align-items:center;gap:8px;margin-bottom:2px}
+.qr-title{font-size:12px;font-weight:700;color:var(--ink)}
+.qr-beta-pill{
+  padding:2px 7px;border-radius:20px;
+  background:var(--orange-dim);color:var(--orange-d);
+  font-size:8px;font-weight:700;letter-spacing:0.5px;text-transform:uppercase;
+}
+.qr-desc{font-size:11px;color:var(--ink3);line-height:1.5;font-weight:300}
+.qr-spark{font-size:10.5px;color:var(--ink4);margin-top:6px;font-weight:300}
+.qr-stores{display:flex;gap:8px;padding:12px 14px}
+.store-btn{
+  flex:1;padding:10px 6px;border-radius:var(--r-sm);
+  background:var(--bg3);border:1.5px solid var(--border);
+  display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer;
+  transition:all 0.15s;font-family:'DM Sans',sans-serif;
+}
+.store-btn.on{border-color:var(--mint-d);background:var(--mint-dim)}
+.store-btn-emoji{font-size:22px}
+.store-btn-name{font-size:9px;font-weight:700;letter-spacing:0.3px;color:var(--ink)}
+.qr-gen-btn{
+  display:block;width:calc(100% - 28px);margin:0 14px 12px;
+  padding:11px;border-radius:var(--r-xs);border:none;
+  background:var(--mint-d);color:#fff;
+  font-size:11px;font-weight:700;letter-spacing:0.5px;text-transform:uppercase;
+  cursor:pointer;transition:all 0.2s;
+}
+.qr-gen-btn:disabled{background:var(--bg4);color:var(--ink4);cursor:default}
+.qr-output{display:none;border-top:1px solid var(--border)}
+.qr-output-inner{padding:14px}
+.qr-store-head{
+  display:flex;align-items:center;gap:10px;
+  margin-bottom:12px;padding-bottom:10px;border-bottom:1px dashed var(--border2);
+}
+.qr-canvas-row{display:flex;gap:14px;align-items:flex-start;margin-bottom:12px}
+.qr-corner-wrap{
+  position:relative;flex-shrink:0;
+}
+.qr-corners{position:absolute;inset:-5px;pointer-events:none}
+.qr-corner{
+  position:absolute;width:12px;height:12px;
+  border-color:var(--mint-d);border-style:solid;border-width:0;
+}
+.qr-corner.tl{top:0;left:0;border-top-width:2.5px;border-left-width:2.5px;border-radius:2px 0 0 0}
+.qr-corner.tr{top:0;right:0;border-top-width:2.5px;border-right-width:2.5px;border-radius:0 2px 0 0}
+.qr-corner.bl{bottom:0;left:0;border-bottom-width:2.5px;border-left-width:2.5px;border-radius:0 0 0 2px}
+.qr-corner.br{bottom:0;right:0;border-bottom-width:2.5px;border-right-width:2.5px;border-radius:0 0 2px 0}
+#qrCanvas{border-radius:8px;border:1px solid var(--border);display:block}
+#qrDetails{flex:1}
+#qrIngr{padding-top:10px;border-top:1px solid var(--border)}
+.qr-disclaimer{
+  font-size:9px;color:var(--ink4);text-align:center;
+  padding:8px 14px 14px;font-weight:300;letter-spacing:0.2px;
+}
+
+/* ── DETAIL OVERLAY ── */
+.detail-overlay{
+  position:absolute;inset:0;
+  background:var(--bg);
+  transform:translateX(100%);
+  transition:transform 0.3s cubic-bezier(0.4,0,0.2,1);
+  z-index:150;overflow-y:auto;
+  -webkit-overflow-scrolling:touch;
+}
+.detail-overlay.open{transform:translateX(0)}
+.detail-overlay::-webkit-scrollbar{display:none}
+.d-topbar{
+  display:flex;align-items:center;gap:10px;padding:12px 16px;
+  border-bottom:1px solid var(--border);position:sticky;top:0;
+  background:rgba(254,252,248,0.97);backdrop-filter:blur(12px);z-index:10;
+}
+.d-back{
+  display:flex;align-items:center;gap:5px;
+  font-size:12px;font-weight:500;color:var(--mint-d);
+  cursor:pointer;background:none;border:none;padding:0;
+}
+.d-hero{padding:18px 18px 14px;border-bottom:1px solid var(--border)}
+.d-src{font-size:8.5px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:var(--ink4);margin-bottom:8px}
+.d-claim{
+  font-family:'Playfair Display',serif;font-style:italic;font-size:17px;
+  color:var(--ink);line-height:1.45;margin-bottom:14px;
+}
+.d-score-row{display:flex;align-items:center;gap:12px}
+.d-circle{
+  width:52px;height:52px;border-radius:50%;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;flex-shrink:0;
+}
+.d-num{font-size:18px;font-weight:700;line-height:1}
+.d-lbl{font-size:8px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--ink4)}
+.d-label-text{font-size:13px;font-weight:500;color:var(--ink2)}
+.d-body{padding:0 0 30px}
+.d-sec{padding:14px 18px;border-bottom:1px solid var(--border)}
+.d-sec:last-child{border-bottom:none}
+.d-head{
+  display:flex;align-items:center;gap:6px;
+  font-size:8.5px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--ink4);margin-bottom:10px;
+}
+.d-bar{height:6px;background:var(--bg3);border-radius:3px;margin-bottom:12px;overflow:hidden}
+.d-bar-fill{height:100%;border-radius:3px;transition:width 1.2s cubic-bezier(0.4,0,0.2,1)}
+.d-text{font-size:13px;color:var(--ink2);line-height:1.7;margin-bottom:10px;font-weight:300}
+.d-text strong{color:var(--ink);font-weight:600}
+.d-pills{display:flex;flex-wrap:wrap;gap:5px}
+.d-pill{
+  padding:3px 9px;border-radius:20px;
+  background:var(--bg3);color:var(--ink3);border:1px solid var(--border);
+  font-size:9.5px;font-weight:500;
+}
+.d-global{
+  background:var(--mint-dim);border:1px solid rgba(79,191,181,0.15);
+  border-radius:var(--r-xs);padding:12px;
+  font-size:12px;color:var(--ink2);line-height:1.65;font-weight:300;
+}
+.d-brit{
+  border-left:3px solid var(--orange);
+  background:var(--orange-dim);border-radius:0 var(--r-xs) var(--r-xs) 0;padding:12px 14px;
+}
+.d-brit-lbl{font-size:8px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--orange-d);margin-bottom:4px}
+.d-brit-txt{font-size:12px;color:var(--ink2);line-height:1.65;font-weight:300}
+.d-link{
+  color:var(--mint-d);font-size:12px;font-weight:500;text-decoration:none;
+  display:inline-flex;align-items:center;gap:4px;
+}
+
+/* ── LAST UPDATED ── */
+.last-updated{
+  text-align:center;padding:10px;
+  font-size:9.5px;color:var(--ink4);font-weight:300;letter-spacing:0.3px;
+}
+
+/* ── RESPONSIVE ── */
+@media(max-width:430px){
+  body{background:var(--bg)}
+  .app{box-shadow:none;height:calc(100vh - 28px)}
+}
+</style>
 </head>
 <body>
 
-<!-- ── NAV ── -->
-<nav class="app-nav">
-  <a href="/" class="wordmark-nav">yummy <em>wellness</em></a>
-  <div class="nav-links">
-    <a href="/index.html" class="active">Feed</a>
-    <a href="/scan.html">Scan</a>
-    <a href="/score-lab.html">Score Lab</a>
-    <a href="/brit-filter.html">Brit Filter</a>
-    <a href="/about.html">About</a>
-  </div>
-</nav>
-
-<!-- ── PAGE ── -->
-<div class="page-wrap">
-
-  <div class="page-header">
-    <h1 class="page-heading">Today's <em>top claims</em></h1>
-    <p class="page-tagline">Nutrition intelligence scored against the science — filtered through a British lens</p>
-  </div>
-
-  <div class="trending-strip">
-    <span class="trend-label">Trending</span>
-    <button class="trend-pill">seed oils</button>
-    <button class="trend-pill">raw milk</button>
-    <button class="trend-pill">collagen</button>
-    <button class="trend-pill">gut health</button>
-    <button class="trend-pill">ozempic</button>
-    <button class="trend-pill">carnivore</button>
-  </div>
-
-  <div class="feed" id="feed"></div>
-
+<!-- BETA BANNER -->
+<div class="beta-banner">
+  <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+  BETA — Investor preview · Pipeline live · Updating daily
 </div>
 
-<!-- ── GLOBAL PANEL OVERLAY ── -->
-<div class="overlay" id="overlay" onclick="handleOverlayClick(event)">
-  <div class="global-panel" id="globalPanel">
-    <div class="drag-handle"></div>
-    <div class="panel-header">
-      <div class="panel-header-text">
-        <div class="panel-eyebrow">🌍 International opinions</div>
-        <div class="panel-claim-title" id="panelClaimTitle"></div>
-      </div>
-      <button class="panel-close" onclick="closeGlobal()">✕</button>
+<!-- APP -->
+<div class="app">
+
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <div class="topbar-left">
+      <div class="logo"><span class="mint">Yummy</span> <span class="orange">Wellness</span> <span style="font-size:13px;color:var(--ink3);font-style:normal;font-weight:600">Co.</span></div>
+      <div class="logo-sub">Nutrition Intelligence</div>
     </div>
-    <div class="consensus-wrap">
-      <div class="consensus-label">Scientific consensus position</div>
-      <div class="consensus-bar">
-        <div class="consensus-marker" id="consensusMarker"></div>
-      </div>
-      <div class="consensus-labels">
-        <span>Debunked</span><span>Contested</span>
-        <span>Nuanced</span><span>Supported</span>
-      </div>
+    <div class="topbar-right">
+      <div class="live-badge"><div class="pulse-dot"></div>LIVE</div>
+      <div class="avatar">🥗</div>
     </div>
-    <div class="stat-row" id="panelStats"></div>
-    <div class="opinions-grid" id="panelOpinions"></div>
-    <p class="panel-footer-note" id="panelFooter"></p>
   </div>
-</div>
+
+  <!-- SCREENS -->
+  <div class="screens">
+
+    <!-- SCREEN 1: HOME -->
+    <div class="screen active" id="s-home">
+
+      <!-- App explainer -->
+      <div class="explainer-card">
+        <div class="explainer-headline">Nutrition claims are everywhere.<br>We score them against real science.</div>
+        <div class="explainer-cols">
+          <div class="exp-col">
+            <div class="exp-icon">🔍</div>
+            <div class="exp-title">We track</div>
+            <div class="exp-body">Daily claims from Reddit &amp; global news — the stuff your feed is actually full of</div>
+          </div>
+          <div class="exp-divider"></div>
+          <div class="exp-col">
+            <div class="exp-icon">🔬</div>
+            <div class="exp-title">AI scores</div>
+            <div class="exp-body">Every claim scored 0–100 against peer-reviewed science. No agenda</div>
+          </div>
+          <div class="exp-divider"></div>
+          <div class="exp-col">
+            <div class="exp-icon">🇬🇧</div>
+            <div class="exp-title">Brit take</div>
+            <div class="exp-body">Honest British perspective on American food culture. Warm, never preachy</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ticker -->
+      <div class="ticker-wrap">
+        <div class="ticker-inner">
+          <div class="ticker-label">
+            <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="var(--orange-d)" stroke-width="2.5" stroke-linecap="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            TRENDING
+          </div>
+          <div style="overflow:hidden;flex:1">
+            <div class="ticker-track" id="tickerTrack">
+              <span class="ti">Loading today's claims...</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section header -->
+      <div class="sec-head">
+        <div class="sec-title">TOP 5 TRENDING</div>
+        <button class="sec-link" onclick="goTo('allclaims')">View all →</button>
+      </div>
+
+      <!-- Filter pills -->
+      <div class="filter-row">
+        <button class="fp on" onclick="filterHome('all',this)">All</button>
+        <button class="fp" onclick="filterHome('false',this)">🔥 Misleading</button>
+        <button class="fp" onclick="filterHome('mixed',this)">⚖️ Nuanced</button>
+        <button class="fp" onclick="filterHome('true',this)">✓ Supported</button>
+      </div>
+
+      <!-- Claims list -->
+      <div class="claims-list" id="homeList">
+        <div class="empty-state">Loading today's nutrition claims...</div>
+      </div>
+
+      <div class="last-updated" id="lastUpdated">Checking pipeline...</div>
+    </div>
+
+    <!-- SCREEN 2: EXPLORE / ALL CLAIMS -->
+    <div class="screen" id="s-allclaims">
+      <div class="sec-head" style="padding-top:16px;padding-bottom:4px">
+        <div class="sec-title">All Scored Claims</div>
+      </div>
+      <div class="filter-row">
+        <button class="fp on" onclick="filterAll('all',this)">All</button>
+        <button class="fp" onclick="filterAll('false',this)">🔥 Misleading</button>
+        <button class="fp" onclick="filterAll('mixed',this)">⚖️ Nuanced</button>
+        <button class="fp" onclick="filterAll('true',this)">✓ Supported</button>
+      </div>
+      <div class="claims-list" id="allClaimsList">
+        <div class="empty-state">Loading claims...</div>
+      </div>
+
+      <!-- Nutrition Inquiry -->
+      <div class="submit-section" style="margin-top:4px">
+        <div class="sub-title">Nutrition Inquiry</div>
+        <div class="sub-desc">Ask any nutrition question — we'll answer it with evidence-based science from peer-reviewed sources.</div>
+        <div class="sub-row">
+          <input class="sub-input" type="text" id="inquiryInput" placeholder="How much protein do I actually need?">
+          <button class="sub-btn" id="inquiryBtn" onclick="askNutrition()">ASK</button>
+        </div>
+        <div class="sub-result" id="inquiryResult"></div>
+      </div>
+      <div style="height:16px"></div>
+    </div>
+
+    <!-- SCREEN 3: RECIPES -->
+    <div class="screen" id="s-explore">
+      <div class="recipe-section-head">
+        <div class="sec-title" style="margin-bottom:3px">Recipes</div>
+        <div style="font-family:'Playfair Display',serif;font-style:italic;font-size:16px;color:var(--ink);margin-bottom:5px">Tied to today's trending claims.</div>
+        <div style="font-size:11px;color:var(--ink3);font-weight:300;line-height:1.5">Each recipe features the key ingredient used correctly — no fads, just food that works.</div>
+        <div style="font-size:9px;color:var(--ink4);margin-top:6px" id="recipeCount"></div>
+      </div>
+      <div class="recipe-list" id="recipeList">
+        <div class="recipe-loading">
+          <div class="recipe-spinner"></div>
+          Generating recipes from today's trends...
+        </div>
+      </div>
+    </div>
+
+    <!-- SCREEN 4: GLOBAL -->
+    <div class="screen" id="s-global">
+      <div class="global-hero">
+        <div class="gh-eyebrow">Global Perspectives</div>
+        <div class="gh-title">"How the world views the same claims."</div>
+        <div class="gh-body">Science is universal. Culture, regulation and tradition create different answers. Here's where they diverge.</div>
+      </div>
+      <div class="country-strip">
+        <button class="country-btn on" onclick="filterGlobal('all',this)">🌍 ALL</button>
+        <button class="country-btn" onclick="filterGlobal('us',this)">🇺🇸 US</button>
+        <button class="country-btn" onclick="filterGlobal('uk',this)">🇬🇧 UK</button>
+        <button class="country-btn" onclick="filterGlobal('de',this)">🇩🇪 DE</button>
+        <button class="country-btn" onclick="filterGlobal('jp',this)">🇯🇵 JP</button>
+        <button class="country-btn" onclick="filterGlobal('fr',this)">🇫🇷 FR</button>
+      </div>
+      <div id="globalList">
+        <div class="empty-state">Loading global perspectives...</div>
+      </div>
+    </div>
+
+    <!-- SCREEN 5: ABOUT -->
+    <div class="screen" id="s-about">
+      <div class="about-hero">
+        <div class="ah-eyebrow">About</div>
+        <div class="ah-title">"What <span style="color:var(--mint-d)">Yummy</span> <span style="color:var(--orange-d)">Wellness</span> actually does."</div>
+        <div class="ah-body">We track trending health claims from Reddit and global news daily, then score every single one against peer-reviewed science. No agenda. No nonsense. Warm, honest, evidence-based.</div>
+      </div>
+
+      <div class="about-cards">
+
+        <div class="about-card">
+          <div class="ac-head">
+            <div class="ac-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--mint-d)" stroke-width="2.5" stroke-linecap="round"><path d="M12 22C12 22 4 16 4 9C4 5 7.5 2 12 2C16.5 2 20 5 20 9C20 16 12 22 12 22Z"/></svg>
+            </div>
+            <div class="ac-title">How the score works</div>
+          </div>
+          <div class="score-legend">
+            <div class="sl-row">
+              <div class="sl-circ" style="background:var(--score-green-p);color:var(--score-green)">85+</div>
+              <div class="sl-text">Well supported by strong peer-reviewed evidence</div>
+            </div>
+            <div class="sl-row">
+              <div class="sl-circ" style="background:var(--score-amber-p);color:var(--score-amber)">40+</div>
+              <div class="sl-text">Partially true, overstated or context-dependent</div>
+            </div>
+            <div class="sl-row">
+              <div class="sl-circ" style="background:var(--score-red-p);color:var(--score-red)">0+</div>
+              <div class="sl-text">Misleading, false or unsupported by evidence</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-card">
+          <div class="ac-head">
+            <div class="ac-icon" style="background:var(--orange-dim)">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--orange-d)" stroke-width="2.5" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <div class="ac-title">Where the data comes from</div>
+          </div>
+          <div class="ac-body">Daily pipeline scrapes Reddit nutrition communities and GDELT — a global news monitor covering 65 countries. Claims scored by Claude AI against peer-reviewed research. Editorial review before anything goes live. Refreshes at 6am EST.</div>
+        </div>
+
+        <div class="about-card">
+          <div class="ac-head">
+            <div class="ac-icon" style="background:var(--orange-dim)">
+              <span style="font-size:16px">🇬🇧</span>
+            </div>
+            <div class="ac-title">The Brit take</div>
+          </div>
+          <div class="ac-body">A British couple in California, genuinely shocked by the food here. Every claim gets a warm, honest two-sentence observation. Never superior. Always from shared experience.</div>
+        </div>
+
+        <div class="about-card">
+          <div class="ac-head">
+            <div class="ac-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--mint-d)" stroke-width="2.5" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div class="ac-title">Editorial gate</div>
+          </div>
+          <div class="ac-body">AI scores every claim. Humans review before publication. Nothing goes live without sign-off. We never validate conspiracy framing.</div>
+        </div>
+
+        <!-- QR DISCOUNT SECTION -->
+        <div class="qr-section">
+          <div class="qr-head">
+            <div class="qr-head-row">
+              <div style="font-size:20px">🔲</div>
+              <div class="qr-title">Recipe discount</div>
+              <div class="qr-beta-pill">BETA</div>
+            </div>
+            <div class="qr-desc">Scan at checkout to save on recipe ingredients at your favourite store.</div>
+            <div class="qr-spark">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+              Choose your store. Generate a QR code. Show at checkout for 15% off all recipe ingredients.
+            </div>
+          </div>
+
+          <div class="qr-stores">
+            <button class="store-btn" data-store="Whole Foods" onclick="selectStore(this)">
+              <div class="store-btn-emoji">🌿</div>
+              <div class="store-btn-name">Whole Foods</div>
+            </button>
+            <button class="store-btn" data-store="Sprouts" onclick="selectStore(this)">
+              <div class="store-btn-emoji">🌱</div>
+              <div class="store-btn-name">Sprouts</div>
+            </button>
+            <button class="store-btn" data-store="Ralphs" onclick="selectStore(this)">
+              <div class="store-btn-emoji">🛒</div>
+              <div class="store-btn-name">Ralphs</div>
+            </button>
+          </div>
+
+          <button class="qr-gen-btn" id="qrGenBtn" disabled onclick="generateQR()">
+            Choose a store above
+          </button>
+
+          <div class="qr-output" id="qrOutput">
+            <div class="qr-output-inner">
+              <div class="qr-store-head" id="qrStoreHead"></div>
+              <div class="qr-canvas-row">
+                <div class="qr-corner-wrap">
+                  <canvas id="qrCanvas" width="140" height="140"></canvas>
+                  <div class="qr-corners">
+                    <div class="qr-corner tl"></div>
+                    <div class="qr-corner tr"></div>
+                    <div class="qr-corner bl"></div>
+                    <div class="qr-corner br"></div>
+                  </div>
+                </div>
+                <div id="qrDetails"></div>
+              </div>
+              <div id="qrIngr"></div>
+            </div>
+            <div class="qr-disclaimer">BETA — Demonstration for partnership discussions · Not redeemable</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div><!-- /screens -->
+
+  <!-- DETAIL OVERLAY -->
+  <div class="detail-overlay" id="detail">
+    <div class="d-topbar">
+      <button class="d-back" onclick="closeDetail()">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--mint-d)" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+        Back
+      </button>
+    </div>
+    <div id="detailContent"></div>
+  </div>
+
+  <!-- BOTTOM NAV -->
+  <nav class="bottom-nav">
+    <button class="bn active" id="bn-home" onclick="goTo('home')">
+      <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      <span class="bn-lbl">Home</span>
+    </button>
+    <button class="bn" id="bn-allclaims" onclick="goTo('allclaims')">
+      <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <span class="bn-lbl">Explore</span>
+    </button>
+    <button class="bn" id="bn-explore" onclick="goTo('explore')">
+      <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+      <span class="bn-lbl">Recipes</span>
+    </button>
+    <button class="bn" id="bn-global" onclick="goTo('global')">
+      <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+      <span class="bn-lbl">Global</span>
+    </button>
+    <button class="bn" id="bn-about" onclick="goTo('about')">
+      <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+      <span class="bn-lbl">About</span>
+    </button>
+  </nav>
+
+</div><!-- /app -->
 
 <script>
-// ── Live data ─────────────────────────────────────────────────────
-const LIVE_DATA_URL = 'https://raw.githubusercontent.com/rowlystudios-lgtm/yummy-wellness-tracker/main/data/daily.json';
-let currentClaims = [];
+// ── CONSTANTS ──────────────────────────────────────────────
+const DATA_URL = 'https://raw.githubusercontent.com/rowlystudios-lgtm/yummy-wellness-tracker/main/data/daily.json';
+const ANTHROPIC_KEY = 'YOUR_ANTHROPIC_API_KEY';
+let allClaims = [];
+let recipesGenerated = false;
+const CLAIM_STORE = {}; // keyed by listId → array of claim objects
 
-function toScoreBand(scoreType, score) {
-  if (scoreType === 'true'  || score >= 85) return 'green';
-  if (scoreType === 'false' || score <  40) return 'red';
-  return 'amber';
-}
-
-function mapLiveClaim(item) {
-  const band   = toScoreBand(item.score_type, item.score);
-  const border = item.score >= 85 ? '#1d9e75' : item.score >= 40 ? '#ef9f27' : '#e24b4a';
-  return {
-    rank:          item.rank,
-    name:          item.claim,
-    source:        item.platform || item.source || 'News',
-    tag:           item.claim_tag || '',
-    scoreVal:      item.score,
-    scoreBand:     band,
-    scoreLabel:    item.score_label || '',
-    title:         item.claim,
-    verdict:       item.verdict || '',
-    science:       item.brit_take || (item.sources || []).join(' · '),
-    scienceLabel:  item.brit_take ? '🇬🇧 Brit Take' : 'Science fact',
-    consensusPos:  `${Math.min(item.score, 97)}%`,
-    consensusBorder: border,
-    sources:       item.sources || [],
-    global_opinion: item.global_opinion || '',
-    url:           item.url || '',
-    hours_ago:     item.hours_ago || 24,
-    isLive:        true,
-  };
-}
-
-async function loadFeed() {
-  let claimsToShow = FALLBACK_CLAIMS;
-  try {
-    const resp = await fetch(LIVE_DATA_URL + '?t=' + Date.now());
-    if (resp.ok) {
-      const data = await resp.json();
-      if (data.top10 && data.top10.length > 0) {
-        claimsToShow = data.top10.map(mapLiveClaim);
-        // Update headline + live badge
-        const tagline = document.querySelector('.page-tagline');
-        if (tagline && data.week_headline) {
-          const pub     = new Date(data.published);
-          const dateStr = pub.toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
-          tagline.innerHTML = `${data.week_headline}&nbsp;·&nbsp;<span class="live-badge">LIVE</span> ${dateStr}`;
-        }
-        // Swap trending pills to real claim tags
-        const tags = [...new Set(claimsToShow.map(c => c.tag).filter(Boolean))].slice(0, 6);
-        if (tags.length) {
-          const strip = document.querySelector('.trending-strip');
-          const label = strip && strip.querySelector('.trend-label');
-          if (strip) {
-            strip.innerHTML = '';
-            if (label) strip.appendChild(label);
-            tags.forEach(t => {
-              const btn = document.createElement('button');
-              btn.className = 'trend-pill';
-              btn.textContent = t;
-              strip.appendChild(btn);
-            });
-            if (typeof initTrendingPills === 'function') initTrendingPills();
-          }
-        }
+// ── FALLBACK RECIPES ───────────────────────────────────────
+const FALLBACK_RECIPES = [
+  {
+    claim_index: 0,
+    ingredient: "Detox tea / Green tea",
+    emoji: "🍵",
+    science_note: "Green tea's EGCG shows modest metabolic effects — but 'detox' is a marketing term. Your liver detoxes.",
+    recipes: [
+      {
+        name: "Proper Matcha Latte",
+        time: "5 mins",
+        why: "Ceremonial matcha has 3x the EGCG of regular green tea — genuine antioxidants, zero detox claims",
+        ingredients: ["1 tsp ceremonial matcha", "200ml oat milk", "Hot water (80°C)", "Honey to taste"],
+        method: "Whisk matcha with 2 tbsp hot water until smooth paste. Heat oat milk — do not boil. Pour over matcha paste and stir. The 80°C temperature preserves the L-theanine that gives green tea its calm-focus effect."
+      },
+      {
+        name: "Ginger & Lemon Morning Tea",
+        time: "8 mins",
+        why: "Ginger has genuine anti-nausea and mild anti-inflammatory evidence — unlike 'detox' herbs",
+        ingredients: ["3cm fresh ginger, sliced", "½ lemon, juiced", "500ml water", "1 tsp honey"],
+        method: "Simmer ginger in water for 5 minutes. Squeeze in lemon juice and add honey. A genuinely warming drink with real ginger compounds — no laxatives, no false promises."
+      },
+      {
+        name: "Cold Brew White Tea & Cucumber",
+        time: "10 mins + chill",
+        why: "White tea is the least processed form — higher catechin content than black tea without bitterness",
+        ingredients: ["2 white tea bags", "½ cucumber, sliced", "Fresh mint", "Cold water", "Ice"],
+        method: "Brew white tea in cold water for 4 hours (cold brew preserves delicate compounds). Add cucumber and mint. Serve over ice. Genuinely hydrating — and far better than any 'teatox'."
       }
-    }
-  } catch (e) {
-    console.log('Using fallback data:', e.message);
-  }
-  currentClaims = claimsToShow;
-  buildFeed(claimsToShow);
-}
-
-// ── Fallback hardcoded claims (shown until pipeline has data) ─────
-const FALLBACK_CLAIMS = [
-  {
-    rank: 1,
-    name: "Seed oils cause inflammation and disease",
-    source: "Instagram / TikTok",
-    tag: "Mechanistic overreach",
-    scoreVal: 28,
-    scoreBand: "amber",
-    scoreLabel: "Mixed",
-    title: "Seed oils cause systemic inflammation and are the root of modern disease",
-    verdict: "Omega-6 fatty acids in seed oils can compete with omega-3s, and the modern ratio is skewed. But causation between seed oil consumption and chronic disease remains unproven in controlled human trials. Epidemiological data is confounded by ultra-processed food intake overall.",
-    science: "A 2023 Cochrane meta-analysis of 25 RCTs found that replacing saturated fat with polyunsaturated fat (including seed oils) reduced cardiovascular events by 17%. The inflammatory framing vastly oversimplifies lipid metabolism.",
-    consensusPos: "35%",
-    consensusBorder: "#ef9f27",
-    stats: [
-      { val: "25",  label: "Cochrane RCTs reviewed on dietary fats" },
-      { val: "17%", label: "reduction in CV events replacing sat fat" },
-      { val: "6:1", label: "current avg omega-6 to omega-3 ratio (ideal ~4:1)" }
-    ],
-    opinions: [
-      { flag: "🇬🇧", region: "United Kingdom",  stance: "mainstream", stanceLabel: "Mainstream",  note: "NHS and BDA treat seed oils as acceptable within a balanced diet. Anti-seed oil messaging classified as misinformation by Food Standards Agency." },
-      { flag: "🇺🇸", region: "United States",   stance: "contested",  stanceLabel: "Contested",   note: "AHA recommends polyunsaturated fats. RFK Jr. era HHS has amplified seed oil concerns. Policy and science in public tension." },
-      { flag: "🇦🇺", region: "Australia",        stance: "mainstream", stanceLabel: "Mainstream",  note: "NHMRC dietary guidelines support vegetable oils. Seed oil discourse present in wellness communities but not in clinical guidance." },
-      { flag: "🇯🇵", region: "Japan",            stance: "mainstream", stanceLabel: "Mainstream",  note: "Traditional Japanese diet low in seed oils correlates with longevity — often cited by seed oil critics, though confounded by overall dietary patterns." }
-    ],
-    footer: "Opinions reflect regulatory and institutional stances at time of publication. Individual dietary needs vary."
+    ]
   },
   {
-    rank: 2,
-    name: "Raw milk is healthier than pasteurised",
-    source: "Reddit",
-    tag: "Conspiracy framing",
-    scoreVal: 12,
-    scoreBand: "red",
-    scoreLabel: "Misleading",
-    title: "Raw milk is dramatically healthier than pasteurised",
-    verdict: "No credible evidence supports nutritional superiority of raw milk over pasteurised. The CDC documents 840 times more illness outbreaks linked to raw milk. What you gain in unverified probiotics you offset with genuine pathogen exposure.",
-    science: "Pasteurisation reduces bacterial load by >99.9% while preserving 96–98% of proteins, fats, and most vitamins. A 2022 study in the Journal of Food Protection found no clinically meaningful difference in bioavailable nutrient content between pasteurised and raw milk.",
-    consensusPos: "10%",
-    consensusBorder: "#e24b4a",
-    stats: [
-      { val: "840×",  label: "more illness outbreaks vs pasteurised (CDC)" },
-      { val: "99.9%", label: "bacterial reduction from pasteurisation" },
-      { val: "3.7%",  label: "calcium difference — nutritionally negligible" }
-    ],
-    opinions: [
-      { flag: "🇬🇧", region: "United Kingdom", stance: "restricted", stanceLabel: "Restricted", note: "Legal only from registered farms. Scotland, Wales and Northern Ireland ban it outright. Low cultural appetite despite artisan food trends." },
-      { flag: "🇺🇸", region: "United States",  stance: "restricted", stanceLabel: "Restricted", note: "Interstate sales banned. 30 states permit intrastate sales. Raw milk advocacy strongest in rural communities and libertarian wellness spaces." },
-      { flag: "🇫🇷", region: "France",          stance: "legal",     stanceLabel: "Legal",      note: "Legal via vending machines and farm shops. Seen as terroir product rather than health claim — framing differs entirely from US influencer discourse." },
-      { flag: "🇦🇺", region: "Australia",        stance: "banned",    stanceLabel: "Banned",     note: "Nationally banned. Sold as 'bath milk' with 'not for human consumption' labels — a well-documented regulatory workaround." }
-    ],
-    footer: "Global view compares regulatory stance and cultural framing, not nutritional endorsement."
+    claim_index: 1,
+    ingredient: "Root vegetables",
+    emoji: "🥕",
+    science_note: "Cadmium accumulates in roots and leafy greens. Peeling, a varied diet, and knowing your source all reduce exposure.",
+    recipes: [
+      {
+        name: "Peeled Carrot & Ginger Soup",
+        time: "25 mins",
+        why: "Peeling root vegetables removes the outer layer where cadmium concentrates most",
+        ingredients: ["4 large carrots, peeled", "2cm fresh ginger", "1 onion", "Vegetable stock", "Coconut milk"],
+        method: "Peel and chop carrots thoroughly — the peel is where heavy metals sit. Fry onion and ginger 3 mins. Add carrots and stock, simmer 15 mins. Blend with coconut milk. Simple, delicious, lower-cadmium."
+      },
+      {
+        name: "Roasted Beetroot & Feta Salad",
+        time: "30 mins",
+        why: "Varied diet across different vegetable families reduces cumulative heavy metal exposure",
+        ingredients: ["3 beetroot, peeled", "Rocket leaves", "Feta cheese", "Walnuts", "Balsamic glaze"],
+        method: "Peel and cube beetroot. Roast at 200°C for 25 mins. Cool slightly, toss with rocket, crumbled feta and walnuts. Finish with balsamic. Peeling before roasting significantly reduces cadmium content."
+      },
+      {
+        name: "Miso Soup with Daikon & Tofu",
+        time: "15 mins",
+        why: "Fermented foods support gut health, which plays a role in the body's natural mineral regulation",
+        ingredients: ["1 tbsp white miso", "100g silken tofu", "100g daikon, cubed", "2 spring onions", "Dashi stock"],
+        method: "Bring dashi to a gentle simmer. Add daikon and cook 8 minutes. Add tofu. Remove from heat and whisk in miso — never boil miso as it destroys the beneficial bacteria. Top with spring onions."
+      }
+    ]
   },
   {
-    rank: 3,
-    name: "Collagen supplements rebuild your skin",
-    source: "YouTube / Brand content",
-    tag: "Partially evidenced",
-    scoreVal: 54,
-    scoreBand: "amber",
-    scoreLabel: "Plausible",
-    title: "Collagen supplements visibly rebuild skin and reduce wrinkles",
-    verdict: "Some evidence exists, but the mechanism is debated. Ingested collagen is broken down into amino acids before absorption — the body doesn't preferentially direct these to skin. Several industry-funded trials show modest improvements in skin elasticity; independent replication is limited.",
-    science: "A 2021 systematic review in the Journal of Drugs in Dermatology analysed 19 RCTs. Hydrolysed collagen showed statistically significant improvements in skin elasticity and hydration compared to placebo — but effect sizes were small and most trials were manufacturer-funded.",
-    consensusPos: "55%",
-    consensusBorder: "#3aaba0",
-    stats: [
-      { val: "19",  label: "RCTs reviewed in 2021 skin collagen meta-analysis" },
-      { val: "12%", label: "average improvement in skin elasticity reported" },
-      { val: "~£30",label: "avg monthly cost vs ~£3 for equivalent glycine from food" }
-    ],
-    opinions: [
-      { flag: "🇬🇧", region: "United Kingdom", stance: "restricted", stanceLabel: "Cautious",    note: "NHS advises that evidence is insufficient to recommend collagen supplements. Strong commercial market exists despite clinical ambivalence." },
-      { flag: "🇯🇵", region: "Japan",           stance: "legal",     stanceLabel: "Mainstream",  note: "Collagen supplements deeply embedded in beauty culture. Japan is the world's largest consumer. Regulatory framework allows functional food claims." },
-      { flag: "🇺🇸", region: "United States",  stance: "restricted", stanceLabel: "Unregulated", note: "FDA classifies as supplement — no efficacy approval required. Market dominated by brand-sponsored research creating circular evidence loops." },
-      { flag: "🇩🇪", region: "Germany",         stance: "mainstream", stanceLabel: "Sceptical",  note: "German Nutrition Society does not endorse collagen supplements. Mainstream clinical view is that a varied diet provides adequate precursors." }
-    ],
-    footer: "Evidence base is growing but remains underpowered for definitive claims. Buyer caution is warranted."
-  },
-  {
-    rank: 4,
-    name: "Ozempic is a miracle weight loss drug",
-    source: "Twitter / News media",
-    tag: "Nuanced reality",
-    scoreVal: 67,
-    scoreBand: "green",
-    scoreLabel: "Supported",
-    title: "Ozempic and GLP-1 drugs are a breakthrough for sustainable weight loss",
-    verdict: "GLP-1 receptor agonists represent a genuine clinical advance for obesity treatment, with trial data showing 15–22% body weight reduction. The 'miracle' framing obscures real concerns: weight regain on cessation, muscle loss, side effect profiles, and long-term unknown risks in otherwise healthy people using it for cosmetic weight loss.",
-    science: "STEP 1 trial (NEJM, 2021): semaglutide 2.4mg produced mean weight loss of 14.9% vs 2.4% placebo over 68 weeks. SURMOUNT-1 trial showed tirzepatide achieving up to 22.5% weight reduction — the strongest result in obesity pharmacology to date.",
-    consensusPos: "72%",
-    consensusBorder: "#1d9e75",
-    stats: [
-      { val: "22.5%", label: "max body weight reduction in SURMOUNT-1 trial" },
-      { val: "68%",   label: "regain weight within 1 yr of stopping (STEP 4)" },
-      { val: "~£200", label: "estimated monthly NHS cost per patient" }
-    ],
-    opinions: [
-      { flag: "🇬🇧", region: "United Kingdom", stance: "restricted", stanceLabel: "Rationed",           note: "NICE approved for obesity with BMI 35+. NHS rollout limited by supply and cost. Private prescribing booming — significant two-tier access concern." },
-      { flag: "🇺🇸", region: "United States",  stance: "legal",     stanceLabel: "Widespread",          note: "FDA approved for obesity (Wegovy) and T2 diabetes (Ozempic). Off-label cosmetic use widespread. Shortage driven partly by wealthy non-obese users." },
-      { flag: "🇩🇰", region: "Denmark",         stance: "legal",     stanceLabel: "Supported",           note: "Novo Nordisk (manufacturer) is Danish — national pride element. Strong clinical support. Early adopter of GLP-1 class in treatment guidelines." },
-      { flag: "🇧🇷", region: "Brazil",           stance: "restricted", stanceLabel: "Unregulated concern", note: "High demand has created black market compounded versions. ANVISA issued warnings about counterfeit semaglutide. Access inequality acute." }
-    ],
-    footer: "Clinical evidence is strong for obesity treatment. Framing as universally 'miraculous' glosses over cessation effects and equity concerns."
-  },
-  {
-    rank: 5,
-    name: "Carnivore diet reverses autoimmune disease",
-    source: "Podcasts / Substack",
-    tag: "Anecdote as evidence",
-    scoreVal: 15,
-    scoreBand: "red",
-    scoreLabel: "Misleading",
-    title: "The carnivore diet reverses autoimmune conditions where medicine has failed",
-    verdict: "Compelling anecdotes abound but clinical evidence is essentially absent. Elimination diets can reduce inflammatory triggers, which may explain symptom relief — but attributing this to meat specifically lacks mechanistic or trial support. Long-term carnivore diet risks include micronutrient deficiency and elevated cardiovascular markers.",
-    science: "Zero RCTs exist for carnivore diet and autoimmune disease as of 2025. A 2023 observational study published in Current Developments in Nutrition (n=2,029) reported self-reported symptom improvement, but with no control group and massive selection bias from self-selecting participants on carnivore forums.",
-    consensusPos: "8%",
-    consensusBorder: "#e24b4a",
-    stats: [
-      { val: "0",     label: "RCTs on carnivore diet and autoimmune disease (2025)" },
-      { val: "2,029", label: "self-selected participants in largest observational study" },
-      { val: "↑LDL",  label: "consistently elevated in carnivore diet studies" }
-    ],
-    opinions: [
-      { flag: "🇬🇧", region: "United Kingdom", stance: "fringe",     stanceLabel: "Fringe",   note: "No clinical body endorses carnivore diet for autoimmune conditions. BDA lists it among fad diets of concern. Influencer-driven entirely." },
-      { flag: "🇺🇸", region: "United States",  stance: "fringe",     stanceLabel: "Fringe",   note: "Paul Saladino and Jordan Peterson popularised the movement. FDA and AMA positions unchanged. Growing but clinically unsupported." },
-      { flag: "🇭🇺", region: "Hungary",         stance: "restricted", stanceLabel: "Emerging", note: "Hungary has an unusually active carnivore diet clinical community. Some gastroenterologists experimenting informally. Not yet in guidelines." },
-      { flag: "🇨🇦", region: "Canada",           stance: "fringe",     stanceLabel: "Fringe",   note: "Health Canada dietary guidelines directly contradict carnivore principles. Elimination diet versions (without the all-meat framing) have more clinical traction." }
-    ],
-    footer: "Anecdotal recovery stories are real to those who experience them — but cannot substitute for controlled evidence before clinical recommendations are made."
+    claim_index: 2,
+    ingredient: "Garlic",
+    emoji: "🧄",
+    science_note: "Allicin in garlic has genuine cardiovascular and antimicrobial properties — but it's a food, not a drug.",
+    recipes: [
+      {
+        name: "Roasted Garlic & White Bean Dip",
+        time: "35 mins",
+        why: "Slow roasting converts harsh allicin to milder compounds while retaining cardiovascular polyphenols",
+        ingredients: ["2 heads garlic", "1 tin white beans", "2 tbsp olive oil", "Lemon juice", "Fresh thyme"],
+        method: "Slice tops off garlic heads, drizzle with oil, roast at 190°C for 30 mins until soft and caramelised. Squeeze cloves into blender with drained beans, lemon and thyme. Blitz until smooth. Genuinely nutritious and genuinely delicious."
+      },
+      {
+        name: "Garlic-Forward Chicken Broth",
+        time: "20 mins",
+        why: "Garlic in broth releases water-soluble compounds that support immune function during illness",
+        ingredients: ["8 garlic cloves, crushed", "1L chicken stock", "Fresh ginger", "Spring onion", "Soy sauce"],
+        method: "Simmer crushed garlic and ginger in stock for 15 minutes. Add soy sauce and spring onion. Strain or serve as-is. The crushing activates allicin — this is why garlic should be cut 10 minutes before cooking for maximum benefit."
+      },
+      {
+        name: "Pasta Aglio e Olio",
+        time: "20 mins",
+        why: "Extra virgin olive oil and garlic together show synergistic anti-inflammatory effects in studies",
+        ingredients: ["4 garlic cloves, sliced thin", "200g spaghetti", "4 tbsp extra virgin olive oil", "Chilli flakes", "Parsley"],
+        method: "Cook pasta. Gently warm (don't fry) garlic in olive oil until just golden — 3 minutes. Toss with pasta, pasta water, chilli and parsley. Low heat preserves the delicate garlic compounds that make this more than just a flavour exercise."
+      }
+    ]
   }
 ];
 
-function buildFeed(claimsData) {
-  const feed = document.getElementById('feed');
-  feed.innerHTML = '';
-  claimsData.forEach((c, i) => {
-    const wrapper = document.createElement('div');
-    wrapper.className = 'claim-wrapper';
-    wrapper.style.animationDelay = `${i * 80}ms`;
+// ── FALLBACK CLAIMS (always show 5 even when pipeline has fewer) ──
+const FALLBACK_CLAIMS = [
+  {
+    rank:1, claim:"Drinking lemon water first thing in the morning detoxes your liver and boosts your metabolism",
+    source:"Social", platform:"Instagram", hours_ago:8, score:19, score_label:"Misleading",
+    score_type:"false", claim_tag:"Overstated",
+    verdict:"Your liver detoxes itself — that's literally its job. Lemon water is a pleasant way to start the day and may help with hydration, but it has no special detoxifying properties and won't measurably change your metabolic rate.",
+    verdict_highlight:"Your liver detoxes itself",
+    sources:["NHS: Liver function","Harvard Health: Detox diets debunked","Journal of Human Nutrition 2021"],
+    global_opinion:"In Germany, the concept of 'Leberkur' (liver cleansing) is deeply embedded in folk medicine, but gastroenterologists there also confirm the liver requires no external cleansing agent.",
+    brit_take:"We grew up being told lemon in hot water was medicinal too. It isn't — but it does taste rather nice, and that's enough."
+  },
+  {
+    rank:2, claim:"Magnesium glycinate is more effective than melatonin for fixing sleep problems long-term",
+    source:"Reddit", platform:"r/nutrition", hours_ago:14, score:61, score_label:"Nuanced",
+    score_type:"mixed", claim_tag:"Partially true",
+    verdict:"Magnesium glycinate does have modest evidence for improving sleep quality, particularly in people who are deficient — and deficiency is common. Comparing it directly to melatonin is an oversimplification, as they work via completely different mechanisms and suit different sleep issues.",
+    verdict_highlight:"deficiency is common",
+    sources:["Sleep Medicine Reviews 2022","NIH: Magnesium and sleep","Cochrane: Melatonin for insomnia"],
+    global_opinion:"Japan has strict limits on melatonin supplements, making magnesium-based sleep aids more culturally accepted there. In the US, melatonin is taken at doses 10-50x higher than European guidelines recommend.",
+    brit_take:"Britain is only just discovering magnesium supplements after years of Americans banging on about them. As usual, the truth is somewhere in the middle and much less exciting than TikTok suggests."
+  },
+  {
+    rank:3, claim:"Raw milk contains beneficial bacteria destroyed by pasteurisation that boost your immune system",
+    source:"News", platform:"SubStack", hours_ago:22, score:24, score_label:"Misleading",
+    score_type:"false", claim_tag:"Dangerous claim",
+    verdict:"Pasteurisation does kill some bacteria — including the pathogens that cause listeria, salmonella and E. coli. The claimed immune-boosting bacteria are not proven to survive digestion in meaningful quantities. Raw milk is responsible for 840x more illness outbreaks than pasteurised milk per unit consumed.",
+    verdict_highlight:"840x more illness outbreaks",
+    sources:["CDC: Raw milk safety","FDA: Pasteurisation facts","EFSA 2023 report"],
+    global_opinion:"In France, certain raw milk cheeses are protected cultural heritage — but even French health authorities draw a clear line between aged raw-milk cheese and drinking unpasteurised milk directly, particularly for children.",
+    brit_take:"There's something very Californian about paying extra to remove a food safety advance that took humanity a century to achieve. We'll stick with pasteurised, thank you."
+  },
+  {
+    rank:4, claim:"Eating within an 8-hour window (16:8 intermittent fasting) improves metabolic health for most people",
+    source:"Reddit", platform:"r/intermittentfasting", hours_ago:31, score:71, score_label:"Nuanced",
+    score_type:"mixed", claim_tag:"Context-dependent",
+    verdict:"There's decent evidence that time-restricted eating can improve insulin sensitivity and support weight management for many people. 'Most people' is where it gets slippery — it doesn't suit shift workers, those with a history of disordered eating, or people with certain metabolic conditions.",
+    verdict_highlight:"decent evidence",
+    sources:["Cell Metabolism: TRE study 2022","NEJM: Intermittent fasting review","British Dietetic Association"],
+    global_opinion:"Intermittent fasting maps naturally onto Ramadan practices observed by 1.8 billion Muslims globally — researchers in the Gulf have published interesting data on metabolic markers during this period.",
+    brit_take:"We accidentally practise a version of this by having dinner at 7pm and breakfast at 8am. The difference is we don't film ourselves doing it."
+  },
+  {
+    rank:5, claim:"Eating blueberries regularly can meaningfully improve memory and slow cognitive decline",
+    source:"News", platform:"BBC Good Food", hours_ago:19, score:79, score_label:"Nuanced",
+    score_type:"mixed", claim_tag:"Promising evidence",
+    verdict:"Blueberries contain anthocyanins with genuine neuroprotective properties in lab and animal studies. Human trials show modest but real improvements in memory scores in older adults. 'Meaningfully' is doing a lot of work here — don't expect transformation, but they're one of the more evidence-backed 'superfoods'.",
+    verdict_highlight:"genuine neuroprotective properties",
+    sources:["Journal of Agricultural & Food Chemistry","American Journal of Clinical Nutrition 2023","Tufts University HNRCA"],
+    global_opinion:"Japan's government-backed 'functional food' certification programme has approved several anthocyanin-based products for eye and cognitive health — a more formal regulatory endorsement than the US or UK currently offer.",
+    brit_take:"Finally a superfood claim that's at least partially true. They're also one of the few things that taste as good in the UK as they do here, which feels like a win all round."
+  }
+];
 
-    const row = document.createElement('div');
-    row.className = 'topic-row';
-    row.style.animationDelay = `${i * 80}ms`;
-    row.innerHTML = `
-      <div class="topic-rank">${c.rank}</div>
-      <div class="topic-info">
-        <div class="topic-name">${c.name}</div>
-        <div class="topic-meta">
-          <span class="meta-source">${c.source}</span>
-          <span>·</span>
-          <span>${c.tag}</span>
-        </div>
-      </div>
-      <div class="topic-right">
-        <div class="score-badge ${c.scoreBand}">
-          <span class="score-number">${c.scoreVal}</span>
-          <span class="score-label">${c.scoreLabel}</span>
-        </div>
-        <div class="chevron">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="6 9 12 15 18 9"/>
-          </svg>
-        </div>
-      </div>
-    `;
+// ── GLOBAL OPINIONS (10 perspectives shown always) ────────────
+const GLOBAL_OPINIONS = [
+  {
+    flag:"🇺🇸", country:"United States",
+    claim:"Detox teas & supplements",
+    opinion:"The FDA does not require supplement companies to prove efficacy before selling. 'Detox tea' is a $1.5bn industry operating almost entirely on anecdote and influencer endorsement. The FTC has issued warnings but enforcement is limited.",
+    score:18, score_type:"false", score_label:"Misleading"
+  },
+  {
+    flag:"🇬🇧", country:"United Kingdom",
+    claim:"Raw milk",
+    opinion:"The sale of raw drinking milk is legal in England, Wales and Northern Ireland but tightly regulated — it must carry a health warning and cannot be sold in Scotland. The Food Standards Agency maintains a clear recommendation against it for vulnerable groups.",
+    score:24, score_type:"false", score_label:"Misleading"
+  },
+  {
+    flag:"🇩🇪", country:"Germany",
+    claim:"Herbal liver tonics",
+    opinion:"Germany's Commission E — the world's most respected herbal medicine regulatory body — has approved milk thistle (Silybum marianum) for certain liver conditions. This is a meaningful distinction from most 'liver cleanse' products, which use different and unproven herbs.",
+    score:52, score_type:"mixed", score_label:"Nuanced"
+  },
+  {
+    flag:"🇯🇵", country:"Japan",
+    claim:"Fermented foods & gut health",
+    opinion:"Japan's 'FOSHU' (Foods for Specified Health Uses) system is one of the world's most rigorous functional food certification regimes. Several fermented products — natto, specific probiotic drinks — carry government-approved health claims. The evidence bar is genuinely high.",
+    score:81, score_type:"true", score_label:"Well supported"
+  },
+  {
+    flag:"🇫🇷", country:"France",
+    claim:"Red wine & cardiovascular health",
+    opinion:"The 'French paradox' has been a source of significant scientific interest. France's national health agency now clarifies that no level of alcohol is risk-free, walking back decades of qualified endorsement. The polyphenol benefits seen in studies can be obtained from grape juice.",
+    score:38, score_type:"false", score_label:"Misleading"
+  },
+  {
+    flag:"🇦🇺", country:"Australia",
+    claim:"Vitamin D supplementation",
+    opinion:"Australia has one of the world's highest rates of melanoma, creating a genuine public health tension: sun avoidance is advised, but Vitamin D deficiency is rising as a result. The Australian government now recommends supplementation for at-risk groups — a pragmatic policy pivot.",
+    score:77, score_type:"true", score_label:"Well supported"
+  },
+  {
+    flag:"🇮🇳", country:"India",
+    claim:"Turmeric & curcumin for inflammation",
+    opinion:"Turmeric has been central to Ayurvedic medicine for 4,000 years. Modern research confirms curcumin does have anti-inflammatory properties — but bioavailability is poor without black pepper (piperine). India's ancient practice of adding both to food turns out to be scientifically sound.",
+    score:68, score_type:"mixed", score_label:"Nuanced"
+  },
+  {
+    flag:"🇧🇷", country:"Brazil",
+    claim:"Ultra-processed food & chronic disease",
+    opinion:"Brazil pioneered the NOVA food classification system — now used by WHO — which categorises foods by degree of processing rather than nutrient content. Brazil's national dietary guidelines were the first in the world to explicitly recommend avoiding ultra-processed foods as a primary rule.",
+    score:88, score_type:"true", score_label:"Well supported"
+  },
+  {
+    flag:"🇨🇦", country:"Canada",
+    claim:"Omega-3 supplements for heart health",
+    opinion:"Health Canada requires omega-3 products to carry specific, approved health claims — they cannot say 'prevents heart disease', only that they 'help maintain cardiovascular health'. This is a meaningfully more conservative standard than US FDA labelling allows.",
+    score:64, score_type:"mixed", score_label:"Nuanced"
+  },
+  {
+    flag:"🇰🇷", country:"South Korea",
+    claim:"Fermented kimchi & immunity",
+    opinion:"South Korea's Ministry of Food and Drug Safety has funded substantial research into kimchi's probiotic properties. The data shows clear microbiome diversity benefits. Korean public health messaging actively promotes fermented food consumption as part of official dietary guidelines — unusually direct for a government agency.",
+    score:76, score_type:"true", score_label:"Well supported"
+  },
+  {
+    flag:"🇲🇽", country:"Mexico",
+    claim:"Sugar taxes reducing consumption",
+    opinion:"Mexico introduced a sugar tax on soft drinks in 2014 — one of the first countries to do so. Studies from the National Institute of Public Health show a 12% reduction in purchases among low-income households over two years. The evidence that fiscal policy changes behaviour is stronger here than the food industry acknowledges.",
+    score:83, score_type:"true", score_label:"Well supported"
+  },
+  {
+    flag:"🇳🇴", country:"Norway",
+    claim:"Fish oil & omega-3 for children",
+    opinion:"Norway has given children cod liver oil as a matter of cultural routine for over a century. The country has some of the highest omega-3 levels in the world as a result. Norwegian paediatricians continue to recommend it — and the cardiovascular data on the population is compelling.",
+    score:86, score_type:"true", score_label:"Well supported"
+  }
+];
 
-    const card = document.createElement('div');
-    card.className = 'claim-card';
-    card.innerHTML = `
-      <div class="card-divider"></div>
-      <div class="card-header-row">
-        <div class="score-badge ${c.scoreBand}">
-          <span class="score-number">${c.scoreVal}</span>
-          <span class="score-label">${c.scoreLabel}</span>
-        </div>
-        <span class="claim-tag">${c.tag}</span>
-      </div>
-      <h2 class="claim-title">${c.title}</h2>
-      <p class="verdict">${c.verdict}</p>
-      <div class="science-box">
-        <div class="science-label">Science fact</div>
-        <p class="science-text">${c.science}</p>
-      </div>
-      <div class="card-footer">
-        <span class="card-source">${c.source}</span>
-        <button class="global-btn" onclick="openGlobal(currentClaims, ${i}); event.stopPropagation();">
-          🌍 International opinions
-        </button>
-      </div>
-    `;
-
-    row.addEventListener('click', () => toggleCard(row, card));
-    wrapper.appendChild(row);
-    wrapper.appendChild(card);
-    feed.appendChild(wrapper);
-  });
+// ── SCORE HELPERS ──────────────────────────────────────────
+function scoreType(type){
+  return type==='true'?'g':type==='mixed'?'a':'r';
+}
+function scoreColor(type){
+  return type==='true'?'var(--score-green)':type==='mixed'?'var(--score-amber)':'var(--score-red)';
+}
+function scorePale(type){
+  return type==='true'?'var(--score-green-p)':type==='mixed'?'var(--score-amber-p)':'var(--score-red-p)';
+}
+function highlight(text, hl){
+  if(!hl||!text) return text||'';
+  const escaped = hl.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+  return text.replace(new RegExp(escaped,'g'),`<strong>${hl}</strong>`);
+}
+function timeAgo(h){
+  if(!h||h<1) return 'Recent';
+  if(h<24) return `${Math.round(h)}h ago`;
+  return `${Math.round(h/24)}d ago`;
 }
 
-document.addEventListener('DOMContentLoaded', async () => {
-  await loadFeed();
-  const params = new URLSearchParams(window.location.search);
-  // Auto-expand first card if ?expand=1
-  if (params.get('expand') === '1') {
-    setTimeout(() => {
-      const row  = document.querySelector('.topic-row');
-      const card = document.querySelector('.claim-card');
-      if (row && card) { row.classList.add('open'); card.classList.add('open'); }
-    }, 150);
+// ── LOAD DATA ──────────────────────────────────────────────
+async function loadData(){
+  try{
+    const res = await fetch(DATA_URL+'?t='+Date.now());
+    const data = await res.json();
+    allClaims = data.top10||[];
+    // Pad to always show 5 on home — fill from fallback if pipeline has fewer
+    const homeClaims = mergeWithFallback(allClaims, 5);
+    renderClaims(homeClaims,'homeList');
+    renderClaims(allClaims.length ? allClaims : FALLBACK_CLAIMS,'allClaimsList');
+    buildTicker(homeClaims);
+    if(data.published){
+      const d=new Date(data.published);
+      document.getElementById('lastUpdated').textContent=
+        'Updated '+d.toLocaleDateString('en-US',{month:'short',day:'numeric'})+
+        ' at '+d.toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'});
+    }
+  }catch(e){
+    document.getElementById('lastUpdated').textContent='Pipeline refreshes daily at 11am UTC';
+    renderClaims(FALLBACK_CLAIMS,'homeList');
+    renderClaims(FALLBACK_CLAIMS,'allClaimsList');
+    buildTicker(FALLBACK_CLAIMS);
   }
-  // Auto-open global panel if ?global=N
-  const globalIdx = params.get('global');
-  if (globalIdx !== null) {
-    setTimeout(() => openGlobal(currentClaims, parseInt(globalIdx) || 0), 300);
-  }
-});
-</script>
+  renderGlobal();
+}
 
-<script src="scripts/app.js"></script>
-<script>
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js');
+function mergeWithFallback(live, needed){
+  if(live.length >= needed) return live.slice(0, needed);
+  const used = new Set(live.map(c=>c.claim));
+  const extras = FALLBACK_CLAIMS.filter(c=>!used.has(c.claim));
+  return [...live, ...extras].slice(0, needed);
+}
+
+// ── BUILD CARD ─────────────────────────────────────────────
+function buildCard(c,i,listId){
+  const rankCls=scoreType(c.score_type);
+  const col=scoreColor(c.score_type);
+  const pale=scorePale(c.score_type);
+  const cardId=`${listId}-${i}`;
+  const delay=(i*0.06).toFixed(2);
+  const intlOpinion=c.brit_take||c.international_opinion||'';
+  return `
+<div class="claim-card" data-type="${c.score_type}" id="card-${cardId}" style="animation-delay:${delay}s">
+  <div class="cc-head" onclick="toggleCard('${cardId}')">
+    <div class="cc-rank ${rankCls}">${i+1}</div>
+    <div class="cc-mid">
+      <div class="cc-meta">
+        <div class="cc-dot" style="background:${col}"></div>
+        <span class="cc-src">${(c.platform||c.source||'SOCIAL').toUpperCase()}</span>
+        <span class="cc-age">· ${timeAgo(c.hours_ago)}</span>
+      </div>
+      <div class="cc-title">"${c.claim}"</div>
+    </div>
+    <div class="cc-right">
+      <div class="score-pill" style="background:${pale}">
+        <span class="sp-n" style="color:${col}">${c.score}</span>
+        <span class="sp-l" style="color:${col}">${c.score_label||'YUMMY'}</span>
+      </div>
+      <svg class="chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--ink4)" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
+    </div>
+  </div>
+  <div class="cc-body">
+    <div class="cc-body-in">
+      <div class="cc-verdict-row">
+        <span class="cc-tag" style="background:${pale};color:${col}">${c.claim_tag||(c.score_type==='true'?'Evidence-based':c.score_type==='mixed'?'Nuanced':'Misleading')}</span>
+        <span class="sci-lbl">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="var(--mint-d)" stroke-width="2.5" stroke-linecap="round"><path d="M12 22C12 22 4 16 4 9C4 5 7.5 2 12 2C16.5 2 20 5 20 9C20 16 12 22 12 22Z"/></svg>
+          SCIENCE VERDICT
+        </span>
+      </div>
+      <div class="score-bar">
+        <div class="score-fill" style="width:0%;background:${col}" data-w="${c.score}%"></div>
+      </div>
+      <div class="verdict-text">${highlight(c.verdict,c.verdict_highlight)}</div>
+      <div class="sources-text">Sources: ${(c.sources||[]).join(' · ')}</div>
+      ${c.global_opinion?`<div class="global-pill"><span style="font-size:13px;flex-shrink:0">🌍</span><span class="global-txt">${c.global_opinion}</span></div>`:''}
+      ${intlOpinion?`<div class="brit-box"><div class="brit-lbl">🌍 International Opinion</div><div class="brit-txt">${intlOpinion}</div></div>`:''}
+      <button class="full-btn" onclick="event.stopPropagation();openDetail('${listId}',${i})">Full analysis →</button>
+    </div>
+  </div>
+</div>`;
+}
+
+// ── TOGGLE CARD ────────────────────────────────────────────
+function toggleCard(cardId){
+  const card=document.getElementById('card-'+cardId);
+  if(!card) return;
+  const wasOpen=card.classList.contains('open');
+  document.querySelectorAll('.claim-card.open').forEach(c=>c.classList.remove('open'));
+  if(!wasOpen){
+    card.classList.add('open');
+    setTimeout(()=>{
+      card.querySelectorAll('.score-fill[data-w]').forEach(b=>{b.style.width=b.dataset.w;});
+    },60);
+    setTimeout(()=>card.scrollIntoView({behavior:'smooth',block:'nearest'}),80);
   }
+}
+
+// ── RENDER FUNCTIONS ───────────────────────────────────────
+function renderClaims(claims,id){
+  const el=document.getElementById(id);
+  if(!el) return;
+  CLAIM_STORE[id]=claims;
+  if(!claims.length){
+    el.innerHTML='<div class="empty-state">No claims available yet.<br>Check back after 11am UTC.</div>';
+    return;
+  }
+  el.innerHTML=claims.map((c,i)=>buildCard(c,i,id)).join('');
+}
+
+function renderEmpty(id){
+  const el=document.getElementById(id);
+  if(el) el.innerHTML='<div class="empty-state">Pipeline initialising.<br>First results at 11am UTC.</div>';
+}
+
+function renderGlobal(){
+  const el=document.getElementById('globalList');
+  if(!el) return;
+  el.innerHTML=GLOBAL_OPINIONS.map((g,i)=>{
+    const col=scoreColor(g.score_type);
+    const pale=scorePale(g.score_type);
+    return `
+<div class="claim-card" data-type="${g.score_type}" id="gcard-${i}" style="animation-delay:${(i*0.05).toFixed(2)}s;margin:0 12px 8px">
+  <div class="cc-head" onclick="toggleGCard(${i})">
+    <div class="cc-mid">
+      <div class="cc-meta">
+        <span style="font-size:15px;line-height:1">${g.flag}</span>
+        <span class="cc-src">${g.country}</span>
+        <span class="cc-age" style="color:var(--ink4)">· ${g.claim}</span>
+      </div>
+      <div class="cc-title">${g.opinion.split(' ').slice(0,12).join(' ')}…</div>
+    </div>
+    <div class="cc-right">
+      <div class="score-pill" style="background:${pale}">
+        <span class="sp-n" style="color:${col}">${g.score}</span>
+        <span class="sp-l" style="color:${col}">${g.score_label}</span>
+      </div>
+      <svg class="chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--ink4)" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
+    </div>
+  </div>
+  <div class="cc-body">
+    <div class="cc-body-in">
+      <div class="global-pill">
+        <span style="font-size:15px;flex-shrink:0">${g.flag}</span>
+        <span class="global-txt">${g.opinion}</span>
+      </div>
+    </div>
+  </div>
+</div>`;
+  }).join('');
+}
+
+function toggleGCard(i){
+  const card=document.getElementById('gcard-'+i);
+  if(!card) return;
+  const was=card.classList.contains('open');
+  document.querySelectorAll('#globalList .claim-card.open').forEach(c=>c.classList.remove('open'));
+  if(!was) card.classList.add('open');
+}
+
+function buildTicker(claims){
+  if(!claims.length) return;
+  const items=claims.map(c=>{
+    const col=scoreColor(c.score_type);
+    const short=c.claim.split(' ').slice(0,5).join(' ');
+    return `<span class="ti">"${short}…" <b style="color:${col}">${c.score}/100</b></span>`;
+  });
+  document.getElementById('tickerTrack').innerHTML=[...items,...items].join('');
+}
+
+// ── RECIPE GENERATION ──────────────────────────────────────
+const RECIPE_SYSTEM=`You are a nutritionist creating simple healthy recipes tied to trending health claims.
+For each claim, generate exactly 3 recipes using the key ingredient correctly per science.
+Rules: under 30 mins, family-friendly, correct any misinformation.
+Return ONLY valid JSON:
+{"recipe_sets":[{"claim_index":0,"ingredient":"key food","emoji":"🥗","science_note":"one sentence","recipes":[{"name":"Name","time":"20 mins","why":"specific benefit","ingredients":["item1","item2","item3","item4"],"method":"2-3 sentences"}]}]}`;
+
+async function generateRecipes(){
+  if(recipesGenerated) return;
+  const el=document.getElementById('recipeList');
+  const countEl=document.getElementById('recipeCount');
+  if(!el) return;
+  el.innerHTML=`<div class="recipe-loading"><div class="recipe-spinner"></div>Generating recipes from today's trending claims...</div>`;
+  if(!ANTHROPIC_KEY||ANTHROPIC_KEY==='YOUR_ANTHROPIC_API_KEY'){
+    renderFallbackRecipes();
+    if(countEl) countEl.textContent='Sample recipes — add API key for live generation';
+    return;
+  }
+  try{
+    const claimLines=allClaims.slice(0,5).map((c,i)=>
+      `${i}. [Score:${c.score}, Type:${c.score_type}] "${c.claim}"`
+    ).join('\n');
+    const res=await fetch('https://api.anthropic.com/v1/messages',{
+      method:'POST',
+      headers:{
+        'Content-Type':'application/json',
+        'x-api-key':ANTHROPIC_KEY,
+        'anthropic-version':'2023-06-01',
+        'anthropic-dangerous-direct-browser-access':'true',
+      },
+      body:JSON.stringify({
+        model:'claude-sonnet-4-6',max_tokens:3000,
+        system:RECIPE_SYSTEM,
+        messages:[{role:'user',content:`Create 3 recipes for each trending claim:\n\n${claimLines}`}]
+      })
+    });
+    const data=await res.json();
+    const raw=data.content[0].text.trim().replace(/^```json\s*/,'').replace(/\s*```$/,'');
+    const result=JSON.parse(raw);
+    renderRecipes(result.recipe_sets);
+    if(countEl) countEl.textContent=`${result.recipe_sets.length*3} recipes generated`;
+    recipesGenerated=true;
+  }catch(e){
+    renderFallbackRecipes();
+    if(countEl) countEl.textContent='Sample recipes';
+  }
+}
+
+function renderRecipes(sets){
+  const el=document.getElementById('recipeList');
+  if(!sets||!sets.length){renderFallbackRecipes();return;}
+  el.innerHTML=sets.map((set,si)=>{
+    const claim=allClaims[set.claim_index!==undefined?set.claim_index:si];
+    const col=claim?scoreColor(claim.score_type):'var(--score-amber)';
+    const pale=claim?scorePale(claim.score_type):'var(--score-amber-p)';
+    const recipes=(set.recipes||[]).map(r=>`
+<div class="recipe-card">
+  <div class="rc-top">
+    <div class="rc-name">${r.name}</div>
+    <div class="rc-time">⏱ ${r.time}</div>
+  </div>
+  <div class="rc-why">✓ ${r.why}</div>
+  <div class="rc-ingr">${(r.ingredients||[]).map(i=>`<span>· ${i}</span>`).join('')}</div>
+  <div class="rc-div"></div>
+  <div class="rc-method">${r.method}</div>
+</div>`).join('');
+    return `
+<div class="recipe-block" style="animation-delay:${(si*0.1).toFixed(2)}s">
+  <div class="rb-head">
+    <div class="rb-emoji">${set.emoji||'🍽️'}</div>
+    <div class="rb-meta">
+      <div class="rb-label">RECIPES FOR TRENDING CLAIM</div>
+      <div class="rb-claim">"${claim?.claim?.substring(0,65)||set.ingredient}..."</div>
+    </div>
+    ${claim?`<div class="rb-score" style="color:${col}">${claim.score}<span style="font-size:9px;opacity:0.7">/100</span></div>`:''}
+  </div>
+  ${set.science_note?`<div class="rb-sci">🔬 ${set.science_note}</div>`:''}
+  <div class="recipes-inner">${recipes}</div>
+</div>`;
+  }).join('');
+}
+
+function renderFallbackRecipes(){renderRecipes(FALLBACK_RECIPES);}
+
+// ── DETAIL OVERLAY ─────────────────────────────────────────
+function openDetail(listId,idx){
+  const c=(CLAIM_STORE[listId]||[])[idx];
+  if(!c) return;
+  const col=scoreColor(c.score_type);
+  const pale=scorePale(c.score_type);
+  const intlOpinion=c.brit_take||c.international_opinion||'';
+  document.getElementById('detailContent').innerHTML=`
+<div class="d-hero">
+  <div class="d-src">${c.platform||c.source||'SOCIAL MEDIA'}</div>
+  <div class="d-claim">"${c.claim}"</div>
+  <div class="d-score-row">
+    <div class="d-circle" style="background:${pale}">
+      <div class="d-num" style="color:${col}">${c.score}</div>
+      <div class="d-lbl">YUMMY</div>
+    </div>
+    <div class="d-label-text">${c.score_label||''} · ${c.claim_tag||''}</div>
+  </div>
+</div>
+<div class="d-body">
+  <div class="d-sec">
+    <div class="d-head">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--mint-d)" stroke-width="2.5" stroke-linecap="round"><path d="M12 22C12 22 4 16 4 9C4 5 7.5 2 12 2C16.5 2 20 5 20 9C20 16 12 22 12 22Z"/></svg>
+      SCIENCE VERDICT
+    </div>
+    <div class="d-bar"><div class="d-bar-fill" style="width:${c.score}%;background:${col}"></div></div>
+    <div class="d-text">${highlight(c.verdict,c.verdict_highlight)}</div>
+    <div class="d-pills">${(c.sources||[]).map(s=>`<span class="d-pill">${s}</span>`).join('')}</div>
+  </div>
+  ${c.global_opinion?`<div class="d-sec"><div class="d-head">🌍 GLOBAL PERSPECTIVE</div><div class="d-global">${c.global_opinion}</div></div>`:''}
+  ${intlOpinion?`<div class="d-sec"><div class="d-brit"><div class="d-brit-lbl">🌍 International Opinion</div><div class="d-brit-txt">${intlOpinion}</div></div></div>`:''}
+  ${c.url?`<div class="d-sec"><div class="d-head">ORIGINAL SOURCE</div><a href="${c.url}" target="_blank" rel="noopener" class="d-link">View original post →</a></div>`:''}
+</div>`;
+  document.getElementById('detail').classList.add('open');
+}
+
+function closeDetail(){
+  document.getElementById('detail').classList.remove('open');
+}
+
+// ── FILTERS ────────────────────────────────────────────────
+function filterHome(type,btn){
+  document.querySelectorAll('#s-home .fp').forEach(b=>b.classList.remove('on'));
+  btn.classList.add('on');
+  filterList('homeList',type);
+}
+function filterAll(type,btn){
+  document.querySelectorAll('#s-allclaims .fp').forEach(b=>b.classList.remove('on'));
+  btn.classList.add('on');
+  filterList('allClaimsList',type);
+}
+function filterList(id,type){
+  document.querySelectorAll(`#${id} .claim-card`).forEach(el=>{
+    el.style.display=(type==='all'||el.dataset.type===type)?'block':'none';
+  });
+}
+function filterGlobal(country,el){
+  document.querySelectorAll('.country-btn').forEach(b=>b.classList.remove('on'));
+  el.classList.add('on');
+  // Country filtering could be extended when data includes country fields
+}
+
+// ── SUBMIT CLAIM ───────────────────────────────────────────
+const SCORE_SYS=`Score this health claim 0-100 against peer-reviewed science. 85-100: Well supported. 40-84: Nuanced. 0-39: Misleading. Warm, plain English. Real sources only. Return ONLY JSON: {"score":N,"score_label":"Well supported|Nuanced|Misleading","score_type":"true|mixed|false","verdict":"2-3 sentences","sources":["s1","s2"],"brit_take":"observation"}`;
+
+function mockScore(claim){
+  const c=claim.toLowerCase();
+  const bad=['detox','cleanse','cure','miracle','toxic','alkaline','melt','blast','secret','they don\'t want','heal','reverse disease','eliminate','flush','forbidden','ancient remedy','doctors won\'t','one weird'];
+  const good=['fibre','fiber','omega-3','vitamin d','exercise','vegetables','fruit','whole grain','mediterranean','calcium','protein','sleep','hydration','legumes'];
+  const mixed=['intermittent fasting','keto','probiotic','antioxidant','superfood','organic','supplement','collagen','gluten','carnivore','raw','cold plunge','grounding'];
+  const badHits=bad.filter(k=>c.includes(k)).length;
+  const goodHits=good.filter(k=>c.includes(k)).length;
+  const mixedHits=mixed.filter(k=>c.includes(k)).length;
+  let score,type,label,verdict,brit;
+  if(badHits>=1&&goodHits===0){
+    score=10+Math.floor(Math.random()*24);type='false';label='Misleading';
+    verdict='This claim leans on language that typically signals pseudoscience rather than evidence. The proposed mechanism isn\'t supported by peer-reviewed research, and the framing tends to exploit health anxieties rather than reflect how the body actually works. Your best source remains your GP, not your feed.';
+    brit='We\'ve heard variations of this claim in every country we\'ve lived in. The packaging changes; the lack of evidence doesn\'t.';
+  } else if(goodHits>=2&&badHits===0){
+    score=72+Math.floor(Math.random()*18);type='true';label='Well supported';
+    verdict='There\'s genuine peer-reviewed evidence supporting the core of this claim. While individual results vary and context always matters, the underlying mechanisms are well understood and the research base is reasonably solid. One of the more evidence-grounded things circulating right now.';
+    brit='This one actually holds up. Not everything your health-conscious friend sends you is nonsense — occasionally they get one right.';
+  } else {
+    score=38+Math.floor(Math.random()*32);type='mixed';label='Nuanced';
+    verdict='The evidence is mixed. Some aspects are well-supported by research, but the claim as stated oversimplifies a complex picture. Context, individual variation, and quality of evidence all matter here. Worth investigating further before making significant changes to your diet or routine.';
+    brit='It\'s not wrong exactly, but it\'s not the whole story either. Nutrition rarely is. A raised eyebrow and a second opinion seem appropriate.';
+  }
+  return{score,score_label:label,score_type:type,verdict,sources:['PubMed Central','NHS Evidence','Cochrane Reviews','EFSA'],brit_take:brit};
+}
+
+async function submitClaim(){
+  const inp=document.getElementById('claimInput');
+  const btn=document.getElementById('submitBtn');
+  const res=document.getElementById('submitResult');
+  const claim=inp.value.trim();
+  if(!claim||claim.length<8) return;
+  btn.disabled=true;btn.textContent='...';
+  res.style.display='block';res.style.background='var(--bg3)';res.style.color='var(--ink3)';
+  res.textContent='Checking against the science...';
+  let s;
+  try{
+    if(!ANTHROPIC_KEY||ANTHROPIC_KEY==='YOUR_ANTHROPIC_API_KEY') throw new Error('no key');
+    const r=await fetch('https://api.anthropic.com/v1/messages',{
+      method:'POST',
+      headers:{'Content-Type':'application/json','x-api-key':ANTHROPIC_KEY,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},
+      body:JSON.stringify({model:'claude-sonnet-4-6',max_tokens:500,system:SCORE_SYS,messages:[{role:'user',content:`Score: "${claim}"`}]})
+    });
+    const data=await r.json();
+    const raw=data.content[0].text.trim().replace(/^```json\s*/,'').replace(/\s*```$/,'');
+    s=JSON.parse(raw);
+  }catch(e){
+    // Fall back to keyword-based demo scoring
+    s=mockScore(claim);
+  }
+  const col=scoreColor(s.score_type);
+  const pale=scorePale(s.score_type);
+  res.style.background=pale;res.style.color=col;
+  res.innerHTML=`
+    <strong style="font-size:15px;display:block;margin-bottom:5px;color:${col}">${s.score}/100 — ${s.score_label}</strong>
+    <span style="color:var(--ink2);font-weight:300;font-size:12px;line-height:1.6">${s.verdict}</span>
+    ${s.brit_take?`<div style="margin-top:8px;padding:8px 10px;background:var(--orange-dim);border-left:2px solid var(--orange);border-radius:0 6px 6px 0;font-size:11px;color:var(--ink2);font-weight:300">🇬🇧 ${s.brit_take}</div>`:''}
+    <div style="font-size:9.5px;color:var(--ink4);margin-top:6px">${(s.sources||[]).join(' · ')}</div>`;
+  inp.value='';
+  btn.disabled=false;btn.textContent='SCORE';
+}
+
+// ── NUTRITION INQUIRY ─────────────────────────────────────
+const INQUIRY_SYS=`You are a nutrition scientist. Answer questions with accurate, peer-reviewed evidence. Be warm, direct and practical — not clinical. Return ONLY JSON:
+{"answer":"3-4 clear sentences with the core evidence","mechanism":"1-2 sentences on the biological mechanism","practical":"1-2 sentences on what this means day-to-day","consensus":"high|moderate|emerging|contested","sources":["Author et al. Journal Year","Author et al. Journal Year","Author et al. Journal Year"],"caveat":"one honest limitation or nuance, 1 sentence"}`;
+
+function mockNutritionAnswer(q){
+  const lq=q.toLowerCase();
+  const answers={
+    protein:{answer:"Most adults need around 0.8g of protein per kg of bodyweight per day as a minimum — but active people, older adults and those trying to build muscle benefit from 1.2–2.0g/kg. The RDA is a floor, not a target.",mechanism:"Dietary protein provides amino acids for muscle protein synthesis, enzyme production, and tissue repair. Leucine in particular acts as a direct trigger for muscle protein synthesis via the mTOR pathway.",practical:"For a 70kg person this means roughly 85–140g of protein daily. Spreading it across meals (30–40g per sitting) is more effective than one large dose, as muscle protein synthesis has a ceiling per meal.",consensus:"high",sources:["Morton et al. British Journal of Sports Medicine 2018","Stokes et al. Nutrients 2018","Phillips & Van Loon. Journal of Sports Sciences 2011"],caveat:"Individual needs vary significantly based on age, activity level, and health status — these are population averages."},
+    fibre:{answer:"Adults should aim for 25–35g of dietary fibre daily. Most people get around 15g. Fibre feeds beneficial gut bacteria, slows glucose absorption, and is strongly linked to reduced risk of colorectal cancer, cardiovascular disease and type 2 diabetes.",mechanism:"Soluble fibre is fermented by gut bacteria into short-chain fatty acids (SCFAs) like butyrate, which fuel colon cells and reduce inflammation. Insoluble fibre adds bulk to stool and speeds transit time, reducing exposure of the bowel wall to potential carcinogens.",practical:"Add beans, lentils, oats, and a variety of vegetables. Swapping white bread for wholegrain and eating fruit whole (rather than juiced) are the highest-impact changes most people can make.",consensus:"high",sources:["Reynolds et al. The Lancet 2019","EFSA Dietary Fibre Opinion 2022","Sonnenburg & Bäckhed. Nature 2016"],caveat:"Increasing fibre rapidly can cause bloating — build up gradually and drink more water alongside."},
+    vitd:{answer:"Vitamin D deficiency is common, particularly in Northern climates and among people with darker skin or limited sun exposure. Evidence supports supplementation (400–1000 IU/day) for bone health, immune function and mood — but high-dose supplementation beyond these levels isn't strongly supported for most people.",mechanism:"Vitamin D3 is synthesised in skin on UVB exposure and converted in the liver and kidneys to calcitriol, the active hormone form. It regulates calcium absorption, modulates immune cell function, and influences gene expression in most tissues.",practical:"10–20 minutes of midday sun on arms and face several times per week is enough in summer. In autumn and winter at latitudes above 40°N, a daily supplement of 400–800 IU is sensible for most adults.",consensus:"high",sources:["Holick. NEJM 2007","Martineau et al. BMJ 2017","SACN Vitamin D Report 2016"],caveat:"Blood testing is the only reliable way to know your actual status — symptoms of deficiency and sufficiency overlap with many other conditions."}
+  };
+  if(lq.includes('protein')||lq.includes('amino')) return answers.protein;
+  if(lq.includes('fib')||lq.includes('gut')||lq.includes('fibre')) return answers.fibre;
+  if(lq.includes('vitamin d')||lq.includes('vit d')||lq.includes('sunshine')||lq.includes('sun')) return answers.vitd;
+  return{answer:"The evidence on this topic is genuinely mixed, and the quality of available research varies considerably. What we can say with confidence is that whole foods, variety, adequate protein and fibre, and limited ultra-processed food form the most evidence-backed foundation for good nutrition.",mechanism:"Nutritional science is complicated by the fact that humans eat patterns of food, not isolated nutrients — and randomised controlled trials of diet are notoriously difficult to conduct rigorously.",practical:"Rather than optimising individual nutrients, most people benefit most from eating a wide variety of minimally processed foods, cooking at home more often, and being sceptical of single-nutrient solutions.",consensus:"moderate",sources:["Willett et al. The Lancet 2019","Monteiro et al. NOVA classification 2019","Ioannidis. JAMA 2018"],caveat:"Nutrition advice is highly context-dependent — individual health status, genetics and lifestyle all matter."};
+}
+
+async function askNutrition(){
+  const inp=document.getElementById('inquiryInput');
+  const btn=document.getElementById('inquiryBtn');
+  const res=document.getElementById('inquiryResult');
+  const q=inp.value.trim();
+  if(!q||q.length<6) return;
+  btn.disabled=true;btn.textContent='...';
+  res.style.display='block';
+  res.style.background='var(--bg3)';res.style.color='var(--ink3)';res.style.borderRadius='var(--r-xs)';res.style.padding='12px';
+  res.innerHTML='<div style="display:flex;align-items:center;gap:8px"><div class="recipe-spinner" style="width:16px;height:16px;border-width:2px"></div>Searching the literature...</div>';
+  let s;
+  try{
+    if(!ANTHROPIC_KEY||ANTHROPIC_KEY==='YOUR_ANTHROPIC_API_KEY') throw new Error('no key');
+    const r=await fetch('https://api.anthropic.com/v1/messages',{
+      method:'POST',
+      headers:{'Content-Type':'application/json','x-api-key':ANTHROPIC_KEY,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},
+      body:JSON.stringify({model:'claude-sonnet-4-6',max_tokens:700,system:INQUIRY_SYS,messages:[{role:'user',content:`Nutrition question: "${q}"`}]})
+    });
+    const data=await r.json();
+    const raw=data.content[0].text.trim().replace(/^```json\s*/,'').replace(/\s*```$/,'');
+    s=JSON.parse(raw);
+  }catch(e){
+    s=mockNutritionAnswer(q);
+  }
+  const cMap={high:'var(--score-green)',moderate:'var(--score-amber)',emerging:'var(--score-amber)',contested:'var(--score-red)'};
+  const cpMap={high:'var(--score-green-p)',moderate:'var(--score-amber-p)',emerging:'var(--score-amber-p)',contested:'var(--score-red-p)'};
+  const conf=s.consensus||'moderate';
+  res.style.background='var(--bg2)';res.style.color='var(--ink)';
+  res.style.border='1px solid var(--border)';res.style.padding='0';res.style.overflow='hidden';
+  res.innerHTML=`
+    <div style="padding:12px 14px;border-bottom:1px solid var(--border);background:linear-gradient(135deg,var(--mint-dim),transparent)">
+      <div style="font-size:8.5px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--mint-d);margin-bottom:6px">
+        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 22C12 22 4 16 4 9C4 5 7.5 2 12 2C16.5 2 20 5 20 9C20 16 12 22 12 22Z"/></svg>
+        Science Answer
+        <span style="margin-left:8px;padding:2px 7px;border-radius:10px;background:${cpMap[conf]};color:${cMap[conf]};font-size:7.5px">${conf.toUpperCase()} CONSENSUS</span>
+      </div>
+      <div style="font-size:12px;color:var(--ink2);line-height:1.65;font-weight:300">${s.answer}</div>
+    </div>
+    ${s.mechanism?`<div style="padding:10px 14px;border-bottom:1px solid var(--border);background:var(--bg3)">
+      <div style="font-size:8px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--ink4);margin-bottom:4px">HOW IT WORKS</div>
+      <div style="font-size:11px;color:var(--ink2);line-height:1.6;font-weight:300">${s.mechanism}</div>
+    </div>`:''}
+    ${s.practical?`<div style="padding:10px 14px;border-bottom:1px solid var(--border)">
+      <div style="font-size:8px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--ink4);margin-bottom:4px">WHAT THIS MEANS FOR YOU</div>
+      <div style="font-size:11px;color:var(--ink2);line-height:1.6;font-weight:300">${s.practical}</div>
+    </div>`:''}
+    ${s.caveat?`<div style="padding:8px 14px;border-bottom:1px solid var(--border);background:var(--orange-dim);border-left:2.5px solid var(--orange)">
+      <div style="font-size:8px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--orange-d);margin-bottom:3px">NUANCE</div>
+      <div style="font-size:11px;color:var(--ink2);line-height:1.5;font-weight:300">${s.caveat}</div>
+    </div>`:''}
+    <div style="padding:8px 14px">
+      <div style="font-size:8px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--ink4);margin-bottom:5px">SOURCES</div>
+      <div style="display:flex;flex-wrap:wrap;gap:4px">${(s.sources||[]).map(src=>`<span style="font-size:9.5px;color:var(--ink3);background:var(--bg3);padding:3px 8px;border-radius:6px;border:1px solid var(--border)">${src}</span>`).join('')}</div>
+    </div>`;
+  inp.value='';
+  btn.disabled=false;btn.textContent='ASK';
+}
+
+// ── QR CODE ────────────────────────────────────────────────
+const STORES={
+  'Whole Foods':{color:'#00674B',bg:'#E8F5EE',emoji:'🌿',code:'YW-WFM-2026'},
+  'Sprouts':    {color:'#5BA04E',bg:'#EEF7EA',emoji:'🌱',code:'YW-SPR-2026'},
+  'Ralphs':     {color:'#003087',bg:'#E8EEFF',emoji:'🛒',code:'YW-RPH-2026'},
+};
+const QR_INGREDIENTS=['Garlic (fresh)','Turmeric (ground)','Black pepper','Broccoli','Red lentils','Olive oil'];
+let selectedStore=null;
+
+function selectStore(el){
+  document.querySelectorAll('.store-btn').forEach(b=>b.classList.remove('on'));
+  el.classList.add('on');
+  selectedStore=el.dataset.store;
+  const btn=document.getElementById('qrGenBtn');
+  btn.disabled=false;
+  btn.textContent='Generate my discount QR';
+  btn.style.background=STORES[selectedStore].color;
+  document.getElementById('qrOutput').style.display='none';
+}
+
+function generateQR(){
+  if(!selectedStore) return;
+  const store=STORES[selectedStore];
+  const btn=document.getElementById('qrGenBtn');
+  btn.textContent='Generating...';btn.style.opacity='0.7';
+  setTimeout(()=>{
+    drawQR(store);
+    document.getElementById('qrStoreHead').innerHTML=`
+      <span style="font-size:22px">${store.emoji}</span>
+      <div>
+        <div style="font-size:13px;font-weight:700;color:var(--ink)">${selectedStore}</div>
+        <div style="font-size:10px;color:var(--ink4);font-weight:300">Recipe ingredients discount</div>
+      </div>
+      <div style="margin-left:auto;text-align:right">
+        <div style="font-size:15px;font-weight:700;color:${store.color}">15% OFF</div>
+        <div style="font-size:9px;color:var(--ink4)">on ingredients</div>
+      </div>`;
+    const expiry=new Date(Date.now()+7*24*60*60*1000)
+      .toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
+    document.getElementById('qrDetails').innerHTML=`
+      <div style="font-size:26px;font-weight:700;color:${store.color};line-height:1;margin-bottom:2px">15% OFF</div>
+      <div style="font-size:11px;color:var(--ink2);margin-bottom:6px">on all Yummy Wellness recipe ingredients</div>
+      <div style="font-family:monospace;font-size:12px;font-weight:700;color:${store.color};letter-spacing:2px;background:rgba(0,0,0,0.05);padding:4px 8px;border-radius:6px;display:inline-block;margin-bottom:5px">${store.code}</div>
+      <div style="font-size:10px;color:var(--ink4)">Valid until ${expiry}</div>
+      <div style="font-size:10px;color:var(--ink4)">One use per customer</div>`;
+    document.getElementById('qrIngr').innerHTML=
+      `<div style="font-size:9px;font-weight:700;letter-spacing:1.5px;color:var(--ink4);text-transform:uppercase;margin-bottom:7px">INCLUDED INGREDIENTS</div>`+
+      QR_INGREDIENTS.map(item=>`
+        <div style="display:flex;align-items:center;gap:7px;margin-bottom:5px;font-size:11px;color:var(--ink2);font-weight:300">
+          <div style="width:14px;height:14px;border-radius:50%;background:var(--mint-dim);border:1px solid rgba(79,191,181,0.3);display:flex;align-items:center;justify-content:center;flex-shrink:0">
+            <svg width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="${store.color}" stroke-width="3" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+          </div>
+          ${item}
+        </div>`).join('');
+    document.getElementById('qrOutput').style.display='block';
+    btn.textContent='✓ QR ready — show at checkout';
+    btn.style.opacity='1';
+    btn.style.background=store.color;
+  },800);
+}
+
+function drawQR(store){
+  const canvas=document.getElementById('qrCanvas');
+  const ctx=canvas.getContext('2d');
+  const size=140,mods=23,cell=Math.floor((size-16)/mods);
+  const off=(size-cell*mods)/2;
+  ctx.fillStyle='#fff';ctx.fillRect(0,0,size,size);
+  const seed=(store.code+selectedStore).split('').reduce((a,c)=>a+c.charCodeAt(0),0);
+  function rnd(x,y){const n=Math.sin(seed*9301+x*49297+y*233)*1e5;return n-Math.floor(n);}
+  for(let r=0;r<mods;r++){
+    for(let c=0;c<mods;c++){
+      const inTL=r<7&&c<7,inTR=r<7&&c>=mods-7,inBL=r>=mods-7&&c<7;
+      let on=false;
+      if(inTL||inTR||inBL){
+        const pr=inTL?r:inTR?r:r-(mods-7);
+        const pc=inTL?c:inTR?c-(mods-7):c;
+        on=(pr===0||pr===6||pc===0||pc===6)||(pr>=2&&pr<=4&&pc>=2&&pc<=4);
+      }else{on=rnd(c,r)>0.46;}
+      if(on){
+        ctx.fillStyle=store.color;
+        ctx.beginPath();
+        if(ctx.roundRect){ctx.roundRect(off+c*cell+0.5,off+r*cell+0.5,cell-1,cell-1,1.5);}
+        else{ctx.rect(off+c*cell+0.5,off+r*cell+0.5,cell-1,cell-1);}
+        ctx.fill();
+      }
+    }
+  }
+  // Centre YW mark
+  ctx.fillStyle='#fff';ctx.beginPath();ctx.arc(70,70,12,0,Math.PI*2);ctx.fill();
+  ctx.font='bold 10px "DM Sans",sans-serif';ctx.fillStyle=store.color;
+  ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText('YW',70,70);
+}
+
+// ── NAVIGATION ─────────────────────────────────────────────
+function goTo(name){
+  document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
+  document.querySelectorAll('.bn').forEach(b=>b.classList.remove('active'));
+  document.getElementById('s-'+name).classList.add('active');
+  const nb=document.getElementById('bn-'+name);
+  if(nb) nb.classList.add('active');
+  if(name==='explore'&&!recipesGenerated){
+    if(allClaims.length>0) generateRecipes();
+    else renderFallbackRecipes();
+  }
+}
+
+// ── INIT ───────────────────────────────────────────────────
+loadData();
 </script>
+<script>if("serviceWorker"in navigator)navigator.serviceWorker.register("/sw.js").catch(()=>{});</script>
 </body>
 </html>
