@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yummy Wellness — Today's Top Claims</title>
+  <link rel="stylesheet" href="styles/global.css" />
+</head>
+<body>
+
+<!-- ── NAV ── -->
+<nav class="app-nav">
+  <a href="/" class="wordmark-nav">yummy <em>wellness</em></a>
+  <div class="nav-links">
+    <a href="/index.html" class="active">Feed</a>
+    <a href="/scan.html">Scan</a>
+    <a href="/score-lab.html">Score Lab</a>
+    <a href="/brit-filter.html">Brit Filter</a>
+    <a href="/about.html">About</a>
+  </div>
+</nav>
+
+<!-- ── PAGE ── -->
+<div class="page-wrap">
+
+  <div class="page-header">
+    <h1 class="page-heading">Today's <em>top claims</em></h1>
+    <p class="page-tagline">Nutrition intelligence scored against the science — filtered through a British lens</p>
+  </div>
+
+  <div class="trending-strip">
+    <span class="trend-label">Trending</span>
+    <button class="trend-pill">seed oils</button>
+    <button class="trend-pill">raw milk</button>
+    <button class="trend-pill">collagen</button>
+    <button class="trend-pill">gut health</button>
+    <button class="trend-pill">ozempic</button>
+    <button class="trend-pill">carnivore</button>
+  </div>
+
+  <div class="feed" id="feed"></div>
+
+</div>
+
+<!-- ── GLOBAL PANEL OVERLAY ── -->
+<div class="overlay" id="overlay" onclick="handleOverlayClick(event)">
+  <div class="global-panel" id="globalPanel">
+    <div class="drag-handle"></div>
+    <div class="panel-header">
+      <div class="panel-header-text">
+        <div class="panel-eyebrow">🌍 International opinions</div>
+        <div class="panel-claim-title" id="panelClaimTitle"></div>
+      </div>
+      <button class="panel-close" onclick="closeGlobal()">✕</button>
+    </div>
+    <div class="consensus-wrap">
+      <div class="consensus-label">Scientific consensus position</div>
+      <div class="consensus-bar">
+        <div class="consensus-marker" id="consensusMarker"></div>
+      </div>
+      <div class="consensus-labels">
+        <span>Debunked</span><span>Contested</span>
+        <span>Nuanced</span><span>Supported</span>
+      </div>
+    </div>
+    <div class="stat-row" id="panelStats"></div>
+    <div class="opinions-grid" id="panelOpinions"></div>
+    <p class="panel-footer-note" id="panelFooter"></p>
+  </div>
+</div>
+
+<script>
+// ── Live data ─────────────────────────────────────────────────────
+const LIVE_DATA_URL = 'https://raw.githubusercontent.com/rowlystudios-lgtm/yummy-wellness-tracker/main/data/daily.json';
+let currentClaims = [];
+
+function toScoreBand(scoreType, score) {
+  if (scoreType === 'true'  || score >= 85) return 'green';
+  if (scoreType === 'false' || score <  40) return 'red';
+  return 'amber';
+}
+
+function mapLiveClaim(item) {
+  const band   = toScoreBand(item.score_type, item.score);
+  const border = item.score >= 85 ? '#1d9e75' : item.score >= 40 ? '#ef9f27' : '#e24b4a';
+  return {
+    rank:          item.rank,
+    name:          item.claim,
+    source:        item.platform || item.source || 'News',
+    tag:           item.claim_tag || '',
+    scoreVal:      item.score,
+    scoreBand:     band,
+    scoreLabel:    item.score_label || '',
+    title:         item.claim,
+    verdict:       item.verdict || '',
+    science:       item.brit_take || (item.sources || []).join(' · '),
+    scienceLabel:  item.brit_take ? '🇬🇧 Brit Take' : 'Science fact',
+    consensusPos:  `${Math.min(item.score, 97)}%`,
+    consensusBorder: border,
+    sources:       item.sources || [],
+    global_opinion: item.global_opinion || '',
+    url:           item.url || '',
+    hours_ago:     item.hours_ago || 24,
+    isLive:        true,
+  };
+}
+
+async function loadFeed() {
+  let claimsToShow = FALLBACK_CLAIMS;
+  try {
+    const resp = await fetch(LIVE_DATA_URL + '?t=' + Date.now());
+    if (resp.ok) {
+      const data = await resp.json();
+      if (data.top10 && data.top10.length > 0) {
+        claimsToShow = data.top10.map(mapLiveClaim);
+        // Update headline + live badge
+        const tagline = document.querySelector('.page-tagline');
+        if (tagline && data.week_headline) {
+          const pub     = new Date(data.published);
+          const dateStr = pub.toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
+          tagline.innerHTML = `${data.week_headline}&nbsp;·&nbsp;<span class="live-badge">LIVE</span> ${dateStr}`;
+        }
+        // Swap trending pills to real claim tags
+        const tags = [...new Set(claimsToShow.map(c => c.tag).filter(Boolean))].slice(0, 6);
+        if (tags.length) {
+          const strip = document.querySelector('.trending-strip');
+          const label = strip && strip.querySelector('.trend-label');
+          if (strip) {
+            strip.innerHTML = '';
+            if (label) strip.appendChild(label);
+            tags.forEach(t => {
+              const btn = document.createElement('button');
+              btn.className = 'trend-pill';
+              btn.textContent = t;
+              strip.appendChild(btn);
+            });
+            if (typeof initTrendingPills === 'function') initTrendingPills();
+          }
+        }
+      }
+    }
+  } catch (e) {
+    console.log('Using fallback data:', e.message);
+  }
+  currentClaims = claimsToShow;
+  buildFeed(claimsToShow);
+}
+
+// ── Fallback hardcoded claims (shown until pipeline has data) ─────
+const FALLBACK_CLAIMS = [
+  {
+    rank: 1,
+    name: "Seed oils cause inflammation and disease",
+    source: "Instagram / TikTok",
+    tag: "Mechanistic overreach",
+    scoreVal: 28,
+    scoreBand: "amber",
+    scoreLabel: "Mixed",
+    title: "Seed oils cause systemic inflammation and are the root of modern disease",
+    verdict: "Omega-6 fatty acids in seed oils can compete with omega-3s, and the modern ratio is skewed. But causation between seed oil consumption and chronic disease remains unproven in controlled human trials. Epidemiological data is confounded by ultra-processed food intake overall.",
+    science: "A 2023 Cochrane meta-analysis of 25 RCTs found that replacing saturated fat with polyunsaturated fat (including seed oils) reduced cardiovascular events by 17%. The inflammatory framing vastly oversimplifies lipid metabolism.",
+    consensusPos: "35%",
+    consensusBorder: "#ef9f27",
+    stats: [
+      { val: "25",  label: "Cochrane RCTs reviewed on dietary fats" },
+      { val: "17%", label: "reduction in CV events replacing sat fat" },
+      { val: "6:1", label: "current avg omega-6 to omega-3 ratio (ideal ~4:1)" }
+    ],
+    opinions: [
+      { flag: "🇬🇧", region: "United Kingdom",  stance: "mainstream", stanceLabel: "Mainstream",  note: "NHS and BDA treat seed oils as acceptable within a balanced diet. Anti-seed oil messaging classified as misinformation by Food Standards Agency." },
+      { flag: "🇺🇸", region: "United States",   stance: "contested",  stanceLabel: "Contested",   note: "AHA recommends polyunsaturated fats. RFK Jr. era HHS has amplified seed oil concerns. Policy and science in public tension." },
+      { flag: "🇦🇺", region: "Australia",        stance: "mainstream", stanceLabel: "Mainstream",  note: "NHMRC dietary guidelines support vegetable oils. Seed oil discourse present in wellness communities but not in clinical guidance." },
+      { flag: "🇯🇵", region: "Japan",            stance: "mainstream", stanceLabel: "Mainstream",  note: "Traditional Japanese diet low in seed oils correlates with longevity — often cited by seed oil critics, though confounded by overall dietary patterns." }
+    ],
+    footer: "Opinions reflect regulatory and institutional stances at time of publication. Individual dietary needs vary."
+  },
+  {
+    rank: 2,
+    name: "Raw milk is healthier than pasteurised",
+    source: "Reddit",
+    tag: "Conspiracy framing",
+    scoreVal: 12,
+    scoreBand: "red",
+    scoreLabel: "Misleading",
+    title: "Raw milk is dramatically healthier than pasteurised",
+    verdict: "No credible evidence supports nutritional superiority of raw milk over pasteurised. The CDC documents 840 times more illness outbreaks linked to raw milk. What you gain in unverified probiotics you offset with genuine pathogen exposure.",
+    science: "Pasteurisation reduces bacterial load by >99.9% while preserving 96–98% of proteins, fats, and most vitamins. A 2022 study in the Journal of Food Protection found no clinically meaningful difference in bioavailable nutrient content between pasteurised and raw milk.",
+    consensusPos: "10%",
+    consensusBorder: "#e24b4a",
+    stats: [
+      { val: "840×",  label: "more illness outbreaks vs pasteurised (CDC)" },
+      { val: "99.9%", label: "bacterial reduction from pasteurisation" },
+      { val: "3.7%",  label: "calcium difference — nutritionally negligible" }
+    ],
+    opinions: [
+      { flag: "🇬🇧", region: "United Kingdom", stance: "restricted", stanceLabel: "Restricted", note: "Legal only from registered farms. Scotland, Wales and Northern Ireland ban it outright. Low cultural appetite despite artisan food trends." },
+      { flag: "🇺🇸", region: "United States",  stance: "restricted", stanceLabel: "Restricted", note: "Interstate sales banned. 30 states permit intrastate sales. Raw milk advocacy strongest in rural communities and libertarian wellness spaces." },
+      { flag: "🇫🇷", region: "France",          stance: "legal",     stanceLabel: "Legal",      note: "Legal via vending machines and farm shops. Seen as terroir product rather than health claim — framing differs entirely from US influencer discourse." },
+      { flag: "🇦🇺", region: "Australia",        stance: "banned",    stanceLabel: "Banned",     note: "Nationally banned. Sold as 'bath milk' with 'not for human consumption' labels — a well-documented regulatory workaround." }
+    ],
+    footer: "Global view compares regulatory stance and cultural framing, not nutritional endorsement."
+  },
+  {
+    rank: 3,
+    name: "Collagen supplements rebuild your skin",
+    source: "YouTube / Brand content",
+    tag: "Partially evidenced",
+    scoreVal: 54,
+    scoreBand: "amber",
+    scoreLabel: "Plausible",
+    title: "Collagen supplements visibly rebuild skin and reduce wrinkles",
+    verdict: "Some evidence exists, but the mechanism is debated. Ingested collagen is broken down into amino acids before absorption — the body doesn't preferentially direct these to skin. Several industry-funded trials show modest improvements in skin elasticity; independent replication is limited.",
+    science: "A 2021 systematic review in the Journal of Drugs in Dermatology analysed 19 RCTs. Hydrolysed collagen showed statistically significant improvements in skin elasticity and hydration compared to placebo — but effect sizes were small and most trials were manufacturer-funded.",
+    consensusPos: "55%",
+    consensusBorder: "#3aaba0",
+    stats: [
+      { val: "19",  label: "RCTs reviewed in 2021 skin collagen meta-analysis" },
+      { val: "12%", label: "average improvement in skin elasticity reported" },
+      { val: "~£30",label: "avg monthly cost vs ~£3 for equivalent glycine from food" }
+    ],
+    opinions: [
+      { flag: "🇬🇧", region: "United Kingdom", stance: "restricted", stanceLabel: "Cautious",    note: "NHS advises that evidence is insufficient to recommend collagen supplements. Strong commercial market exists despite clinical ambivalence." },
+      { flag: "🇯🇵", region: "Japan",           stance: "legal",     stanceLabel: "Mainstream",  note: "Collagen supplements deeply embedded in beauty culture. Japan is the world's largest consumer. Regulatory framework allows functional food claims." },
+      { flag: "🇺🇸", region: "United States",  stance: "restricted", stanceLabel: "Unregulated", note: "FDA classifies as supplement — no efficacy approval required. Market dominated by brand-sponsored research creating circular evidence loops." },
+      { flag: "🇩🇪", region: "Germany",         stance: "mainstream", stanceLabel: "Sceptical",  note: "German Nutrition Society does not endorse collagen supplements. Mainstream clinical view is that a varied diet provides adequate precursors." }
+    ],
+    footer: "Evidence base is growing but remains underpowered for definitive claims. Buyer caution is warranted."
+  },
+  {
+    rank: 4,
+    name: "Ozempic is a miracle weight loss drug",
+    source: "Twitter / News media",
+    tag: "Nuanced reality",
+    scoreVal: 67,
+    scoreBand: "green",
+    scoreLabel: "Supported",
+    title: "Ozempic and GLP-1 drugs are a breakthrough for sustainable weight loss",
+    verdict: "GLP-1 receptor agonists represent a genuine clinical advance for obesity treatment, with trial data showing 15–22% body weight reduction. The 'miracle' framing obscures real concerns: weight regain on cessation, muscle loss, side effect profiles, and long-term unknown risks in otherwise healthy people using it for cosmetic weight loss.",
+    science: "STEP 1 trial (NEJM, 2021): semaglutide 2.4mg produced mean weight loss of 14.9% vs 2.4% placebo over 68 weeks. SURMOUNT-1 trial showed tirzepatide achieving up to 22.5% weight reduction — the strongest result in obesity pharmacology to date.",
+    consensusPos: "72%",
+    consensusBorder: "#1d9e75",
+    stats: [
+      { val: "22.5%", label: "max body weight reduction in SURMOUNT-1 trial" },
+      { val: "68%",   label: "regain weight within 1 yr of stopping (STEP 4)" },
+      { val: "~£200", label: "estimated monthly NHS cost per patient" }
+    ],
+    opinions: [
+      { flag: "🇬🇧", region: "United Kingdom", stance: "restricted", stanceLabel: "Rationed",           note: "NICE approved for obesity with BMI 35+. NHS rollout limited by supply and cost. Private prescribing booming — significant two-tier access concern." },
+      { flag: "🇺🇸", region: "United States",  stance: "legal",     stanceLabel: "Widespread",          note: "FDA approved for obesity (Wegovy) and T2 diabetes (Ozempic). Off-label cosmetic use widespread. Shortage driven partly by wealthy non-obese users." },
+      { flag: "🇩🇰", region: "Denmark",         stance: "legal",     stanceLabel: "Supported",           note: "Novo Nordisk (manufacturer) is Danish — national pride element. Strong clinical support. Early adopter of GLP-1 class in treatment guidelines." },
+      { flag: "🇧🇷", region: "Brazil",           stance: "restricted", stanceLabel: "Unregulated concern", note: "High demand has created black market compounded versions. ANVISA issued warnings about counterfeit semaglutide. Access inequality acute." }
+    ],
+    footer: "Clinical evidence is strong for obesity treatment. Framing as universally 'miraculous' glosses over cessation effects and equity concerns."
+  },
+  {
+    rank: 5,
+    name: "Carnivore diet reverses autoimmune disease",
+    source: "Podcasts / Substack",
+    tag: "Anecdote as evidence",
+    scoreVal: 15,
+    scoreBand: "red",
+    scoreLabel: "Misleading",
+    title: "The carnivore diet reverses autoimmune conditions where medicine has failed",
+    verdict: "Compelling anecdotes abound but clinical evidence is essentially absent. Elimination diets can reduce inflammatory triggers, which may explain symptom relief — but attributing this to meat specifically lacks mechanistic or trial support. Long-term carnivore diet risks include micronutrient deficiency and elevated cardiovascular markers.",
+    science: "Zero RCTs exist for carnivore diet and autoimmune disease as of 2025. A 2023 observational study published in Current Developments in Nutrition (n=2,029) reported self-reported symptom improvement, but with no control group and massive selection bias from self-selecting participants on carnivore forums.",
+    consensusPos: "8%",
+    consensusBorder: "#e24b4a",
+    stats: [
+      { val: "0",     label: "RCTs on carnivore diet and autoimmune disease (2025)" },
+      { val: "2,029", label: "self-selected participants in largest observational study" },
+      { val: "↑LDL",  label: "consistently elevated in carnivore diet studies" }
+    ],
+    opinions: [
+      { flag: "🇬🇧", region: "United Kingdom", stance: "fringe",     stanceLabel: "Fringe",   note: "No clinical body endorses carnivore diet for autoimmune conditions. BDA lists it among fad diets of concern. Influencer-driven entirely." },
+      { flag: "🇺🇸", region: "United States",  stance: "fringe",     stanceLabel: "Fringe",   note: "Paul Saladino and Jordan Peterson popularised the movement. FDA and AMA positions unchanged. Growing but clinically unsupported." },
+      { flag: "🇭🇺", region: "Hungary",         stance: "restricted", stanceLabel: "Emerging", note: "Hungary has an unusually active carnivore diet clinical community. Some gastroenterologists experimenting informally. Not yet in guidelines." },
+      { flag: "🇨🇦", region: "Canada",           stance: "fringe",     stanceLabel: "Fringe",   note: "Health Canada dietary guidelines directly contradict carnivore principles. Elimination diet versions (without the all-meat framing) have more clinical traction." }
+    ],
+    footer: "Anecdotal recovery stories are real to those who experience them — but cannot substitute for controlled evidence before clinical recommendations are made."
+  }
+];
+
+function buildFeed(claimsData) {
+  const feed = document.getElementById('feed');
+  feed.innerHTML = '';
+  claimsData.forEach((c, i) => {
+    const wrapper = document.createElement('div');
+    wrapper.className = 'claim-wrapper';
+    wrapper.style.animationDelay = `${i * 80}ms`;
+
+    const row = document.createElement('div');
+    row.className = 'topic-row';
+    row.style.animationDelay = `${i * 80}ms`;
+    row.innerHTML = `
+      <div class="topic-rank">${c.rank}</div>
+      <div class="topic-info">
+        <div class="topic-name">${c.name}</div>
+        <div class="topic-meta">
+          <span class="meta-source">${c.source}</span>
+          <span>·</span>
+          <span>${c.tag}</span>
+        </div>
+      </div>
+      <div class="topic-right">
+        <div class="score-badge ${c.scoreBand}">
+          <span class="score-number">${c.scoreVal}</span>
+          <span class="score-label">${c.scoreLabel}</span>
+        </div>
+        <div class="chevron">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </div>
+      </div>
+    `;
+
+    const card = document.createElement('div');
+    card.className = 'claim-card';
+    card.innerHTML = `
+      <div class="card-divider"></div>
+      <div class="card-header-row">
+        <div class="score-badge ${c.scoreBand}">
+          <span class="score-number">${c.scoreVal}</span>
+          <span class="score-label">${c.scoreLabel}</span>
+        </div>
+        <span class="claim-tag">${c.tag}</span>
+      </div>
+      <h2 class="claim-title">${c.title}</h2>
+      <p class="verdict">${c.verdict}</p>
+      <div class="science-box">
+        <div class="science-label">Science fact</div>
+        <p class="science-text">${c.science}</p>
+      </div>
+      <div class="card-footer">
+        <span class="card-source">${c.source}</span>
+        <button class="global-btn" onclick="openGlobal(currentClaims, ${i}); event.stopPropagation();">
+          🌍 International opinions
+        </button>
+      </div>
+    `;
+
+    row.addEventListener('click', () => toggleCard(row, card));
+    wrapper.appendChild(row);
+    wrapper.appendChild(card);
+    feed.appendChild(wrapper);
+  });
+}
+
+document.addEventListener('DOMContentLoaded', async () => {
+  await loadFeed();
+  const params = new URLSearchParams(window.location.search);
+  // Auto-expand first card if ?expand=1
+  if (params.get('expand') === '1') {
+    setTimeout(() => {
+      const row  = document.querySelector('.topic-row');
+      const card = document.querySelector('.claim-card');
+      if (row && card) { row.classList.add('open'); card.classList.add('open'); }
+    }, 150);
+  }
+  // Auto-open global panel if ?global=N
+  const globalIdx = params.get('global');
+  if (globalIdx !== null) {
+    setTimeout(() => openGlobal(currentClaims, parseInt(globalIdx) || 0), 300);
+  }
+});
+</script>
+
+<script src="scripts/app.js"></script>
+</body>
+</html>

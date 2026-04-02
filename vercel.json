@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/investor", "dest": "/investor.html" },
+    { "src": "/feed",     "dest": "/feed.html" },
+    { "src": "/",         "dest": "/feed.html" }
+  ]
+}
