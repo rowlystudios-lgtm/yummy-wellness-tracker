@@ -1,20 +1,92 @@
 [
   {
     "source": "News",
+    "platform": "khaskhabar.com",
+    "claim": "An Easy Option or an Enemy of Health ? Discover the Truth About Ready - to - Eat and Packaged Foods",
+    "url": "https://www.khaskhabar.com/lifestyle/health/lifestyle-an-easy-option-or-an-enemy-of-health-discover-the-truth-about-ready-to-eat-and-packaged-foods-news-hindi-1-802902-KKN.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "India"
+  },
+  {
+    "source": "News",
     "platform": "manilatimes.net",
-    "claim": "Slim Boost Tea Claims Evaluated : The Detox Tea Blend That Works All - Day with Proven Slimming Ingredients",
-    "url": "https://www.manilatimes.net/2026/04/02/tmt-newswire/globenewswire/slim-boost-tea-claims-evaluated-the-detox-tea-blend-that-works-all-day-with-proven-slimming-ingredients/2312932",
+    "claim": "Joint Genesis Claims Evaluated : New Core Strength Joint Supplement with Safe Ingredients for Noticeable Support",
+    "url": "https://www.manilatimes.net/2026/04/02/tmt-newswire/globenewswire/joint-genesis-claims-evaluated-new-core-strength-joint-supplement-with-safe-ingredients-for-noticeable-support/2313064",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "Philippines"
   },
   {
     "source": "News",
-    "platform": "bignewsnetwork.com",
-    "claim": "Cadmium warning triggers backlash from France organic farmers",
-    "url": "http://www.bignewsnetwork.com/news/278957550/cadmium-warning-triggers-backlash-from-france-organic-farmers",
+    "platform": "irishnews.com",
+    "claim": "Do I really need to take supplements during menopause ?",
+    "url": "https://www.irishnews.com/life/health/do-i-really-need-to-take-supplements-during-menopause-W2NFVUVEVZCPPJJZELN2GC5OAU/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United Kingdom"
+  },
+  {
+    "source": "News",
+    "platform": "finanznachrichten.de",
+    "claim": "American Heart Association New Guidelines Recommend Heart - Healthy Diet",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-04/68106665-american-heart-association-s-new-guidelines-recommend-heart-healthy-diet-020.htm",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Germany"
+  },
+  {
+    "source": "News",
+    "platform": "alltoc.com",
+    "claim": "What does AHA recommend for heart health ?",
+    "url": "https://alltoc.com/health/what-does-aha-recommend-for-heart-health",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": ""
+  },
+  {
+    "source": "News",
+    "platform": "wpr.org",
+    "claim": "How to sustain an eco - friendly diet",
+    "url": "https://www.wpr.org/health/eco-friendly-diet-valerie-stull",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "kpq.com",
+    "claim": "Healthy Food vs . Ultra - Processed : Wenatchee Shopping Tips",
+    "url": "https://kpq.com/ixp/1137/p/wenatchee-ultraprocessed-foods/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "moneycontrol.com",
+    "claim": "3 best food combinations that boost gut health , shared by Fortis Delhi gastroenterologist",
+    "url": "https://www.moneycontrol.com/health-and-fitness/3-best-food-combinations-that-boost-gut-health-shared-by-fortis-delhi-gastroenterologist-article-13877481.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "India"
+  },
+  {
+    "source": "News",
+    "platform": "moneycontrol.com",
+    "claim": "4 healthy habits that burn belly fat in the 30s and 40s , recommended by top nutritionist",
+    "url": "https://www.moneycontrol.com/health-and-fitness/4-healthy-habits-that-burn-belly-fat-in-the-30s-and-40s-recommended-by-top-nutritionist-article-13877513.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "India"
+  },
+  {
+    "source": "News",
+    "platform": "timesofindia.indiatimes.com",
+    "claim": "Gut Health : Why your digestion feels different even without diet changes : Doctor explains causes and simple ways to fix it",
+    "url": "https://timesofindia.indiatimes.com/health/why-your-digestion-feels-different-even-without-diet-changes-doctor-explains-causes-and-simple-ways-to-fix-it/articleshow/129953286.cms",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "India"
   }
 ]
