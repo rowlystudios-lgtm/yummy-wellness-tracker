@@ -1,9 +1,7 @@
 name: Daily Nutrition Claim Tracker — Global Edition
 
 on:
-  schedule:
-    - cron: '45 10 * * *'  # 10:45 UTC = 5:45am EST
-  workflow_dispatch:
+  workflow_dispatch:  # manual only — superseded by daily.yml
     inputs:
       dry_run:
         description: 'Dry run — score but do not publish'
