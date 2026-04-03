@@ -1,39 +1,48 @@
 [
   {
     "source": "News",
-    "platform": "khaskhabar.com",
-    "claim": "An Easy Option or an Enemy of Health ? Discover the Truth About Ready - to - Eat and Packaged Foods",
-    "url": "https://www.khaskhabar.com/lifestyle/health/lifestyle-an-easy-option-or-an-enemy-of-health-discover-the-truth-about-ready-to-eat-and-packaged-foods-news-hindi-1-802902-KKN.html",
+    "platform": "thestar.com.my",
+    "claim": "Follow the Mediterranean diet for your brain benefit",
+    "url": "https://www.thestar.com.my/lifestyle/health/2026/04/02/follow-the-mediterranean-diet-for-your-brain039s-benefit",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Malaysia"
+  },
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "Cherries : Nature tiny powerhouse for fighting inflammation , improving sleep and heart health \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-04-02-cherries-fight-inflammation-improve-sleep-heart-health.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "womenshealthmag.com",
+    "claim": "Scientists Just Uncovered a Surprising Link Between Meat and Dementia Risk",
+    "url": "https://www.womenshealthmag.com/health/a70897888/more-meat-lower-risk-dementia-study/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "thehindu.com",
+    "claim": "Your gums and your blood sugar : the link between oral health and diabetes",
+    "url": "https://www.thehindu.com/sci-tech/health/your-gums-and-your-blood-sugar-the-link-between-oral-health-and-diabetes/article70795445.ece",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "India"
   },
   {
     "source": "News",
-    "platform": "manilatimes.net",
-    "claim": "Joint Genesis Claims Evaluated : New Core Strength Joint Supplement with Safe Ingredients for Noticeable Support",
-    "url": "https://www.manilatimes.net/2026/04/02/tmt-newswire/globenewswire/joint-genesis-claims-evaluated-new-core-strength-joint-supplement-with-safe-ingredients-for-noticeable-support/2313064",
+    "platform": "news-medical.net",
+    "claim": "Oral molecule prevents kidney stones and restores survival in mice",
+    "url": "https://www.news-medical.net/news/20260402/Oral-molecule-prevents-kidney-stones-and-restores-survival-in-mice.aspx",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "Philippines"
-  },
-  {
-    "source": "News",
-    "platform": "irishnews.com",
-    "claim": "Do I really need to take supplements during menopause ?",
-    "url": "https://www.irishnews.com/life/health/do-i-really-need-to-take-supplements-during-menopause-W2NFVUVEVZCPPJJZELN2GC5OAU/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United Kingdom"
-  },
-  {
-    "source": "News",
-    "platform": "finanznachrichten.de",
-    "claim": "American Heart Association New Guidelines Recommend Heart - Healthy Diet",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-04/68106665-american-heart-association-s-new-guidelines-recommend-heart-healthy-diet-020.htm",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "Germany"
+    "source_country": "United States"
   },
   {
     "source": "News",
@@ -46,47 +55,20 @@
   },
   {
     "source": "News",
-    "platform": "wpr.org",
-    "claim": "How to sustain an eco - friendly diet",
-    "url": "https://www.wpr.org/health/eco-friendly-diet-valerie-stull",
+    "platform": "fairfaxtimes.com",
+    "claim": "Local nutritionists say eating real food is key",
+    "url": "https://www.fairfaxtimes.com/articles/local-nutritionists-say-eating-real-food-is-key/article_631b6a2b-d145-499e-92d3-afa75bc0c6f4.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "kpq.com",
-    "claim": "Healthy Food vs . Ultra - Processed : Wenatchee Shopping Tips",
-    "url": "https://kpq.com/ixp/1137/p/wenatchee-ultraprocessed-foods/",
+    "platform": "wisconsinagconnection.com",
+    "claim": "Celebrate Soy Foods Month with Healthy Protein Choices | Wisconsin Ag Connection",
+    "url": "https://wisconsinagconnection.com/news/celebrate-soy-foods-month-with-healthy-protein-choices",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "moneycontrol.com",
-    "claim": "3 best food combinations that boost gut health , shared by Fortis Delhi gastroenterologist",
-    "url": "https://www.moneycontrol.com/health-and-fitness/3-best-food-combinations-that-boost-gut-health-shared-by-fortis-delhi-gastroenterologist-article-13877481.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "India"
-  },
-  {
-    "source": "News",
-    "platform": "moneycontrol.com",
-    "claim": "4 healthy habits that burn belly fat in the 30s and 40s , recommended by top nutritionist",
-    "url": "https://www.moneycontrol.com/health-and-fitness/4-healthy-habits-that-burn-belly-fat-in-the-30s-and-40s-recommended-by-top-nutritionist-article-13877513.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "India"
-  },
-  {
-    "source": "News",
-    "platform": "timesofindia.indiatimes.com",
-    "claim": "Gut Health : Why your digestion feels different even without diet changes : Doctor explains causes and simple ways to fix it",
-    "url": "https://timesofindia.indiatimes.com/health/why-your-digestion-feels-different-even-without-diet-changes-doctor-explains-causes-and-simple-ways-to-fix-it/articleshow/129953286.cms",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "India"
   }
 ]
