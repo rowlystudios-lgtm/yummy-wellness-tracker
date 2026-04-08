@@ -1,56 +1,29 @@
 [
   {
     "source": "News",
-    "platform": "naturalnews.com",
-    "claim": "The truth about acai berries : Superfood or overhyped marketing gimmick ? \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-04-07-acai-berries-superfood-or-overhyped-marketing-gimmick.html",
+    "platform": "fortune.com",
+    "claim": "Best Maca Root Supplement ( 2026 ): Expert Reviewed",
+    "url": "https://fortune.com/article/best-maca-root-supplements/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "manilatimes.net",
-    "claim": "VitaMotion Claims Evaluated : The Healthy Back Muscle & Joint Support Formula for Vita Motion & Flexibility Benefits",
-    "url": "https://www.manilatimes.net/2026/04/07/tmt-newswire/globenewswire/vitamotion-claims-evaluated-the-healthy-back-muscle-joint-support-formula-for-vita-motion-flexibility-benefits/2315032",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "Philippines"
-  },
-  {
-    "source": "News",
-    "platform": "health.yahoo.com",
-    "claim": "Do collagen supplements work ? Here what the experts say",
-    "url": "https://health.yahoo.com/wellness/nutrition/vitamins-supplements/article/do-collagen-supplements-really-work-heres-what-the-experts-say-193948915.html",
+    "platform": "theriver1059.iheart.com",
+    "claim": "Surprising Foods That Are Actually Ultra Processed | The River 105 . 9",
+    "url": "https://theriver1059.iheart.com/featured/kerry-collins/content/2026-04-07-surprising-foods-that-are-actually-ultra-processed/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "indianexpress.com",
-    "claim": "US releases new heart diet rules : Start food discipline early , cut sugar and dont start on alcohol at all | Health and Wellness News",
-    "url": "https://indianexpress.com/article/health-wellness/us-releases-new-heart-diet-rules-start-food-discipline-early-cut-sugar-and-dont-start-on-alcohol-at-all-10622889/",
+    "platform": "indiatvnews.com",
+    "claim": "Not losing weight despite diet and exercise ? Longevity doctor shares 7 reasons you are not seeing results",
+    "url": "https://www.indiatvnews.com/lifestyle/news/reasons-not-losing-weight-fat-loss-mistakes-sleep-and-weight-loss-insulin-resistance-ultra-processed-foods-weight-gain-2026-04-07-1036670",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "India"
-  },
-  {
-    "source": "News",
-    "platform": "health.yahoo.com",
-    "claim": "Im an obesity doctor the first foods I have patients cut down , including some  healthy  fake - outs",
-    "url": "https://health.yahoo.com/your-body/weight-management/articles/m-obesity-doctor-first-foods-132635812.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "thetimes.com",
-    "claim": "Break through the diet brick wall ! How to lose a stone and a half",
-    "url": "https://www.thetimes.com/life-style/health-fitness/article/how-to-lose-weight-lmbfg6xbr",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": ""
   }
 ]
