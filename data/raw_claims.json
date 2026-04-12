@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "source": "News",
+    "platform": "jamaicaobserver.com",
+    "claim": "Diets for ageing and longevity - Jamaica Observer",
+    "url": "https://www.jamaicaobserver.com/2026/04/12/diets-ageing-longevity/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Jamaica"
+  },
+  {
+    "source": "News",
+    "platform": "businessinsider.com",
+    "claim": "3 Diet Tweaks Heart Health Nutrition Scientist Made to Prevent Disease",
+    "url": "https://www.businessinsider.com/diet-tweaks-heart-health-nutrition-scientist-made-to-prevent-disease-2026-4",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "adevarul.ro",
+    "claim": "Dieta pe baz\u0103 de plante reduce riscul de demen\u021b\u0103 , chiar \u0219i dac\u0103 este \u00eenceput\u0103 \u00een a doua parte a vie\u021bii",
+    "url": "https://adevarul.ro/stil-de-viata/viata-sanatoasa/dieta-pe-baza-de-plante-reduce-riscul-de-dementa-2522148.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Romania"
+  },
+  {
+    "source": "News",
+    "platform": "aol.co.uk",
+    "claim": "More than 350 , 000 vitamins , iron supplements recalled",
+    "url": "https://www.aol.co.uk/articles/more-350-000-vitamins-iron-214545959.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United Kingdom"
+  }
+]
