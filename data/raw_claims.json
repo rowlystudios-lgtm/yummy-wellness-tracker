@@ -1,38 +1,47 @@
 [
   {
     "source": "News",
-    "platform": "jamaicaobserver.com",
-    "claim": "Diets for ageing and longevity - Jamaica Observer",
-    "url": "https://www.jamaicaobserver.com/2026/04/12/diets-ageing-longevity/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "Jamaica"
-  },
-  {
-    "source": "News",
-    "platform": "businessinsider.com",
-    "claim": "3 Diet Tweaks Heart Health Nutrition Scientist Made to Prevent Disease",
-    "url": "https://www.businessinsider.com/diet-tweaks-heart-health-nutrition-scientist-made-to-prevent-disease-2026-4",
+    "platform": "sciencealert.com",
+    "claim": "Taking Too Much Vitamin D Can Backfire , Scientists Warn",
+    "url": "https://www.sciencealert.com/taking-too-much-vitamin-d-can-backfire-scientists-warn",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "adevarul.ro",
-    "claim": "Dieta pe baz\u0103 de plante reduce riscul de demen\u021b\u0103 , chiar \u0219i dac\u0103 este \u00eenceput\u0103 \u00een a doua parte a vie\u021bii",
-    "url": "https://adevarul.ro/stil-de-viata/viata-sanatoasa/dieta-pe-baza-de-plante-reduce-riscul-de-dementa-2522148.html",
+    "platform": "georgeherald.com",
+    "claim": "Why Akkermansia is stealing the limelight in gut health",
+    "url": "https://www.georgeherald.com/News/Article/LifeStyle/why-akkermansia-is-stealing-the-limelight-in-gut-health-202604120209",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "Romania"
+    "source_country": "South Africa"
   },
   {
     "source": "News",
-    "platform": "aol.co.uk",
-    "claim": "More than 350 , 000 vitamins , iron supplements recalled",
-    "url": "https://www.aol.co.uk/articles/more-350-000-vitamins-iron-214545959.html",
+    "platform": "naturalnews.com",
+    "claim": "Gastroenterologist Cites Benefits of Combining Dietary Fiber With Polyphenols \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-04-12-gastroenterologist-cites-benefits-combining-fiber-with-polyphenols.html",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "United Kingdom"
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "Research Links Ultra - Processed Foods to Health Risks , Prompting Industry Scrutiny \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-04-12-research-links-upfs-health-risks-prompting-scrutiny.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "Dandelion Root Emerges as Caffeine - Free Coffee Alternative , Sources Cite Digestive and Nutritional Benefits \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-04-13-dandelion-root-emerges-caffeine-free-coffee-alternative.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
   }
 ]
