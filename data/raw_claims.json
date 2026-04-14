@@ -1,47 +1,29 @@
 [
   {
     "source": "News",
-    "platform": "sciencealert.com",
-    "claim": "Taking Too Much Vitamin D Can Backfire , Scientists Warn",
-    "url": "https://www.sciencealert.com/taking-too-much-vitamin-d-can-backfire-scientists-warn",
+    "platform": "timesofindia.indiatimes.com",
+    "claim": "Packet food , daily damage : global heart body flags diet risk as India crisis grows | India News",
+    "url": "https://timesofindia.indiatimes.com/india/packet-food-daily-damage-global-heart-body-flags-diet-risk-as-indias-crisis-grows/articleshow/130251972.cms",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "India"
+  },
+  {
+    "source": "News",
+    "platform": "miragenews.com",
+    "claim": "Ultra - Processed Foods Linked to Poor Muscle Health",
+    "url": "https://www.miragenews.com/ultra-processed-foods-linked-to-poor-muscle-1655125/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "georgeherald.com",
-    "claim": "Why Akkermansia is stealing the limelight in gut health",
-    "url": "https://www.georgeherald.com/News/Article/LifeStyle/why-akkermansia-is-stealing-the-limelight-in-gut-health-202604120209",
+    "platform": "foreignpolicyjournal.com",
+    "claim": "Robert F . Kennedy Jr . Pushes Nutrition Overhaul Into America Hospitals and Schools",
+    "url": "https://www.foreignpolicyjournal.com/2026/04/13/robert-f-kennedy-jr-pushes-nutrition-overhaul-into-americas-hospitals-and-schools/",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "South Africa"
-  },
-  {
-    "source": "News",
-    "platform": "naturalnews.com",
-    "claim": "Gastroenterologist Cites Benefits of Combining Dietary Fiber With Polyphenols \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-04-12-gastroenterologist-cites-benefits-combining-fiber-with-polyphenols.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "naturalnews.com",
-    "claim": "Research Links Ultra - Processed Foods to Health Risks , Prompting Industry Scrutiny \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-04-12-research-links-upfs-health-risks-prompting-scrutiny.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "naturalnews.com",
-    "claim": "Dandelion Root Emerges as Caffeine - Free Coffee Alternative , Sources Cite Digestive and Nutritional Benefits \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-04-13-dandelion-root-emerges-caffeine-free-coffee-alternative.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
+    "source_country": "Israel"
   }
 ]
