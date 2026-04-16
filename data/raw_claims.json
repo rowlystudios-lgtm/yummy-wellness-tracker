@@ -1,29 +1,65 @@
 [
   {
     "source": "News",
-    "platform": "timesofindia.indiatimes.com",
-    "claim": "Packet food , daily damage : global heart body flags diet risk as India crisis grows | India News",
-    "url": "https://timesofindia.indiatimes.com/india/packet-food-daily-damage-global-heart-body-flags-diet-risk-as-indias-crisis-grows/articleshow/130251972.cms",
+    "platform": "lifestyle.bisnis.com",
+    "claim": "Label Gizi Diresmikan , Mampukah Tekan Angka Diabetes di RI ?",
+    "url": "https://lifestyle.bisnis.com/read/20260416/106/1967063/label-gizi-diresmikan-mampukah-tekan-angka-diabetes-di-ri",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "India"
+    "source_country": "Indonesia"
   },
   {
     "source": "News",
-    "platform": "miragenews.com",
-    "claim": "Ultra - Processed Foods Linked to Poor Muscle Health",
-    "url": "https://www.miragenews.com/ultra-processed-foods-linked-to-poor-muscle-1655125/",
+    "platform": "republicain-lorrain.fr",
+    "claim": "Nutrition . Le r\u00e9gime pal\u00e9o : retour aux sources alimentaires ou fausse bonne id\u00e9e ?",
+    "url": "https://www.republicain-lorrain.fr/magazine-sante/2026/04/15/le-regime-paleo-retour-aux-sources-alimentaires-ou-fausse-bonne-idee",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "France"
+  },
+  {
+    "source": "News",
+    "platform": "finanznachrichten.de",
+    "claim": "How Gut Microbiome Dysbiosis Impacts Menstrual Cycles ?",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-04/68208006-how-gut-microbiome-dysbiosis-impacts-menstrual-cycles-020.htm",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Germany"
+  },
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "The gut - health elixir : Ancient ferments meet modern science in a glass \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-04-15-ancient-ferments-meet-modern-science-in-glass.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "foreignpolicyjournal.com",
-    "claim": "Robert F . Kennedy Jr . Pushes Nutrition Overhaul Into America Hospitals and Schools",
-    "url": "https://www.foreignpolicyjournal.com/2026/04/13/robert-f-kennedy-jr-pushes-nutrition-overhaul-into-americas-hospitals-and-schools/",
+    "platform": "miragenews.com",
+    "claim": "Gut Microbiome Drives Fatty Liver Disease Outcomes",
+    "url": "https://www.miragenews.com/gut-microbiome-drives-fatty-liver-disease-1656136/",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "Israel"
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "health.yahoo.com",
+    "claim": "What IBS , Vitamin D Deficiency & Diabetes Reveal About Brain Health",
+    "url": "https://health.yahoo.com/conditions/neurological/articles/ibs-vitamin-d-deficiency-diabetes-083100665.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "sbsun.com",
+    "claim": "Why cabbage is a healthful , gut - friendly choice for the budget - conscious",
+    "url": "https://www.sbsun.com/2026/04/15/why-cabbage-is-a-healthful-gut-friendly-choice-for-the-budget-conscious/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
   }
 ]
