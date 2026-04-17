@@ -1,63 +1,117 @@
 [
   {
     "source": "News",
-    "platform": "lifestyle.bisnis.com",
-    "claim": "Label Gizi Diresmikan , Mampukah Tekan Angka Diabetes di RI ?",
-    "url": "https://lifestyle.bisnis.com/read/20260416/106/1967063/label-gizi-diresmikan-mampukah-tekan-angka-diabetes-di-ri",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "Indonesia"
-  },
-  {
-    "source": "News",
-    "platform": "republicain-lorrain.fr",
-    "claim": "Nutrition . Le r\u00e9gime pal\u00e9o : retour aux sources alimentaires ou fausse bonne id\u00e9e ?",
-    "url": "https://www.republicain-lorrain.fr/magazine-sante/2026/04/15/le-regime-paleo-retour-aux-sources-alimentaires-ou-fausse-bonne-idee",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "France"
-  },
-  {
-    "source": "News",
-    "platform": "finanznachrichten.de",
-    "claim": "How Gut Microbiome Dysbiosis Impacts Menstrual Cycles ?",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-04/68208006-how-gut-microbiome-dysbiosis-impacts-menstrual-cycles-020.htm",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "Germany"
-  },
-  {
-    "source": "News",
-    "platform": "naturalnews.com",
-    "claim": "The gut - health elixir : Ancient ferments meet modern science in a glass \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-04-15-ancient-ferments-meet-modern-science-in-glass.html",
+    "platform": "prnewswire.com",
+    "claim": "PINK STORK BEEF ORGAN SUPPLEMENT EARNS CLEAN LABEL PROJECT PURITY AWARD AMID GROWING DEMAND FOR TRANSPARENT WOMEN SUPPLEMENTS",
+    "url": "http://www.prnewswire.com/news-releases/pink-storks-beef-organ-supplement-earns-clean-label-project-purity-award-amid-growing-demand-for-transparent-womens-supplements-302745274.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "nzherald.co.nz",
+    "claim": "What are the best  functional  supermarket breads - and the nutrition claims to avoid",
+    "url": "https://www.nzherald.co.nz/lifestyle/what-are-the-best-functional-supermarket-breads-and-the-nutrition-claims-to-avoid/premium/M4JWFZGCNJB6RJQPXHU34URPII/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "New Zealand"
+  },
+  {
+    "source": "News",
+    "platform": "moneycontrol.com",
+    "claim": "Myths and truth behind grey hair , stress plucking , and false cures",
+    "url": "https://www.moneycontrol.com/lifestyle/beauty/myths-and-truth-behind-grey-hair-stress-plucking-and-false-cures-article-13891559.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "India"
+  },
+  {
+    "source": "News",
+    "platform": "manilatimes.net",
+    "claim": "OsteoShield Claims Evaluated : Premium - Quality Bone Density Support Formula by Peak Health Research",
+    "url": "https://www.manilatimes.net/2026/04/17/tmt-newswire/globenewswire/osteoshield-claims-evaluated-premium-quality-bone-density-support-formula-by-peak-health-research/2322446",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Philippines"
+  },
+  {
+    "source": "News",
+    "platform": "dailystar.co.uk",
+    "claim": "Nutritionist shares five  wellnes foods actually sabotaging your health",
+    "url": "https://www.dailystar.co.uk/health/nutritionist-shares-five-wellness-foods-37028311",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United Kingdom"
+  },
+  {
+    "source": "News",
+    "platform": "news-medical.net",
+    "claim": "Ultra - processed diets may harm muscle health",
+    "url": "https://www.news-medical.net/news/20260417/Ultra-processed-diets-may-harm-muscle-health.aspx",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "dailymail.co.uk",
+    "claim": "Are air fryers really as healthy as they seem ? Experts reveal the truth about the must - have kitchen gadget",
+    "url": "https://www.dailymail.co.uk/health/article-15735861/Air-fryers-healthy-forever-chemicals.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United Kingdom"
+  },
+  {
+    "source": "News",
+    "platform": "news-medical.net",
+    "claim": "Scientists link poor sleep to decreased chemotherapy response via the gut",
+    "url": "https://www.news-medical.net/news/20260417/Scientists-link-poor-sleep-to-decreased-chemotherapy-response-via-the-gut.aspx",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "hindustantimes.com",
+    "claim": "AIIMS - trained gastroenterologist shares 7 gut health mistakes that people keep making : Why eating healthy is not enough",
+    "url": "https://www.hindustantimes.com/lifestyle/health/aiims-trained-gastroenterologist-shares-7-gut-health-mistakes-that-people-keep-making-why-eating-healthy-is-not-enough-101776423890636.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "India"
   },
   {
     "source": "News",
     "platform": "miragenews.com",
-    "claim": "Gut Microbiome Drives Fatty Liver Disease Outcomes",
-    "url": "https://www.miragenews.com/gut-microbiome-drives-fatty-liver-disease-1656136/",
+    "claim": "Sleep Loss Upsets Gut Bacteria , Worsens Colon Cancer",
+    "url": "https://www.miragenews.com/sleep-loss-upsets-gut-bacteria-worsens-colon-1657008/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "health.yahoo.com",
-    "claim": "What IBS , Vitamin D Deficiency & Diabetes Reveal About Brain Health",
-    "url": "https://health.yahoo.com/conditions/neurological/articles/ibs-vitamin-d-deficiency-diabetes-083100665.html",
+    "platform": "zmescience.com",
+    "claim": "Colorectal Cancer Is Now the Leading Cancer Killer for Americans Under Fifty",
+    "url": "https://www.zmescience.com/science/colorectal-cancer-is-now-the-leading-cancer-killer-for-americans-under-fifty/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "sbsun.com",
-    "claim": "Why cabbage is a healthful , gut - friendly choice for the budget - conscious",
-    "url": "https://www.sbsun.com/2026/04/15/why-cabbage-is-a-healthful-gut-friendly-choice-for-the-budget-conscious/",
+    "platform": "today.com",
+    "claim": "Should You Be Focusing on Protein or Fiber ? Dietitians Weigh In",
+    "url": "https://www.today.com/health/diet-fitness/protein-vs-fiber-dietitian-rcna266063",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "wyff4.com",
+    "claim": "Younger adult colon cancer deaths are concentrated in people with less education , study says",
+    "url": "https://www.wyff4.com/article/colorectal-cancer-deaths-younger-adults-less-education/71041857",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
