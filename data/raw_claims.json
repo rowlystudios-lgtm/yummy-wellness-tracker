@@ -1,108 +1,27 @@
 [
   {
     "source": "News",
-    "platform": "taipeitimes.com",
-    "claim": "Taichung doctor presents Alzheimer research at international conference",
-    "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/04/17/2003855789",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "Taiwan"
-  },
-  {
-    "source": "News",
-    "platform": "medindia.net",
-    "claim": "Can Red Meat Still Be Part of a Healthy Diet ?",
-    "url": "https://www.medindia.net/news/healthwatch/can-red-meat-still-be-part-of-a-healthy-diet-223083-1.htm",
+    "platform": "naturalnews.com",
+    "claim": "Research Examines Links Between Diet Soda Consumption and Brain Health Outcomes \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-04-18-research-links-diet-soda-consumption-brain-health.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "dailymail.co.uk",
-    "claim": "Eating fruits , vegetables and whole grains may INCREASE chance of early onset lung cancer , as experts blame pesticides",
-    "url": "https://www.dailymail.co.uk/health/article-15741779/Eating-fruits-vegetables-grains-INCREASE-chance-early-onset-lung-cancer-experts-blame-pesticides.html",
+    "platform": "financial-news.co.uk",
+    "claim": "Nutrition Jobs Ireland Are Booming and Most People Have No Idea",
+    "url": "https://www.financial-news.co.uk/nutrition-jobs-ireland-are-booming-and-most-people-have-no-idea/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United Kingdom"
   },
   {
     "source": "News",
-    "platform": "attackofthefanboy.com",
-    "claim": "MRI scans of two women thighs show what 87 percent ultra - processed food diet does to your muscles , and the images are hard to look at",
-    "url": "https://attackofthefanboy.com/other-news/mri-scans-of-two-womens-thighs-show-what-87-percent-ultra-processed-food-diet-does-to-your-muscles-and-the-images-are-hard-to-look-at/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "Japan"
-  },
-  {
-    "source": "News",
-    "platform": "mirror.co.uk",
-    "claim": "Oncologist says eating fruit and vegetables could increase risk of cancer",
-    "url": "https://www.mirror.co.uk/news/health/oncologist-says-eating-fruit-vegetables-37035354",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United Kingdom"
-  },
-  {
-    "source": "News",
-    "platform": "eurekalert.org",
-    "claim": "Sleep deprivation disrupts gut microbiota , worsening colorectal cancer outcomes",
-    "url": "https://www.eurekalert.org:443/news-releases/1124569",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "miragenews.com",
-    "claim": "Gut Bacteria Key to Predicting Skin Cancer Recurrence",
-    "url": "https://www.miragenews.com/gut-bacteria-key-to-predicting-skin-cancer-1657668/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "indianexpress.com",
-    "claim": "Latest News on Gut Health : Get Gut Health News Updates along with Photos , Videos and Latest News Headlines",
-    "url": "https://indianexpress.com/about/gut-health/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "India"
-  },
-  {
-    "source": "News",
-    "platform": "independent.co.uk",
-    "claim": "Your gut bacteria could determine your skin cancer risk - but there a catch",
-    "url": "https://www.independent.co.uk/news/health/gut-bacteria-skin-cancer-risk-b2960172.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United Kingdom"
-  },
-  {
-    "source": "News",
-    "platform": "thetimes.com",
-    "claim": "What weve got wrong about gut health by the top German doctor",
-    "url": "https://www.thetimes.com/life-style/health-fitness/article/how-to-improve-gut-health-best-foods-5nfp8zlzb",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": ""
-  },
-  {
-    "source": "News",
-    "platform": "medindia.net",
-    "claim": "World IBS Day : Spotlight on a Common Gut - Brain Disorder",
-    "url": "https://www.medindia.net/news/healthwatch/world-ibs-day-spotlight-on-a-common-gutbrain-disorder-223093-1.htm",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "zmescience.com",
-    "claim": "Colorectal Cancer Is Now the Leading Cancer Killer for Americans Under Fifty",
-    "url": "https://www.zmescience.com/science/colorectal-cancer-is-now-the-leading-cancer-killer-for-americans-under-fifty/",
+    "platform": "kdhnews.com",
+    "claim": "Local gastroenterologist warns colorectal cancer is no longer just a disease of older adults",
+    "url": "https://kdhnews.com/medical/local-gastroenterologist-warns-colorectal-cancer-is-no-longer-just-a-disease-of-older-adults/article_5dce8e0f-b5b0-44fd-9df7-28231fc89916.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
