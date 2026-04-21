@@ -1,1 +1,92 @@
-[]
+[
+  {
+    "source": "News",
+    "platform": "nypost.com",
+    "claim": "UCLA scientists reveal medical breakthrough that could impact 3M Angelenos",
+    "url": "https://nypost.com/2026/04/20/health/ucla-scientists-reveal-medical-breakthrough-that-could-impact-3m-angelenos/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "gazetaexpress.com",
+    "claim": "New study raises questions : Healthy diet may be linked to higher risk of lung cancer",
+    "url": "https://www.gazetaexpress.com/en/New-study-raises-questions-about-whether-a-healthy-diet-may-be-linked-to-a-higher-risk-of-lung-cancer/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Kosovo"
+  },
+  {
+    "source": "News",
+    "platform": "harpersbazaar.com",
+    "claim": "Cymbiotika Liposomal Supplement Review 2026",
+    "url": "https://www.harpersbazaar.com/beauty/diet-fitness/a71041819/cymbiotika-liposomal-supplement-review/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "gazetaexpress.com",
+    "claim": "Beware of combinations : Supplements that should not be taken together",
+    "url": "https://www.gazetaexpress.com/en/Be-careful-with-combinations-of-supplements-that-should-not-be-taken-together./",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Kosovo"
+  },
+  {
+    "source": "News",
+    "platform": "dairyreporter.com",
+    "claim": "Ultra - processed foods backlash : Winners and losers",
+    "url": "https://www.dairyreporter.com/Article/2026/04/20/ultra-processed-foods-backlash-winners-and-losers/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "China"
+  },
+  {
+    "source": "News",
+    "platform": "wpbf.com",
+    "claim": "Florida limits SNAP purchases of sodas , candy , and processed desserts",
+    "url": "https://www.wpbf.com/article/florida-snap-benefits-changes-sodas-candy-processed-desserts/71073538",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "economictimes.indiatimes.com",
+    "claim": "Can diabetics eat mangoes ? Celebrity nutritionist says portion , timing and lifestyle matter more . Shares the right way to enjoy summer fruit",
+    "url": "https://economictimes.indiatimes.com/magazines/panache/can-diabetics-eat-mangoes-celebrity-nutritionist-says-portion-timing-and-lifestyle-matter-more-shares-the-right-way-to-enjoy-summer-fruit/articleshow/130419394.cms",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "India"
+  },
+  {
+    "source": "News",
+    "platform": "nzherald.co.nz",
+    "claim": "The best and worst exercises for your gut health",
+    "url": "https://www.nzherald.co.nz/lifestyle/the-best-and-worst-exercises-for-your-gut-health/premium/DDT2F3J6DRCJVI2YZNTO6752XM/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "New Zealand"
+  },
+  {
+    "source": "News",
+    "platform": "eurekalert.org",
+    "claim": "To thwart pathogens , researchers are giving beneficial microbes what they really want",
+    "url": "https://www.eurekalert.org:443/news-releases/1124624",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "independent.ie",
+    "claim": "Early signs of Parkinson  seen in the gut , study finds",
+    "url": "https://www.independent.ie/irish-news/early-signs-of-parkinsons-seen-in-the-gut-study-finds/a1044397200.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Ireland"
+  }
+]
