@@ -1,92 +1,83 @@
 [
   {
     "source": "News",
-    "platform": "nypost.com",
-    "claim": "UCLA scientists reveal medical breakthrough that could impact 3M Angelenos",
-    "url": "https://nypost.com/2026/04/20/health/ucla-scientists-reveal-medical-breakthrough-that-could-impact-3m-angelenos/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "gazetaexpress.com",
-    "claim": "New study raises questions : Healthy diet may be linked to higher risk of lung cancer",
-    "url": "https://www.gazetaexpress.com/en/New-study-raises-questions-about-whether-a-healthy-diet-may-be-linked-to-a-higher-risk-of-lung-cancer/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "Kosovo"
-  },
-  {
-    "source": "News",
-    "platform": "harpersbazaar.com",
-    "claim": "Cymbiotika Liposomal Supplement Review 2026",
-    "url": "https://www.harpersbazaar.com/beauty/diet-fitness/a71041819/cymbiotika-liposomal-supplement-review/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "gazetaexpress.com",
-    "claim": "Beware of combinations : Supplements that should not be taken together",
-    "url": "https://www.gazetaexpress.com/en/Be-careful-with-combinations-of-supplements-that-should-not-be-taken-together./",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "Kosovo"
-  },
-  {
-    "source": "News",
-    "platform": "dairyreporter.com",
-    "claim": "Ultra - processed foods backlash : Winners and losers",
-    "url": "https://www.dairyreporter.com/Article/2026/04/20/ultra-processed-foods-backlash-winners-and-losers/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "China"
-  },
-  {
-    "source": "News",
-    "platform": "wpbf.com",
-    "claim": "Florida limits SNAP purchases of sodas , candy , and processed desserts",
-    "url": "https://www.wpbf.com/article/florida-snap-benefits-changes-sodas-candy-processed-desserts/71073538",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "economictimes.indiatimes.com",
-    "claim": "Can diabetics eat mangoes ? Celebrity nutritionist says portion , timing and lifestyle matter more . Shares the right way to enjoy summer fruit",
-    "url": "https://economictimes.indiatimes.com/magazines/panache/can-diabetics-eat-mangoes-celebrity-nutritionist-says-portion-timing-and-lifestyle-matter-more-shares-the-right-way-to-enjoy-summer-fruit/articleshow/130419394.cms",
+    "platform": "hindustantimes.com",
+    "claim": "Are dietary supplements really safe ? Nutritionist reveals what actually inside your vitamins",
+    "url": "https://www.hindustantimes.com/lifestyle/health/are-dietary-supplements-really-safe-nutritionist-reveals-whats-actually-inside-your-vitamins-101775719467570.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "India"
   },
   {
     "source": "News",
-    "platform": "nzherald.co.nz",
-    "claim": "The best and worst exercises for your gut health",
-    "url": "https://www.nzherald.co.nz/lifestyle/the-best-and-worst-exercises-for-your-gut-health/premium/DDT2F3J6DRCJVI2YZNTO6752XM/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "New Zealand"
-  },
-  {
-    "source": "News",
-    "platform": "eurekalert.org",
-    "claim": "To thwart pathogens , researchers are giving beneficial microbes what they really want",
-    "url": "https://www.eurekalert.org:443/news-releases/1124624",
+    "platform": "naturalnews.com",
+    "claim": "David Wilcock  Suicide  Is The Latest In A Pattern : Theyre Silencing The Truth - Tellers \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-04-22-david-wilcocks-suicide-latest-in-a-pattern.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "independent.ie",
-    "claim": "Early signs of Parkinson  seen in the gut , study finds",
-    "url": "https://www.independent.ie/irish-news/early-signs-of-parkinsons-seen-in-the-gut-study-finds/a1044397200.html",
+    "platform": "manilatimes.net",
+    "claim": "MemoPryl Claims Evaluated : What the Cognitive Enhancement Research Says About MemoPryl Supplementation for Brain Health",
+    "url": "https://www.manilatimes.net/2026/04/22/tmt-newswire/globenewswire/memopryl-claims-evaluated-what-the-cognitive-enhancement-research-says-about-memopryl-supplementation-for-brain-health/2325435",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "Ireland"
+    "source_country": "Philippines"
+  },
+  {
+    "source": "News",
+    "platform": "independent.co.uk",
+    "claim": "Eating ultraprocessed foods like frozen pizzas and candies could degrade muscle health , experts warn",
+    "url": "https://www.independent.co.uk/news/health/ultraprocessed-foods-muscle-health-fat-b2962184.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United Kingdom"
+  },
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "Ultra - processed foods : A silent threat to pregnancy and public health \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-04-21-ultra-processed-foods-threat-to-pregnancy-health.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "mirror.co.uk",
+    "claim": "Vet says common foods we all feed our dogs contain dangerous chemicals",
+    "url": "https://www.mirror.co.uk/news/uk-news/vet-says-common-foods-feed-37052527",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United Kingdom"
+  },
+  {
+    "source": "News",
+    "platform": "southeastagnet.com",
+    "claim": "Florida Beef Council Shares Beef Value at Dieticians Symposium",
+    "url": "https://southeastagnet.com/2026/04/21/florida-beef-council-dietitians-protein-nutrition-benefits/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "aginfo.net",
+    "claim": "The 2026 School Nutrition Snapshot - AG INFORMATION NETWORK OF THE WEST",
+    "url": "https://www.aginfo.net/report/65205/32/The-2026-School-Nutrition-Snapshot",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "moneycontrol.com",
+    "claim": "5  healthy foods  you should never buy from a supermarket , according to a doctor",
+    "url": "https://www.moneycontrol.com/health-and-fitness/5-healthy-foods-you-should-never-buy-from-a-supermarket-according-to-a-doctor-article-13896196.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "India"
   }
 ]
