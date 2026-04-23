@@ -1,18 +1,54 @@
 [
   {
     "source": "News",
-    "platform": "hindustantimes.com",
-    "claim": "Are dietary supplements really safe ? Nutritionist reveals what actually inside your vitamins",
-    "url": "https://www.hindustantimes.com/lifestyle/health/are-dietary-supplements-really-safe-nutritionist-reveals-whats-actually-inside-your-vitamins-101775719467570.html",
+    "platform": "pr.com",
+    "claim": "CalStop\u2122 Named Weight Loss Supplement of the Year 2026",
+    "url": "https://www.pr.com/press-release/966608",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "newsweek.com",
+    "claim": "Study shows FDA  healthy  label boosts demand for healthier snacks",
+    "url": "https://www.newsweek.com/study-fda-healthy-label-boosts-demand-healthier-snacks-11864034",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "birminghammail.co.uk",
+    "claim": "DWP sending out letters about PIP which are making people  heart sink",
+    "url": "https://www.birminghammail.co.uk/news/cost-of-living/dwp-sending-out-letters-pip-33824136",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United Kingdom"
+  },
+  {
+    "source": "News",
+    "platform": "navbharattimes.indiatimes.com",
+    "claim": "Ashwagandha Leaves Side Effects , FSSAI \u0928\u0947 \u0905\u0936\u094d\u0935\u0917\u0902\u0927\u093e \u0915\u0940 \u092a\u0924\u094d\u0924\u093f\u092f\u093e\u0902 \u0907\u0938\u094d\u0924\u0947\u092e\u093e\u0932 \u0915\u0930\u0928\u0947 \u092a\u0930 \u0932\u0917\u093e\u092f\u093e \u092c\u0948\u0928 , \u0928\u093e \u092e\u093e\u0928\u0928\u0947 \u0935\u093e\u0932\u094b\u0902 \u092a\u0930 \u0939\u094b\u0917\u0940 \u0938\u0916\u094d\u0924 \u0915\u093e\u0930\u094d\u0930\u0935\u093e\u0908 , \u092e\u0917\u0930 \u0915\u094d\u092f\u094b\u0902 ? - fssai prohibited use of ashwagandha leaves in supplements and food products know specific reason - Healt...",
+    "url": "https://navbharattimes.indiatimes.com/health-wellness/fssai-prohibited-use-of-ashwagandha-leaves-in-supplements-and-food-products-know-specific-reason/articleshow/130460541.cms",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "India"
   },
   {
     "source": "News",
-    "platform": "naturalnews.com",
-    "claim": "David Wilcock  Suicide  Is The Latest In A Pattern : Theyre Silencing The Truth - Tellers \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-04-22-david-wilcocks-suicide-latest-in-a-pattern.html",
+    "platform": "timesofindia.indiatimes.com",
+    "claim": "Is your vitamin D deficiency secretly fuelling Alzheimer ? Scientists raise alarm over nutrient role in brain health",
+    "url": "https://timesofindia.indiatimes.com/life-style/spotlight/is-your-vitamin-d-deficiency-secretly-fuelling-alzheimers-scientists-raise-alarm-over-nutrients-role-in-brain-health/articleshow/130459784.cms",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "India"
+  },
+  {
+    "source": "News",
+    "platform": "healio.com",
+    "claim": "Healthy diet may raise lung cancer risk",
+    "url": "https://www.healio.com/news/hematology-oncology/20260422/counterintuitive-healthy-diet-may-raise-lung-cancer-risk-for-younger-nonsmokers",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
@@ -20,64 +56,82 @@
   {
     "source": "News",
     "platform": "manilatimes.net",
-    "claim": "MemoPryl Claims Evaluated : What the Cognitive Enhancement Research Says About MemoPryl Supplementation for Brain Health",
-    "url": "https://www.manilatimes.net/2026/04/22/tmt-newswire/globenewswire/memopryl-claims-evaluated-what-the-cognitive-enhancement-research-says-about-memopryl-supplementation-for-brain-health/2325435",
+    "claim": "USANA Malaysia Launches New Vitamin D Supplement with Record - Breaking Jogging Event , Earning Malaysia Book of Records Title",
+    "url": "https://www.manilatimes.net/2026/04/23/tmt-newswire/pr-newswire/usana-malaysia-launches-new-vitamin-d-supplement-with-record-breaking-jogging-event-earning-malaysia-book-of-records-title/2326616",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "Philippines"
   },
   {
     "source": "News",
-    "platform": "independent.co.uk",
-    "claim": "Eating ultraprocessed foods like frozen pizzas and candies could degrade muscle health , experts warn",
-    "url": "https://www.independent.co.uk/news/health/ultraprocessed-foods-muscle-health-fat-b2962184.html",
+    "platform": "nutraingredients.com",
+    "claim": "Rethink B12 : from deficiency fix to performance",
+    "url": "https://www.nutraingredients.com/Product-innovations/rethink-b12-from-deficiency-fix-to-performance/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United Kingdom"
+  },
+  {
+    "source": "News",
+    "platform": "wmagazine.com",
+    "claim": "Celebrate Earth Day With These 15 Organic , Clean Beauty Products",
+    "url": "https://www.wmagazine.com/beauty/earth-day-beauty-skincare-clean-products",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "morungexpress.com",
+    "claim": "Late - night snacking bad for your gut health : Study",
+    "url": "https://morungexpress.com/late-night-snacking-bad-for-your-gut-health-study",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "India"
+  },
+  {
+    "source": "News",
+    "platform": "bevnet.com",
+    "claim": "Pendulum , the Breakthrough Gut Health Brand , Launches Nationwide at Sprouts Farmers Market",
+    "url": "https://www.bevnet.com/pr/2026/04/22/pendulum-the-breakthrough-gut-health-brand-launches-nationwide-at-sprouts-farmers-market",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "journals.plos.org",
+    "claim": "Interpreting circulating microbiome - related metabolites in coronary heart disease",
+    "url": "https://journals.plos.org:443/plosmedicine/article?id=10.1371/journal.pmed.1005056",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "jpost.com",
+    "claim": "Better mood ? This is the number of daily coffee cups researchers recommend",
+    "url": "http://www.jpost.com/science/article-893931",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Israel"
+  },
+  {
+    "source": "News",
+    "platform": "forbes.com",
+    "claim": "Best Functional Beverages In 2026 : Gut Health , Electrolytes And Mood",
+    "url": "https://www.forbes.com/sites/noelburgess/2026/04/22/these-functional-beverages-are-taking-over-in-2026-but-are-they-actually-healthy/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
   },
   {
     "source": "News",
     "platform": "naturalnews.com",
-    "claim": "Ultra - processed foods : A silent threat to pregnancy and public health \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-04-21-ultra-processed-foods-threat-to-pregnancy-health.html",
+    "claim": "Beyond the immune system : Unveiling the multifaceted power of vitamin C \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-04-22-unveiling-the-multifaceted-power-of-vitamin-c.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "mirror.co.uk",
-    "claim": "Vet says common foods we all feed our dogs contain dangerous chemicals",
-    "url": "https://www.mirror.co.uk/news/uk-news/vet-says-common-foods-feed-37052527",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United Kingdom"
-  },
-  {
-    "source": "News",
-    "platform": "southeastagnet.com",
-    "claim": "Florida Beef Council Shares Beef Value at Dieticians Symposium",
-    "url": "https://southeastagnet.com/2026/04/21/florida-beef-council-dietitians-protein-nutrition-benefits/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "aginfo.net",
-    "claim": "The 2026 School Nutrition Snapshot - AG INFORMATION NETWORK OF THE WEST",
-    "url": "https://www.aginfo.net/report/65205/32/The-2026-School-Nutrition-Snapshot",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "moneycontrol.com",
-    "claim": "5  healthy foods  you should never buy from a supermarket , according to a doctor",
-    "url": "https://www.moneycontrol.com/health-and-fitness/5-healthy-foods-you-should-never-buy-from-a-supermarket-according-to-a-doctor-article-13896196.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "India"
   }
 ]
