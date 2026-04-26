@@ -1,119 +1,47 @@
 [
   {
     "source": "News",
-    "platform": "moneycontrol.com",
-    "claim": "Ultra - processed foods biggest\u00a0cause of blood sugar spikes , weight gain\u00a0and chronic inflammation",
-    "url": "https://www.moneycontrol.com/health-and-fitness/ultra-processed-foods-biggest-cause-of-blood-sugar-spikes-weight-gain-and-chronic-inflammation-article-13899176.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "India"
-  },
-  {
-    "source": "News",
-    "platform": "sbs.com.au",
-    "claim": "Ultra - processed foods damage your focus and may increase dementia risk , study finds",
-    "url": "https://www.sbs.com.au/news/article/new-study-finds-ultra-processed-foods-may-raise-dementia-risk-even-in-otherwise-healthy-diets/prdkk6tkb",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "Australia"
-  },
-  {
-    "source": "News",
-    "platform": "kevinmd.com",
-    "claim": "Rethinking nutrition policy on ultra - processed food",
-    "url": "https://kevinmd.com/2026/04/rethinking-nutrition-policy-on-ultra-processed-food.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "naturalnews.com",
-    "claim": "Could your weekly grocery shop influence your risk of dementia ? The diet that may delay brain aging \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-04-24-the-diet-that-may-delay-brain-aging.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
     "platform": "menshealth.com",
-    "claim": "The Truth About Protein Supplements \u2013 What Good , What Not",
-    "url": "https://www.menshealth.com/uk/nutrition/food-drink/a71118743/are-protein-supplements-healthy/",
+    "claim": "A Science - Backed Guide to Navigating the Brain Supplement Market",
+    "url": "https://www.menshealth.com/health/a71001376/brain-boosting-cognition-supplements-nootropics/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "outsideonline.com",
-    "claim": "Does Having a Healthy Gut Make You More Fit ?",
-    "url": "https://www.outsideonline.com/health/training-performance/gut-health-fitness-study/",
+    "platform": "manilatimes.net",
+    "claim": "Lulutox Detox Tea Claims Evaluated : Scientific Research into Ingredients & Where to Buy ( Unauthorized Seller Verification )",
+    "url": "https://www.manilatimes.net/2026/04/26/tmt-newswire/globenewswire/lulutox-detox-tea-claims-evaluated-scientific-research-into-ingredients-where-to-buy-unauthorized-seller-verification/2328657",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Philippines"
+  },
+  {
+    "source": "News",
+    "platform": "news-medical.net",
+    "claim": "Ultra - processed foods linked to measurable drops in human attention span",
+    "url": "https://www.news-medical.net/news/20260425/Ultra-processed-foods-linked-to-measurable-drops-in-human-attention-span.aspx",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "medicalnewstoday.com",
-    "claim": "Parkinson : Gut changes may begin years before symptoms begin",
-    "url": "https://www.medicalnewstoday.com/articles/gut-predict-parkinsons-microbiome-changes-early-sign-risk-symptoms",
+    "platform": "nypost.com",
+    "claim": "Fruits , veggies can fuel lung cancer risk in young non - smokers",
+    "url": "https://nypost.com/2026/04/25/health/fruits-veggies-can-fuel-lung-cancer-risk-in-young-non-smokers/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "turnto10.com",
-    "claim": "Doctor shares tips to protect your gut health",
-    "url": "https://turnto10.com/features/health-landing-page/doctor-shares-tips-protect-gut-health-microbiomes-bacteria-pathology-immunology-healthy-eating-toxins-chemicals-april-24-2026",
+    "platform": "studyfinds.com",
+    "claim": "Ultra - Processed Foods Can Wreak Havoc On Your Attention Span",
+    "url": "https://studyfinds.com/ultra-processed-foods-may-affect-brain/",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "indiawest.com",
-    "claim": "Late - Night Snacking May Harm Gut Health - IndiaWest News",
-    "url": "https://indiawest.com/late-night-snacking-may-harm-gut-health/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "India"
-  },
-  {
-    "source": "News",
-    "platform": "gazetaexpress.com",
-    "claim": "Study : Coffee improves brain and gut health",
-    "url": "https://www.gazetaexpress.com/en/Study:-Coffee-improves-brain-and-gut-health/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "Kosovo"
-  },
-  {
-    "source": "News",
-    "platform": "irishdentist.ie",
-    "claim": "Can your gut predict Parkinson ? Microbiome changes may be an early sign",
-    "url": "https://www.irishdentist.ie/can-your-gut-predict-parkinsons-microbiome-changes-may-be-an-early-sign/17601/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "Ireland"
-  },
-  {
-    "source": "News",
-    "platform": "liverpoolecho.co.uk",
-    "claim": "Aldi new 99p  fibre rich  drink to boost  gut health",
-    "url": "https://www.liverpoolecho.co.uk/whats-on/shopping/aldi-new-99p-fibre-rich-33830719",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United Kingdom"
-  },
-  {
-    "source": "News",
-    "platform": "bgnes.com",
-    "claim": "Coffee alters gut microbiome and may boost mood and memory",
-    "url": "http://www.bgnes.com/health/coffee-alters-gut-microbiome-and-may-boost-mood-and-memory",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "Bulgaria"
+    "source_country": ""
   }
 ]
