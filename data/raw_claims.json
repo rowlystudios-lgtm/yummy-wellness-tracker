@@ -1,47 +1,65 @@
 [
   {
     "source": "News",
-    "platform": "menshealth.com",
-    "claim": "A Science - Backed Guide to Navigating the Brain Supplement Market",
-    "url": "https://www.menshealth.com/health/a71001376/brain-boosting-cognition-supplements-nootropics/",
+    "platform": "digitaljournal.com",
+    "claim": "Fast food and microbiomes : What happens when seagulls eat  unhealthy  human food ?",
+    "url": "https://www.digitaljournal.com/tech-science/fast-food-and-microbiomes-what-happens-when-seagulls-eat-unhealthy-human-food/article",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "manilatimes.net",
-    "claim": "Lulutox Detox Tea Claims Evaluated : Scientific Research into Ingredients & Where to Buy ( Unauthorized Seller Verification )",
-    "url": "https://www.manilatimes.net/2026/04/26/tmt-newswire/globenewswire/lulutox-detox-tea-claims-evaluated-scientific-research-into-ingredients-where-to-buy-unauthorized-seller-verification/2328657",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "Philippines"
   },
   {
     "source": "News",
     "platform": "news-medical.net",
-    "claim": "Ultra - processed foods linked to measurable drops in human attention span",
-    "url": "https://www.news-medical.net/news/20260425/Ultra-processed-foods-linked-to-measurable-drops-in-human-attention-span.aspx",
+    "claim": "Scientists will probe whether processing itself makes ultra - processed foods harmful",
+    "url": "https://www.news-medical.net/news/20260426/Scientists-will-probe-whether-processing-itself-makes-ultra-processed-foods-harmful.aspx",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "nypost.com",
-    "claim": "Fruits , veggies can fuel lung cancer risk in young non - smokers",
-    "url": "https://nypost.com/2026/04/25/health/fruits-veggies-can-fuel-lung-cancer-risk-in-young-non-smokers/",
+    "platform": "miragenews.com",
+    "claim": "Ultra - Processed Foods Harm Focus Despite Healthy Diet 27 April",
+    "url": "https://www.miragenews.com/ultra-processed-foods-harm-focus-despite-1662355/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "studyfinds.com",
-    "claim": "Ultra - Processed Foods Can Wreak Havoc On Your Attention Span",
-    "url": "https://studyfinds.com/ultra-processed-foods-may-affect-brain/",
+    "platform": "avondhupress.ie",
+    "claim": "Microplastics Gut Microbiome and Inflammatory Bowel Disease",
+    "url": "https://avondhupress.ie/microplastics-have-been-found-to-interact-with-the-gut-microbiome-heres-what-health-effects-they-might-have/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Ireland"
+  },
+  {
+    "source": "News",
+    "platform": "wyomingnewsnow.tv",
+    "claim": "Your body already has a built - in weight loss system that works like Wegovy , Ozempic and Mounjaro \u2013 food and your gut microbiome",
+    "url": "https://www.wyomingnewsnow.tv/lifestyles/health/your-body-already-has-a-built-in-weight-loss-system-that-works-like-wegovy-ozempic/article_febfe78d-3241-5825-9b16-a99c6be80d3e.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": ""
+  },
+  {
+    "source": "News",
+    "platform": "dailymail.com",
+    "claim": "Gut health sodas RANKED for health : Dietician verdict on trendy fizzy drinks from Poppi to XOXO and Nexba :  Be wary of key ingredient that can trigger EXTREME bloating",
+    "url": "https://www.dailymail.com/health/article-15759195/Gut-health-sodas-RANKED-health-Dieticians-verdict-trendy-fizzy-drinks-Poppi-XOXO-Nexba-wary-key-ingredient-trigger-EXTREME-bloating.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "marylandreporter.com",
+    "claim": "Do Dog Supplements Really Work ?",
+    "url": "https://marylandreporter.com/2026/04/26/do-dog-supplements-really-work-a-closer-look-at-safety-quality-and-health-benefits/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
   }
 ]
