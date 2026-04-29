@@ -1,11 +1,38 @@
 [
   {
     "source": "News",
-    "platform": "jpost.com",
-    "claim": "The common supplement that increases the risk of a recurrent heart attack",
-    "url": "http://www.jpost.com/health-and-wellness/health-and-wellness-around-the-world/article-894066",
+    "platform": "reflector.com",
+    "claim": "Kathy Kolasa : Be selective about the processed foods you eat",
+    "url": "https://www.reflector.com/features/columnists/kathy-kolasa-be-selective-about-the-processed-foods-you-eat/article_6604b133-cca6-4eae-b04c-d69fa88f8131.html",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "Israel"
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "dailymail.com",
+    "claim": "Young cancer timebomb : Major study blames takeaway chemicals , school uniforms and frying pans for surge in under - 50s diagnoses",
+    "url": "https://www.dailymail.com/health/article-15771487/obesity-driving-cancer-young-people.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "mirror.co.uk",
+    "claim": "One key factor linked to surge in cancer among young adults",
+    "url": "https://www.mirror.co.uk/news/health/one-key-factor-linked-surge-37084480",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United Kingdom"
+  },
+  {
+    "source": "News",
+    "platform": "walesonline.co.uk",
+    "claim": "Rise in cancer among people born after 1975 linked to one key factor",
+    "url": "https://www.walesonline.co.uk/news/uk-news/rise-cancer-among-people-born-33855828",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United Kingdom"
   }
 ]

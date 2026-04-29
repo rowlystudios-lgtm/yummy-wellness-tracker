@@ -1,28 +1,91 @@
 {
-  "week_headline": "Heart supplement safety back in the spotlight as fish oil cardiac risk headlines sweep global news this week",
-  "misleading_pct": "40%",
-  "true_pct": "60%",
+  "week_headline": "Early-onset cancer is dominating headlines this week, with processed foods, chemicals, and lifestyle factors all in the spotlight",
+  "misleading_pct": "35%",
+  "true_pct": "65%",
   "claims": [
     {
-      "score": 52,
+      "score": 78,
       "score_label": "Nuanced",
       "score_type": "mixed",
       "claim_tag": "Partially true",
-      "verdict": "This headline almost certainly refers to fish oil (omega-3) supplements, and the science here is genuinely mixed. Some large trials \u2014 including STRENGTH and ASCEND \u2014 found that high-dose omega-3 supplements did not reduce cardiovascular events and that one formulation (icosapentaenoic acid plus docosahexaenoic acid, or EPA+DHA ethyl esters) was linked to a modestly higher risk of atrial fibrillation, which can raise stroke risk. However, a separate trial called REDUCE-IT found that a high-dose purified EPA supplement (Vascepa) significantly cut cardiovascular events in people with high triglycerides. The honest picture is: fish oil supplements are not one thing, results vary by formulation and population, and they are not a proven danger for most people \u2014 but they are also not the cardiac cure many hope for.",
-      "verdict_highlight": "Fish oil results vary hugely by formulation and dose",
+      "verdict": "Kolasa's core message is sound \u2014 not all processed foods are equal, and choosing wisely does matter. Minimally processed foods like frozen vegetables or tinned legumes are very different from ultra-processed snacks high in additives and refined sugars. The NOVA classification system, widely used in nutrition research, backs this nuanced view rather than a blanket 'processed is bad' rule.",
+      "verdict_highlight": "Not all processed foods are equally harmful",
       "sources": [
-        "NEJM \u2014 REDUCE-IT Trial (Bhatt et al., 2019)",
-        "NEJM \u2014 STRENGTH Trial (Nicholls et al., 2020)",
-        "The Lancet \u2014 ASCEND Trial (ASCEND Study Collaborative Group, 2018)",
-        "JAMA Cardiology \u2014 Omega-3 and Atrial Fibrillation Meta-analysis (Gencer et al., 2021)",
-        "American Heart Association Science Advisory on Omega-3 Supplements (2021)"
+        "Harvard T.H. Chan School of Public Health",
+        "NOVA Food Classification System (Monteiro et al., Public Health Nutrition)",
+        "BMJ 2019 \u2014 Ultra-processed food intake and mortality"
       ],
-      "global_opinion": "In the United States, the FDA has approved a prescription-grade purified EPA supplement (Vascepa) for high-risk cardiovascular patients, reflecting cautious optimism about specific formulations. The European Medicines Agency has been more sceptical, recommending against omega-3 medicines for secondary prevention after reviewing trial data showing limited benefit. In Japan, where dietary omega-3 intake from fish is already very high, supplement use is less emphasised and research focuses more on whole-food sources rather than pills.",
-      "brit_take": "Most people in the UK have been quietly taking their fish oil capsule every morning for years on the basis of advice that has quietly shifted beneath them \u2014 which is frustrating, but honestly just how nutrition science tends to go.",
+      "global_opinion": "Brazil's dietary guidelines explicitly warn against ultra-processed foods and were among the first to adopt the NOVA framework. The UK's NHS advises reducing ultra-processed intake but stops short of condemning all processed foods. In the US, the FDA focuses more on specific nutrients like sodium and saturated fat than on processing level as a category.",
+      "brit_take": "Telling people to be selective about processed food in the UK is a bit like telling them to be selective about rain \u2014 technically good advice, but the infrastructure makes it tricky.",
       "source": "News",
-      "platform": "jpost.com",
-      "url": "http://www.jpost.com/health-and-wellness/health-and-wellness-around-the-world/article-894066",
-      "claim": "The common supplement that increases the risk of a recurrent heart attack",
+      "platform": "reflector.com",
+      "url": "https://www.reflector.com/features/columnists/kathy-kolasa-be-selective-about-the-processed-foods-you-eat/article_6604b133-cca6-4eae-b04c-d69fa88f8131.html",
+      "claim": "Kathy Kolasa : Be selective about the processed foods you eat",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 38,
+      "score_label": "Misleading",
+      "score_type": "false",
+      "claim_tag": "Overstated",
+      "verdict": "The 'timebomb' framing bundles together very different things \u2014 PFAS chemicals, non-stick cookware, and school uniforms \u2014 in a way that overstates the certainty of individual links. While PFAS exposure is a legitimate area of scientific concern with growing evidence, the leap to school uniforms and frying pans causing a cancer surge in under-50s is not well-established. Real risk factors for early-onset cancer include obesity, alcohol, sedentary behaviour, and diet quality, which tend to get less dramatic headlines.",
+      "verdict_highlight": "Alarm framing overstates weak or emerging evidence",
+      "sources": [
+        "National Cancer Institute \u2014 PFAS and cancer research",
+        "Lancet Oncology 2023 \u2014 Global early-onset cancer trends",
+        "EFSA \u2014 PFAS risk assessment 2020",
+        "WHO \u2014 Cancer risk factors overview"
+      ],
+      "global_opinion": "The EU has taken the hardest regulatory stance on PFAS, moving to restrict them broadly across consumer products including cookware. The US EPA has begun tightening PFAS limits in drinking water but cookware regulation lags behind. In Japan and South Korea, PFAS restrictions exist but public discourse around cancer causation tends to be more cautious and evidence-led.",
+      "brit_take": "Blaming school uniforms for cancer is quite the headline \u2014 though it does give parents one more legitimate reason to complain about the blazer policy.",
+      "source": "News",
+      "platform": "dailymail.com",
+      "url": "https://www.dailymail.com/health/article-15771487/obesity-driving-cancer-young-people.html",
+      "claim": "Young cancer timebomb : Major study blames takeaway chemicals , school uniforms and frying pans for surge in under - 50s diagnoses",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 62,
+      "score_label": "Nuanced",
+      "score_type": "mixed",
+      "claim_tag": "Context missing",
+      "verdict": "There is genuine, peer-reviewed evidence that early-onset cancer rates are rising globally, particularly for colorectal, breast, and thyroid cancers. Researchers have proposed multiple contributing factors including changes in diet, the gut microbiome, obesity rates, and environmental exposures \u2014 but no single 'one key factor' has been confirmed. Headlines saying 'one key factor' are almost certainly simplifying a complex, multi-cause picture, which risks misleading people about what they can actually do.",
+      "verdict_highlight": "No single cause \u2014 it is genuinely multi-factorial",
+      "sources": [
+        "Nature Reviews Clinical Oncology 2023 \u2014 Early-onset cancer epidemiology",
+        "Lancet Oncology 2023 \u2014 Global cancer trends under 50",
+        "NIH National Cancer Institute \u2014 Cancer statistics"
+      ],
+      "global_opinion": "South Korean and Japanese researchers have highlighted Westernised dietary patterns as a key driver given rapid dietary shifts in those countries correlating with rising colorectal cancer rates. European oncologists tend to emphasise the interplay between obesity, alcohol, and processed food. In the US, researchers increasingly point to the gut microbiome and early-life antibiotic exposure as under-studied contributors.",
+      "brit_take": "One key factor sounds reassuringly solvable, which is probably why editors love it \u2014 the reality that it's about twelve interacting factors is harder to put on a banner ad.",
+      "source": "News",
+      "platform": "mirror.co.uk",
+      "url": "https://www.mirror.co.uk/news/health/one-key-factor-linked-surge-37084480",
+      "claim": "One key factor linked to surge in cancer among young adults",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 65,
+      "score_label": "Nuanced",
+      "score_type": "mixed",
+      "claim_tag": "Partially true",
+      "verdict": "The observation that people born after 1975 show higher rates of certain cancers at younger ages is supported by real epidemiological data, particularly for colorectal, pancreatic, and breast cancers. The birth-cohort pattern is a legitimate scientific signal suggesting something in the environment or lifestyle shifted for generations raised in the 1980s and 1990s. However, the 'one key factor' framing is almost certainly a simplification \u2014 obesity, ultra-processed food, sedentary lifestyles, microbiome disruption, and chemical exposures are all being studied and none has been confirmed as the single driver.",
+      "verdict_highlight": "Birth-cohort signal is real; single cause is not proven",
+      "sources": [
+        "JAMA Network Open 2023 \u2014 Birth cohort cancer incidence trends",
+        "Lancet Oncology 2023 \u2014 Early-onset colorectal cancer",
+        "American Cancer Society \u2014 Colorectal cancer trends",
+        "NIH \u2014 Cancer epidemiology and genetics"
+      ],
+      "global_opinion": "Australian researchers have flagged the post-1975 cohort pattern in colorectal cancer specifically, linking it to dietary shifts toward convenience foods. In the UK, Cancer Research UK acknowledges the trend but urges caution about attributing it to any single cause. US studies from the NCI have been among the most detailed in mapping the birth-cohort effect, though they too stop well short of identifying one definitive factor.",
+      "brit_take": "Born after 1975 and worried? You're in good company \u2014 the generation that grew up on Turkey Twizzlers and Sunny Delight is now old enough to get research papers written about it.",
+      "source": "News",
+      "platform": "walesonline.co.uk",
+      "url": "https://www.walesonline.co.uk/news/uk-news/rise-cancer-among-people-born-33855828",
+      "claim": "Rise in cancer among people born after 1975 linked to one key factor",
       "hours_ago": 12,
       "engagement": 40
     }
