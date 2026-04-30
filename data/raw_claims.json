@@ -1,38 +1,101 @@
 [
   {
     "source": "News",
-    "platform": "reflector.com",
-    "claim": "Kathy Kolasa : Be selective about the processed foods you eat",
-    "url": "https://www.reflector.com/features/columnists/kathy-kolasa-be-selective-about-the-processed-foods-you-eat/article_6604b133-cca6-4eae-b04c-d69fa88f8131.html",
+    "platform": "larazon.es",
+    "claim": "Comer pat\u00e9 podr\u00eda prevenir la diabetes tipo 2",
+    "url": "https://www.larazon.es/salud/comer-pate-podria-prevenir-diabetes-tipo-2_2026042969f23e961ba3656059a31292.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Spain"
+  },
+  {
+    "source": "News",
+    "platform": "notimerica.com",
+    "claim": "Un pat\u00e9 funcional enriquecido en silicio muestra efectos beneficiosos en la prevenci\u00f3n de la diabetes tipo 2",
+    "url": "https://www.notimerica.com/vida/noticia-pate-funcional-enriquecido-silicio-muestra-efectos-beneficiosos-prevencion-diabetes-tipo-20260429181534.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Colombia"
+  },
+  {
+    "source": "News",
+    "platform": "ultimahora.es",
+    "claim": "Los primeros intoxicados por el exceso de vitamina D : \u00ab Sab\u00edan lo grave que era y lo ocultaron \u00bb",
+    "url": "https://www.ultimahora.es/sucesos/ultimas/2026/04/30/2619585/primeros-intoxicados-por-exceso-vitamina-avisamos-esto-seria-grave-las-victimas-perdido-rinon.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Spain"
+  },
+  {
+    "source": "News",
+    "platform": "jpost.com",
+    "claim": "Pre - diabetes ? New study reveals \u2013 this combination may help you",
+    "url": "http://www.jpost.com/health-and-wellness/nutrition/article-894433",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Israel"
+  },
+  {
+    "source": "News",
+    "platform": "tpr.org",
+    "claim": "New cholesterol guidelines call for earlier action to prevent heart disease",
+    "url": "https://www.tpr.org/podcast/the-source/2026-04-29/new-cholesterol-guidelines-call-for-earlier-action-to-prevent-heart-disease",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "dailymail.com",
-    "claim": "Young cancer timebomb : Major study blames takeaway chemicals , school uniforms and frying pans for surge in under - 50s diagnoses",
-    "url": "https://www.dailymail.com/health/article-15771487/obesity-driving-cancer-young-people.html",
+    "platform": "channelnewsasia.com",
+    "claim": "Balancing hawker favourites with heart - healthy choices",
+    "url": "https://www.channelnewsasia.com/advertorial/balancing-hawker-favourites-heart-healthy-choices-5922026",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "mirror.co.uk",
-    "claim": "One key factor linked to surge in cancer among young adults",
-    "url": "https://www.mirror.co.uk/news/health/one-key-factor-linked-surge-37084480",
+    "platform": "medscape.com",
+    "claim": "Does Healthy Living Best Antiamyloids for MCI , Early AD ?",
+    "url": "https://www.medscape.com/viewarticle/do-lifestyle-interventions-best-antiamyloids-mci-early-ad-2026a1000doe",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "United Kingdom"
+    "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "walesonline.co.uk",
-    "claim": "Rise in cancer among people born after 1975 linked to one key factor",
-    "url": "https://www.walesonline.co.uk/news/uk-news/rise-cancer-among-people-born-33855828",
+    "platform": "gazetaexpress.com",
+    "claim": "The increase in cancer among young people worries experts",
+    "url": "https://www.gazetaexpress.com/en/The-increase-in-cancer-in-young-people-worries-experts/",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "United Kingdom"
+    "source_country": "Kosovo"
+  },
+  {
+    "source": "News",
+    "platform": "today.com",
+    "claim": "7 Supplements You Shouldnt Take Together , According to Doctors",
+    "url": "https://www.today.com/health/diet-fitness/what-supplements-not-to-take-together-rcna341081",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "medicalnewstoday.com",
+    "claim": "Fish oil supplements : Could they sometimes harm the brain ?",
+    "url": "https://www.medicalnewstoday.com/articles/fish-oil-omega-3-brain-health-brain-repair",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "prevention.com",
+    "claim": "A Dietitian Reveals Whether High - Protein Cereal Is Worth It",
+    "url": "https://www.prevention.com/food-nutrition/healthy-eating/a71115479/is-high-protein-cereal-good-for-you-dietitian-tips/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
   }
 ]
