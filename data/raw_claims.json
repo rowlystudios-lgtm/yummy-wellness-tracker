@@ -1,18 +1,27 @@
 [
   {
     "source": "News",
-    "platform": "news-medical.net",
-    "claim": "How Diet Influences the Gut Microbiome and Overall Health",
-    "url": "https://www.news-medical.net/health/How-Diet-Influences-the-Gut-Microbiome-and-Overall-Health.aspx",
+    "platform": "downtoearth.org.in",
+    "claim": "Over 1 Billion Africans Cannot Afford a Healthy Diet as Food Costs Soar : FAO - Led Report Warns of Deepening Nutrition Crisis",
+    "url": "https://www.downtoearth.org.in/africa/four-years-to-zero-hunger-deadline-more-than-1-billion-africans-unable-to-afford-healthy-diet-report",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "United States"
+    "source_country": "India"
   },
   {
     "source": "News",
-    "platform": "957thejet.iheart.com",
-    "claim": "Gut Bacteria May Provide An Early Warning For Parkinson Disease",
-    "url": "https://957thejet.iheart.com/content/2026-04-30-gut-bacteria-may-provide-an-early-warning-for-parkinsons-disease/",
+    "platform": "gazetaexpress.com",
+    "claim": "Four dietary factors that endanger longevity",
+    "url": "https://www.gazetaexpress.com/en/Four-dietary-factors-that-endanger-longevity/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Kosovo"
+  },
+  {
+    "source": "News",
+    "platform": "chiefexecutive.net",
+    "claim": "Chronic Inflammation : What It Is , Why It Bad And How You Can Reduce It",
+    "url": "https://chiefexecutive.net/chronic-inflammation-what-it-is-why-its-bad-and-how-you-can-reduce-it/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
