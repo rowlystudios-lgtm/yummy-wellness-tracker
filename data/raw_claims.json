@@ -1,27 +1,81 @@
 [
   {
     "source": "News",
-    "platform": "downtoearth.org.in",
-    "claim": "Over 1 Billion Africans Cannot Afford a Healthy Diet as Food Costs Soar : FAO - Led Report Warns of Deepening Nutrition Crisis",
-    "url": "https://www.downtoearth.org.in/africa/four-years-to-zero-hunger-deadline-more-than-1-billion-africans-unable-to-afford-healthy-diet-report",
+    "platform": "medicaldaily.com",
+    "claim": "Are Health Supplements Really Safe ? What Science Says About Risks and Benefits",
+    "url": "https://www.medicaldaily.com/are-health-supplements-really-safe-what-science-says-about-risks-benefits-475300",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "India"
+    "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "gazetaexpress.com",
-    "claim": "Four dietary factors that endanger longevity",
-    "url": "https://www.gazetaexpress.com/en/Four-dietary-factors-that-endanger-longevity/",
+    "platform": "andaluciainformacion.es",
+    "claim": "Un pat\u00e9 funcional enriquecido en silicio muestra efectos beneficiosos en la prevenci\u00f3n de la diabetes tipo 2",
+    "url": "https://www.andaluciainformacion.es/articulo/viruji/pate-funcional-enriquecido-silicio-muestra-efectos-beneficiosos-prevencion-diabetes-tipo-2/202605030952363252801.html",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "Kosovo"
+    "source_country": "Spain"
   },
   {
     "source": "News",
-    "platform": "chiefexecutive.net",
-    "claim": "Chronic Inflammation : What It Is , Why It Bad And How You Can Reduce It",
-    "url": "https://chiefexecutive.net/chronic-inflammation-what-it-is-why-its-bad-and-how-you-can-reduce-it/",
+    "platform": "naturalnews.com",
+    "claim": "New research reveals alarming link between vitamin D levels and mental health \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-05-02-alarming-link-between-vitamin-d-and-mental-health.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "metro.co.uk",
+    "claim": "Low on energy ? These 7 iron supplements are a gentle way of upping your iron levels",
+    "url": "https://metro.co.uk/2026/05/03/low-energy-iron-supplements-a-gentle-way-upping-iron-levels-28151986/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United Kingdom"
+  },
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "Study Links Ultra - Processed Food Consumption to Reduced Muscle Quality \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-05-02-study-ultra-processed-foods-reduce-muscle-quality.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "Ultra - Processed Food Consumption Linked to 47 % Higher Cardiovascular Disease Risk , Study Finds \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-05-02-ultra-processed-foods-consumption-higher-cardiovascular-disease-risk.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "nzherald.co.nz",
+    "claim": "Nutrition myth buster : Are plant - based diets always healthier \u2013 or just marketed better ?",
+    "url": "https://www.nzherald.co.nz/the-listener/health/nutrition-myth-buster-are-plant-based-diets-always-healthier-or-just-marketed-better/premium/CNABTRQLENG2JJYZL3NGSCLTHA/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "New Zealand"
+  },
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "Study : Long - Term Healthy Eating Linked to Slower Biological Aging \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-05-02-long-term-healthy-eating-linked-slower-biological-aging.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "dailymail.com",
+    "claim": "Ashleigh thought she had IBS - but it turned out to be devastating Stage 3 bowel cancer at just 37 . Now she warns of the tiny symptoms she missed , what might have caused it",
+    "url": "https://www.dailymail.com/health/article-15785331/Ashleigh-thought-IBS-Stage-3-bowel-cancer-warns-early-symptoms.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
