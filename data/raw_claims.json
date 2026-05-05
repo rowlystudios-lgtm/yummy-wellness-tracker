@@ -1,18 +1,45 @@
 [
   {
     "source": "News",
-    "platform": "naturalnews.com",
-    "claim": "Study : Coffee Consumption Linked to Changes in Gut Microbiome , Reduced Stress and Depression \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-05-03-coffee-consumption-linked-to-changes-in-gut-microbiome.html",
+    "platform": "economictimes.indiatimes.com",
+    "claim": "Is the Korean food Kimchi good for your gut ? Gastro doctor shares 5 foods that will fix your gut health",
+    "url": "https://economictimes.indiatimes.com/magazines/panache/is-the-korean-food-kimchi-good-for-your-gut-gastro-doctor-shares-5-foods-that-will-fix-your-gut-health/articleshow/130825131.cms",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "India"
+  },
+  {
+    "source": "News",
+    "platform": "news-medical.net",
+    "claim": "How a common gut bacterium may protect health",
+    "url": "https://www.news-medical.net/news/20260504/How-a-common-gut-bacterium-may-protect-health.aspx",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "gdnonline.com",
-    "claim": "Bahrain News : Medics advise healthy eating to tackle alarming diet trends",
-    "url": "https://www.gdnonline.com:443/Details/1393517",
+    "platform": "beveragedaily.com",
+    "claim": "Coffee may boost brain function via gut microbiome",
+    "url": "https://www.beveragedaily.com/Article/2026/05/01/coffee-may-boost-brain-function-via-gut-microbiome/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "Magnesium hidden power : How a simple mineral reshapes the gut to fight cancer \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-05-04-magnesium-power-mineral-reshapes-gut-fight-cancer.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "goodhousekeeping.com",
+    "claim": "7 Best Fiber Supplements for Gut Health , According to Dietitians",
+    "url": "https://www.goodhousekeeping.com/health-products/g71179768/best-fiber-supplement/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
