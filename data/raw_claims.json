@@ -1,27 +1,18 @@
 [
   {
     "source": "News",
-    "platform": "economictimes.indiatimes.com",
-    "claim": "Is the Korean food Kimchi good for your gut ? Gastro doctor shares 5 foods that will fix your gut health",
-    "url": "https://economictimes.indiatimes.com/magazines/panache/is-the-korean-food-kimchi-good-for-your-gut-gastro-doctor-shares-5-foods-that-will-fix-your-gut-health/articleshow/130825131.cms",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "India"
-  },
-  {
-    "source": "News",
-    "platform": "news-medical.net",
-    "claim": "How a common gut bacterium may protect health",
-    "url": "https://www.news-medical.net/news/20260504/How-a-common-gut-bacterium-may-protect-health.aspx",
+    "platform": "prevention.com",
+    "claim": "Dietitians Say This Is the Best Time to Take Vitamin D",
+    "url": "https://www.prevention.com/food-nutrition/a71217481/best-time-to-take-vitamin-d-guide/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "beveragedaily.com",
-    "claim": "Coffee may boost brain function via gut microbiome",
-    "url": "https://www.beveragedaily.com/Article/2026/05/01/coffee-may-boost-brain-function-via-gut-microbiome/",
+    "platform": "prevention.com",
+    "claim": "Vitamin D vs . D3 : What the Difference ? Dietitians Explain",
+    "url": "https://www.prevention.com/health/a71209111/vitamin-d-vs-vitamin-d3/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
@@ -29,19 +20,91 @@
   {
     "source": "News",
     "platform": "naturalnews.com",
-    "claim": "Magnesium hidden power : How a simple mineral reshapes the gut to fight cancer \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-05-04-magnesium-power-mineral-reshapes-gut-fight-cancer.html",
+    "claim": "Beyond The Diagnosis  on BrightU : How sadness , dehydration and a blocked fascia create cancer \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-05-05-sadness-dehydration-and-blocked-fascia-create-cancer.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "goodhousekeeping.com",
-    "claim": "7 Best Fiber Supplements for Gut Health , According to Dietitians",
-    "url": "https://www.goodhousekeeping.com/health-products/g71179768/best-fiber-supplement/",
+    "platform": "economictimes.indiatimes.com",
+    "claim": "Why this US doctor eats as if he has cancer , even though he doesnt . Check his diet & the reason behind it",
+    "url": "https://economictimes.indiatimes.com/news/new-updates/why-this-us-doctor-eats-as-if-he-has-cancer-even-though-he-doesnt-check-his-diet-the-reason-behind-it/articleshow/130852520.cms",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "India"
+  },
+  {
+    "source": "News",
+    "platform": "jagran.com",
+    "claim": "\u0906\u092a\u0915\u0940 \u0930\u094b\u091c \u0915\u0940 \u092f\u0947 5 \u0917\u0932\u0924\u093f\u092f\u093e\u0902 \u092c\u0922\u093c\u093e \u0930\u0939\u0940 \u0939\u0948\u0902 \u0939\u093e\u0930\u094d\u091f \u0905\u091f\u0948\u0915 \u0915\u093e \u0916\u0924\u0930\u093e , \u0915\u092e \u0909\u092e\u094d\u0930 \u092e\u0947\u0902 \u0939\u0940 \u0906 \u0938\u0915\u0924\u093e \u0939\u0948 \u0926\u093f\u0932 \u0915\u093e \u0926\u094c\u0930\u093e - 5 mistakes which increase risk of heart attack",
+    "url": "https://www.jagran.com/lifestyle/health-5-mistakes-which-increase-risk-of-heart-attack-40229426.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "India"
+  },
+  {
+    "source": "News",
+    "platform": "hellomagazine.com",
+    "claim": "A nutritionist explains the gut role in hormonal mood swings - and how to finally take control",
+    "url": "https://www.hellomagazine.com/healthandbeauty/897195/gut-health-female-hormones-oestrobolome-marta-leon/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United Kingdom"
+  },
+  {
+    "source": "News",
+    "platform": "miragenews.com",
+    "claim": "Heart Foundation Tackles Misinformation About Seed Oils",
+    "url": "https://www.miragenews.com/heart-foundation-tackles-misinformation-about-1668432/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "Vitamin E Saved My Brain : Why This Cheap Supplement Beats Alzheimer Drugs \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-05-05-vitamin-e-saved-my-brain.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "Study : Both Caffeinated and Decaffeinated Coffee Linked to Mood Improvement and Stress Reduction via Gut - Brain Axis \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-05-05-caffeinated-decaffeinated-coffee-linked-to-mood-improvement.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "The fascinating connection between the gut and the brain : GUAR GUM improves sleep , cognition and memory \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-05-05-guar-gum-improves-sleep-cognition-and-memory.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "timesandstar.co.uk",
+    "claim": "Gut Health : What actually works ( and what just hype )?",
+    "url": "https://www.timesandstar.co.uk/opinion/26078353.gut-health-actually-works-just-hype/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United Kingdom"
+  },
+  {
+    "source": "News",
+    "platform": "nutraingredients.com",
+    "claim": "HMOs in infant nutrition : Regulatory approvals to drive NPD and affordability",
+    "url": "https://www.nutraingredients.com/Article/2026/05/06/hmos-in-infant-nutrition-regulatory-approvals-to-drive-npd-and-affordability/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United Kingdom"
   }
 ]
