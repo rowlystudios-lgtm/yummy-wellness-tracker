@@ -1,110 +1,47 @@
 [
   {
     "source": "News",
-    "platform": "prevention.com",
-    "claim": "Dietitians Say This Is the Best Time to Take Vitamin D",
-    "url": "https://www.prevention.com/food-nutrition/a71217481/best-time-to-take-vitamin-d-guide/",
+    "platform": "sciencesetavenir.fr",
+    "claim": "Nutrition personnalis\u00e9e et microbiote : manger selon ses bact\u00e9ries",
+    "url": "https://www.sciencesetavenir.fr/nutrition/nutrition-personnalisee-la-science-de-manger-selon-son-microbiote_192267",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "United States"
+    "source_country": "France"
   },
   {
     "source": "News",
-    "platform": "prevention.com",
-    "claim": "Vitamin D vs . D3 : What the Difference ? Dietitians Explain",
-    "url": "https://www.prevention.com/health/a71209111/vitamin-d-vs-vitamin-d3/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "naturalnews.com",
-    "claim": "Beyond The Diagnosis  on BrightU : How sadness , dehydration and a blocked fascia create cancer \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-05-05-sadness-dehydration-and-blocked-fascia-create-cancer.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "economictimes.indiatimes.com",
-    "claim": "Why this US doctor eats as if he has cancer , even though he doesnt . Check his diet & the reason behind it",
-    "url": "https://economictimes.indiatimes.com/news/new-updates/why-this-us-doctor-eats-as-if-he-has-cancer-even-though-he-doesnt-check-his-diet-the-reason-behind-it/articleshow/130852520.cms",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "India"
-  },
-  {
-    "source": "News",
-    "platform": "jagran.com",
-    "claim": "\u0906\u092a\u0915\u0940 \u0930\u094b\u091c \u0915\u0940 \u092f\u0947 5 \u0917\u0932\u0924\u093f\u092f\u093e\u0902 \u092c\u0922\u093c\u093e \u0930\u0939\u0940 \u0939\u0948\u0902 \u0939\u093e\u0930\u094d\u091f \u0905\u091f\u0948\u0915 \u0915\u093e \u0916\u0924\u0930\u093e , \u0915\u092e \u0909\u092e\u094d\u0930 \u092e\u0947\u0902 \u0939\u0940 \u0906 \u0938\u0915\u0924\u093e \u0939\u0948 \u0926\u093f\u0932 \u0915\u093e \u0926\u094c\u0930\u093e - 5 mistakes which increase risk of heart attack",
-    "url": "https://www.jagran.com/lifestyle/health-5-mistakes-which-increase-risk-of-heart-attack-40229426.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "India"
-  },
-  {
-    "source": "News",
-    "platform": "hellomagazine.com",
-    "claim": "A nutritionist explains the gut role in hormonal mood swings - and how to finally take control",
-    "url": "https://www.hellomagazine.com/healthandbeauty/897195/gut-health-female-hormones-oestrobolome-marta-leon/",
+    "platform": "lbc.co.uk",
+    "claim": "Cook your own meals , doctors warn heart patients as sufferers told to avoid ultra - processed food",
+    "url": "https://www.lbc.co.uk/article/heart-patients-upf-cook-meals-5HjdYnR_2/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United Kingdom"
   },
   {
     "source": "News",
-    "platform": "miragenews.com",
-    "claim": "Heart Foundation Tackles Misinformation About Seed Oils",
-    "url": "https://www.miragenews.com/heart-foundation-tackles-misinformation-about-1668432/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "naturalnews.com",
-    "claim": "Vitamin E Saved My Brain : Why This Cheap Supplement Beats Alzheimer Drugs \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-05-05-vitamin-e-saved-my-brain.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "naturalnews.com",
-    "claim": "Study : Both Caffeinated and Decaffeinated Coffee Linked to Mood Improvement and Stress Reduction via Gut - Brain Axis \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-05-05-caffeinated-decaffeinated-coffee-linked-to-mood-improvement.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "naturalnews.com",
-    "claim": "The fascinating connection between the gut and the brain : GUAR GUM improves sleep , cognition and memory \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-05-05-guar-gum-improves-sleep-cognition-and-memory.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "timesandstar.co.uk",
-    "claim": "Gut Health : What actually works ( and what just hype )?",
-    "url": "https://www.timesandstar.co.uk/opinion/26078353.gut-health-actually-works-just-hype/",
+    "platform": "dailypost.co.uk",
+    "claim": "Cardiologists issue new  avoid  warning over ultra - processed foods",
+    "url": "https://www.dailypost.co.uk/news/health/cardiologists-issue-new-avoid-warning-33901230",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United Kingdom"
   },
   {
     "source": "News",
-    "platform": "nutraingredients.com",
-    "claim": "HMOs in infant nutrition : Regulatory approvals to drive NPD and affordability",
-    "url": "https://www.nutraingredients.com/Article/2026/05/06/hmos-in-infant-nutrition-regulatory-approvals-to-drive-npd-and-affordability/",
+    "platform": "news-medical.net",
+    "claim": "Ultra processed foods linked to higher cardiovascular disease and death",
+    "url": "https://www.news-medical.net/news/20260507/Ultra-processed-foods-linked-to-higher-cardiovascular-disease-and-death.aspx",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "United Kingdom"
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "prnewswire.com",
+    "claim": "Community Serving AMPL Institute Releases National Food is Medicine Report on Access to Medically Tailored Nutrition in the U . S .",
+    "url": "https://www.prnewswire.com/news-releases/community-servings-ampl-institute-releases-national-food-is-medicine-report-on-access-to-medically-tailored-nutrition-in-the-us-302764211.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
   }
 ]
