@@ -1,47 +1,56 @@
 [
   {
     "source": "News",
-    "platform": "sciencesetavenir.fr",
-    "claim": "Nutrition personnalis\u00e9e et microbiote : manger selon ses bact\u00e9ries",
-    "url": "https://www.sciencesetavenir.fr/nutrition/nutrition-personnalisee-la-science-de-manger-selon-son-microbiote_192267",
+    "platform": "manilatimes.net",
+    "claim": "Beverly Hills MD Plump + Firm Claims Evaluated : The Plump & Firm Advanced Collagen Booster Drink Powder for Healthy Skin Support",
+    "url": "https://www.manilatimes.net/2026/05/08/tmt-newswire/globenewswire/beverly-hills-md-plump-firm-claims-evaluated-the-plump-firm-advanced-collagen-booster-drink-powder-for-healthy-skin-support/2339134",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "France"
+    "source_country": "Philippines"
   },
   {
     "source": "News",
-    "platform": "lbc.co.uk",
-    "claim": "Cook your own meals , doctors warn heart patients as sufferers told to avoid ultra - processed food",
-    "url": "https://www.lbc.co.uk/article/heart-patients-upf-cook-meals-5HjdYnR_2/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United Kingdom"
-  },
-  {
-    "source": "News",
-    "platform": "dailypost.co.uk",
-    "claim": "Cardiologists issue new  avoid  warning over ultra - processed foods",
-    "url": "https://www.dailypost.co.uk/news/health/cardiologists-issue-new-avoid-warning-33901230",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United Kingdom"
-  },
-  {
-    "source": "News",
-    "platform": "news-medical.net",
-    "claim": "Ultra processed foods linked to higher cardiovascular disease and death",
-    "url": "https://www.news-medical.net/news/20260507/Ultra-processed-foods-linked-to-higher-cardiovascular-disease-and-death.aspx",
+    "platform": "naturalnews.com",
+    "claim": "The gut - healing power of nature bounty : Top fruits for digestive wellness \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-05-07-the-gut-healing-power-of-natures-bounty.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "prnewswire.com",
-    "claim": "Community Serving AMPL Institute Releases National Food is Medicine Report on Access to Medically Tailored Nutrition in the U . S .",
-    "url": "https://www.prnewswire.com/news-releases/community-servings-ampl-institute-releases-national-food-is-medicine-report-on-access-to-medically-tailored-nutrition-in-the-us-302764211.html",
+    "platform": "gulfnews.com",
+    "claim": "Mango season hits different : Memories , gut health benefits , and its place as the king of fruits",
+    "url": "https://gulfnews.com/lifestyle/mango-season-hits-different-memories-gut-health-benefits-and-its-place-as-the-king-of-fruits-1.500533282",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United Arab Emirates"
+  },
+  {
+    "source": "News",
+    "platform": "opednews.com",
+    "claim": "Article : Eating for the gut ( verbatim what I send to my fam periodically )",
+    "url": "https://www.opednews.com/populum/page.php?f=Eating-for-the-gut-verbat-Diet_Dietary-Guidelines_Glyphosate_Plant-Based-Diet-260507-37.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "eurekalert.org",
+    "claim": "Limit ultra processed foods to lower risk of heart disease , say experts",
+    "url": "https://www.eurekalert.org:443/news-releases/1126360",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "timesofindia.indiatimes.com",
+    "claim": "Heart Health : Eating more ultra - processed foods may raise heart disease risk by up to 19 %, says major European report",
+    "url": "https://timesofindia.indiatimes.com/health/eating-more-ultra-processed-foods-may-raise-heart-disease-risk-by-up-to-19-says-major-european-report/articleshow/130914601.cms",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "India"
   }
 ]
