@@ -1,56 +1,65 @@
 [
   {
     "source": "News",
-    "platform": "manilatimes.net",
-    "claim": "Beverly Hills MD Plump + Firm Claims Evaluated : The Plump & Firm Advanced Collagen Booster Drink Powder for Healthy Skin Support",
-    "url": "https://www.manilatimes.net/2026/05/08/tmt-newswire/globenewswire/beverly-hills-md-plump-firm-claims-evaluated-the-plump-firm-advanced-collagen-booster-drink-powder-for-healthy-skin-support/2339134",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "Philippines"
-  },
-  {
-    "source": "News",
-    "platform": "naturalnews.com",
-    "claim": "The gut - healing power of nature bounty : Top fruits for digestive wellness \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-05-07-the-gut-healing-power-of-natures-bounty.html",
+    "platform": "thepaper24-7.com",
+    "claim": "Not ALL Processed Foods Are Problem - The Paper of Montgomery County",
+    "url": "https://thepaper24-7.com/2026/05/not-all-processed-foods-are-problem/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "gulfnews.com",
-    "claim": "Mango season hits different : Memories , gut health benefits , and its place as the king of fruits",
-    "url": "https://gulfnews.com/lifestyle/mango-season-hits-different-memories-gut-health-benefits-and-its-place-as-the-king-of-fruits-1.500533282",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United Arab Emirates"
-  },
-  {
-    "source": "News",
-    "platform": "opednews.com",
-    "claim": "Article : Eating for the gut ( verbatim what I send to my fam periodically )",
-    "url": "https://www.opednews.com/populum/page.php?f=Eating-for-the-gut-verbat-Diet_Dietary-Guidelines_Glyphosate_Plant-Based-Diet-260507-37.html",
+    "platform": "journalreview.com",
+    "claim": "Not ALL processed foods are the problem",
+    "url": "http://www.journalreview.com/stories/not-all-processed-foods-are-the-problem,392219",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "eurekalert.org",
-    "claim": "Limit ultra processed foods to lower risk of heart disease , say experts",
-    "url": "https://www.eurekalert.org:443/news-releases/1126360",
+    "platform": "irishexaminer.com",
+    "claim": "Take it to the max with a fibre - rich diet :  Most people do not get enough fibre",
+    "url": "https://www.irishexaminer.com/food/arid-41840796.html",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "United States"
+    "source_country": "Ireland"
   },
   {
     "source": "News",
-    "platform": "timesofindia.indiatimes.com",
-    "claim": "Heart Health : Eating more ultra - processed foods may raise heart disease risk by up to 19 %, says major European report",
-    "url": "https://timesofindia.indiatimes.com/health/eating-more-ultra-processed-foods-may-raise-heart-disease-risk-by-up-to-19-says-major-european-report/articleshow/130914601.cms",
+    "platform": "marieclaire.co.uk",
+    "claim": "5 Anti - Inflammation Hacks That Take Less Than 5 Minutes",
+    "url": "https://www.marieclaire.co.uk/health-fitness/nutrition/simple-five-minute-anti-inflammation-hacks",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "India"
+    "source_country": "United Kingdom"
+  },
+  {
+    "source": "News",
+    "platform": "theargus.co.uk",
+    "claim": "How omega 3 supports inflammation , brain health and energy",
+    "url": "https://www.theargus.co.uk/news/26081540.omega-3-supports-inflammation-brain-health-energy/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United Kingdom"
+  },
+  {
+    "source": "News",
+    "platform": "thevillager.com.na",
+    "claim": "Rural Women Champion Organic Farming for Healthier Harvests",
+    "url": "https://www.thevillager.com.na/national/2026/rural-women-champion-organic-farming-for-healthier-harvests/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Namibia"
+  },
+  {
+    "source": "News",
+    "platform": "nbcnews.com",
+    "claim": "Best Korean Hair Care of 2026 : Dermatologist - Approved Picks for Healthy Hair",
+    "url": "https://www.nbcnews.com/select/shopping/best-korean-hair-care-rcna344094",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
   }
 ]
