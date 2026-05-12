@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "source": "News",
+    "platform": "theguardian.com",
+    "claim": "Consuming fruit and a cup of coffee a day can halve risk of unhealthy cell ageing , study suggests",
+    "url": "https://www.theguardian.com/society/2026/may/11/consuming-fruit-coffee-halve-risk-unhealthy-cell-ageing",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United Kingdom"
+  },
+  {
+    "source": "News",
+    "platform": "tribuneindia.com",
+    "claim": "Ultra - processed foods increase risk of heart disease : Study",
+    "url": "https://www.tribuneindia.com/news/health/ultra-processed-foods-increase-risk-of-heart-disease-study/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "India"
+  },
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "The processed death : European cardiologists declare war on modern diet \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-05-11-european-cardiologists-declare-war-on-modern-diet.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "samoanews.com",
+    "claim": "How unhealthy ultra \u2011 processed foods are designed and marketed to make us crave them",
+    "url": "https://www.samoanews.com/features/how-unhealthy-ultra-processed-foods-are-designed-and-marketed-make-us-crave-them",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Samoa"
+  }
+]
