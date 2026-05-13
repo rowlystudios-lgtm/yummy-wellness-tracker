@@ -1,38 +1,110 @@
 [
   {
     "source": "News",
-    "platform": "theguardian.com",
-    "claim": "Consuming fruit and a cup of coffee a day can halve risk of unhealthy cell ageing , study suggests",
-    "url": "https://www.theguardian.com/society/2026/may/11/consuming-fruit-coffee-halve-risk-unhealthy-cell-ageing",
+    "platform": "mundiario.com",
+    "claim": "C\u00f3mo obtener vitamina D en la dieta : pescado azul , huevos y l\u00e1cteos",
+    "url": "https://www.mundiario.com/articulo/bienestar/como-obtener-vitamina-d-dieta-pescado-azul-huevos-lacteos/20260512150558386065.html",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "United Kingdom"
+    "source_country": "Spain"
   },
   {
     "source": "News",
-    "platform": "tribuneindia.com",
-    "claim": "Ultra - processed foods increase risk of heart disease : Study",
-    "url": "https://www.tribuneindia.com/news/health/ultra-processed-foods-increase-risk-of-heart-disease-study/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "India"
-  },
-  {
-    "source": "News",
-    "platform": "naturalnews.com",
-    "claim": "The processed death : European cardiologists declare war on modern diet \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-05-11-european-cardiologists-declare-war-on-modern-diet.html",
+    "platform": "nypost.com",
+    "claim": "Common foods that mess with focus , even if your diet is healthy",
+    "url": "https://nypost.com/2026/05/12/health/common-foods-that-mess-with-focus-even-if-your-diet-is-healthy/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "samoanews.com",
-    "claim": "How unhealthy ultra \u2011 processed foods are designed and marketed to make us crave them",
-    "url": "https://www.samoanews.com/features/how-unhealthy-ultra-processed-foods-are-designed-and-marketed-make-us-crave-them",
+    "platform": "indianexpress.com",
+    "claim": "Ive been a kidney dietician for 10 years and here are 5 things I see people doing wrong  | Health News",
+    "url": "https://indianexpress.com/article/lifestyle/health/ive-been-a-kidney-dietician-for-10-years-and-here-are-5-things-i-see-people-doing-wrong-10685832/",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "Samoa"
+    "source_country": "India"
+  },
+  {
+    "source": "News",
+    "platform": "sentinelassam.com",
+    "claim": "Ultra - processed foods increase risk of heart disease : Study",
+    "url": "https://www.sentinelassam.com/topheadlines/ultra-processed-foods-increase-risk-of-heart-disease-study",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "India"
+  },
+  {
+    "source": "News",
+    "platform": "economictimes.indiatimes.com",
+    "claim": "Diabetic and eating ghee with roti ? Here what celebrity dietitian Rujuta Diwekar says about this food habit",
+    "url": "https://economictimes.indiatimes.com/news/new-updates/diabetic-and-eating-ghee-with-roti-heres-what-celebrity-dietitian-rujuta-diwekar-says-about-this-food-habit/articleshow/131044874.cms",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "India"
+  },
+  {
+    "source": "News",
+    "platform": "reflector.com",
+    "claim": "Kathy Kolasa : Extra virgin olive oil healthy , but also costly",
+    "url": "https://www.reflector.com/features/columnists/kathy-kolasa-extra-virgin-olive-oil-healthy-but-also-costly/article_207ccf68-ae3d-4e50-a16f-c2286b2c80d8.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "onegreenplanet.org",
+    "claim": "The Gut - Brain Axis : How Your Microbiome Affects Your Mood , Focus , and Mental Health in 2026",
+    "url": "https://www.onegreenplanet.org/natural-health/the-gut-brain-axis-how-your-microbiome-affects-your-mood-focus-and-mental-health-in-2026/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "New Parkinson research exposes what Big Pharma doesnt want you to know \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-05-12-parkinsons-research-exposes-big-pharma-lie.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "hawaii.edu",
+    "claim": "UH M\u0101noa nurse scientists honored for health care innovation | University of Hawai\u02bbi System News",
+    "url": "https://www.hawaii.edu/news/2026/05/11/uh-manoa-nurse-scientists-honored-for-health-care-innovation/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "durangoherald.com",
+    "claim": "The gut health upgrade that isnt more fiber - The Durango Herald",
+    "url": "https://www.durangoherald.com/articles/the-gut-health-upgrade-that-isnt-more-fiber/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "westcentralonline.com",
+    "claim": "Early study suggests potential gut health connection to symptoms in children with autism - WestCentralOnline : West Central Saskatchewan latest news , sports , weather , community events .",
+    "url": "https://westcentralonline.com/articles/early-study-suggests-potential-gut-health-connection-to-symptoms-in-children-with-autism",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Canada"
+  },
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "The golden spice new frontier : Ancient saffron shows promise in calming modern gut and mind ailments \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-05-12-saffron-shows-promise-calming-gut-mind-ailments.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
   }
 ]
