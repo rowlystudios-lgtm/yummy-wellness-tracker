@@ -1,63 +1,45 @@
 [
   {
     "source": "News",
-    "platform": "mundiario.com",
-    "claim": "C\u00f3mo obtener vitamina D en la dieta : pescado azul , huevos y l\u00e1cteos",
-    "url": "https://www.mundiario.com/articulo/bienestar/como-obtener-vitamina-d-dieta-pescado-azul-huevos-lacteos/20260512150558386065.html",
+    "platform": "finanznachrichten.de",
+    "claim": "Guiding Stars Licensing Company LLC : Guiding Stars : Heart Health Guidelines Update",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-05/68486637-guiding-stars-licensing-company-llc-guiding-stars-heart-health-guidelines-update-200.htm",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Germany"
+  },
+  {
+    "source": "News",
+    "platform": "elperiodico.com",
+    "claim": "Los m\u00e9dicos coinciden : la dieta sin gluten  estricta y de por vida  es el \u00fanico tratamiento eficaz para los celiacos",
+    "url": "https://www.elperiodico.com/es/sanidad/20260514/dieta-gluten-estricta-celiacos-medios-coinciden-130211449",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "Spain"
   },
   {
     "source": "News",
-    "platform": "nypost.com",
-    "claim": "Common foods that mess with focus , even if your diet is healthy",
-    "url": "https://nypost.com/2026/05/12/health/common-foods-that-mess-with-focus-even-if-your-diet-is-healthy/",
+    "platform": "levante-emv.com",
+    "claim": "GLUTEN | Los m\u00e9dicos , contundentes : la dieta sin gluten  estricta y de por vida  es el \u00fanico tratamiento eficaz para los celiacos",
+    "url": "https://www.levante-emv.com/sociedad/2026/05/14/medicos-contundentes-dieta-gluten-estricta-vida-unico-tratamiento-eficaz-celiacos-130215051.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Spain"
+  },
+  {
+    "source": "News",
+    "platform": "wtop.com",
+    "claim": "America 250 : Food culture , the American diet and how it shaped public health",
+    "url": "https://wtop.com/250-years-of-america/2026/05/america-250-food-culture-the-american-diet-and-how-it-shaped-public-health/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "indianexpress.com",
-    "claim": "Ive been a kidney dietician for 10 years and here are 5 things I see people doing wrong  | Health News",
-    "url": "https://indianexpress.com/article/lifestyle/health/ive-been-a-kidney-dietician-for-10-years-and-here-are-5-things-i-see-people-doing-wrong-10685832/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "India"
-  },
-  {
-    "source": "News",
-    "platform": "sentinelassam.com",
-    "claim": "Ultra - processed foods increase risk of heart disease : Study",
-    "url": "https://www.sentinelassam.com/topheadlines/ultra-processed-foods-increase-risk-of-heart-disease-study",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "India"
-  },
-  {
-    "source": "News",
-    "platform": "economictimes.indiatimes.com",
-    "claim": "Diabetic and eating ghee with roti ? Here what celebrity dietitian Rujuta Diwekar says about this food habit",
-    "url": "https://economictimes.indiatimes.com/news/new-updates/diabetic-and-eating-ghee-with-roti-heres-what-celebrity-dietitian-rujuta-diwekar-says-about-this-food-habit/articleshow/131044874.cms",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "India"
-  },
-  {
-    "source": "News",
-    "platform": "reflector.com",
-    "claim": "Kathy Kolasa : Extra virgin olive oil healthy , but also costly",
-    "url": "https://www.reflector.com/features/columnists/kathy-kolasa-extra-virgin-olive-oil-healthy-but-also-costly/article_207ccf68-ae3d-4e50-a16f-c2286b2c80d8.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "onegreenplanet.org",
-    "claim": "The Gut - Brain Axis : How Your Microbiome Affects Your Mood , Focus , and Mental Health in 2026",
-    "url": "https://www.onegreenplanet.org/natural-health/the-gut-brain-axis-how-your-microbiome-affects-your-mood-focus-and-mental-health-in-2026/",
+    "platform": "everydayhealth.com",
+    "claim": "Perimenopause Poses Heart Health Challenges for Women",
+    "url": "https://www.everydayhealth.com/womens-health/heart-health-may-take-a-hit-as-women-enter-perimenopause/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
@@ -65,17 +47,26 @@
   {
     "source": "News",
     "platform": "naturalnews.com",
-    "claim": "New Parkinson research exposes what Big Pharma doesnt want you to know \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-05-12-parkinsons-research-exposes-big-pharma-lie.html",
+    "claim": "Recent Studies Examine Vitamin D Role in Diabetes , Alzheimer and IBD Treatment \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-05-13-vitamin-d-role-diabetes-alzheimers-ibd-treatment.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "hawaii.edu",
-    "claim": "UH M\u0101noa nurse scientists honored for health care innovation | University of Hawai\u02bbi System News",
-    "url": "https://www.hawaii.edu/news/2026/05/11/uh-manoa-nurse-scientists-honored-for-health-care-innovation/",
+    "platform": "pmnewsnigeria.com",
+    "claim": "Salt it out : Groups urge Nigerians to embrace healthier diets \u2013 P . M . News",
+    "url": "https://pmnewsnigeria.com/2026/05/14/salt-it-out-groups-urge-nigerians-to-embrace-healthier-diets/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Nigeria"
+  },
+  {
+    "source": "News",
+    "platform": "dailymail.com",
+    "claim": "The 30p supplement that helps you keep the weight off AND slashes your risk of diabetes . Now our experts reveal why people trying to get off Mounjaro must take it - and how it can stop this common side - effect",
+    "url": "https://www.dailymail.com/health/article-15815161/30p-probiotic-supplement-weight-diabetes.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
@@ -91,18 +82,27 @@
   },
   {
     "source": "News",
-    "platform": "westcentralonline.com",
-    "claim": "Early study suggests potential gut health connection to symptoms in children with autism - WestCentralOnline : West Central Saskatchewan latest news , sports , weather , community events .",
-    "url": "https://westcentralonline.com/articles/early-study-suggests-potential-gut-health-connection-to-symptoms-in-children-with-autism",
+    "platform": "metro.co.uk",
+    "claim": "Struggling with constipation ? This fibre supplement could help get your gut back",
+    "url": "https://metro.co.uk/2026/05/14/struggling-constipation-this-fibre-supplement-help-get-gut-back-track-28335397/",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "Canada"
+    "source_country": "United Kingdom"
   },
   {
     "source": "News",
-    "platform": "naturalnews.com",
-    "claim": "The golden spice new frontier : Ancient saffron shows promise in calming modern gut and mind ailments \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-05-12-saffron-shows-promise-calming-gut-mind-ailments.html",
+    "platform": "fingerlakes1.com",
+    "claim": "Cornell researchers say winery waste could reduce antibiotic use in chicken farming",
+    "url": "https://www.fingerlakes1.com/2026/05/13/cornell-researchers-say-winery-waste-could-reduce-antibiotic-use-in-chicken-farming/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "nbclosangeles.com",
+    "claim": "Why is colon cancer on the rise in young people ? What to know \u2013 NBC Los Angeles",
+    "url": "https://www.nbclosangeles.com/news/national-international/why-is-colon-cancer-on-the-rise-in-young-people/3889940/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
