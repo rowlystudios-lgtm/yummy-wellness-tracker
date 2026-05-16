@@ -1,9 +1,27 @@
 [
   {
     "source": "News",
-    "platform": "news-medical.net",
-    "claim": "Healthy brain maintenance protects cognitive skills from early Alzheimer effects",
-    "url": "https://www.news-medical.net/news/20260515/Healthy-brain-maintenance-protects-cognitive-skills-from-early-Alzheimers-effects.aspx",
+    "platform": "hindustantimes.com",
+    "claim": "Does your healthy protein shake have as much sugar as a soda ? Doctor explains how to read labels",
+    "url": "https://www.hindustantimes.com/lifestyle/health/does-your-healthy-protein-shake-have-as-much-sugar-as-a-soda-doctor-explains-how-to-read-labels-101777884311921.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "India"
+  },
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "Report : Six Low - Effort Food Habits That Can Upgrade Nutrition , According to Dietitian \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-05-15-six-food-habits-can-upgrade-nutrition-dietitian.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "dailymail.com",
+    "claim": "The three  healthy  breakfast foods that could be piling on the pounds",
+    "url": "https://www.dailymail.com/lifestyle/food-drink/article-15821385/The-three-healthy-breakfast-foods-piling-pounds-speeding-ageing-according-doctor.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"

@@ -1,28 +1,68 @@
 {
-  "week_headline": "Brain health takes centre stage as new research suggests lifestyle habits may buffer early Alzheimer's damage more than previously thought",
-  "misleading_pct": "15%",
-  "true_pct": "85%",
+  "week_headline": "Ultra-processed 'health' foods are under the microscope this week, with protein shakes, breakfast staples, and simple food swaps all sparking heated debate online",
+  "misleading_pct": "33%",
+  "true_pct": "67%",
   "claims": [
     {
-      "score": 82,
+      "score": 72,
       "score_label": "Nuanced",
       "score_type": "mixed",
       "claim_tag": "Partially true",
-      "verdict": "There's genuinely solid evidence here \u2014 the concept of 'cognitive reserve' is well established, meaning that keeping your brain active and healthy throughout life can delay when Alzheimer's symptoms become noticeable, even as the underlying disease progresses. Importantly though, this is not a cure or a prevention of the disease itself \u2014 it's more like having a larger buffer before the effects show up in daily life. Diet, exercise, sleep, social engagement, and mental stimulation all contribute, but no single habit is a silver bullet.",
-      "verdict_highlight": "Cognitive reserve buys time, not a cure",
+      "verdict": "Some protein shakes genuinely do contain as much sugar as a can of soda \u2014 certain flavoured meal-replacement shakes can pack 20\u201330g of added sugar per serving. But many whey or plant protein powders contain very little sugar at all, so the claim paints a broad brush across a hugely varied category. Reading labels is genuinely good advice; the headline just oversimplifies to make a point.",
+      "verdict_highlight": "Check labels \u2014 sugar varies wildly by brand",
       "sources": [
-        "NIH National Institute on Aging \u2014 Cognitive Reserve and Alzheimer's Disease",
-        "Lancet Commission on Dementia Prevention, Intervention and Care (2020)",
-        "NEJM \u2014 Lifestyle Factors and Risk of Alzheimer's Disease",
-        "Harvard Health Publishing \u2014 Building a Resilient Brain",
-        "JAMA Neurology \u2014 Brain Maintenance and Cognitive Aging"
+        "Harvard T.H. Chan School of Public Health \u2013 The Nutrition Source (Protein)",
+        "EFSA \u2013 Scientific Opinion on Dietary Reference Values for Protein",
+        "Journal of the International Society of Sports Nutrition, 2018"
       ],
-      "global_opinion": "In the US, the NIH actively funds cognitive reserve research and public health campaigns promote brain-healthy lifestyles as part of dementia strategy. In the UK, the NHS and Alzheimer's Society both endorse lifestyle interventions but are careful to frame them as risk-reduction rather than prevention, to avoid false hope. In Japan, where dementia rates are closely monitored given the ageing population, community-based programmes combining physical activity and social engagement are widely promoted as standard public health policy.",
-      "brit_take": "Essentially, keeping your brain busy with crosswords, walks, and a decent chat over tea won't stop Alzheimer's \u2014 but it does seem to give your brain a bit more runway before things get tricky.",
+      "global_opinion": "In the US, the FDA requires added sugar to be listed separately on nutrition labels since 2020, making this easier to spot. The EU's EFSA has stricter marketing rules around health claims on sports supplements, so European consumers get more regulated labelling. In Australia, the TGA and FSANZ both govern protein products, and consumer groups there have flagged sugar content in meal-replacement shakes for years.",
+      "brit_take": "Half the protein shakes at the gym caf\u00e9 taste like a melted chocolate bar \u2014 turns out there's a reason for that. Worth a squint at the label before assuming 'protein' means 'healthy'.",
       "source": "News",
-      "platform": "news-medical.net",
-      "url": "https://www.news-medical.net/news/20260515/Healthy-brain-maintenance-protects-cognitive-skills-from-early-Alzheimers-effects.aspx",
-      "claim": "Healthy brain maintenance protects cognitive skills from early Alzheimer effects",
+      "platform": "hindustantimes.com",
+      "url": "https://www.hindustantimes.com/lifestyle/health/does-your-healthy-protein-shake-have-as-much-sugar-as-a-soda-doctor-explains-how-to-read-labels-101777884311921.html",
+      "claim": "Does your healthy protein shake have as much sugar as a soda ? Doctor explains how to read labels",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 55,
+      "score_label": "Nuanced",
+      "score_type": "mixed",
+      "claim_tag": "Partially true",
+      "verdict": "The underlying advice \u2014 things like adding vegetables to existing meals, eating more legumes, or choosing whole grains \u2014 is genuinely backed by solid nutrition science. The red flag here is the source: NaturalNews.com has a well-documented history of publishing misleading health content, so even sensible tips deserve a second look from a credible source. Good habits don't need a dodgy messenger to be real.",
+      "verdict_highlight": "Good advice, but check who's giving it",
+      "sources": [
+        "WHO \u2013 Healthy Diet Fact Sheet (2023)",
+        "NHS \u2013 Eight tips for healthy eating",
+        "Dietary Guidelines for Americans 2020\u20132025 (USDA/HHS)"
+      ],
+      "global_opinion": "Most national dietary guidelines \u2014 from the NHS in the UK to Health Canada to the Australian Dietary Guidelines \u2014 do recommend simple, incremental food habit changes over dramatic overhauls, which aligns with the general thrust of such advice. However, the credibility gap matters: regulators in the EU and UK have mechanisms to flag misleading health websites, something the US does far less systematically. In Japan, dietary guidance tends to emphasise food variety and portion balance, which similarly supports low-effort incremental improvement.",
+      "brit_take": "Sound advice occasionally wanders into strange neighbourhoods on the internet. The tip to eat more veg is still good even if it turns up next to an article about 5G and superfoods.",
+      "source": "News",
+      "platform": "naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-05-15-six-food-habits-can-upgrade-nutrition-dietitian.html",
+      "claim": "Report : Six Low - Effort Food Habits That Can Upgrade Nutrition , According to Dietitian \u2013 NaturalNews . com",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 38,
+      "score_label": "Nuanced",
+      "score_type": "mixed",
+      "claim_tag": "Overstated",
+      "verdict": "Certain 'healthy' breakfast foods \u2014 like granola, flavoured yoghurts, and fruit juices \u2014 can be calorie-dense or high in added sugar, and portion sizes genuinely catch people out. But framing these foods as straightforwardly fattening ignores context: overall diet quality, total daily calories, and lifestyle matter far more than any single meal. This style of headline leans on food fear rather than helpful nuance.",
+      "verdict_highlight": "Portion and context matter more than the food itself",
+      "sources": [
+        "BMJ \u2013 'Ultra-processed food consumption and risk of obesity', 2019",
+        "American Journal of Clinical Nutrition \u2013 Breakfast consumption and weight management, 2021",
+        "NHS \u2013 Healthy breakfasts: nutrition tips"
+      ],
+      "global_opinion": "In the US, oversized granola portions and sweetened yoghurt are frequently cited by dietitians as hidden calorie traps, and this concern has real data behind it. In France and much of Southern Europe, breakfast tends to be smaller and less processed, so the same foods often appear in smaller quantities and cause less concern. Nordic countries have long emphasised whole-grain cereals at breakfast, with regulatory pressure on food manufacturers to reduce added sugars \u2014 meaning the same product category can look quite different nutritionally depending on where you buy it.",
+      "brit_take": "The problem with granola isn't usually the granola \u2014 it's that the serving size on the box bears absolutely no resemblance to how much actually ends up in the bowl.",
+      "source": "News",
+      "platform": "dailymail.com",
+      "url": "https://www.dailymail.com/lifestyle/food-drink/article-15821385/The-three-healthy-breakfast-foods-piling-pounds-speeding-ageing-according-doctor.html",
+      "claim": "The three  healthy  breakfast foods that could be piling on the pounds",
       "hours_ago": 12,
       "engagement": 40
     }
