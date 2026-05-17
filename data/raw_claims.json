@@ -1,27 +1,18 @@
 [
   {
     "source": "News",
-    "platform": "hindustantimes.com",
-    "claim": "Does your healthy protein shake have as much sugar as a soda ? Doctor explains how to read labels",
-    "url": "https://www.hindustantimes.com/lifestyle/health/does-your-healthy-protein-shake-have-as-much-sugar-as-a-soda-doctor-explains-how-to-read-labels-101777884311921.html",
+    "platform": "the-independent.com",
+    "claim": "How to cure cancer is the ultimate question \u2013 but meet the expert who says there are ways to outsmart it",
+    "url": "https://www.the-independent.com/life-style/health-and-families/cancer-prevention-expert-testing-research-b2976628.html",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "India"
+    "source_country": ""
   },
   {
     "source": "News",
-    "platform": "naturalnews.com",
-    "claim": "Report : Six Low - Effort Food Habits That Can Upgrade Nutrition , According to Dietitian \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-05-15-six-food-habits-can-upgrade-nutrition-dietitian.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "dailymail.com",
-    "claim": "The three  healthy  breakfast foods that could be piling on the pounds",
-    "url": "https://www.dailymail.com/lifestyle/food-drink/article-15821385/The-three-healthy-breakfast-foods-piling-pounds-speeding-ageing-according-doctor.html",
+    "platform": "nbcnewyork.com",
+    "claim": "Is beef tallow healthy ? What cardiologists want you to know",
+    "url": "https://www.nbcnewyork.com/news/health/is-beef-tallow-healthy-what-cardiologists-want-you-to-know/6502662/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"

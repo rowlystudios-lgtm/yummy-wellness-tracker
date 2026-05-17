@@ -1,68 +1,51 @@
 {
-  "week_headline": "Ultra-processed 'health' foods are under the microscope this week, with protein shakes, breakfast staples, and simple food swaps all sparking heated debate online",
-  "misleading_pct": "33%",
-  "true_pct": "67%",
+  "week_headline": "From cancer 'cures' to cooking fats, this week's health headlines are mixing genuine science with some serious oversimplification",
+  "misleading_pct": "35%",
+  "true_pct": "65%",
   "claims": [
     {
-      "score": 72,
-      "score_label": "Nuanced",
-      "score_type": "mixed",
-      "claim_tag": "Partially true",
-      "verdict": "Some protein shakes genuinely do contain as much sugar as a can of soda \u2014 certain flavoured meal-replacement shakes can pack 20\u201330g of added sugar per serving. But many whey or plant protein powders contain very little sugar at all, so the claim paints a broad brush across a hugely varied category. Reading labels is genuinely good advice; the headline just oversimplifies to make a point.",
-      "verdict_highlight": "Check labels \u2014 sugar varies wildly by brand",
-      "sources": [
-        "Harvard T.H. Chan School of Public Health \u2013 The Nutrition Source (Protein)",
-        "EFSA \u2013 Scientific Opinion on Dietary Reference Values for Protein",
-        "Journal of the International Society of Sports Nutrition, 2018"
-      ],
-      "global_opinion": "In the US, the FDA requires added sugar to be listed separately on nutrition labels since 2020, making this easier to spot. The EU's EFSA has stricter marketing rules around health claims on sports supplements, so European consumers get more regulated labelling. In Australia, the TGA and FSANZ both govern protein products, and consumer groups there have flagged sugar content in meal-replacement shakes for years.",
-      "brit_take": "Half the protein shakes at the gym caf\u00e9 taste like a melted chocolate bar \u2014 turns out there's a reason for that. Worth a squint at the label before assuming 'protein' means 'healthy'.",
-      "source": "News",
-      "platform": "hindustantimes.com",
-      "url": "https://www.hindustantimes.com/lifestyle/health/does-your-healthy-protein-shake-have-as-much-sugar-as-a-soda-doctor-explains-how-to-read-labels-101777884311921.html",
-      "claim": "Does your healthy protein shake have as much sugar as a soda ? Doctor explains how to read labels",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 55,
-      "score_label": "Nuanced",
-      "score_type": "mixed",
-      "claim_tag": "Partially true",
-      "verdict": "The underlying advice \u2014 things like adding vegetables to existing meals, eating more legumes, or choosing whole grains \u2014 is genuinely backed by solid nutrition science. The red flag here is the source: NaturalNews.com has a well-documented history of publishing misleading health content, so even sensible tips deserve a second look from a credible source. Good habits don't need a dodgy messenger to be real.",
-      "verdict_highlight": "Good advice, but check who's giving it",
-      "sources": [
-        "WHO \u2013 Healthy Diet Fact Sheet (2023)",
-        "NHS \u2013 Eight tips for healthy eating",
-        "Dietary Guidelines for Americans 2020\u20132025 (USDA/HHS)"
-      ],
-      "global_opinion": "Most national dietary guidelines \u2014 from the NHS in the UK to Health Canada to the Australian Dietary Guidelines \u2014 do recommend simple, incremental food habit changes over dramatic overhauls, which aligns with the general thrust of such advice. However, the credibility gap matters: regulators in the EU and UK have mechanisms to flag misleading health websites, something the US does far less systematically. In Japan, dietary guidance tends to emphasise food variety and portion balance, which similarly supports low-effort incremental improvement.",
-      "brit_take": "Sound advice occasionally wanders into strange neighbourhoods on the internet. The tip to eat more veg is still good even if it turns up next to an article about 5G and superfoods.",
-      "source": "News",
-      "platform": "naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-05-15-six-food-habits-can-upgrade-nutrition-dietitian.html",
-      "claim": "Report : Six Low - Effort Food Habits That Can Upgrade Nutrition , According to Dietitian \u2013 NaturalNews . com",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 38,
+      "score": 52,
       "score_label": "Nuanced",
       "score_type": "mixed",
       "claim_tag": "Overstated",
-      "verdict": "Certain 'healthy' breakfast foods \u2014 like granola, flavoured yoghurts, and fruit juices \u2014 can be calorie-dense or high in added sugar, and portion sizes genuinely catch people out. But framing these foods as straightforwardly fattening ignores context: overall diet quality, total daily calories, and lifestyle matter far more than any single meal. This style of headline leans on food fear rather than helpful nuance.",
-      "verdict_highlight": "Portion and context matter more than the food itself",
+      "verdict": "The word 'cure' is doing a lot of heavy lifting here. There is genuinely strong evidence that certain lifestyle choices \u2014 not smoking, maintaining a healthy weight, limiting alcohol, eating plenty of fibre and vegetables \u2014 can meaningfully reduce cancer risk, and some cancers are now treated so effectively that long-term remission is common. But 'outsmarting cancer' as a universal strategy oversells what science can currently promise; cancer is hundreds of different diseases, and no single approach prevents or cures them all. The underlying message about risk reduction is sound, but the framing edges toward false hope.",
+      "verdict_highlight": "Risk reduction is real; universal cures are not",
       "sources": [
-        "BMJ \u2013 'Ultra-processed food consumption and risk of obesity', 2019",
-        "American Journal of Clinical Nutrition \u2013 Breakfast consumption and weight management, 2021",
-        "NHS \u2013 Healthy breakfasts: nutrition tips"
+        "WHO \u2014 Cancer prevention fact sheets (2023)",
+        "American Cancer Society \u2014 Lifestyle and cancer risk (2023)",
+        "NEJM \u2014 Cancer immunotherapy advances (2022)",
+        "Lancet \u2014 Global cancer incidence and prevention (2022)",
+        "NIH National Cancer Institute \u2014 Cancer causes and prevention"
       ],
-      "global_opinion": "In the US, oversized granola portions and sweetened yoghurt are frequently cited by dietitians as hidden calorie traps, and this concern has real data behind it. In France and much of Southern Europe, breakfast tends to be smaller and less processed, so the same foods often appear in smaller quantities and cause less concern. Nordic countries have long emphasised whole-grain cereals at breakfast, with regulatory pressure on food manufacturers to reduce added sugars \u2014 meaning the same product category can look quite different nutritionally depending on where you buy it.",
-      "brit_take": "The problem with granola isn't usually the granola \u2014 it's that the serving size on the box bears absolutely no resemblance to how much actually ends up in the bowl.",
+      "global_opinion": "In the UK, Cancer Research UK emphasises evidence-based prevention messaging and is cautious about 'cure' language, focusing instead on early detection and risk reduction. In the US, the FDA actively warns against unproven cancer cure claims, though functional medicine communities sometimes use bolder language about lifestyle reversal. In some parts of Asia and Latin America, traditional medicine systems are more openly discussed alongside oncology, creating a broader cultural acceptance of 'outsmarting' disease through holistic means.",
+      "brit_take": "We love a good 'beat cancer with kale' headline, but Cancer Research UK has spent decades carefully saying 'reduce your risk' rather than 'cure it' \u2014 and that distinction really does matter.",
       "source": "News",
-      "platform": "dailymail.com",
-      "url": "https://www.dailymail.com/lifestyle/food-drink/article-15821385/The-three-healthy-breakfast-foods-piling-pounds-speeding-ageing-according-doctor.html",
-      "claim": "The three  healthy  breakfast foods that could be piling on the pounds",
+      "platform": "the-independent.com",
+      "url": "https://www.the-independent.com/life-style/health-and-families/cancer-prevention-expert-testing-research-b2976628.html",
+      "claim": "How to cure cancer is the ultimate question \u2013 but meet the expert who says there are ways to outsmart it",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 44,
+      "score_label": "Nuanced",
+      "score_type": "mixed",
+      "claim_tag": "Context missing",
+      "verdict": "Beef tallow is mostly saturated fat \u2014 around 50% \u2014 and the mainstream cardiology position, backed by the American Heart Association and a large body of evidence, is that high saturated fat intake raises LDL cholesterol and increases cardiovascular risk. That said, the picture is genuinely more complicated than it was twenty years ago: some research suggests saturated fat from whole food sources may behave differently to processed alternatives, and replacing tallow with refined seed oils is not automatically a win. Most cardiologists would say tallow is fine occasionally but shouldn't become your everyday cooking fat, especially if you have existing heart risk factors.",
+      "verdict_highlight": "Occasional use is fine; daily cooking fat, less so",
+      "sources": [
+        "American Heart Association \u2014 Dietary fats and cardiovascular disease (2021)",
+        "BMJ \u2014 Saturated fat and cardiovascular disease meta-analysis (2020)",
+        "JAMA \u2014 Dietary fat and heart disease risk (2020)",
+        "Harvard T.H. Chan School of Public Health \u2014 The nutrition source: fats",
+        "EFSA \u2014 Scientific opinion on dietary fat (2022)"
+      ],
+      "global_opinion": "In the US, tallow has been experiencing a significant revival in carnivore and ancestral diet communities, with some wellness influencers framing it as healthier than vegetable oils \u2014 cardiologists there largely push back on this. In France and much of southern Europe, animal fats have never really gone away from traditional cooking, and the population-level cardiovascular data there is mixed enough that researchers still debate the 'French paradox.' In the UK, the NHS continues to recommend limiting saturated fat and offers practical swaps toward unsaturated oils like olive oil.",
+      "brit_take": "Beef dripping on toast was a wartime staple and nobody is saying it isn't delicious \u2014 but 'what your nan ate' and 'what a cardiologist recommends daily' are two conversations that don't always end up in the same place.",
+      "source": "News",
+      "platform": "nbcnewyork.com",
+      "url": "https://www.nbcnewyork.com/news/health/is-beef-tallow-healthy-what-cardiologists-want-you-to-know/6502662/",
+      "claim": "Is beef tallow healthy ? What cardiologists want you to know",
       "hours_ago": 12,
       "engagement": 40
     }
