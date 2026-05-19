@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "source": "News",
+    "platform": "fox13news.com",
+    "claim": "USF researchers weigh in on study linking egg consumption to reduced Alzheimer risk",
+    "url": "https://www.fox13news.com/news/usf-researchers-study-egg-consumption-alzheimers-risk",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "Scientists find watermelon may boost heart health and improve diet quality \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-05-18-scientists-watermelon-heart-health-diet-quality.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "wpbf.com",
+    "claim": "How adding extra protein , supplements to your diet can affect your body",
+    "url": "https://www.wpbf.com/article/protein-push/71337670",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  }
+]
