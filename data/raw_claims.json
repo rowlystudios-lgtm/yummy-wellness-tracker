@@ -1,9 +1,18 @@
 [
   {
     "source": "News",
-    "platform": "fox13news.com",
-    "claim": "USF researchers weigh in on study linking egg consumption to reduced Alzheimer risk",
-    "url": "https://www.fox13news.com/news/usf-researchers-study-egg-consumption-alzheimers-risk",
+    "platform": "morningstar.com",
+    "claim": "Is RFK  carnivore diet  healthy ? Here what you need to know .",
+    "url": "https://www.morningstar.com/news/marketwatch/2026051987/is-rfks-carnivore-diet-healthy-heres-what-you-need-to-know",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "China"
+  },
+  {
+    "source": "News",
+    "platform": "psu.edu",
+    "claim": "Q & A : What is in the new American Heart Association dietary recommendations ?",
+    "url": "https://www.psu.edu/news/health-and-human-development/story/qa-what-new-american-heart-association-dietary-recommendations",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
@@ -11,19 +20,91 @@
   {
     "source": "News",
     "platform": "naturalnews.com",
-    "claim": "Scientists find watermelon may boost heart health and improve diet quality \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-05-18-scientists-watermelon-heart-health-diet-quality.html",
+    "claim": "Study : Carbohydrates Influence Gut Bacteria Immune Behavior \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-05-19-study-carbohydrates-influence-gut-bacterias-immune-behavior.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "wpbf.com",
-    "claim": "How adding extra protein , supplements to your diet can affect your body",
-    "url": "https://www.wpbf.com/article/protein-push/71337670",
+    "platform": "onegreenplanet.org",
+    "claim": "4 Best Vegan Calcium Supplements for Bone Health in 2026",
+    "url": "https://www.onegreenplanet.org/natural-health/4-best-vegan-calcium-supplements-for-bone-health-in-2026/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "lbc.co.uk",
+    "claim": "Student , 21 , tragically took her own life after suffering from  delusions caused by her vegan diet",
+    "url": "https://www.lbc.co.uk/article/student-21-tragically-took-her-own-life-after-suffering-from-delusions-5HjdZNp_2/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United Kingdom"
+  },
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "Study : Gut Microbiome Diversity Linked to Stronger Stress Response \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-05-19-gut-microbiome-diversity-linked-stronger-stress-response.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "allafrica.com",
+    "claim": "South Africa : Gut Health - Why Food Alone Wont Fix Childhood Stunting",
+    "url": "https://allafrica.com/stories/202605200008.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Nigeria"
+  },
+  {
+    "source": "News",
+    "platform": "genengnews.com",
+    "claim": "How Gut Bacteria Apply Reversible Epigenetic  Bet - Hedging  Strategy to Adapt to Change",
+    "url": "https://www.genengnews.com/topics/translational-medicine/how-gut-bacteria-apply-reversible-epigenetic-bet-hedging-strategy-to-adapt-to-change/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "downtoearth.org.in",
+    "claim": "Gut Health and Childhood Stunting : Why Food Alone Cant Fix South Africa Hidden Crisis",
+    "url": "https://www.downtoearth.org.in/africa/gut-health-why-food-alone-wont-fix-childhood-stunting",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "India"
+  },
+  {
+    "source": "News",
+    "platform": "nzherald.co.nz",
+    "claim": "Foggy brain ? Why your gut health might be affecting mental clarity",
+    "url": "https://www.nzherald.co.nz/lifestyle/foggy-brain-why-your-gut-health-might-be-affecting-mental-clarity/premium/R5RNZCBZTZDWRMAKT447YAPEYM/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "New Zealand"
+  },
+  {
+    "source": "News",
+    "platform": "livescience.com",
+    "claim": "More young people are getting colorectal cancer here what scientists think might be happening",
+    "url": "https://www.livescience.com/health/cancer/more-young-people-are-getting-colorectal-cancer-heres-what-scientists-think-might-be-happening",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "manilatimes.net",
+    "claim": "Largest - ever Canadian clinical trial tests  poop pills  to improve immunotherapy for lung cancer",
+    "url": "https://www.manilatimes.net/2026/05/20/tmt-newswire/globenewswire/largest-ever-canadian-clinical-trial-tests-poop-pills-to-improve-immunotherapy-for-lung-cancer/2348027",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Philippines"
   }
 ]
