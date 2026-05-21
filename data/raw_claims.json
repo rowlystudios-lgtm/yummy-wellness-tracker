@@ -1,110 +1,65 @@
 [
   {
     "source": "News",
-    "platform": "morningstar.com",
-    "claim": "Is RFK  carnivore diet  healthy ? Here what you need to know .",
-    "url": "https://www.morningstar.com/news/marketwatch/2026051987/is-rfks-carnivore-diet-healthy-heres-what-you-need-to-know",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "China"
-  },
-  {
-    "source": "News",
-    "platform": "psu.edu",
-    "claim": "Q & A : What is in the new American Heart Association dietary recommendations ?",
-    "url": "https://www.psu.edu/news/health-and-human-development/story/qa-what-new-american-heart-association-dietary-recommendations",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
     "platform": "naturalnews.com",
-    "claim": "Study : Carbohydrates Influence Gut Bacteria Immune Behavior \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-05-19-study-carbohydrates-influence-gut-bacterias-immune-behavior.html",
+    "claim": "Weight Loss Alone Does Not Prevent Type 2 Diabetes for Everyone , Study Finds \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-05-21-weight-reduction-does-not-prevent-diabates-for-everyone.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "onegreenplanet.org",
-    "claim": "4 Best Vegan Calcium Supplements for Bone Health in 2026",
-    "url": "https://www.onegreenplanet.org/natural-health/4-best-vegan-calcium-supplements-for-bone-health-in-2026/",
+    "platform": "washingtoninformer.com",
+    "claim": "Rise in chronic illnesses linked to ultra - processed foods - The Washington Informer",
+    "url": "https://www.washingtoninformer.com/ultra-processed-foods-health-risks/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "lbc.co.uk",
-    "claim": "Student , 21 , tragically took her own life after suffering from  delusions caused by her vegan diet",
-    "url": "https://www.lbc.co.uk/article/student-21-tragically-took-her-own-life-after-suffering-from-delusions-5HjdZNp_2/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United Kingdom"
-  },
-  {
-    "source": "News",
-    "platform": "naturalnews.com",
-    "claim": "Study : Gut Microbiome Diversity Linked to Stronger Stress Response \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-05-19-gut-microbiome-diversity-linked-stronger-stress-response.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "allafrica.com",
-    "claim": "South Africa : Gut Health - Why Food Alone Wont Fix Childhood Stunting",
-    "url": "https://allafrica.com/stories/202605200008.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "Nigeria"
-  },
-  {
-    "source": "News",
-    "platform": "genengnews.com",
-    "claim": "How Gut Bacteria Apply Reversible Epigenetic  Bet - Hedging  Strategy to Adapt to Change",
-    "url": "https://www.genengnews.com/topics/translational-medicine/how-gut-bacteria-apply-reversible-epigenetic-bet-hedging-strategy-to-adapt-to-change/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "downtoearth.org.in",
-    "claim": "Gut Health and Childhood Stunting : Why Food Alone Cant Fix South Africa Hidden Crisis",
-    "url": "https://www.downtoearth.org.in/africa/gut-health-why-food-alone-wont-fix-childhood-stunting",
+    "platform": "indianexpress.com",
+    "claim": "Luke Coutinho shares 3 simple gut health tips : Why colourful meals and 12 - hour fasting may help digestion",
+    "url": "https://indianexpress.com/article/lifestyle/food-wine/lifestyle-coach-3-tips-great-gut-health-expert-10685413/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "India"
   },
   {
     "source": "News",
-    "platform": "nzherald.co.nz",
-    "claim": "Foggy brain ? Why your gut health might be affecting mental clarity",
-    "url": "https://www.nzherald.co.nz/lifestyle/foggy-brain-why-your-gut-health-might-be-affecting-mental-clarity/premium/R5RNZCBZTZDWRMAKT447YAPEYM/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "New Zealand"
-  },
-  {
-    "source": "News",
-    "platform": "livescience.com",
-    "claim": "More young people are getting colorectal cancer here what scientists think might be happening",
-    "url": "https://www.livescience.com/health/cancer/more-young-people-are-getting-colorectal-cancer-heres-what-scientists-think-might-be-happening",
+    "platform": "edition.cnn.com",
+    "claim": "Natural  preservatives in food linked to high blood pressure , heart attacks",
+    "url": "https://edition.cnn.com/2026/05/20/health/food-preservatives-heart-risk-wellness",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "manilatimes.net",
-    "claim": "Largest - ever Canadian clinical trial tests  poop pills  to improve immunotherapy for lung cancer",
-    "url": "https://www.manilatimes.net/2026/05/20/tmt-newswire/globenewswire/largest-ever-canadian-clinical-trial-tests-poop-pills-to-improve-immunotherapy-for-lung-cancer/2348027",
+    "platform": "athens-times.com",
+    "claim": "Food Preservatives and Heart Disease Risk",
+    "url": "https://athens-times.com/food-preservatives-linked-to-high-blood-pressure-and-heart-disease/",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "Philippines"
+    "source_country": "Greece"
+  },
+  {
+    "source": "News",
+    "platform": "miragenews.com",
+    "claim": "Food Preservatives Tied to Hypertension , Heart Risks",
+    "url": "https://www.miragenews.com/food-preservatives-tied-to-hypertension-heart-1677629/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "dailymail.com",
+    "claim": "Preservatives found in  healthy  foods like yoghurts , bread and orange juice may increase high blood pressure and heart disease risk , study reveals",
+    "url": "https://www.dailymail.com/health/article-15834537/Preservatives-healthy-foods-heart-disease.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
   }
 ]
