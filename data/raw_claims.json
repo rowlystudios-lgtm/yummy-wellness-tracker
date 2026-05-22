@@ -1,63 +1,27 @@
 [
   {
     "source": "News",
-    "platform": "naturalnews.com",
-    "claim": "Weight Loss Alone Does Not Prevent Type 2 Diabetes for Everyone , Study Finds \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-05-21-weight-reduction-does-not-prevent-diabates-for-everyone.html",
+    "platform": "eurekalert.org",
+    "claim": "Common food preservatives linked to high blood pressure and heart disease",
+    "url": "https://www.eurekalert.org:443/news-releases/1128635",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "washingtoninformer.com",
-    "claim": "Rise in chronic illnesses linked to ultra - processed foods - The Washington Informer",
-    "url": "https://www.washingtoninformer.com/ultra-processed-foods-health-risks/",
+    "platform": "turnto23.com",
+    "claim": "High blood pressure , heart attacks linked to common preservatives in food",
+    "url": "https://www.turnto23.com/health/high-blood-pressure-heart-attacks-linked-to-common-preservatives-in-food",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "indianexpress.com",
-    "claim": "Luke Coutinho shares 3 simple gut health tips : Why colourful meals and 12 - hour fasting may help digestion",
-    "url": "https://indianexpress.com/article/lifestyle/food-wine/lifestyle-coach-3-tips-great-gut-health-expert-10685413/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "India"
-  },
-  {
-    "source": "News",
-    "platform": "edition.cnn.com",
-    "claim": "Natural  preservatives in food linked to high blood pressure , heart attacks",
-    "url": "https://edition.cnn.com/2026/05/20/health/food-preservatives-heart-risk-wellness",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "athens-times.com",
-    "claim": "Food Preservatives and Heart Disease Risk",
-    "url": "https://athens-times.com/food-preservatives-linked-to-high-blood-pressure-and-heart-disease/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "Greece"
-  },
-  {
-    "source": "News",
-    "platform": "miragenews.com",
-    "claim": "Food Preservatives Tied to Hypertension , Heart Risks",
-    "url": "https://www.miragenews.com/food-preservatives-tied-to-hypertension-heart-1677629/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "dailymail.com",
-    "claim": "Preservatives found in  healthy  foods like yoghurts , bread and orange juice may increase high blood pressure and heart disease risk , study reveals",
-    "url": "https://www.dailymail.com/health/article-15834537/Preservatives-healthy-foods-heart-disease.html",
+    "platform": "wyff4.com",
+    "claim": "Food preservatives thought of as  natural  linked to high blood pressure and heart disease",
+    "url": "https://www.wyff4.com/article/natural-food-preservatives-high-blood-pressure-heart-disease/71367025",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
