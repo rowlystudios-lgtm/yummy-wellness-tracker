@@ -1,71 +1,27 @@
 {
-  "week_headline": "Food preservatives are dominating health headlines this week, with multiple news outlets reporting links between common additives and cardiovascular disease",
-  "misleading_pct": "25%",
-  "true_pct": "75%",
+  "week_headline": "Vitamin B12 supplement safety sparks widespread concern after new research highlights dose-dependent cancer risk signals",
+  "misleading_pct": "55%",
+  "true_pct": "45%",
   "claims": [
     {
-      "score": 62,
+      "score": 42,
       "score_label": "Nuanced",
       "score_type": "mixed",
       "claim_tag": "Partially true",
-      "verdict": "There is genuine emerging research \u2014 notably a 2023 study in the BMJ \u2014 suggesting that certain preservatives, particularly nitrites and some emulsifiers, may be associated with elevated cardiovascular risk when consumed regularly in high amounts. However, 'linked to' is doing a lot of heavy lifting here: association in observational studies is not the same as proven cause and effect. The overall risk depends enormously on how much you eat, which preservatives, and what the rest of your diet looks like.",
-      "verdict_highlight": "Association is not the same as proven cause",
+      "verdict": "There is genuine science here, but the headline overstates it. Some large observational studies \u2014 including research published in the Journal of Clinical Oncology \u2014 found associations between very high B12 blood levels and increased lung cancer risk, particularly in smokers and heavy drinkers. However, these are associations, not proof that B12 supplements cause cancer, and the risk appears linked to already-high doses over long periods rather than standard supplementation. For most people taking a normal B12 supplement to address a deficiency, the current evidence does not suggest meaningful cancer risk.",
+      "verdict_highlight": "Association found, not proof of cause",
       "sources": [
-        "BMJ 2023 \u2014 nitrite additives and cardiovascular disease risk",
-        "EFSA food additives database",
-        "Harvard T.H. Chan School of Public Health \u2014 dietary preservatives overview",
-        "Journal of the American College of Cardiology \u2014 ultra-processed food studies"
+        "Journal of Clinical Oncology (Fanidi et al., 2019 \u2014 EPIC study on B12 and lung cancer)",
+        "NIH Office of Dietary Supplements \u2014 Vitamin B12 Fact Sheet",
+        "EFSA \u2014 Tolerable Upper Intake Levels for Vitamins and Minerals",
+        "BMJ (Arendt et al., 2016 \u2014 high B12 and cancer diagnosis link)"
       ],
-      "global_opinion": "In the EU, EFSA has tightened regulations on nitrite preservatives in processed meats since 2023, reflecting growing precaution. The US FDA still considers approved preservatives safe at current dietary exposure levels, though research is being monitored. In the UK, the Food Standards Agency acknowledges the emerging evidence but stops short of updated guidance pending further review.",
-      "brit_take": "Essentially, the bacon sandwich isn't definitively killing you \u2014 but eating twelve of them a week probably isn't helping either.",
+      "global_opinion": "In the US, B12 supplements are widely sold in very high doses (1000\u20135000 mcg) with minimal regulatory oversight, and the FDA does not set an upper tolerable limit for B12, partly because excess is generally excreted. The European Food Safety Authority (EFSA) has also not established a formal upper limit but acknowledges the observational data warrants monitoring. In the UK, the NHS advises that most people get enough B12 from diet and recommends supplementing only when deficiency is confirmed, which naturally guards against excessive intake.",
+      "brit_take": "The British instinct to quietly get your B12 from a cheese sandwich rather than a 5000mcg megadose may, it turns out, have been entirely sensible all along.",
       "source": "News",
-      "platform": "eurekalert.org",
-      "url": "https://www.eurekalert.org:443/news-releases/1128635",
-      "claim": "Common food preservatives linked to high blood pressure and heart disease",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 58,
-      "score_label": "Nuanced",
-      "score_type": "mixed",
-      "claim_tag": "Overstated",
-      "verdict": "The connection between preservatives and heart attacks is the most dramatic version of this story, and it deserves a little caution. Some research does show associations between high consumption of processed foods containing preservatives \u2014 especially sodium-heavy ones \u2014 and increased blood pressure, which is itself a risk factor for heart attacks. But jumping straight from 'preservative' to 'heart attack' skips several important steps and overstates what the current evidence actually shows.",
-      "verdict_highlight": "Sodium load matters more than the preservative itself",
-      "sources": [
-        "NIH National Heart, Lung, and Blood Institute \u2014 sodium and hypertension",
-        "Lancet \u2014 cardiovascular risk and processed food consumption",
-        "WHO guidelines on sodium intake and cardiovascular health",
-        "JAMA Internal Medicine \u2014 dietary sodium and blood pressure meta-analysis"
-      ],
-      "global_opinion": "Japan has one of the world's highest sodium intakes partly from traditional preserved and fermented foods, yet cardiovascular outcomes vary significantly by region \u2014 suggesting the full dietary pattern matters greatly. Scandinavian countries have actively reduced sodium in processed foods through industry agreements, seeing modest blood pressure benefits at population level. In the US, the FDA has voluntary sodium reduction targets for food manufacturers, acknowledging the public health relevance of the issue.",
-      "brit_take": "Britain has quietly been one of the more successful countries at nudging salt out of processed food \u2014 the results have been modest but real, and nobody noticed their crisps tasted different.",
-      "source": "News",
-      "platform": "turnto23.com",
-      "url": "https://www.turnto23.com/health/high-blood-pressure-heart-attacks-linked-to-common-preservatives-in-food",
-      "claim": "High blood pressure , heart attacks linked to common preservatives in food",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 70,
-      "score_label": "Nuanced",
-      "score_type": "mixed",
-      "claim_tag": "Context missing",
-      "verdict": "This is probably the most interesting angle of the three, and the most scientifically grounded. Preservatives labelled as 'natural' \u2014 like celery powder, beetroot extract, or rosemary \u2014 are often used as direct replacements for synthetic nitrites, but they deliver the same nitrite compounds once metabolised. A 2023 BMJ study specifically flagged naturally-derived nitrite additives as carrying similar cardiovascular associations to synthetic ones. The word 'natural' on a label genuinely does not mean safer in this context.",
-      "verdict_highlight": "'Natural' nitrites behave the same as synthetic ones",
-      "sources": [
-        "BMJ 2023 \u2014 naturally occurring vs additive nitrites and cardiovascular risk",
-        "EFSA opinion on nitrites in processed meat",
-        "Food Chemistry journal \u2014 celery powder as nitrite source in cured meats",
-        "Harvard T.H. Chan School of Public Health \u2014 natural vs artificial preservatives"
-      ],
-      "global_opinion": "The US allows products cured with celery powder to be labelled 'no added nitrites,' a loophole that consumer and scientific groups have criticised for being misleading. The EU has moved to close similar labelling ambiguities by regulating nitrite content regardless of whether the source is synthetic or botanical. Australia and New Zealand's food standards body FSANZ takes a similarly chemistry-first approach, focusing on the compound present rather than its origin.",
-      "brit_take": "Calling something natural because it came from a vegetable before becoming a preservative is a bit like calling wine a health drink because it started as fruit.",
-      "source": "News",
-      "platform": "wyff4.com",
-      "url": "https://www.wyff4.com/article/natural-food-preservatives-high-blood-pressure-heart-disease/71367025",
-      "claim": "Food preservatives thought of as  natural  linked to high blood pressure and heart disease",
+      "platform": "irishmirror.ie",
+      "url": "https://www.irishmirror.ie/news/world-news/vitamin-b12-cancer-risk-warning-37189448",
+      "claim": "Vitamin B12 cancer risk warning as scientists highlight dangers of wrong supplement dose",
       "hours_ago": 12,
       "engagement": 40
     }

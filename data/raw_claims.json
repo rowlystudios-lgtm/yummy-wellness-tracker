@@ -1,29 +1,11 @@
 [
   {
     "source": "News",
-    "platform": "eurekalert.org",
-    "claim": "Common food preservatives linked to high blood pressure and heart disease",
-    "url": "https://www.eurekalert.org:443/news-releases/1128635",
+    "platform": "irishmirror.ie",
+    "claim": "Vitamin B12 cancer risk warning as scientists highlight dangers of wrong supplement dose",
+    "url": "https://www.irishmirror.ie/news/world-news/vitamin-b12-cancer-risk-warning-37189448",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "turnto23.com",
-    "claim": "High blood pressure , heart attacks linked to common preservatives in food",
-    "url": "https://www.turnto23.com/health/high-blood-pressure-heart-attacks-linked-to-common-preservatives-in-food",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "wyff4.com",
-    "claim": "Food preservatives thought of as  natural  linked to high blood pressure and heart disease",
-    "url": "https://www.wyff4.com/article/natural-food-preservatives-high-blood-pressure-heart-disease/71367025",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
+    "source_country": "Ireland"
   }
 ]
