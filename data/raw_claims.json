@@ -1,11 +1,29 @@
 [
   {
     "source": "News",
-    "platform": "irishmirror.ie",
-    "claim": "Vitamin B12 cancer risk warning as scientists highlight dangers of wrong supplement dose",
-    "url": "https://www.irishmirror.ie/news/world-news/vitamin-b12-cancer-risk-warning-37189448",
+    "platform": "ottawasun.com",
+    "claim": "5 ways to get more vitamin D without taking a supplement",
+    "url": "https://ottawasun.com/health/5-ways-to-get-more-vitamin-d-without-taking-a-supplement",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "Ireland"
+    "source_country": "Canada"
+  },
+  {
+    "source": "News",
+    "platform": "dailystar.co.uk",
+    "claim": "Doctor shares  best cancer fighting drink",
+    "url": "https://www.dailystar.co.uk/health/doctor-shares-best-cancer-fighting-37182729",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United Kingdom"
+  },
+  {
+    "source": "News",
+    "platform": "dailymail.com",
+    "claim": "Cheese on toast is bad for your gut health - but unmelted cheddar has a positive effect",
+    "url": "https://www.dailymail.com/news/article-15843789/Cheese-toast-bad-gut-health-unmelted-cheddar-positive.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
   }
 ]

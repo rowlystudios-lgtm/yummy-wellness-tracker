@@ -1,27 +1,68 @@
 {
-  "week_headline": "Vitamin B12 supplement safety sparks widespread concern after new research highlights dose-dependent cancer risk signals",
-  "misleading_pct": "55%",
-  "true_pct": "45%",
+  "week_headline": "Vitamin D, cancer-fighting foods, and gut health are dominating health headlines this week as people look for simple dietary fixes",
+  "misleading_pct": "33%",
+  "true_pct": "33%",
   "claims": [
     {
-      "score": 42,
+      "score": 72,
       "score_label": "Nuanced",
       "score_type": "mixed",
       "claim_tag": "Partially true",
-      "verdict": "There is genuine science here, but the headline overstates it. Some large observational studies \u2014 including research published in the Journal of Clinical Oncology \u2014 found associations between very high B12 blood levels and increased lung cancer risk, particularly in smokers and heavy drinkers. However, these are associations, not proof that B12 supplements cause cancer, and the risk appears linked to already-high doses over long periods rather than standard supplementation. For most people taking a normal B12 supplement to address a deficiency, the current evidence does not suggest meaningful cancer risk.",
-      "verdict_highlight": "Association found, not proof of cause",
+      "verdict": "Getting vitamin D from sunlight, oily fish, eggs, fortified foods, and mushrooms is genuinely supported by evidence \u2014 these are real dietary and lifestyle sources. The nuance is that for many people, especially in northern climates, food and sun alone often fall short of what the body needs, and public health bodies like the NHS and NIH still recommend supplements for large portions of the population in winter or for those with darker skin tones. So the advice is useful but incomplete without that context.",
+      "verdict_highlight": "Food sources help, but often aren't enough alone",
       "sources": [
-        "Journal of Clinical Oncology (Fanidi et al., 2019 \u2014 EPIC study on B12 and lung cancer)",
-        "NIH Office of Dietary Supplements \u2014 Vitamin B12 Fact Sheet",
-        "EFSA \u2014 Tolerable Upper Intake Levels for Vitamins and Minerals",
-        "BMJ (Arendt et al., 2016 \u2014 high B12 and cancer diagnosis link)"
+        "NHS UK - Vitamin D guidelines",
+        "NIH Office of Dietary Supplements - Vitamin D",
+        "EFSA Vitamin D dietary reference values"
       ],
-      "global_opinion": "In the US, B12 supplements are widely sold in very high doses (1000\u20135000 mcg) with minimal regulatory oversight, and the FDA does not set an upper tolerable limit for B12, partly because excess is generally excreted. The European Food Safety Authority (EFSA) has also not established a formal upper limit but acknowledges the observational data warrants monitoring. In the UK, the NHS advises that most people get enough B12 from diet and recommends supplementing only when deficiency is confirmed, which naturally guards against excessive intake.",
-      "brit_take": "The British instinct to quietly get your B12 from a cheese sandwich rather than a 5000mcg megadose may, it turns out, have been entirely sensible all along.",
+      "global_opinion": "In the UK, the NHS explicitly recommends vitamin D supplements for everyone from October to March, making supplement-free messaging feel incomplete. In sunnier countries like Australia or Spain, food and sun exposure are more genuinely sufficient for most people year-round. The US NIH takes a middle path, recommending dietary sources first but acknowledging widespread deficiency risk in northern states and among darker-skinned populations.",
+      "brit_take": "Telling British people to get their vitamin D from sunshine is a bit optimistic \u2014 the UK sun is barely doing its own job six months of the year.",
       "source": "News",
-      "platform": "irishmirror.ie",
-      "url": "https://www.irishmirror.ie/news/world-news/vitamin-b12-cancer-risk-warning-37189448",
-      "claim": "Vitamin B12 cancer risk warning as scientists highlight dangers of wrong supplement dose",
+      "platform": "ottawasun.com",
+      "url": "https://ottawasun.com/health/5-ways-to-get-more-vitamin-d-without-taking-a-supplement",
+      "claim": "5 ways to get more vitamin D without taking a supplement",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 18,
+      "score_label": "Misleading",
+      "score_type": "false",
+      "claim_tag": "Overstated",
+      "verdict": "No single drink has been shown to fight cancer, and framing it that way overstates the evidence considerably. Some beverages \u2014 green tea, for example \u2014 contain polyphenols studied for potential cancer-protective properties, but the research is largely observational or done in lab settings, not clinical trials in humans. The WHO and major cancer research bodies are clear that no food or drink cancels out cancer risk on its own, and headlines like this can give people false reassurance.",
+      "verdict_highlight": "No single drink fights cancer \u2014 full stop",
+      "sources": [
+        "WHO - Cancer prevention",
+        "American Institute for Cancer Research",
+        "JAMA - Dietary patterns and cancer risk"
+      ],
+      "global_opinion": "In Japan, green tea has cultural and growing scientific interest as a potential health-protective drink, though researchers there are careful not to overstate findings. In the US and UK, cancer charities actively push back on 'superfood' and 'superfood drink' claims as potentially harmful oversimplifications. The EU's EFSA has strict rules preventing food and drink products from making cancer-prevention claims on packaging for exactly this reason.",
+      "brit_take": "If a doctor's best cancer-fighting advice fits in a clickbait headline, it's probably worth a second read before you stock up.",
+      "source": "News",
+      "platform": "dailystar.co.uk",
+      "url": "https://www.dailystar.co.uk/health/doctor-shares-best-cancer-fighting-37182729",
+      "claim": "Doctor shares  best cancer fighting drink",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 55,
+      "score_label": "Nuanced",
+      "score_type": "mixed",
+      "claim_tag": "Partially true",
+      "verdict": "There is genuine science behind this one, even if the headline makes it sound a bit dramatic. Heating cheese changes its fat structure and can reduce the presence of certain beneficial bacteria, while unmelted aged cheddar contains short-chain fatty acids and some live cultures that may support gut health. However, the overall gut health impact of a slice of cheese on toast is pretty modest either way, and the broader context of your whole diet matters far more than whether your cheddar is melted or not.",
+      "verdict_highlight": "Cheese temperature matters a little, diet overall matters more",
+      "sources": [
+        "Journal of Dairy Science - heat effects on cheese microbiota",
+        "Food Chemistry - short-chain fatty acids in aged cheese",
+        "British Journal of Nutrition - fermented foods and gut health"
+      ],
+      "global_opinion": "In France, where raw and aged cheeses are a dietary staple and cultural institution, this kind of finding would barely raise an eyebrow \u2014 unprocessed cheese has long been considered superior. In the US, where processed and melted cheese is far more common, this claim lands differently and could prompt useful dietary reflection. Scandinavian countries, with strong dairy research traditions, have published some of the most nuanced work on fermented dairy and gut microbiome health.",
+      "brit_take": "The nation that invented cheese on toast is not going to take kindly to being told they've been eating it wrong \u2014 but at least the unmelted version is also delicious.",
+      "source": "News",
+      "platform": "dailymail.com",
+      "url": "https://www.dailymail.com/news/article-15843789/Cheese-toast-bad-gut-health-unmelted-cheddar-positive.html",
+      "claim": "Cheese on toast is bad for your gut health - but unmelted cheddar has a positive effect",
       "hours_ago": 12,
       "engagement": 40
     }
