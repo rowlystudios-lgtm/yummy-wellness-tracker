@@ -1,29 +1,29 @@
 [
   {
     "source": "News",
-    "platform": "ottawasun.com",
-    "claim": "5 ways to get more vitamin D without taking a supplement",
-    "url": "https://ottawasun.com/health/5-ways-to-get-more-vitamin-d-without-taking-a-supplement",
+    "platform": "indiatvnews.com",
+    "claim": "Constant bloating and inflammation ? Your gut microbes may be the real problem | Health",
+    "url": "https://www.indiatvnews.com/health/gut-microbiome-restoration-inflammatory-bowel-disease-treatment-2026-05-24-1042267",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "Canada"
+    "source_country": "India"
   },
   {
     "source": "News",
-    "platform": "dailystar.co.uk",
-    "claim": "Doctor shares  best cancer fighting drink",
-    "url": "https://www.dailystar.co.uk/health/doctor-shares-best-cancer-fighting-37182729",
+    "platform": "hindustantimes.com",
+    "claim": "Did you know your food choices can affect anxiety symptoms ? Doctor explains how nutrition can transform mental health",
+    "url": "https://www.hindustantimes.com/lifestyle/health/did-you-know-your-food-choices-can-affect-anxiety-symptoms-doctor-explains-how-nutrition-can-transform-mental-health-101779708778248.html",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "United Kingdom"
+    "source_country": "India"
   },
   {
     "source": "News",
-    "platform": "dailymail.com",
-    "claim": "Cheese on toast is bad for your gut health - but unmelted cheddar has a positive effect",
-    "url": "https://www.dailymail.com/news/article-15843789/Cheese-toast-bad-gut-health-unmelted-cheddar-positive.html",
+    "platform": "nzherald.co.nz",
+    "claim": "How the Swedish diet can help you sleep better and live longer",
+    "url": "https://www.nzherald.co.nz/lifestyle/how-the-swedish-diet-can-help-you-sleep-better-and-live-longer/premium/ETQ6WTECIFGETERC3YZVRXJA6E/",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "United States"
+    "source_country": "New Zealand"
   }
 ]
