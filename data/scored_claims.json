@@ -1,70 +1,28 @@
 {
-  "week_headline": "Gut health and the food-mood connection dominate wellness headlines this week, with Nordic diets quietly stealing the spotlight",
+  "week_headline": "Ultra-processed foods are under the global spotlight this week as health authorities push harder on their links to chronic disease",
   "misleading_pct": "15%",
   "true_pct": "85%",
   "claims": [
     {
-      "score": 72,
+      "score": 82,
       "score_label": "Nuanced",
       "score_type": "mixed",
       "claim_tag": "Partially true",
-      "verdict": "Your gut microbiome genuinely does play a role in bloating and inflammation \u2014 that part is solid science. But 'your gut microbes are THE real problem' oversimplifies things considerably, since bloating has many causes including food intolerances, motility issues, and stress. The research is exciting and real, but a headline like this can send people chasing probiotic supplements before ruling out simpler explanations.",
-      "verdict_highlight": "Gut microbes matter, but rarely the whole story",
+      "verdict": "The evidence linking ultra-processed foods (UPFs) to type 2 diabetes, obesity, and cardiovascular disease is genuinely strong and growing \u2014 large cohort studies and meta-analyses consistently show higher UPF consumption is associated with worse health outcomes. That said, 'hidden dangers' framing can slightly overstate certainty, since most evidence is observational and proving direct causation is still an active area of research. The core message from Diabetes Australia is well grounded: cutting back on UPFs is a reasonable, evidence-backed step for most people.",
+      "verdict_highlight": "Strong links exist, but causation still being refined",
       "sources": [
-        "NIH Human Microbiome Project",
-        "Lancet \u2014 Gut microbiota and inflammation review 2022",
-        "Harvard T.H. Chan School of Public Health \u2014 The Microbiome"
+        "BMJ 2024 meta-analysis on ultra-processed foods and health outcomes",
+        "The Lancet: NOVA food classification and chronic disease risk",
+        "NIH National Institute of Diabetes and Digestive and Kidney Diseases",
+        "Harvard T.H. Chan School of Public Health \u2014 The Nutrition Source",
+        "EFSA dietary risk assessments on food processing"
       ],
-      "global_opinion": "In Germany and Austria, gut health has long been taken seriously in mainstream medicine, with 'digestive wellness' a standard part of clinical conversations. In the US, it has exploded into a multi-billion dollar supplement industry, sometimes outpacing the actual science. Japan approaches this most rigorously \u2014 fermented foods like miso and natto are culturally embedded and studied in formal clinical contexts rather than treated as trends.",
-      "brit_take": "Britain is only just catching up to the idea that the gut does more than quietly absorb a Sunday roast \u2014 though we've been eating Yakult in quiet shame since the nineties.",
+      "global_opinion": "In Brazil, the NOVA classification system that defines ultra-processed foods was actually developed, and Brazilian dietary guidelines were among the first in the world to explicitly warn against UPFs \u2014 they lead global thinking here. The UK's NHS and NICE have increasingly acknowledged UPF risks, with British researchers like Chris van Tulleken bringing the science into mainstream public conversation. In the United States, the FDA and mainstream dietetics bodies have been slower to adopt UPF-specific language, tending to focus on individual nutrients like sugar and saturated fat rather than the degree of processing itself.",
+      "brit_take": "Essentially, if it has an ingredient list longer than a Tube delay announcement, perhaps don't eat it every day. Good advice, sensibly delivered.",
       "source": "News",
-      "platform": "indiatvnews.com",
-      "url": "https://www.indiatvnews.com/health/gut-microbiome-restoration-inflammatory-bowel-disease-treatment-2026-05-24-1042267",
-      "claim": "Constant bloating and inflammation ? Your gut microbes may be the real problem | Health",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 68,
-      "score_label": "Nuanced",
-      "score_type": "mixed",
-      "claim_tag": "Overstated",
-      "verdict": "There is genuinely good evidence that diet influences mood and anxiety \u2014 the gut-brain axis is a real and well-researched pathway, and diets high in ultra-processed foods are consistently linked to worse mental health outcomes. However, 'transform mental health' is doing a lot of heavy lifting here \u2014 nutrition is one lever among many, and it should sit alongside therapy, medication, and lifestyle support rather than replace them. The science is promising enough to take seriously, just not promising enough to treat food as a cure.",
-      "verdict_highlight": "Diet supports mental health \u2014 it does not cure it",
-      "sources": [
-        "JAMA Network Open \u2014 Diet quality and depression meta-analysis 2023",
-        "BMJ \u2014 Nutritional psychiatry review 2022",
-        "Harvard Medical School \u2014 Nutritional Psychiatry explainer",
-        "The Lancet Psychiatry \u2014 Ultra-processed foods and mental health 2022"
-      ],
-      "global_opinion": "Australia has been a genuine leader here \u2014 the Food and Mood Centre at Deakin University has produced some of the strongest clinical trials linking dietary intervention to reduced depression symptoms. In the UK, nutritional psychiatry is gaining traction in NHS research circles but is not yet standard clinical practice. In the US, the framing often tips into wellness marketing territory, with 'food as medicine' sometimes used to sell supplements rather than encourage whole food dietary changes.",
-      "brit_take": "The idea that eating better might help your anxiety is hardly controversial \u2014 though telling a stressed British person to swap their digestive biscuits for leafy greens requires a certain kind of courage.",
-      "source": "News",
-      "platform": "hindustantimes.com",
-      "url": "https://www.hindustantimes.com/lifestyle/health/did-you-know-your-food-choices-can-affect-anxiety-symptoms-doctor-explains-how-nutrition-can-transform-mental-health-101779708778248.html",
-      "claim": "Did you know your food choices can affect anxiety symptoms ? Doctor explains how nutrition can transform mental health",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 48,
-      "score_label": "Nuanced",
-      "score_type": "mixed",
-      "claim_tag": "Context missing",
-      "verdict": "There is no single well-defined 'Swedish diet' in the scientific literature the way there is a Mediterranean diet, which makes this claim hard to evaluate fairly. Sweden does have strong food traditions \u2014 whole grains like rye, fatty fish, berries, and fermented dairy \u2014 and those individual components have genuine evidence behind them for cardiovascular health and sleep quality. But 'sleep better and live longer' is a bold promise for a dietary pattern that lacks the decades of large-scale cohort research the Mediterranean diet has earned.",
-      "verdict_highlight": "Healthy components, but the whole claim is overstated",
-      "sources": [
-        "Nordic Nutrition Recommendations 2023 \u2014 Nordic Council of Ministers",
-        "EFSA \u2014 Omega-3 and cardiovascular health",
-        "NIH \u2014 Whole grains and mortality review",
-        "Journal of Clinical Sleep Medicine \u2014 Tryptophan, diet and sleep 2021"
-      ],
-      "global_opinion": "In the Nordic countries themselves \u2014 Sweden, Norway, Denmark \u2014 the New Nordic Diet is a well-researched framework developed by nutritionists and chefs together, and it does show real health benefits in Scandinavian studies. Outside the region, it is often romanticised in wellness media without the cultural and seasonal food context that makes it work. In the US and UK it tends to get flattened into 'eat more fish and berries,' which captures some truth but misses the broader dietary pattern.",
-      "brit_take": "Telling the British public that the secret to long life involves more pickled fish and less beige food is technically correct \u2014 though it may not land as warmly as hoped.",
-      "source": "News",
-      "platform": "nzherald.co.nz",
-      "url": "https://www.nzherald.co.nz/lifestyle/how-the-swedish-diet-can-help-you-sleep-better-and-live-longer/premium/ETQ6WTECIFGETERC3YZVRXJA6E/",
-      "claim": "How the Swedish diet can help you sleep better and live longer",
+      "platform": "bandt.com.au",
+      "url": "https://www.bandt.com.au/diabetes-australia-highlights-the-hidden-dangers-of-ultra-processed-foods-via-cocogun/",
+      "claim": "Diabetes Australia Highlights The Hidden Dangers Of Ultra - Processed Foods Via Cocogun",
       "hours_ago": 12,
       "engagement": 40
     }
