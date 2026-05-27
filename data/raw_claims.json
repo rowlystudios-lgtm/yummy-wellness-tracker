@@ -1,11 +1,38 @@
 [
   {
     "source": "News",
-    "platform": "bandt.com.au",
-    "claim": "Diabetes Australia Highlights The Hidden Dangers Of Ultra - Processed Foods Via Cocogun",
-    "url": "https://www.bandt.com.au/diabetes-australia-highlights-the-hidden-dangers-of-ultra-processed-foods-via-cocogun/",
+    "platform": "manilatimes.net",
+    "claim": "SlimTide Capsules Exploding in 2026 : Slim Tide SHOCKING Deep Story Behind the Viral Gut - Health Weight Management Trend !",
+    "url": "https://www.manilatimes.net/2026/05/27/tmt-newswire/globenewswire/slimtide-capsules-exploding-in-2026-slim-tide-shocking-deep-story-behind-the-viral-gut-health-weight-management-trend/2352098",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "Australia"
+    "source_country": "Philippines"
+  },
+  {
+    "source": "News",
+    "platform": "engineeringevil.com",
+    "claim": "Mayo Clinic Proceedings : There is no scientific foundation to past or present U . S . Dietary Guidelines ?",
+    "url": "https://engineeringevil.com/2015/06/09/mayo-clinic-proceedings-there-is-no-scientific-foundation-to-past-or-present-u-s-dietary-guidelines/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "dailymail.com",
+    "claim": "Drinking guava juice may help tackle common deficiency linked to illness and early death , study suggests",
+    "url": "https://www.dailymail.com/health/article-15848677/women-guava-juice-iron-anemia.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "gazettelive.co.uk",
+    "claim": "Urgent new  toxic  warning to anyone taking vitamins A , D , E or K",
+    "url": "https://www.gazettelive.co.uk/news/health/urgent-new-toxic-warning-anyone-34019182",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United Kingdom"
   }
 ]

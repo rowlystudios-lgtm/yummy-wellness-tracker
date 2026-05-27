@@ -1,28 +1,92 @@
 {
-  "week_headline": "Ultra-processed foods are under the global spotlight this week as health authorities push harder on their links to chronic disease",
-  "misleading_pct": "15%",
-  "true_pct": "85%",
+  "week_headline": "Supplement scares and diet guideline doubts dominate health headlines as misinformation outpaces peer-reviewed nuance this week.",
+  "misleading_pct": "50%",
+  "true_pct": "25%",
   "claims": [
     {
-      "score": 82,
+      "score": 4,
+      "score_label": "Misleading",
+      "score_type": "false",
+      "claim_tag": "Conspiracy framing",
+      "verdict": "SlimTide Capsules is a commercial product using classic viral marketing language \u2014 'shocking,' 'deep story,' 'exploding' \u2014 with zero peer-reviewed evidence behind it. No clinical trials, no regulatory approval for weight loss claims, and no credible scientific body endorses it. Gut health is a legitimate area of nutrition science, but no capsule marketed this way has earned a place in that conversation.",
+      "verdict_highlight": "No peer-reviewed evidence supports this product",
+      "sources": [
+        "FDA (fda.gov/dietary-supplements)",
+        "EFSA (efsa.europa.eu)",
+        "NIH Office of Dietary Supplements (ods.od.nih.gov)"
+      ],
+      "global_opinion": "In the US, the FDA does not pre-approve dietary supplements, leaving consumers exposed to unverified marketing claims. The EU's EFSA applies stricter pre-market scrutiny, meaning many such products never reach European shelves with these claims intact. In Australia, the TGA requires listed supplements to meet safety standards, though efficacy claims remain loosely regulated.",
+      "brit_take": "In Britain we call this 'a miracle in a capsule' \u2014 and we've been politely suspicious of those since at least the Victorian era.",
+      "source": "News",
+      "platform": "manilatimes.net",
+      "url": "https://www.manilatimes.net/2026/05/27/tmt-newswire/globenewswire/slimtide-capsules-exploding-in-2026-slim-tide-shocking-deep-story-behind-the-viral-gut-health-weight-management-trend/2352098",
+      "claim": "SlimTide Capsules Exploding in 2026 : Slim Tide SHOCKING Deep Story Behind the Viral Gut - Health Weight Management Trend !",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 22,
+      "score_label": "Misleading",
+      "score_type": "false",
+      "claim_tag": "Overstated",
+      "verdict": "This headline badly misrepresents what the referenced Mayo Clinic Proceedings commentary actually said. The piece raised legitimate methodological concerns about how dietary evidence is gathered and translated into policy \u2014 which is a real, ongoing scientific debate \u2014 but that is a long way from saying there is 'no scientific foundation' to US Dietary Guidelines at all. Nutrition science has genuine limitations, but decades of research on diet and chronic disease are not simply void.",
+      "verdict_highlight": "Methodological critique \u2260 zero scientific foundation",
+      "sources": [
+        "Mayo Clinic Proceedings (mayoclinicproceedings.org)",
+        "USDA Dietary Guidelines for Americans 2020-2025 (dietaryguidelines.gov)",
+        "BMJ - nutrition evidence debates",
+        "Harvard T.H. Chan School of Public Health (hsph.harvard.edu)"
+      ],
+      "global_opinion": "The US Dietary Guidelines are uniquely influential globally but have long been critiqued for industry lobbying pressures, a concern echoed by public health researchers in Canada and the UK. Nordic countries use their own guidelines based on similar evidence but with stronger emphasis on whole foods and less processed food consumption. The WHO issues its own nutritional guidance, which often aligns broadly with US guidelines while being less prescriptive.",
+      "brit_take": "To be fair, questioning official dietary advice is practically a British national pastime \u2014 but 'no foundation whatsoever' is a stretch even for us.",
+      "source": "News",
+      "platform": "engineeringevil.com",
+      "url": "https://engineeringevil.com/2015/06/09/mayo-clinic-proceedings-there-is-no-scientific-foundation-to-past-or-present-u-s-dietary-guidelines/",
+      "claim": "Mayo Clinic Proceedings : There is no scientific foundation to past or present U . S . Dietary Guidelines ?",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 62,
       "score_label": "Nuanced",
       "score_type": "mixed",
       "claim_tag": "Partially true",
-      "verdict": "The evidence linking ultra-processed foods (UPFs) to type 2 diabetes, obesity, and cardiovascular disease is genuinely strong and growing \u2014 large cohort studies and meta-analyses consistently show higher UPF consumption is associated with worse health outcomes. That said, 'hidden dangers' framing can slightly overstate certainty, since most evidence is observational and proving direct causation is still an active area of research. The core message from Diabetes Australia is well grounded: cutting back on UPFs is a reasonable, evidence-backed step for most people.",
-      "verdict_highlight": "Strong links exist, but causation still being refined",
+      "verdict": "Guava is genuinely one of the richest dietary sources of vitamin C, and vitamin C deficiency is a real global health concern linked to immune dysfunction, poor wound healing, and in severe cases, scurvy and increased mortality risk. So the underlying nutritional claim is solid. The word 'tackle' in the headline is doing a lot of work though \u2014 drinking guava juice regularly can help maintain adequate vitamin C levels, but it is not a treatment for deficiency-related illness, and juice also comes with significant sugar content worth considering.",
+      "verdict_highlight": "Guava's vitamin C is real; 'tackles illness' overstates it",
       "sources": [
-        "BMJ 2024 meta-analysis on ultra-processed foods and health outcomes",
-        "The Lancet: NOVA food classification and chronic disease risk",
-        "NIH National Institute of Diabetes and Digestive and Kidney Diseases",
-        "Harvard T.H. Chan School of Public Health \u2014 The Nutrition Source",
-        "EFSA dietary risk assessments on food processing"
+        "Journal of Nutrition (nutrition.org)",
+        "NIH Office of Dietary Supplements - Vitamin C fact sheet (ods.od.nih.gov)",
+        "WHO Vitamin and Mineral Requirements",
+        "Food Chemistry journal"
       ],
-      "global_opinion": "In Brazil, the NOVA classification system that defines ultra-processed foods was actually developed, and Brazilian dietary guidelines were among the first in the world to explicitly warn against UPFs \u2014 they lead global thinking here. The UK's NHS and NICE have increasingly acknowledged UPF risks, with British researchers like Chris van Tulleken bringing the science into mainstream public conversation. In the United States, the FDA and mainstream dietetics bodies have been slower to adopt UPF-specific language, tending to focus on individual nutrients like sugar and saturated fat rather than the degree of processing itself.",
-      "brit_take": "Essentially, if it has an ingredient list longer than a Tube delay announcement, perhaps don't eat it every day. Good advice, sensibly delivered.",
+      "global_opinion": "In tropical regions of Latin America, Southeast Asia, and parts of Africa, guava is a traditional staple and its nutritional value is well recognised in local dietary practice and emerging research. In the UK and Northern Europe, guava juice is less common and vitamin C needs are more typically met through oranges, strawberries, and fortified foods. Indian nutritional research has specifically highlighted guava's micronutrient density, and it features in some national dietary recommendations.",
+      "brit_take": "We've been squeezing oranges for vitamin C since the wartime rations \u2014 guava getting in on the action is perfectly welcome, just watch the sugar.",
       "source": "News",
-      "platform": "bandt.com.au",
-      "url": "https://www.bandt.com.au/diabetes-australia-highlights-the-hidden-dangers-of-ultra-processed-foods-via-cocogun/",
-      "claim": "Diabetes Australia Highlights The Hidden Dangers Of Ultra - Processed Foods Via Cocogun",
+      "platform": "dailymail.com",
+      "url": "https://www.dailymail.com/health/article-15848677/women-guava-juice-iron-anemia.html",
+      "claim": "Drinking guava juice may help tackle common deficiency linked to illness and early death , study suggests",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 38,
+      "score_label": "Misleading",
+      "score_type": "false",
+      "claim_tag": "Context missing",
+      "verdict": "Fat-soluble vitamins A, D, E, and K can absolutely build up in the body and cause toxicity \u2014 that part is real, well-established science. But the word 'urgent' and 'toxic warning' framing implies everyday supplement users are in immediate danger, which is not accurate for most people taking standard doses. Toxicity typically occurs with high-dose supplementation over time, not standard multivitamins. The NHS and NIH both publish clear safe upper limits, and most people should simply avoid mega-dosing without medical guidance.",
+      "verdict_highlight": "Toxicity risk is real only at high doses",
+      "sources": [
+        "NHS (nhs.uk/vitamins-supplements)",
+        "NIH Office of Dietary Supplements - Vitamin A, D, E, K fact sheets (ods.od.nih.gov)",
+        "EFSA Tolerable Upper Intake Levels",
+        "Lancet - hypervitaminosis reviews"
+      ],
+      "global_opinion": "The EU and UK have regulated maximum permitted levels for fat-soluble vitamins in supplements more strictly than the US, where high-dose products remain freely available over the counter. In Japan, supplementation culture is more conservative and food-first approaches are culturally preferred, meaning extreme dosing is less common. Australian regulators similarly cap supplement doses and require label warnings on high-dose fat-soluble vitamin products.",
+      "brit_take": "There's something very British about a vitamin warning \u2014 we finally start taking supplements and immediately get told we might be overdoing it.",
+      "source": "News",
+      "platform": "gazettelive.co.uk",
+      "url": "https://www.gazettelive.co.uk/news/health/urgent-new-toxic-warning-anyone-34019182",
+      "claim": "Urgent new  toxic  warning to anyone taking vitamins A , D , E or K",
       "hours_ago": 12,
       "engagement": 40
     }
