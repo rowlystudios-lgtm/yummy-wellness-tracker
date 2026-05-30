@@ -1,131 +1,27 @@
 {
-  "week_headline": "Supplement safety scares and 'superfood' claims dominate health headlines as confusion around vitamins and diet grows",
-  "misleading_pct": "33%",
-  "true_pct": "67%",
+  "week_headline": "Green tea 'fat-melting' claims surge across European health news, promising weight loss without diet or exercise",
+  "misleading_pct": "70%",
+  "true_pct": "30%",
   "claims": [
     {
-      "score": 62,
-      "score_label": "Nuanced",
-      "score_type": "mixed",
-      "claim_tag": "Partially true",
-      "verdict": "Fat-soluble vitamins A, D, E, and K can genuinely build up in the body to toxic levels if you take high-dose supplements for a long time \u2014 unlike water-soluble vitamins that you simply pee out. But the word 'urgent' and 'toxic warning' oversells the risk for most people eating a normal diet or taking standard doses. Toxicity is real but rare, and the NHS and NIH both note it mainly affects people megadosing without medical guidance.",
-      "verdict_highlight": "High-dose supplements risky, normal intake is fine",
-      "sources": [
-        "NIH Office of Dietary Supplements",
-        "NHS \u2013 Vitamins and minerals",
-        "EFSA \u2013 Tolerable Upper Intake Levels"
-      ],
-      "global_opinion": "In the EU, EFSA strictly caps the upper limits of fat-soluble vitamins sold over the counter, making extreme doses harder to accidentally reach. In the US, supplements are less tightly regulated, so megadose products are more freely available, making the warning more relevant there. Australia's TGA takes a middle path, requiring advisory labels on high-dose fat-soluble vitamin products.",
-      "brit_take": "Most of us getting a balanced diet and a standard supermarket multivitamin are absolutely fine \u2014 this is really a story about people taking handfuls of high-dose capsules, not your morning Centrum.",
-      "source": "News",
-      "platform": "somersetlive.co.uk",
-      "url": "https://www.somersetlive.co.uk/news/health/urgent-new-toxic-warning-anyone-10985892",
-      "claim": "Urgent new  toxic  warning to anyone taking vitamins A , D , E or K",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 72,
-      "score_label": "Nuanced",
-      "score_type": "mixed",
-      "claim_tag": "Partially true",
-      "verdict": "There is solid evidence that women over 40 have genuinely shifting nutritional needs \u2014 bone health, hormonal changes, and cardiovascular risk all make vitamin D, calcium, B12, magnesium, and omega-3s worth paying attention to. Dietitians are good sources here. That said, blanket supplement recommendations without individual context can mislead, since food-first approaches work well for most women and blood tests should guide any supplementation.",
-      "verdict_highlight": "Real needs exist, but food-first beats blanket supplements",
-      "sources": [
-        "Harvard T.H. Chan School of Public Health",
-        "NIH Office of Dietary Supplements",
-        "Journal of the Academy of Nutrition and Dietetics"
-      ],
-      "global_opinion": "In Japan, dietary guidance for midlife women emphasises food sources like fish, soy, and fermented foods over supplements, reflecting a cultural preference for whole-food nutrition. Scandinavian countries routinely recommend vitamin D supplementation for all adults due to low sunlight, making it less of a gender-specific conversation. In the US and UK, menopause awareness campaigns have boosted interest in targeted supplementation for women over 40, which dietitians broadly support with caveats.",
-      "brit_take": "It's genuinely useful advice, though 'women over 40 need X supplement' headlines do have a habit of making perfectly healthy women feel like they're one missed capsule away from falling apart.",
-      "source": "News",
-      "platform": "prevention.com",
-      "url": "https://www.prevention.com/health/a71409750/vitamins-women-over-40/",
-      "claim": "Dietitians Share the Vitamins Women Over 40 Need to Be Healthy",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 70,
-      "score_label": "Nuanced",
-      "score_type": "mixed",
-      "claim_tag": "Overstated",
-      "verdict": "The science linking ultra-processed foods, trans fats, excess red and processed meat, and refined carbohydrates to cardiovascular risk is genuinely strong and well-established. However, framing specific foods as directly 'raising heart attack risk' oversimplifies \u2014 overall dietary patterns and lifestyle context matter far more than any single food. The 'eat this instead' format is helpful in spirit but can make heart health feel more binary than it really is.",
-      "verdict_highlight": "Dietary patterns matter more than individual villain foods",
-      "sources": [
-        "American Heart Association",
-        "Lancet \u2013 Dietary risks and cardiovascular disease",
-        "BMJ \u2013 Ultra-processed food and cardiovascular outcomes"
-      ],
-      "global_opinion": "In Mediterranean countries, the focus is on overall dietary pattern rather than demonising individual foods \u2014 even cured meats appear in moderation within a broader healthy diet. In the US, the AHA has moved toward a dietary pattern approach after decades of single-nutrient warnings. The WHO likewise frames cardiovascular dietary guidance around patterns and total intake rather than specific food bans.",
-      "brit_take": "We've been told bacon, butter, eggs, and salt are each individually going to kill us at various points in the last 40 years \u2014 a bit of balance and portion sense goes a long way.",
-      "source": "News",
-      "platform": "nzherald.co.nz",
-      "url": "https://www.nzherald.co.nz/lifestyle/six-foods-that-raise-your-heart-attack-risk-and-what-to-eat-instead/premium/FZV2GMK5KZHLTCH25Y2DERHNVY/",
-      "claim": "Six foods that raise your heart attack risk ( and what to eat instead )",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 22,
+      "score": 32,
       "score_label": "Misleading",
       "score_type": "false",
-      "claim_tag": "Conspiracy framing",
-      "verdict": "Bruce Willis has frontotemporal dementia, and there is currently no peer-reviewed evidence that any specific diet can treat or meaningfully slow FTD progression. Framing a celebrity's reported eating habits as a 'dementia diet' implies a therapeutic power that simply does not exist yet. Good nutrition supports general brain health, but no diet has been clinically proven to reverse or halt dementia of any kind.",
-      "verdict_highlight": "No diet has been proven to treat dementia",
+      "claim_tag": "Overstated",
+      "verdict": "Green tea does contain catechins (especially EGCG) and caffeine, which can give a small, real nudge to metabolism \u2014 but the effect is modest, roughly 3-4% increase in energy expenditure, and it absolutely does not 'melt fat' on its own without diet or exercise. The framing of a secret trick that replaces healthy habits is misleading and not supported by the clinical evidence. Think of green tea as a gentle, pleasant addition to a healthy lifestyle, not a shortcut around one.",
+      "verdict_highlight": "No drink replaces diet and movement",
       "sources": [
-        "Alzheimer's Association",
-        "NEJM \u2013 Frontotemporal dementia review",
-        "WHO \u2013 Dementia fact sheet"
+        "Hursel R et al., International Journal of Obesity, 2009 \u2014 meta-analysis on green tea catechins and weight loss",
+        "Phung OJ et al., Journal of the American Dietetic Association, 2010",
+        "NIH National Center for Complementary and Integrative Health \u2014 Green Tea fact sheet",
+        "European Food Safety Authority (EFSA) \u2014 Opinion on green tea catechins, 2018"
       ],
-      "global_opinion": "In Japan, research into diet and cognitive decline is taken seriously, with studies on traditional diets and dementia rates, but even Japanese researchers stop short of claiming a curative diet. The UK's NHS is explicit that no supplement or diet can prevent or treat dementia, though healthy eating is encouraged for general brain health. In the US, the MIND diet has shown some association with slower cognitive decline in observational studies, but it is not a treatment protocol.",
-      "brit_take": "Using a much-loved actor's serious illness to dress up general healthy eating tips as a 'dementia diet' is a stretch \u2014 it's not harmful advice, just misleading framing.",
+      "global_opinion": "In Japan, green tea is deeply embedded in daily culture and consumed primarily for pleasure and tradition, not marketed as a weight-loss tool \u2014 the hype framing would feel unusual there. In the US and UK, green tea extracts are sold as diet supplements, though regulators like the FDA and NHS have cautioned that high-dose supplements can carry liver risks. In Romania and broader Eastern Europe, where this headline originates, sensationalist 'secret trick' health content is a known pattern in online media, often targeting people frustrated with slow progress.",
+      "brit_take": "A nice cup of green tea is a genuinely lovely habit \u2014 just don't expect it to do your squats for you.",
       "source": "News",
-      "platform": "womansworld.com",
-      "url": "https://www.womansworld.com/aging/brain/what-bruce-willis-reportedly-eats-on-his-dementia-diet",
-      "claim": "What Bruce Willis , 71 , Reportedly Eats on His  Dementia Diet",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 85,
-      "score_label": "Well supported",
-      "score_type": "true",
-      "claim_tag": "Evidence-based",
-      "verdict": "Reducing sodium intake is one of the most consistently supported interventions for lowering blood pressure and reducing cardiovascular disease risk \u2014 backed by the WHO, CDC, and decades of clinical evidence. The WHO recommends under 2g of sodium (5g of salt) per day, and most people in high-income countries eat significantly more than that. This is straightforward, well-supported public health advice.",
-      "verdict_highlight": "Cutting salt genuinely lowers blood pressure and heart risk",
-      "sources": [
-        "WHO \u2013 Sodium intake for adults",
-        "CDC \u2013 Sodium and cardiovascular health",
-        "JAMA \u2013 Dietary sodium and blood pressure meta-analysis"
-      ],
-      "global_opinion": "Japan has historically had very high sodium intake due to soy sauce and miso, and has run national campaigns to reduce salt consumption with measurable success in lowering stroke rates. Finland's population-level salt reduction programme over several decades is frequently cited as a public health success story. The UK's voluntary salt reduction targets for food manufacturers have been credited with meaningfully reducing average intake over the past 20 years.",
-      "brit_take": "We've quietly been eating less salt than we were 20 years ago thanks to reformulation in processed foods \u2014 turns out you don't miss it much once your taste buds adjust.",
-      "source": "News",
-      "platform": "smn-news.com",
-      "url": "https://www.smn-news.com/index.php/st-maarten-st-martin-news/50689-cps-reducing-salt-consumption-for-a-healthy-life.html",
-      "claim": "St . Martin News Network - CPS : Reducing Salt Consumption for a Healthy Life .",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 78,
-      "score_label": "Nuanced",
-      "score_type": "mixed",
-      "claim_tag": "Partially true",
-      "verdict": "Dates do have genuine nutritional credentials \u2014 they contain fibre, polyphenols, and potassium, and there is reasonable evidence supporting modest benefits for digestion and cholesterol levels. The 'serious consequences of overindulging' framing is a bit dramatic; eating too many dates mainly means a lot of natural sugar and calories, which matters for people managing blood sugar. It is a real consideration but not a dramatic danger for most healthy people.",
-      "verdict_highlight": "Dates are nutritious; overindulging means sugar, not danger",
-      "sources": [
-        "Journal of Nutrition \u2013 Dates and cardiovascular biomarkers",
-        "Food Chemistry \u2013 Polyphenol content of dates",
-        "NIH \u2013 Dietary fibre and digestive health"
-      ],
-      "global_opinion": "In Middle Eastern countries, dates are a dietary staple and cultural cornerstone \u2014 consumed daily during Ramadan \u2014 and are not typically treated as a food requiring moderation warnings. Western nutrition media tends to frame high-sugar whole foods with more caution, reflecting broader concerns about sugar intake in populations already eating excess refined sugars. In South Asia, dates are widely used in traditional medicine and cooking with a broadly positive health reputation, with little anxiety about overconsumption.",
-      "brit_take": "Dates have gone from slightly forgotten health food shop staple to 'ancient superfood with deadly dark side' \u2014 the truth is they're just a very nice, nutritious fruit worth enjoying sensibly.",
-      "source": "News",
-      "platform": "dailymail.com",
-      "url": "https://www.dailymail.com/health/article-15851619/The-truth-dates-dried-fruit-lower-cholesterol-improve-digestion-overindulging-consequences.html",
-      "claim": "The truth about dates : The dried fruit can lower cholesterol and improve digestion ... but overindulging could have serious consequences",
+      "platform": "jurnalul.ro",
+      "url": "https://jurnalul.ro/viata-sanatoasa/frumos-si-sanatos/trucul-slabit-ceai-verde-secretul-topeste-grasimea-fara-diete-fitness-1034402.html",
+      "claim": "Trucul de sl\u0103bit cu ceai verde : Secretul care tope\u0219te gr\u0103simea f\u0103r\u0103 diete \u0219i fitness",
       "hours_ago": 12,
       "engagement": 40
     }
