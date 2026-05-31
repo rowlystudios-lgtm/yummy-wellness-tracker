@@ -1,27 +1,27 @@
 {
-  "week_headline": "Green tea 'fat-melting' claims surge across European health news, promising weight loss without diet or exercise",
-  "misleading_pct": "70%",
-  "true_pct": "30%",
+  "week_headline": "Thyroid supplements surge in popularity as people seek metabolic shortcuts for weight loss",
+  "misleading_pct": "72%",
+  "true_pct": "28%",
   "claims": [
     {
-      "score": 32,
+      "score": 22,
       "score_label": "Misleading",
       "score_type": "false",
       "claim_tag": "Overstated",
-      "verdict": "Green tea does contain catechins (especially EGCG) and caffeine, which can give a small, real nudge to metabolism \u2014 but the effect is modest, roughly 3-4% increase in energy expenditure, and it absolutely does not 'melt fat' on its own without diet or exercise. The framing of a secret trick that replaces healthy habits is misleading and not supported by the clinical evidence. Think of green tea as a gentle, pleasant addition to a healthy lifestyle, not a shortcut around one.",
-      "verdict_highlight": "No drink replaces diet and movement",
+      "verdict": "For the vast majority of people, thyroid supplements do not help with weight loss and can actually be harmful. If your thyroid is functioning normally, adding iodine, selenium, or other thyroid-support ingredients won't speed up your metabolism \u2014 your body simply doesn't work that way. Only people with a confirmed, medically diagnosed thyroid condition see weight changes through proper treatment, and even then, thyroid medication is prescribed by a doctor, not bought off a shelf.",
+      "verdict_highlight": "Normal thyroids don't benefit from supplements",
       "sources": [
-        "Hursel R et al., International Journal of Obesity, 2009 \u2014 meta-analysis on green tea catechins and weight loss",
-        "Phung OJ et al., Journal of the American Dietetic Association, 2010",
-        "NIH National Center for Complementary and Integrative Health \u2014 Green Tea fact sheet",
-        "European Food Safety Authority (EFSA) \u2014 Opinion on green tea catechins, 2018"
+        "American Thyroid Association (ATA) \u2014 thyroid and weight position statement",
+        "JAMA Internal Medicine \u2014 over-the-counter thyroid supplements study, 2013",
+        "NIH Office of Dietary Supplements \u2014 iodine and thyroid function fact sheet",
+        "Endocrine Society Clinical Practice Guidelines"
       ],
-      "global_opinion": "In Japan, green tea is deeply embedded in daily culture and consumed primarily for pleasure and tradition, not marketed as a weight-loss tool \u2014 the hype framing would feel unusual there. In the US and UK, green tea extracts are sold as diet supplements, though regulators like the FDA and NHS have cautioned that high-dose supplements can carry liver risks. In Romania and broader Eastern Europe, where this headline originates, sensationalist 'secret trick' health content is a known pattern in online media, often targeting people frustrated with slow progress.",
-      "brit_take": "A nice cup of green tea is a genuinely lovely habit \u2014 just don't expect it to do your squats for you.",
+      "global_opinion": "In the US, thyroid supplements are loosely regulated as dietary supplements under FDA rules, meaning companies can market them without proving efficacy \u2014 this has fuelled explosive growth in the category. The EU and UK take a stricter stance, with the MHRA and EFSA requiring more evidence before health claims appear on labels, making these products less prevalent in European pharmacies. In Australia, the TGA similarly regulates thyroid support products as complementary medicines, requiring listed ingredients to be safe but not necessarily proven effective for weight loss.",
+      "brit_take": "In the UK we'd probably just be told to have a cup of tea and get a proper blood test from your GP before spending \u00a340 on a bottle of kelp tablets.",
       "source": "News",
-      "platform": "jurnalul.ro",
-      "url": "https://jurnalul.ro/viata-sanatoasa/frumos-si-sanatos/trucul-slabit-ceai-verde-secretul-topeste-grasimea-fara-diete-fitness-1034402.html",
-      "claim": "Trucul de sl\u0103bit cu ceai verde : Secretul care tope\u0219te gr\u0103simea f\u0103r\u0103 diete \u0219i fitness",
+      "platform": "menshealth.com",
+      "url": "https://www.menshealth.com/health/a71434965/thyroid-supplement-weight-loss/",
+      "claim": "Do Thyroid Supplements Help With Weight Loss ?",
       "hours_ago": 12,
       "engagement": 40
     }
