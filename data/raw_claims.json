@@ -1,56 +1,20 @@
 [
   {
     "source": "News",
-    "platform": "women.okezone.com",
-    "claim": "Tak Hanya Bantu Diet , Makan Semangka Juga Bisa Menyehatkan Jantung : Okezone Women",
-    "url": "https://women.okezone.com/read/2026/06/02/298/3222018/tak-hanya-bantu-diet-makan-semangka-juga-bisa-menyehatkan-jantung",
+    "platform": "hindustantimes.com",
+    "claim": "Gurugram dietician answers 10 questions about protein powder , local Indian foods packed with veg protein and fibre",
+    "url": "https://www.hindustantimes.com/lifestyle/health/gurugram-dietician-answers-10-questions-about-protein-powder-local-indian-foods-packed-with-veg-protein-and-fibre-101780399604276.html",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "Indonesia"
+    "source_country": "India"
   },
   {
     "source": "News",
-    "platform": "naturalnews.com",
-    "claim": "Study : Unsweetened Coffee , Tea Linked to Lower Cancer Risk \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-06-01-unsweetened-coffee-tea-linked-lower-cancer-risk.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "naturalnews.com",
-    "claim": "Magnesium deficiency linked to rising colon cancer rates , new study reveals \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-06-01-magnesium-deficiency-rising-colon-rates.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "mirror.co.uk",
-    "claim": "Dr Amir Khan supplement warning as he says dont mix with medications",
-    "url": "https://www.mirror.co.uk/news/health/dr-amir-khans-supplement-warning-37236085",
+    "platform": "plymouthherald.co.uk",
+    "claim": "World healthiest vegetable named by scientists costs \u00a31 in supermarket",
+    "url": "https://www.plymouthherald.co.uk/news/uk-world-news/worlds-healthiest-vegetable-named-scientists-10995433",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United Kingdom"
-  },
-  {
-    "source": "News",
-    "platform": "dailymail.com",
-    "claim": "Revealed : The foods worth buying organic - and where youre wasting your money",
-    "url": "https://www.dailymail.com/health/article-15863975/The-foods-worth-buying-organic-youre-wasting-money.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "thithtoolwin.com",
-    "claim": "Plum Tomatoes : Complete Guide to Uses , Nutrition , Growing Tips , and Best Recipes",
-    "url": "https://www.thithtoolwin.com/plum-tomatoes/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": ""
   }
 ]
