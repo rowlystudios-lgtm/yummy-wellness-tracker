@@ -1,49 +1,27 @@
 {
-  "week_headline": "Plant protein is having a moment globally, with Indian superfoods and budget vegetables stealing the spotlight from expensive supplements",
-  "misleading_pct": "35%",
-  "true_pct": "65%",
+  "week_headline": "Joint health supplements take centre stage as manufacturers race to back ingredients with clinical data ahead of major industry events",
+  "misleading_pct": "30%",
+  "true_pct": "70%",
   "claims": [
     {
-      "score": 72,
+      "score": 62,
       "score_label": "Nuanced",
       "score_type": "mixed",
       "claim_tag": "Partially true",
-      "verdict": "Indian whole foods like dal, chana, moong, soya and paneer genuinely are excellent protein and fibre sources \u2014 the science on legumes is solid and well-supported by nutrition research. Protein powders aren't harmful, but for most people eating a varied Indian diet, they're simply not necessary. The nuance is that 'packed with protein' needs context: plant proteins often have lower bioavailability than animal sources, though combining foods like rice and dal neatly fixes that.",
-      "verdict_highlight": "Dal and chana genuinely rival protein powders",
+      "verdict": "There is genuine and growing research into joint health ingredients like glucosamine, chondroitin, collagen peptides, and boswellia \u2014 some showing modest but real benefits for osteoarthritis and joint comfort. However, trade show announcements are marketing events first, and 'new research data' presented at industry expos often hasn't been through independent peer review yet. It's worth waiting to see whether any showcased findings land in credible journals before updating your supplement shelf.",
+      "verdict_highlight": "Trade show data isn't peer-reviewed science yet",
       "sources": [
-        "Journal of Nutrition \u2013 legume protein bioavailability studies",
-        "WHO \u2013 dietary protein requirements",
-        "ICMR-NIN Indian Dietary Guidelines 2024",
-        "Harvard T.H. Chan School of Public Health \u2013 Protein and the Environment"
+        "NIH National Center for Complementary and Integrative Health \u2014 Glucosamine/Chondroitin",
+        "Annals of the Rheumatic Diseases \u2014 collagen peptide trials",
+        "BMJ \u2014 osteoarthritis supplement meta-analyses",
+        "Journal of Nutrition \u2014 boswellia serrata research"
       ],
-      "global_opinion": "In India, legume-based diets have centuries of practical backing and the ICMR's 2024 dietary guidelines actively promote them over supplements. In the US and UK, protein powder marketing is far more aggressive, creating a cultural perception that whole foods alone are insufficient. The EU's EFSA applies stricter scrutiny to protein supplement health claims than most Asian markets.",
-      "brit_take": "Turns out a bowl of dhal has been doing the job quietly for thousands of years, long before anyone tried to sell it in a tub with a fitness influencer on the label.",
+      "global_opinion": "In China, joint health supplements are a booming category with strong regulatory interest from the NMPA, and CPHI China carries real commercial weight in shaping what hits shelves across Asia. In the EU, EFSA has historically been cautious, rejecting several joint health claims for lack of robust evidence, meaning European consumers face stricter labelling standards. In the US, the FDA's supplement framework allows broader structure-function claims, so American products often sound more confident than the underlying science strictly supports.",
+      "brit_take": "A trade show in Shanghai is a perfectly fine place to network, but it's not where you'd expect a Nobel Prize to be handed out. We'll wait for the journal, thanks.",
       "source": "News",
-      "platform": "hindustantimes.com",
-      "url": "https://www.hindustantimes.com/lifestyle/health/gurugram-dietician-answers-10-questions-about-protein-powder-local-indian-foods-packed-with-veg-protein-and-fibre-101780399604276.html",
-      "claim": "Gurugram dietician answers 10 questions about protein powder , local Indian foods packed with veg protein and fibre",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 38,
-      "score_label": "Misleading",
-      "score_type": "false",
-      "claim_tag": "Overstated",
-      "verdict": "No single vegetable holds the title of 'world's healthiest' \u2014 nutrition science simply doesn't work that way, and no credible scientific body has issued such a ranking. Headlines like this usually trace back to a single study, a ranked index, or a journalist over-interpreting a nutrient-density score. Watercress, spinach, and kale regularly top nutrient-density lists, and any of them for \u00a31 is genuinely good value \u2014 but calling one the undisputed winner is marketing language, not science.",
-      "verdict_highlight": "No single vegetable wins 'healthiest' in science",
-      "sources": [
-        "CDC \u2013 Defining Powerhouse Fruits and Vegetables (Di Noia, 2014)",
-        "BMJ \u2013 dietary diversity and health outcomes",
-        "EFSA \u2013 nutrient profiling models",
-        "Harvard T.H. Chan School of Public Health \u2013 Vegetables and Fruits"
-      ],
-      "global_opinion": "In the US, the CDC's 2014 'powerhouse vegetables' list \u2014 which placed watercress at number one on a specific nutrient-density formula \u2014 is frequently misquoted as an official health ranking. In Japan, dietary guidance emphasises variety across 30 different foods daily rather than singling out any one vegetable. UK NHS guidance similarly promotes a broad range of vegetables rather than champion a single winner.",
-      "brit_take": "A \u00a31 bag of something leafy and green is always a good idea \u2014 though the vegetable probably didn't ask to be crowned by a headline writer on a slow news day.",
-      "source": "News",
-      "platform": "plymouthherald.co.uk",
-      "url": "https://www.plymouthherald.co.uk/news/uk-world-news/worlds-healthiest-vegetable-named-scientists-10995433",
-      "claim": "World healthiest vegetable named by scientists costs \u00a31 in supermarket",
+      "platform": "prnewswire.com",
+      "url": "http://www.prnewswire.com/news-releases/natural-field-to-showcase-joint-health-innovation-and-new-research-data-at-cphi-china-2026-302791337.html",
+      "claim": "Natural Field to Showcase Joint Health Innovation and New Research Data at CPHI China 2026",
       "hours_ago": 12,
       "engagement": 40
     }

@@ -1,20 +1,11 @@
 [
   {
     "source": "News",
-    "platform": "hindustantimes.com",
-    "claim": "Gurugram dietician answers 10 questions about protein powder , local Indian foods packed with veg protein and fibre",
-    "url": "https://www.hindustantimes.com/lifestyle/health/gurugram-dietician-answers-10-questions-about-protein-powder-local-indian-foods-packed-with-veg-protein-and-fibre-101780399604276.html",
+    "platform": "prnewswire.com",
+    "claim": "Natural Field to Showcase Joint Health Innovation and New Research Data at CPHI China 2026",
+    "url": "http://www.prnewswire.com/news-releases/natural-field-to-showcase-joint-health-innovation-and-new-research-data-at-cphi-china-2026-302791337.html",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "India"
-  },
-  {
-    "source": "News",
-    "platform": "plymouthherald.co.uk",
-    "claim": "World healthiest vegetable named by scientists costs \u00a31 in supermarket",
-    "url": "https://www.plymouthherald.co.uk/news/uk-world-news/worlds-healthiest-vegetable-named-scientists-10995433",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United Kingdom"
+    "source_country": "United States"
   }
 ]
