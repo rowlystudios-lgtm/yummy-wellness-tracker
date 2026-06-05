@@ -1,27 +1,28 @@
 {
-  "week_headline": "Joint health supplements take centre stage as manufacturers race to back ingredients with clinical data ahead of major industry events",
-  "misleading_pct": "30%",
-  "true_pct": "70%",
+  "week_headline": "Britain's 2026 food and drink trends put gut health, low-alcohol options, and plant-forward eating firmly in the spotlight",
+  "misleading_pct": "15%",
+  "true_pct": "85%",
   "claims": [
     {
-      "score": 62,
+      "score": 78,
       "score_label": "Nuanced",
       "score_type": "mixed",
       "claim_tag": "Partially true",
-      "verdict": "There is genuine and growing research into joint health ingredients like glucosamine, chondroitin, collagen peptides, and boswellia \u2014 some showing modest but real benefits for osteoarthritis and joint comfort. However, trade show announcements are marketing events first, and 'new research data' presented at industry expos often hasn't been through independent peer review yet. It's worth waiting to see whether any showcased findings land in credible journals before updating your supplement shelf.",
-      "verdict_highlight": "Trade show data isn't peer-reviewed science yet",
+      "verdict": "The UK's 2026 healthy food and drink trends \u2014 think fermented foods, functional drinks, reduced sugar, and flexitarian eating \u2014 are broadly grounded in solid nutritional science. Most trends reflect genuine evidence around gut microbiome health, reduced ultra-processed food intake, and plant-based protein benefits. That said, 'healthy' labelling in the food industry can stretch well beyond what the science actually supports, and trendy products like adaptogen drinks or collagen waters often outpace the evidence behind them.",
+      "verdict_highlight": "Trends point right but products often overpromise",
       "sources": [
-        "NIH National Center for Complementary and Integrative Health \u2014 Glucosamine/Chondroitin",
-        "Annals of the Rheumatic Diseases \u2014 collagen peptide trials",
-        "BMJ \u2014 osteoarthritis supplement meta-analyses",
-        "Journal of Nutrition \u2014 boswellia serrata research"
+        "NHS Eatwell Guide 2024",
+        "British Nutrition Foundation \u2013 Trends Report 2024",
+        "BMJ \u2013 Ultra-processed foods and health outcomes, 2024",
+        "EFSA \u2013 Gut microbiota and health claims guidance",
+        "Lancet \u2013 Plant-based diets and chronic disease risk, 2023"
       ],
-      "global_opinion": "In China, joint health supplements are a booming category with strong regulatory interest from the NMPA, and CPHI China carries real commercial weight in shaping what hits shelves across Asia. In the EU, EFSA has historically been cautious, rejecting several joint health claims for lack of robust evidence, meaning European consumers face stricter labelling standards. In the US, the FDA's supplement framework allows broader structure-function claims, so American products often sound more confident than the underlying science strictly supports.",
-      "brit_take": "A trade show in Shanghai is a perfectly fine place to network, but it's not where you'd expect a Nobel Prize to be handed out. We'll wait for the journal, thanks.",
+      "global_opinion": "In the US, similar trends are emerging but the regulatory environment around health claims on packaging is notably looser than the UK's, meaning American consumers face more marketing noise around functional foods. Scandinavian countries like Denmark and Sweden tend to be further ahead on plant-forward eating at a policy level, with stronger government backing for dietary shifts. In Japan, fermented foods and functional eating have decades of cultural and regulatory grounding through their 'Foods for Specified Health Uses' system, making the UK's pivot feel relatively new by comparison.",
+      "brit_take": "Britain has gone from 'meat and two veg' to 'kefir and a kombucha' in about a decade \u2014 the science is mostly keeping up, but the price tags absolutely are not.",
       "source": "News",
-      "platform": "prnewswire.com",
-      "url": "http://www.prnewswire.com/news-releases/natural-field-to-showcase-joint-health-innovation-and-new-research-data-at-cphi-china-2026-302791337.html",
-      "claim": "Natural Field to Showcase Joint Health Innovation and New Research Data at CPHI China 2026",
+      "platform": "foodmanufacture.co.uk",
+      "url": "https://www.foodmanufacture.co.uk/Article/2026/06/04/healthy-uk-food-and-drink-trends-2026/",
+      "claim": "Healthy united kingdom food and drink trends 2026",
       "hours_ago": 12,
       "engagement": 40
     }
