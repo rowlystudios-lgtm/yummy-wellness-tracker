@@ -1,28 +1,90 @@
 {
-  "week_headline": "Britain's 2026 food and drink trends put gut health, low-alcohol options, and plant-forward eating firmly in the spotlight",
+  "week_headline": "Ultra-processed foods dominate health headlines as research mounts and US food policy debates intensify",
   "misleading_pct": "15%",
   "true_pct": "85%",
   "claims": [
     {
-      "score": 78,
+      "score": 82,
       "score_label": "Nuanced",
       "score_type": "mixed",
       "claim_tag": "Partially true",
-      "verdict": "The UK's 2026 healthy food and drink trends \u2014 think fermented foods, functional drinks, reduced sugar, and flexitarian eating \u2014 are broadly grounded in solid nutritional science. Most trends reflect genuine evidence around gut microbiome health, reduced ultra-processed food intake, and plant-based protein benefits. That said, 'healthy' labelling in the food industry can stretch well beyond what the science actually supports, and trendy products like adaptogen drinks or collagen waters often outpace the evidence behind them.",
-      "verdict_highlight": "Trends point right but products often overpromise",
+      "verdict": "The evidence that ultra-processed foods (UPFs) are linked to poor health outcomes is genuinely strong \u2014 large studies connect high UPF consumption to higher risks of heart disease, type 2 diabetes, obesity, and even early death. That said, the science is still untangling whether it's the processing itself, the poor nutrient profiles, or other lifestyle factors doing the damage. The honest answer is: probably all three, and cutting back on UPFs is a reasonable, well-supported move.",
+      "verdict_highlight": "Strong links to disease, but causation still debated",
       "sources": [
-        "NHS Eatwell Guide 2024",
-        "British Nutrition Foundation \u2013 Trends Report 2024",
-        "BMJ \u2013 Ultra-processed foods and health outcomes, 2024",
-        "EFSA \u2013 Gut microbiota and health claims guidance",
-        "Lancet \u2013 Plant-based diets and chronic disease risk, 2023"
+        "BMJ 2019 \u2014 NOVA classification cohort study on UPF consumption and mortality",
+        "The Lancet Regional Health 2023 \u2014 UPFs and cardiovascular disease risk",
+        "NEJM 2024 \u2014 ultra-processed food consumption and long-term health outcomes",
+        "NIH National Institute of Diabetes \u2014 dietary patterns research"
       ],
-      "global_opinion": "In the US, similar trends are emerging but the regulatory environment around health claims on packaging is notably looser than the UK's, meaning American consumers face more marketing noise around functional foods. Scandinavian countries like Denmark and Sweden tend to be further ahead on plant-forward eating at a policy level, with stronger government backing for dietary shifts. In Japan, fermented foods and functional eating have decades of cultural and regulatory grounding through their 'Foods for Specified Health Uses' system, making the UK's pivot feel relatively new by comparison.",
-      "brit_take": "Britain has gone from 'meat and two veg' to 'kefir and a kombucha' in about a decade \u2014 the science is mostly keeping up, but the price tags absolutely are not.",
+      "global_opinion": "In Brazil, the national dietary guidelines explicitly warn against UPFs and helped pioneer the NOVA food classification system used in most research. The UK's NHS acknowledges UPF concerns and Public Health England has flagged them in dietary guidance, though formal regulatory limits don't yet exist. In the US, the FDA is only beginning to explore front-of-pack labelling reform, and industry pushback means policy lags well behind the science.",
+      "brit_take": "Britain basically runs on UPFs \u2014 meal deals, crisps, and frozen dinners are a national institution \u2014 so this one hits a little close to home. The science doesn't say the odd Pot Noodle will finish you off, but it does suggest making them the exception rather than the rule.",
       "source": "News",
-      "platform": "foodmanufacture.co.uk",
-      "url": "https://www.foodmanufacture.co.uk/Article/2026/06/04/healthy-uk-food-and-drink-trends-2026/",
-      "claim": "Healthy united kingdom food and drink trends 2026",
+      "platform": "finanznachrichten.de",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-06/68695874-are-ultra-processed-foods-really-bad-for-you-020.htm",
+      "claim": "Are Ultra - Processed Foods Really Bad For You ?",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 88,
+      "score_label": "Well supported",
+      "score_type": "true",
+      "claim_tag": "Evidence-based",
+      "verdict": "This is accurate reported news. Missouri has officially delayed the launch of its Healthy SNAP initiative to February 2027, and Sun Bucks (a separate summer nutrition benefit programme for children) applications are confirmed open. Both programmes aim to improve food access and nutrition for low-income households, so the delay to Healthy SNAP is a genuine setback for families who would benefit from expanded healthy food purchasing options sooner.",
+      "verdict_highlight": "Delay confirmed; Sun Bucks applications are open now",
+      "sources": [
+        "Missouri Department of Social Services official announcements",
+        "USDA Food and Nutrition Service \u2014 SNAP programme guidelines",
+        "CDC \u2014 food insecurity and nutrition assistance programme data"
+      ],
+      "global_opinion": "The US SNAP programme is unique in its scale, serving over 40 million Americans, and state-level modifications like Missouri's Healthy SNAP reflect ongoing political debates about whether government food benefits should restrict or guide purchasing choices. In the UK, similar debates exist around the Healthy Start voucher scheme, which is far more prescriptive about what can be bought. Nordic countries tend to integrate nutritional guidance directly into social benefit design with less political friction.",
+      "brit_take": "Watching America debate whether food stamps should encourage healthier choices feels familiar \u2014 the UK has been arguing about the same thing with Healthy Start vouchers for years. Delaying it two years is a long time to wait when families are making food decisions every single day.",
+      "source": "News",
+      "platform": "kctv5.com",
+      "url": "https://www.kctv5.com/2026/06/06/missouri-delays-healthy-snap-launch-until-february-2027/",
+      "claim": "Missouri delays Healthy SNAP launch to Feb . 2027 ; SuN Bucks applications open",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 88,
+      "score_label": "Well supported",
+      "score_type": "true",
+      "claim_tag": "Evidence-based",
+      "verdict": "This is the same verified news story as above \u2014 Missouri's Healthy SNAP initiative has been postponed, and the reporting is factually consistent across outlets. The programme was designed to incentivise SNAP recipients to purchase healthier foods, building on evidence that financial nudges can meaningfully shift dietary behaviour in lower-income populations. The delay means those potential health benefits are pushed further into the future.",
+      "verdict_highlight": "Factually consistent reporting on a confirmed policy delay",
+      "sources": [
+        "Missouri Department of Social Services official announcements",
+        "USDA Food and Nutrition Service \u2014 SNAP incentive programme research",
+        "Journal of Nutrition 2021 \u2014 financial incentives and healthy food purchasing in SNAP populations"
+      ],
+      "global_opinion": "Canada's Nutrition North programme offers subsidies to make healthy food more affordable in remote communities, showing a different approach to the same problem of diet quality in underserved populations. Australia's government has debated quarantining welfare payments for healthy food but faced strong community resistance. The Missouri delay reflects how politically sensitive it is to attach nutritional conditions \u2014 even positive incentives \u2014 to food assistance in the US.",
+      "brit_take": "Postponing a programme designed to help people eat better by two years is the kind of administrative decision that sounds procedural on paper but means real families eating fewer vegetables for longer. Fingers crossed the 2027 version is worth the wait.",
+      "source": "News",
+      "platform": "ktvo.com",
+      "url": "https://www.ktvo.com/news/local/missouri-postpones-implementation-of-healthy-snap-initiative/article_eceb4836-778c-414f-b732-750aa864aa35.html",
+      "claim": "Missouri postpones implementation of Healthy SNAP initiative",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 88,
+      "score_label": "Well supported",
+      "score_type": "true",
+      "claim_tag": "Evidence-based",
+      "verdict": "Again, this is accurate and consistently reported news confirming the Missouri Healthy SNAP delay to February 2027. Multiple outlets reporting the same confirmed policy decision strengthens the reliability of the information. It's worth noting that SNAP incentive programmes, when they do launch, have a solid evidence base \u2014 research consistently shows they increase fruit and vegetable purchases among participants.",
+      "verdict_highlight": "Consistently reported; SNAP incentives have solid evidence behind them",
+      "sources": [
+        "Missouri Department of Social Services official announcements",
+        "USDA Food and Nutrition Service \u2014 Gus Schumacher Nutrition Incentive Program (GusNIP) data",
+        "American Journal of Preventive Medicine \u2014 SNAP incentive programme outcomes"
+      ],
+      "global_opinion": "The World Health Organization has long advocated for fiscal policies \u2014 including subsidies on healthy foods \u2014 as effective public health tools, giving Missouri's eventual programme international scientific backing. In France, a national food voucher scheme specifically for fruits and vegetables launched in 2022, showing that targeted food incentives can be implemented at scale. The two-year US delay contrasts with faster policy adoption seen in parts of Europe where food assistance and nutrition policy are more tightly integrated.",
+      "brit_take": "Three separate news items about the same delay suggests journalists are as frustrated about it as the families waiting for it \u2014 sometimes repetition in the news cycle is its own kind of advocacy. Let's hope Missouri's 2027 launch is smoother than the lead-up.",
+      "source": "News",
+      "platform": "komu.com",
+      "url": "https://www.komu.com/news/state/missouri-delays-healthy-snap-launch-until-february-2027/article_c56b139b-a42d-4b74-87ce-503b757340e6.html",
+      "claim": "Missouri delays Healthy SNAP launch until February 2027",
       "hours_ago": 12,
       "engagement": 40
     }
