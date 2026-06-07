@@ -1,36 +1,9 @@
 [
   {
     "source": "News",
-    "platform": "finanznachrichten.de",
-    "claim": "Are Ultra - Processed Foods Really Bad For You ?",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-06/68695874-are-ultra-processed-foods-really-bad-for-you-020.htm",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "Germany"
-  },
-  {
-    "source": "News",
-    "platform": "kctv5.com",
-    "claim": "Missouri delays Healthy SNAP launch to Feb . 2027 ; SuN Bucks applications open",
-    "url": "https://www.kctv5.com/2026/06/06/missouri-delays-healthy-snap-launch-until-february-2027/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "ktvo.com",
-    "claim": "Missouri postpones implementation of Healthy SNAP initiative",
-    "url": "https://www.ktvo.com/news/local/missouri-postpones-implementation-of-healthy-snap-initiative/article_eceb4836-778c-414f-b732-750aa864aa35.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "komu.com",
-    "claim": "Missouri delays Healthy SNAP launch until February 2027",
-    "url": "https://www.komu.com/news/state/missouri-delays-healthy-snap-launch-until-february-2027/article_c56b139b-a42d-4b74-87ce-503b757340e6.html",
+    "platform": "nypost.com",
+    "claim": "Poison center reports rose 39 % after supplement was touted as measles cure",
+    "url": "https://nypost.com/2026/06/06/health/poison-center-reports-rose-39-after-supplement-was-touted-as-measles-cure/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
