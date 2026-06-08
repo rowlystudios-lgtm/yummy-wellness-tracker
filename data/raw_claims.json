@@ -1,9 +1,36 @@
 [
   {
     "source": "News",
-    "platform": "nypost.com",
-    "claim": "Poison center reports rose 39 % after supplement was touted as measles cure",
-    "url": "https://nypost.com/2026/06/06/health/poison-center-reports-rose-39-after-supplement-was-touted-as-measles-cure/",
+    "platform": "femalefirst.co.uk",
+    "claim": "Avo - Cardio ! Cardiologist names avocado as the best fruit for heart health",
+    "url": "http://www.femalefirst.co.uk/health/avo-cardio-cardiologist-names-avocado-best-fruit-heart-health-1445618.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United Kingdom"
+  },
+  {
+    "source": "News",
+    "platform": "noticias.r7.com",
+    "claim": "Pesquisa relaciona consumo de batata frita ao diabetes tipo 2",
+    "url": "https://noticias.r7.com/fala-ciencia/pesquisa-relaciona-consumo-de-batata-frita-ao-diabetes-tipo-2-08062026/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Brazil"
+  },
+  {
+    "source": "News",
+    "platform": "smh.com.au",
+    "claim": "Hot dogs , ham , bacon , crisps : The ultra - processed foods linked to dementia",
+    "url": "https://www.smh.com.au/goodfood/tips-and-advice/ultra-processed-foods-linked-to-58-per-cent-rise-in-dementia-risk-20260604-p603u6.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Australia"
+  },
+  {
+    "source": "News",
+    "platform": "prevention.com",
+    "claim": "Scientists Say This Common Cooking Method May Increase Exposure to Carcinogens",
+    "url": "https://www.prevention.com/health/a71470912/grilling-carcinogens-risk-pahs-study/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
