@@ -1,89 +1,27 @@
 {
-  "week_headline": "Ultra-processed foods dominate health headlines this week, with links to dementia, diabetes, and heart disease sparking global debate",
-  "misleading_pct": "20%",
-  "true_pct": "80%",
+  "week_headline": "New research reassures millions that yo-yo dieting does not permanently break your metabolism",
+  "misleading_pct": "25%",
+  "true_pct": "75%",
   "claims": [
     {
       "score": 78,
       "score_label": "Nuanced",
       "score_type": "mixed",
       "claim_tag": "Partially true",
-      "verdict": "Avocados genuinely are good for your heart \u2014 they're rich in monounsaturated fats, potassium, and fibre, all of which support healthy blood pressure and cholesterol. But calling it the single 'best' fruit for heart health is a stretch \u2014 berries, pomegranates, and citrus fruits also have strong evidence behind them. It's a nutritional star, not a solo act.",
-      "verdict_highlight": "Great for hearts, but not the only star",
+      "verdict": "The good news is solid: regaining weight after loss does not appear to permanently damage your metabolic rate in any irreversible way. That said, research does confirm that metabolic adaptation \u2014 where your body burns fewer calories than expected for your new weight \u2014 is a real and temporary effect during and after weight loss cycles. The nuance is that 'not permanent' does not mean 'no effect at all', so the headline is reassuring but slightly oversimplified.",
+      "verdict_highlight": "Metabolism adapts temporarily, not permanently damaged",
       "sources": [
-        "Journal of the American Heart Association (2015) \u2014 Avocado consumption and cardiovascular risk",
-        "Harvard T.H. Chan School of Public Health \u2014 The Nutrition Source: Avocados",
-        "NEJM \u2014 Dietary fat and cardiovascular disease review"
+        "New England Journal of Medicine \u2013 Leibel et al., adaptive thermogenesis in weight loss",
+        "Obesity journal \u2013 M\u00fcller & Bosy-Westphal, metabolic adaptation review 2021",
+        "NIH National Institute of Diabetes and Digestive and Kidney Diseases \u2013 weight cycling research",
+        "Journal of Clinical Endocrinology & Metabolism \u2013 Rosenbaum et al., persistent metabolic adaptation"
       ],
-      "global_opinion": "In Mexico and much of Latin America, avocados are a dietary staple and their health benefits are broadly accepted without much debate. In the US, the avocado industry has funded some research, which regulators and nutritionists flag as a reason to read claims carefully. In the UK and Europe, dietitians welcome avocados as a healthy fat source but tend to push back on any single 'superfood' framing.",
-      "brit_take": "We spent years being told butter would kill us and now avocado on toast is a personality trait \u2014 the truth, as ever, lives somewhere in the middle.",
+      "global_opinion": "In the US, obesity medicine specialists broadly agree that weight cycling is not metabolically catastrophic, though some researchers caution that repeated cycles may influence hormones like leptin and ghrelin long-term. In the UK, the NHS and British Dietetic Association focus messaging on sustainable loss rather than warning people off trying at all, which aligns with this reassuring finding. Scandinavian public health bodies have been particularly active in studying weight cycling in large population cohorts and tend to frame the evidence similarly \u2014 real but reversible metabolic effects.",
+      "brit_take": "Essentially, your metabolism is not holding a grudge. It is more forgiving than that inner voice telling you you have ruined everything.",
       "source": "News",
-      "platform": "femalefirst.co.uk",
-      "url": "http://www.femalefirst.co.uk/health/avo-cardio-cardiologist-names-avocado-best-fruit-heart-health-1445618.html",
-      "claim": "Avo - Cardio ! Cardiologist names avocado as the best fruit for heart health",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 72,
-      "score_label": "Nuanced",
-      "score_type": "mixed",
-      "claim_tag": "Partially true",
-      "verdict": "There is solid observational evidence linking regular fried potato consumption \u2014 especially chips and fries \u2014 to higher type 2 diabetes risk, likely due to refined carbohydrates, high glycaemic load, and the fats used in frying. However, observational studies can't fully separate frying from other lifestyle factors like overall diet quality and physical activity. Eating fries occasionally isn't a diabetes sentence, but making them a daily habit does appear to carry real risk.",
-      "verdict_highlight": "Regular fried potato intake carries real metabolic risk",
-      "sources": [
-        "American Journal of Clinical Nutrition (2021) \u2014 Fried potato consumption and risk of type 2 diabetes",
-        "WHO \u2014 Healthy diet factsheet",
-        "Diabetes Care \u2014 Dietary patterns and type 2 diabetes risk"
-      ],
-      "global_opinion": "In Brazil, where this story originated, ultra-processed and fried foods have surged alongside rising diabetes rates, making the research particularly relevant to public health messaging. In the United States, potatoes are the most consumed vegetable and mostly eaten fried, so the findings land with some controversy in agricultural and food policy circles. The European Food Safety Authority (EFSA) has separately flagged acrylamide \u2014 a compound formed when potatoes are fried at high temperatures \u2014 as a concern worth monitoring.",
-      "brit_take": "Britain runs on chips, so we'll be filing this one under 'noted with concern' and carrying on \u2014 but perhaps not every single day.",
-      "source": "News",
-      "platform": "noticias.r7.com",
-      "url": "https://noticias.r7.com/fala-ciencia/pesquisa-relaciona-consumo-de-batata-frita-ao-diabetes-tipo-2-08062026/",
-      "claim": "Pesquisa relaciona consumo de batata frita ao diabetes tipo 2",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 74,
-      "score_label": "Nuanced",
-      "score_type": "mixed",
-      "claim_tag": "Partially true",
-      "verdict": "The link between ultra-processed food consumption and cognitive decline, including dementia risk, is growing stronger in the scientific literature \u2014 multiple large cohort studies point in the same direction. However, 'linked to' is doing a lot of heavy lifting here: these are associations, not proven cause and effect, and the mechanisms are still being studied. Cutting back on ultra-processed foods is genuinely sensible advice, but the headline makes it sound more certain than the science currently is.",
-      "verdict_highlight": "Association is real; direct causation not yet proven",
-      "sources": [
-        "JAMA Neurology (2022) \u2014 Ultra-processed food consumption and cognitive decline",
-        "BMJ (2023) \u2014 Ultra-processed foods and dementia risk cohort study",
-        "Lancet \u2014 Commission on dementia prevention, intervention and care"
-      ],
-      "global_opinion": "In France, where NOVA food classification research originated, ultra-processed food warnings are taken seriously and feature in national dietary guidelines. In the US, ultra-processed foods make up more than half of average caloric intake, and while research awareness is growing, regulatory action remains limited. Brazil's national dietary guidelines are among the most progressive globally, explicitly advising people to avoid ultra-processed foods \u2014 a stance the WHO has praised.",
-      "brit_take": "If crisps and bacon sandwiches are on the list, a significant portion of the British population may need a moment to sit quietly with this information.",
-      "source": "News",
-      "platform": "smh.com.au",
-      "url": "https://www.smh.com.au/goodfood/tips-and-advice/ultra-processed-foods-linked-to-58-per-cent-rise-in-dementia-risk-20260604-p603u6.html",
-      "claim": "Hot dogs , ham , bacon , crisps : The ultra - processed foods linked to dementia",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 55,
-      "score_label": "Nuanced",
-      "score_type": "mixed",
-      "claim_tag": "Overstated",
-      "verdict": "Certain cooking methods \u2014 especially high-heat techniques like grilling, frying, and charring \u2014 do produce compounds such as acrylamide, heterocyclic amines (HCAs), and polycyclic aromatic hydrocarbons (PAHs) that have shown carcinogenic potential in lab studies. But the jump from 'lab evidence' to 'this cooking method causes cancer in humans' is not yet fully supported \u2014 the doses in typical home cooking are generally far lower than those used in studies. Varied cooking methods and not regularly charring your food is reasonable, but this doesn't need to be a source of daily anxiety.",
-      "verdict_highlight": "Real compounds, but real-world risk is likely modest",
-      "sources": [
-        "EFSA \u2014 Acrylamide in food scientific opinion",
-        "National Cancer Institute (NIH) \u2014 Chemicals in meat cooked at high temperatures",
-        "Food Chemistry \u2014 HCAs and PAHs in cooked meats review"
-      ],
-      "global_opinion": "In the European Union, EFSA has established monitoring programmes for acrylamide and advises food producers to reduce it where possible, reflecting a precautionary but measured approach. In the US, the FDA has issued guidance on reducing acrylamide in cooking without banning any specific method. In parts of East and Southeast Asia where wok cooking at very high heat is traditional, researchers have looked at whether kitchen ventilation rather than the method itself is the more important variable.",
-      "brit_take": "We've been roasting and grilling things since we discovered fire, so let's keep some perspective \u2014 though maybe crack a window next time the grill is going.",
-      "source": "News",
-      "platform": "prevention.com",
-      "url": "https://www.prevention.com/health/a71470912/grilling-carcinogens-risk-pahs-study/",
-      "claim": "Scientists Say This Common Cooking Method May Increase Exposure to Carcinogens",
+      "platform": "theconversation.com",
+      "url": "https://theconversation.com/no-regaining-weight-after-losing-it-wont-permanently-damage-your-metabolism-new-research-284692",
+      "claim": "No , regaining weight after losing it wont permanently damage your metabolism \u2013 new research",
       "hours_ago": 12,
       "engagement": 40
     }
