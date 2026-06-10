@@ -1,27 +1,28 @@
 {
-  "week_headline": "New research reassures millions that yo-yo dieting does not permanently break your metabolism",
-  "misleading_pct": "25%",
-  "true_pct": "75%",
+  "week_headline": "Ultra-processed food industry tactics draw comparisons to Big Tobacco as researchers push for stricter regulation",
+  "misleading_pct": "20%",
+  "true_pct": "80%",
   "claims": [
     {
-      "score": 78,
+      "score": 72,
       "score_label": "Nuanced",
       "score_type": "mixed",
       "claim_tag": "Partially true",
-      "verdict": "The good news is solid: regaining weight after loss does not appear to permanently damage your metabolic rate in any irreversible way. That said, research does confirm that metabolic adaptation \u2014 where your body burns fewer calories than expected for your new weight \u2014 is a real and temporary effect during and after weight loss cycles. The nuance is that 'not permanent' does not mean 'no effect at all', so the headline is reassuring but slightly oversimplified.",
-      "verdict_highlight": "Metabolism adapts temporarily, not permanently damaged",
+      "verdict": "There is solid, peer-reviewed evidence that tobacco companies did acquire major food brands from the 1980s onwards and applied similar addiction-informed engineering \u2014 hyper-palatable combinations of salt, sugar and fat \u2014 to boost consumption. The comparison has real legs scientifically, and researchers at BMJ and The Lancet have drawn direct parallels between industry lobbying tactics. However, food is not inherently addictive in the way nicotine is, and the regulatory lessons don't map across perfectly \u2014 eating is necessary, smoking is not \u2014 so the analogy, while useful, has meaningful limits.",
+      "verdict_highlight": "Industry tactics overlap, but food isn't cigarettes",
       "sources": [
-        "New England Journal of Medicine \u2013 Leibel et al., adaptive thermogenesis in weight loss",
-        "Obesity journal \u2013 M\u00fcller & Bosy-Westphal, metabolic adaptation review 2021",
-        "NIH National Institute of Diabetes and Digestive and Kidney Diseases \u2013 weight cycling research",
-        "Journal of Clinical Endocrinology & Metabolism \u2013 Rosenbaum et al., persistent metabolic adaptation"
+        "The Lancet \u2014 Ultra-processed foods and health outcomes (2019)",
+        "BMJ \u2014 Food industry and tobacco parallels (Moodie et al., 2013)",
+        "NEJM \u2014 Corporate strategies in food and tobacco industries",
+        "NIH \u2014 National Institute on Drug Abuse: food reward and compulsive eating research",
+        "NOVA Food Classification System \u2014 Monteiro et al., Public Health Nutrition"
       ],
-      "global_opinion": "In the US, obesity medicine specialists broadly agree that weight cycling is not metabolically catastrophic, though some researchers caution that repeated cycles may influence hormones like leptin and ghrelin long-term. In the UK, the NHS and British Dietetic Association focus messaging on sustainable loss rather than warning people off trying at all, which aligns with this reassuring finding. Scandinavian public health bodies have been particularly active in studying weight cycling in large population cohorts and tend to frame the evidence similarly \u2014 real but reversible metabolic effects.",
-      "brit_take": "Essentially, your metabolism is not holding a grudge. It is more forgiving than that inner voice telling you you have ruined everything.",
+      "global_opinion": "In Brazil, researcher Carlos Monteiro who developed the NOVA ultra-processed food classification system has been vocal about industry parallels and Brazil's dietary guidelines explicitly warn against UPF consumption. The UK's National Food Strategy report (Dimbleby, 2021) referenced tobacco-style regulation as a possible model and the NHS has growing concern about UPF links to disease. In the United States, the FDA has historically taken a lighter regulatory touch on food formulation, though the current administration has signalled renewed interest in food additive and processing scrutiny.",
+      "brit_take": "The British government received a whole report telling it to tax junk food like cigarettes \u2014 it thanked the author, filed the report, and quietly moved on. Standard procedure.",
       "source": "News",
-      "platform": "theconversation.com",
-      "url": "https://theconversation.com/no-regaining-weight-after-losing-it-wont-permanently-damage-your-metabolism-new-research-284692",
-      "claim": "No , regaining weight after losing it wont permanently damage your metabolism \u2013 new research",
+      "platform": "kalw.org",
+      "url": "https://www.kalw.org/npr-news/2026-06-09/big-tobacco-hooked-us-on-ultra-processed-foods-it-might-teach-us-how-to-cut-back",
+      "claim": "Big tobacco hooked us on ultra - processed foods . It might teach us how to cut back",
       "hours_ago": 12,
       "engagement": 40
     }
