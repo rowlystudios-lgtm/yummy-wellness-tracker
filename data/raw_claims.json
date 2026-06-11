@@ -1,9 +1,54 @@
 [
   {
     "source": "News",
-    "platform": "kalw.org",
+    "platform": "hsph.harvard.edu",
+    "claim": "High ultra - processed food consumption linked to increased dementia risk | Harvard T . H . Chan School of Public Health",
+    "url": "https://hsph.harvard.edu/news/high-ultra-processed-food-consumption-linked-to-increased-dementia-risk/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "moneycontrol.com",
+    "claim": "Ultra - processed food can impact your cognitive abilities and cause high blood pressure , finds study",
+    "url": "https://www.moneycontrol.com/health-and-fitness/ultra-processed-food-can-impact-your-cognitive-abilities-and-cause-high-blood-pressure-finds-study-article-13946457.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "India"
+  },
+  {
+    "source": "News",
+    "platform": "tpr.org",
     "claim": "Big tobacco hooked us on ultra - processed foods . It might teach us how to cut back",
-    "url": "https://www.kalw.org/npr-news/2026-06-09/big-tobacco-hooked-us-on-ultra-processed-foods-it-might-teach-us-how-to-cut-back",
+    "url": "https://www.tpr.org/public-health/2026-06-09/big-tobacco-hooked-us-on-ultra-processed-foods-it-might-teach-us-how-to-cut-back",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "timesofindia.indiatimes.com",
+    "claim": "India pour decision : How every extra drop of oil on your plate could be slowly damaging your heart , liver and other vital organs |",
+    "url": "https://timesofindia.indiatimes.com/health/indias-pour-decision-how-every-extra-drop-of-oil-on-your-plate-could-be-slowly-damaging-your-heart-liver-and-other-vital-organs/articleshow/131654831.cms",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "India"
+  },
+  {
+    "source": "News",
+    "platform": "goodhousekeeping.com",
+    "claim": "Nutrition Experts Explain Why You Should Eat Flaxseeds",
+    "url": "https://www.goodhousekeeping.com/food-recipes/healthy/a71540881/why-you-should-eat-flaxseeds/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "emagazine.com",
+    "claim": "Drumstick Tree : Nutritional Powerhouse & Water Purifier | E The Environmental Magazine",
+    "url": "https://emagazine.com/the-drumstick-tree/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
