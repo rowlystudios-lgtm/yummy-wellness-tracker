@@ -1,56 +1,47 @@
 [
   {
     "source": "News",
-    "platform": "hsph.harvard.edu",
-    "claim": "High ultra - processed food consumption linked to increased dementia risk | Harvard T . H . Chan School of Public Health",
-    "url": "https://hsph.harvard.edu/news/high-ultra-processed-food-consumption-linked-to-increased-dementia-risk/",
+    "platform": "theage.com.au",
+    "claim": "Healthy living choices : How much impact do we actually have on nutrition outcomes",
+    "url": "https://www.theage.com.au/lifestyle/health-and-wellness/we-can-control-our-health-destiny-but-some-of-us-have-more-choice-than-others-20260610-p605e8.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Australia"
+  },
+  {
+    "source": "News",
+    "platform": "vogue.com",
+    "claim": "7 Postbiotic Foods to Help With Gut Health",
+    "url": "https://www.vogue.com/article/postbiotic-foods-to-help-with-gut-health",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "moneycontrol.com",
-    "claim": "Ultra - processed food can impact your cognitive abilities and cause high blood pressure , finds study",
-    "url": "https://www.moneycontrol.com/health-and-fitness/ultra-processed-food-can-impact-your-cognitive-abilities-and-cause-high-blood-pressure-finds-study-article-13946457.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "India"
-  },
-  {
-    "source": "News",
-    "platform": "tpr.org",
-    "claim": "Big tobacco hooked us on ultra - processed foods . It might teach us how to cut back",
-    "url": "https://www.tpr.org/public-health/2026-06-09/big-tobacco-hooked-us-on-ultra-processed-foods-it-might-teach-us-how-to-cut-back",
+    "platform": "clinicaladvisor.com",
+    "claim": "The Gut - Joint Axis : Research About Diet And Spondyloarthritis",
+    "url": "https://www.clinicaladvisor.com/features/the-gut-joint-axis-spondyloarthritis-diet/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "timesofindia.indiatimes.com",
-    "claim": "India pour decision : How every extra drop of oil on your plate could be slowly damaging your heart , liver and other vital organs |",
-    "url": "https://timesofindia.indiatimes.com/health/indias-pour-decision-how-every-extra-drop-of-oil-on-your-plate-could-be-slowly-damaging-your-heart-liver-and-other-vital-organs/articleshow/131654831.cms",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "India"
-  },
-  {
-    "source": "News",
-    "platform": "goodhousekeeping.com",
-    "claim": "Nutrition Experts Explain Why You Should Eat Flaxseeds",
-    "url": "https://www.goodhousekeeping.com/food-recipes/healthy/a71540881/why-you-should-eat-flaxseeds/",
+    "platform": "naturalnews.com",
+    "claim": "Study : Tart Cherry Supplementation Alters Muscle Protein Profile After Exercise \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-06-11-tart-cherry-supplementation-alters-muscle-protein-profile.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "emagazine.com",
-    "claim": "Drumstick Tree : Nutritional Powerhouse & Water Purifier | E The Environmental Magazine",
-    "url": "https://emagazine.com/the-drumstick-tree/",
+    "platform": "alive.com",
+    "claim": "Protect Your Gut While Travelling - alive magazine",
+    "url": "https://www.alive.com/lifestyle/your-gut-on-travel/",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "United States"
+    "source_country": "Canada"
   }
 ]
