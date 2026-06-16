@@ -1,71 +1,28 @@
 {
-  "week_headline": "Longevity diets and sugar-free fears dominate health headlines as people search for simple, affordable ways to live longer",
-  "misleading_pct": "25%",
-  "true_pct": "75%",
+  "week_headline": "The ultra-processed food debate intensifies as public health campaigns clash with the food industry over what 'processed' really means for our health",
+  "misleading_pct": "20%",
+  "true_pct": "80%",
   "claims": [
-    {
-      "score": 62,
-      "score_label": "Nuanced",
-      "score_type": "mixed",
-      "claim_tag": "Partially true",
-      "verdict": "Cutting added sugar is genuinely good for most people, but eliminating all sugar \u2014 including natural sources like fruit and wholegrains \u2014 can backfire. Some studies, including research in the Journal of Nutrition, show very low carbohydrate intake may affect mood, gut microbiome diversity, and energy in some individuals. The real villain is excess added sugar, not sugar that comes packaged with fibre, vitamins, and water.",
-      "verdict_highlight": "Cut added sugar, not all sugar",
-      "sources": [
-        "Journal of Nutrition",
-        "NHS \u2013 Sugar: the facts",
-        "Harvard T.H. Chan School of Public Health \u2013 The sweet danger of sugar"
-      ],
-      "global_opinion": "In the US, zero-sugar messaging is heavily marketed and often taken to extremes, with many people cutting fruit alongside cola. The NHS in the UK specifically distinguishes between free sugars and naturally occurring sugars in whole foods, advising reduction rather than elimination. In Japan, where fruit is eaten seasonally and in small portions, the debate barely exists \u2014 dietary sugar fear is largely a Western phenomenon.",
-      "brit_take": "Telling a British person to give up sugar is fine until you mention it includes the biscuit with their tea. Then it gets personal.",
-      "source": "News",
-      "platform": "timesofindia.indiatimes.com",
-      "url": "https://timesofindia.indiatimes.com/etimes/wellness/always-on-a-sugar-cut-new-study-warns-of-the-dark-side-of-a-no-sugar-diet/articleshow/131720427.cms",
-      "claim": "No Sugar Diet : Always on a sugar cut ? New study warns of the dark side of a  no sugar  diet",
-      "hours_ago": 12,
-      "engagement": 40
-    },
     {
       "score": 74,
       "score_label": "Nuanced",
       "score_type": "mixed",
       "claim_tag": "Partially true",
-      "verdict": "The core idea holds up well \u2014 diets rich in legumes, whole grains, vegetables, nuts, and olive oil are consistently linked to longer life in large studies, including the landmark research behind the Mediterranean and Blue Zone eating patterns. The 'simple swaps' framing is helpful but slightly oversimplified; what works brilliantly in a Sardinian village involves culture, movement, and community, not just food swaps. That said, swapping processed meat for lentils or white bread for wholegrains is genuinely supported by evidence from the Lancet and NEJM.",
-      "verdict_highlight": "Whole food swaps genuinely support longer life",
+      "verdict": "There is solid and growing evidence that diets high in ultra-processed foods (UPFs) are linked to worse health outcomes \u2014 including higher risks of heart disease, type 2 diabetes, obesity, and even depression. Large studies published in The BMJ and The Lancet consistently show these associations. However, 'ultra-processed' covers an enormous range of foods, from mass-produced white bread to diet sodas to some breakfast cereals, and the science hasn't fully untangled whether it's the processing itself, the poor nutrient profiles, or the additives doing the damage \u2014 which is where the genuine divide lives.",
+      "verdict_highlight": "Real risk, but 'ultra-processed' is a broad umbrella",
       "sources": [
-        "The Lancet \u2013 Food in the Anthropocene",
-        "NEJM \u2013 Mediterranean Diet and Cardiovascular Disease",
-        "NIH \u2013 Blue Zones dietary research",
-        "BMJ \u2013 Plant-based diets and mortality"
+        "The BMJ \u2014 Consumption of ultra-processed foods and cancer risk (2018)",
+        "The Lancet \u2014 Ultra-processed food exposure and adverse health outcomes (2024 umbrella review)",
+        "NEJM \u2014 Diet quality and chronic disease risk",
+        "NIH \u2014 NOVA food classification system research",
+        "Harvard T.H. Chan School of Public Health \u2014 The Nutrition Source on processed foods"
       ],
-      "global_opinion": "In Italy and Greece, longevity eating patterns are simply called lunch \u2014 they are cultural norms, not wellness trends. In the United States, the same dietary principles are repackaged and sold as premium lifestyle products, sometimes at significant cost. South Korea and Japan have their own evidence-backed longevity food traditions \u2014 fermented foods, seafood, and moderate portions \u2014 that are rarely included in Western longevity diet coverage.",
-      "brit_take": "The longevity diet turns out to be mostly things your nan already put on the table \u2014 beans, veg, not too much meat. She just never charged \u00a318 for a book about it.",
+      "global_opinion": "Brazil has been a global leader here \u2014 its national dietary guidelines explicitly warn against UPFs and were built partly around the NOVA classification system developed by Brazilian researcher Carlos Monteiro. The UK's National Food Strategy and NHS guidance have moved toward cautioning against UPFs, though regulation remains limited compared to some Nordic countries, which have stronger restrictions on food marketing to children. In the United States, the FDA's definitions of 'processed' differ from NOVA's, and food industry lobbying has slowed policy action, meaning public health messaging and regulatory reality are still quite far apart.",
+      "brit_take": "Britain runs on a quiet, complicated relationship with the meal deal and the biscuit tin, so this debate feels rather personal \u2014 turns out the nation's comfort foods are squarely in the dock.",
       "source": "News",
-      "platform": "businessinsider.com",
-      "url": "https://www.businessinsider.com/longevity-diet-simple-swaps-to-live-longer-and-save-money-2026-6",
-      "claim": "Longevity Diet : Simple Swaps to Live Longer and Save Money",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 81,
-      "score_label": "Well supported",
-      "score_type": "true",
-      "claim_tag": "Evidence-based",
-      "verdict": "This almost certainly refers to sleep, social connection, or physical activity beyond formal exercise \u2014 all of which have strong backing. Sleep in particular is now recognised by the CDC, WHO, and a wave of peer-reviewed studies as a genuine pillar of health, comparable in impact to diet and exercise. Chronic poor sleep is linked to increased risk of obesity, type 2 diabetes, cardiovascular disease, and impaired immune function \u2014 effects that rival poor nutrition in their scale. If it refers to social connection, the evidence from Harvard's longitudinal studies and a 2023 WHO report is equally compelling.",
-      "verdict_highlight": "Sleep and connection rival diet in health impact",
-      "sources": [
-        "CDC \u2013 Sleep and Chronic Disease",
-        "WHO \u2013 Social connection and health 2023",
-        "Harvard Study of Adult Development",
-        "JAMA Internal Medicine \u2013 Sleep duration and mortality",
-        "NIH \u2013 Sleep deprivation and health"
-      ],
-      "global_opinion": "In Scandinavia, sleep hygiene and work-life balance are treated as public health priorities, with cultural and policy support for adequate rest. In South Korea and Japan, long working hours have created well-documented sleep deficit crises, and the health consequences are increasingly being addressed in national health strategies. In the US and UK, sleep deprivation has historically been worn as a badge of productivity, though that narrative is slowly shifting as the evidence becomes impossible to ignore.",
-      "brit_take": "Turns out lying in on a Sunday might actually be medical advice. The NHS did not need to tell most people twice.",
-      "source": "News",
-      "platform": "dailystar.co.uk",
-      "url": "https://www.dailystar.co.uk/health/common-health-habit-as-serious-37288530",
-      "claim": "Common health habit  as serious as diet and exercise",
+      "platform": "bakeryandsnacks.com",
+      "url": "https://www.bakeryandsnacks.com/Article/2026/06/15/fed-up-campaign-highlights-divide-over-ultra-processed-foods/",
+      "claim": "Fed Up ! Campaign Highlights Divide Over Ultra - Processed Foods",
       "hours_ago": 12,
       "engagement": 40
     }
