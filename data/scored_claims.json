@@ -1,28 +1,69 @@
 {
-  "week_headline": "The ultra-processed food debate intensifies as public health campaigns clash with the food industry over what 'processed' really means for our health",
+  "week_headline": "Supplements for older adults dominate health headlines, with expert voices challenging long-held assumptions about calcium, vitamin D, and sun protection.",
   "misleading_pct": "20%",
   "true_pct": "80%",
   "claims": [
     {
-      "score": 74,
+      "score": 72,
       "score_label": "Nuanced",
       "score_type": "mixed",
       "claim_tag": "Partially true",
-      "verdict": "There is solid and growing evidence that diets high in ultra-processed foods (UPFs) are linked to worse health outcomes \u2014 including higher risks of heart disease, type 2 diabetes, obesity, and even depression. Large studies published in The BMJ and The Lancet consistently show these associations. However, 'ultra-processed' covers an enormous range of foods, from mass-produced white bread to diet sodas to some breakfast cereals, and the science hasn't fully untangled whether it's the processing itself, the poor nutrient profiles, or the additives doing the damage \u2014 which is where the genuine divide lives.",
-      "verdict_highlight": "Real risk, but 'ultra-processed' is a broad umbrella",
+      "verdict": "There's solid evidence that older adults with confirmed deficiencies \u2014 vitamin B12, vitamin D, iron, and yes, protein \u2014 do benefit from targeted supplementation. The nuance is in the word 'targeted': blanket supplement use without testing for deficiency is a different story, and the source, NaturalNews, has a history of overstating supplement benefits. The protein finding is well grounded \u2014 higher protein intake in older adults supports muscle preservation and reduces frailty risk.",
+      "verdict_highlight": "Deficiency confirmed first, then supplements help",
       "sources": [
-        "The BMJ \u2014 Consumption of ultra-processed foods and cancer risk (2018)",
-        "The Lancet \u2014 Ultra-processed food exposure and adverse health outcomes (2024 umbrella review)",
-        "NEJM \u2014 Diet quality and chronic disease risk",
-        "NIH \u2014 NOVA food classification system research",
-        "Harvard T.H. Chan School of Public Health \u2014 The Nutrition Source on processed foods"
+        "NIH Office of Dietary Supplements \u2014 Dietary Supplements for Older Adults",
+        "Journal of Nutrition, 2020 \u2014 Protein Intake and Muscle Health in Aging",
+        "Harvard T.H. Chan School of Public Health \u2014 Vitamins and Minerals"
       ],
-      "global_opinion": "Brazil has been a global leader here \u2014 its national dietary guidelines explicitly warn against UPFs and were built partly around the NOVA classification system developed by Brazilian researcher Carlos Monteiro. The UK's National Food Strategy and NHS guidance have moved toward cautioning against UPFs, though regulation remains limited compared to some Nordic countries, which have stronger restrictions on food marketing to children. In the United States, the FDA's definitions of 'processed' differ from NOVA's, and food industry lobbying has slowed policy action, meaning public health messaging and regulatory reality are still quite far apart.",
-      "brit_take": "Britain runs on a quiet, complicated relationship with the meal deal and the biscuit tin, so this debate feels rather personal \u2014 turns out the nation's comfort foods are squarely in the dock.",
+      "global_opinion": "In Japan, targeted nutritional support for older adults is embedded in national health policy, with regular screening for deficiencies in care settings. The EU's EFSA takes a cautious, evidence-first approach, approving specific health claims only when the science is robust. In the US, the supplement industry operates with far less regulatory oversight, which means marketing often runs well ahead of the evidence.",
+      "brit_take": "A good GP will test before prescribing supplements \u2014 and most British doctors are refreshingly sceptical of the 'just take everything' approach.",
       "source": "News",
-      "platform": "bakeryandsnacks.com",
-      "url": "https://www.bakeryandsnacks.com/Article/2026/06/15/fed-up-campaign-highlights-divide-over-ultra-processed-foods/",
-      "claim": "Fed Up ! Campaign Highlights Divide Over Ultra - Processed Foods",
+      "platform": "naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-06-17-targeted-nutrition-benefits-elderly-with-confirmed-deficiencies.html",
+      "claim": "Report : Targeted Supplement Use Benefits Older Adults With Confirmed Deficiencies ; Protein Identified as Key Nutrient \u2013 NaturalNews . com",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 68,
+      "score_label": "Nuanced",
+      "score_type": "mixed",
+      "claim_tag": "Partially true",
+      "verdict": "This claim is backed by real research, including a significant 2022 USPSTF review, which found that calcium and vitamin D supplements did not meaningfully reduce fracture or fall risk in community-dwelling older adults without known deficiencies. However, that finding doesn't apply universally \u2014 people with confirmed vitamin D deficiency, osteoporosis, or very low dietary calcium are a different group, and supplementation still makes clinical sense for them. The headline is accurate but needs that important context attached.",
+      "verdict_highlight": "No deficiency, no clear benefit from supplements",
+      "sources": [
+        "USPSTF Recommendation Statement, JAMA 2022 \u2014 Vitamin D and Calcium Supplementation to Prevent Cancer and Fractures",
+        "BMJ 2022 \u2014 Calcium and Vitamin D Supplements and Health Outcomes",
+        "NHS \u2014 Vitamin D Guidance for Older Adults"
+      ],
+      "global_opinion": "The NHS recommends vitamin D supplements for all UK adults in autumn and winter given low sunlight exposure, framing it as a population-level strategy rather than fracture prevention specifically. In Australia, where sun exposure is high, routine supplementation is less emphasised, and guidance focuses on at-risk groups. Nordic countries continue to recommend supplementation broadly for older adults due to limited sunlight, even as fracture-prevention evidence remains mixed.",
+      "brit_take": "Given British winters, the vitamin D guidance here is less about bones and more about the fact we simply don't see enough sun to make our own \u2014 which is a very fair point.",
+      "source": "News",
+      "platform": "discovermagazine.com",
+      "url": "https://www.discovermagazine.com/calcium-and-vitamin-d-supplements-may-not-prevent-fractures-or-falls-in-older-adults-49253",
+      "claim": "Calcium and Vitamin D Supplements May Not Prevent Fractures or Falls in Older Adults",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 88,
+      "score_label": "Well supported",
+      "score_type": "true",
+      "claim_tag": "Evidence-based",
+      "verdict": "Dermatologist-led sunscreen myth-busting is exactly what the evidence supports. Common myths \u2014 that darker skin tones don't need sunscreen, that sunscreen is toxic, or that it blocks all vitamin D production \u2014 are all well contradicted by peer-reviewed research. Dr Adamson's work specifically highlights how misinformation around sunscreen disproportionately harms Black and Brown communities, who are already underdiagnosed for skin cancer. The science on broad-spectrum SPF 30+ reducing skin cancer risk is very strong.",
+      "verdict_highlight": "Sunscreen safety is well established science",
+      "sources": [
+        "Journal of the American Academy of Dermatology \u2014 Sunscreen and Skin Cancer Prevention",
+        "CDC \u2014 Skin Cancer Prevention",
+        "WHO \u2014 Ultraviolet Radiation and Skin Cancer",
+        "JAMA Dermatology 2021 \u2014 Adamson AS, Disparities in Skin Cancer"
+      ],
+      "global_opinion": "In Australia, where skin cancer rates are among the highest in the world, sunscreen use is a near-universal public health message backed by decades of government campaigns. In parts of Europe and East Asia, some consumers remain concerned about chemical UV filters, driving demand for mineral-only formulas \u2014 a preference that has some regulatory backing from the EU, which restricts certain chemical filters. In many African and South Asian countries, cultural attitudes around skin tone and sun exposure create real barriers to sunscreen uptake, something researchers like Dr Adamson are actively working to address.",
+      "brit_take": "The British relationship with sunscreen is complicated \u2014 we spend most of the year avoiding the sun by necessity, then completely ignore the advice the two weeks it actually shows up.",
+      "source": "News",
+      "platform": "healio.com",
+      "url": "https://www.healio.com/news/dermatology/20260616/beneath-the-surface-debunking-common-sunscreen-myths-with-adewole-s-adamson-md",
+      "claim": "Beneath the Surface : Debunking common sunscreen myths with Adewole S . Adamson , MD",
       "hours_ago": 12,
       "engagement": 40
     }

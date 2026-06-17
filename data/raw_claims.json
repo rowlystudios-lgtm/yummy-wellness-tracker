@@ -1,11 +1,29 @@
 [
   {
     "source": "News",
-    "platform": "bakeryandsnacks.com",
-    "claim": "Fed Up ! Campaign Highlights Divide Over Ultra - Processed Foods",
-    "url": "https://www.bakeryandsnacks.com/Article/2026/06/15/fed-up-campaign-highlights-divide-over-ultra-processed-foods/",
+    "platform": "naturalnews.com",
+    "claim": "Report : Targeted Supplement Use Benefits Older Adults With Confirmed Deficiencies ; Protein Identified as Key Nutrient \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-06-17-targeted-nutrition-benefits-elderly-with-confirmed-deficiencies.html",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "United Kingdom"
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "discovermagazine.com",
+    "claim": "Calcium and Vitamin D Supplements May Not Prevent Fractures or Falls in Older Adults",
+    "url": "https://www.discovermagazine.com/calcium-and-vitamin-d-supplements-may-not-prevent-fractures-or-falls-in-older-adults-49253",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "healio.com",
+    "claim": "Beneath the Surface : Debunking common sunscreen myths with Adewole S . Adamson , MD",
+    "url": "https://www.healio.com/news/dermatology/20260616/beneath-the-surface-debunking-common-sunscreen-myths-with-adewole-s-adamson-md",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
   }
 ]
