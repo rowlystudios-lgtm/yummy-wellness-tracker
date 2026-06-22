@@ -1,29 +1,29 @@
 [
   {
     "source": "News",
-    "platform": "jurnalul.ro",
-    "claim": "Dieta care \u00eentinere\u0219te creierul : Ce trebuie s\u0103 m\u0103n\u00e2nci ca s\u0103 opre\u0219ti boala Alzheimer",
-    "url": "https://jurnalul.ro/viata-sanatoasa/dieta-ketogenica-alzheimer-parkinson-1035997.html",
+    "platform": "foxnews.com",
+    "claim": "Common food preservatives linked to higher heart disease risk , study finds",
+    "url": "https://www.foxnews.com/health/8-common-food-preservatives-linked-higher-risk-high-blood-pressure-heart-disease",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "Romania"
+    "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "ok.co.uk",
-    "claim": "Crucial  vitamin deficiency warning for millions across united kingdom",
-    "url": "https://www.ok.co.uk/crucial-vitamin-deficiency-warning-millions-37308127",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United Kingdom"
-  },
-  {
-    "source": "News",
-    "platform": "jagran.com",
-    "claim": "\u092c\u093f\u0939\u093e\u0930 \u092e\u0947\u0902 \u0939\u0930 7\u0935\u093e\u0902 \u0936\u0916\u094d\u0938 \u0935\u093f\u091f\u093e\u092e\u093f\u0928 D \u0915\u0940 \u0915\u092e\u0940 \u0938\u0947 \u092a\u0940\u0921\u093c\u093f\u0924 , \u0927\u0942\u092a \u0938\u0947 \u0926\u0942\u0930\u0940 \u092c\u0928 \u0930\u0939\u0940 \u092c\u0921\u093c\u0940 \u0935\u091c\u0939 - bihar 70 to 80 percentage affected by vitamin d deficiency causes and cure",
-    "url": "https://www.jagran.com/bihar/patna-city-bihar-70-to-80-percentage-affected-by-vitamin-d-deficiency-causes-and-cure-40279875.html",
+    "platform": "economictimes.indiatimes.com",
+    "claim": "Is boba tea healthy ? Harvard - trained gut doctor shares 8 common foods that may be harming your digestive health",
+    "url": "https://economictimes.indiatimes.com/magazines/panache/is-boba-tea-healthy-harvard-trained-gut-doctor-shares-8-common-foods-that-may-be-harming-your-digestive-health/articleshow/131905725.cms",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "India"
+  },
+  {
+    "source": "News",
+    "platform": "mirror.co.uk",
+    "claim": "Avoid blood sugar spikes by adding three foods to your diet",
+    "url": "https://www.mirror.co.uk/news/health/avoid-blood-sugar-spikes-adding-37331438",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United Kingdom"
   }
 ]
