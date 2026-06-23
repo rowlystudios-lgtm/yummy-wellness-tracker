@@ -1,21 +1,30 @@
 [
   {
     "source": "News",
-    "platform": "foxnews.com",
-    "claim": "Common food preservatives linked to higher heart disease risk , study finds",
-    "url": "https://www.foxnews.com/health/8-common-food-preservatives-linked-higher-risk-high-blood-pressure-heart-disease",
+    "platform": "thestar.com.my",
+    "claim": "Butter not bad for the heart",
+    "url": "https://www.thestar.com.my/lifestyle/health/2026/06/20/butters-not-bad-for-the-heart",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "United States"
+    "source_country": "Malaysia"
   },
   {
     "source": "News",
-    "platform": "economictimes.indiatimes.com",
-    "claim": "Is boba tea healthy ? Harvard - trained gut doctor shares 8 common foods that may be harming your digestive health",
-    "url": "https://economictimes.indiatimes.com/magazines/panache/is-boba-tea-healthy-harvard-trained-gut-doctor-shares-8-common-foods-that-may-be-harming-your-digestive-health/articleshow/131905725.cms",
+    "platform": "express.co.uk",
+    "claim": "The tea and berry combination that could slash heart disease death risk",
+    "url": "https://www.express.co.uk/life-style/health/2220334/tea-berries-heart-health",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "India"
+    "source_country": "United Kingdom"
+  },
+  {
+    "source": "News",
+    "platform": "centrometeoitaliano.it",
+    "claim": "Obesit\u00e0 , pu\u00f2 bastare la dieta e la palestra ad eliminarla ? Ecco il parere degli esperti",
+    "url": "https://www.centrometeoitaliano.it/salute/obesita-puo-bastare-la-dieta-e-la-palestra-ad-eliminarla-ecco-il-parere-degli-esperti-180894/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Italy"
   },
   {
     "source": "News",
@@ -25,5 +34,32 @@
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United Kingdom"
+  },
+  {
+    "source": "News",
+    "platform": "aninews.in",
+    "claim": "District - level monsoon contingency plans ready ; 40 % rain deficit but stocks of rice , wheat  very healthy : Agriculture Commisioner",
+    "url": "https://aninews.in/news/business/district-level-monsoon-contingency-plans-ready-40-rain-deficit-but-stocks-of-rice-wheat-very-healthy-agriculture-commisioner20260623175813/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "India"
+  },
+  {
+    "source": "News",
+    "platform": "npr.org",
+    "claim": "8 things to know about the gut microbiome and keeping yours healthy",
+    "url": "https://www.npr.org/2026/06/22/nx-s1-5863119/gut-microbiome-gut-health",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "Study : Glyphosate Disrupts Gut Microbiome , May Have Generational Effects \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-06-22-study-glyphosate-disrupts-gut-microbiome-generational-effects.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
   }
 ]
