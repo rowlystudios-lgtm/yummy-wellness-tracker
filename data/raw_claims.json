@@ -1,63 +1,81 @@
 [
   {
     "source": "News",
-    "platform": "thestar.com.my",
-    "claim": "Butter not bad for the heart",
-    "url": "https://www.thestar.com.my/lifestyle/health/2026/06/20/butters-not-bad-for-the-heart",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "Malaysia"
-  },
-  {
-    "source": "News",
-    "platform": "express.co.uk",
-    "claim": "The tea and berry combination that could slash heart disease death risk",
-    "url": "https://www.express.co.uk/life-style/health/2220334/tea-berries-heart-health",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United Kingdom"
-  },
-  {
-    "source": "News",
-    "platform": "centrometeoitaliano.it",
-    "claim": "Obesit\u00e0 , pu\u00f2 bastare la dieta e la palestra ad eliminarla ? Ecco il parere degli esperti",
-    "url": "https://www.centrometeoitaliano.it/salute/obesita-puo-bastare-la-dieta-e-la-palestra-ad-eliminarla-ecco-il-parere-degli-esperti-180894/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "Italy"
-  },
-  {
-    "source": "News",
-    "platform": "mirror.co.uk",
-    "claim": "Avoid blood sugar spikes by adding three foods to your diet",
-    "url": "https://www.mirror.co.uk/news/health/avoid-blood-sugar-spikes-adding-37331438",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United Kingdom"
-  },
-  {
-    "source": "News",
-    "platform": "aninews.in",
-    "claim": "District - level monsoon contingency plans ready ; 40 % rain deficit but stocks of rice , wheat  very healthy : Agriculture Commisioner",
-    "url": "https://aninews.in/news/business/district-level-monsoon-contingency-plans-ready-40-rain-deficit-but-stocks-of-rice-wheat-very-healthy-agriculture-commisioner20260623175813/",
+    "platform": "sangbadpratidin.in",
+    "claim": "Type 2 Diabetes Risk High in Blood Group B",
+    "url": "https://www.sangbadpratidin.in/lifestyle/health/type-2-diabetes-risk-high-in-blood-group-b/pid/1229191/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "India"
   },
   {
     "source": "News",
-    "platform": "npr.org",
-    "claim": "8 things to know about the gut microbiome and keeping yours healthy",
-    "url": "https://www.npr.org/2026/06/22/nx-s1-5863119/gut-microbiome-gut-health",
+    "platform": "medicalnewstoday.com",
+    "claim": "Alzheimer disease : Omega - 3 DHA supplements may not reduce risk",
+    "url": "https://www.medicalnewstoday.com/articles/omega-3-supplement-may-not-offer-benefit-alzheimers-prevention",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "naturalnews.com",
-    "claim": "Study : Glyphosate Disrupts Gut Microbiome , May Have Generational Effects \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-06-22-study-glyphosate-disrupts-gut-microbiome-generational-effects.html",
+    "platform": "finanznachrichten.de",
+    "claim": "New Study Reveals Major Shift In American Supplement Habits Over Past 25 Years",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-06/68843700-new-study-reveals-major-shift-in-americans-supplement-habits-over-past-25-years-020.htm",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Germany"
+  },
+  {
+    "source": "News",
+    "platform": "wdbj7.com",
+    "claim": "HOMETOWN HEALTH : Study reveals why ultra - processed food addiction is growing in US",
+    "url": "https://www.wdbj7.com/2026/06/23/hometown-health-study-reveals-why-ultra-processed-food-addiction-is-growing-us/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "news-medical.net",
+    "claim": "Americans favor information and school restrictions for ultra processed foods",
+    "url": "https://www.news-medical.net/news/20260623/Americans-favor-information-and-school-restrictions-for-ultra-processed-foods.aspx",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "newswise.com",
+    "claim": "Americans hungry for information , policies around ultra - processed foods , study shows",
+    "url": "https://www.newswise.com/articles/americans-hungry-for-information-policies-around-ultra-processed-foods-study-shows",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "miragenews.com",
+    "claim": "Research : Americans Seek Info , Policies on Ultra - Processed Foods",
+    "url": "https://www.miragenews.com/research-americans-seek-info-policies-on-ultra-1697725/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "jamaica-gleaner.com",
+    "claim": "Nayo Swan | Healthy eating , active living : We need action now",
+    "url": "https://jamaica-gleaner.com/article/health/20260624/nayo-swan-healthy-eating-active-living-we-need-action-now",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Jamaica"
+  },
+  {
+    "source": "News",
+    "platform": "fingerlakes1.com",
+    "claim": "Foods That Support Healthy Aging and Help Your Body Stay Younger",
+    "url": "https://www.fingerlakes1.com/2026/06/23/foods-that-support-healthy-aging-and-help-your-body-stay-younger/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
