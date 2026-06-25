@@ -1,81 +1,9 @@
 [
   {
     "source": "News",
-    "platform": "sangbadpratidin.in",
-    "claim": "Type 2 Diabetes Risk High in Blood Group B",
-    "url": "https://www.sangbadpratidin.in/lifestyle/health/type-2-diabetes-risk-high-in-blood-group-b/pid/1229191/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "India"
-  },
-  {
-    "source": "News",
-    "platform": "medicalnewstoday.com",
-    "claim": "Alzheimer disease : Omega - 3 DHA supplements may not reduce risk",
-    "url": "https://www.medicalnewstoday.com/articles/omega-3-supplement-may-not-offer-benefit-alzheimers-prevention",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "finanznachrichten.de",
-    "claim": "New Study Reveals Major Shift In American Supplement Habits Over Past 25 Years",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-06/68843700-new-study-reveals-major-shift-in-americans-supplement-habits-over-past-25-years-020.htm",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "Germany"
-  },
-  {
-    "source": "News",
-    "platform": "wdbj7.com",
-    "claim": "HOMETOWN HEALTH : Study reveals why ultra - processed food addiction is growing in US",
-    "url": "https://www.wdbj7.com/2026/06/23/hometown-health-study-reveals-why-ultra-processed-food-addiction-is-growing-us/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
     "platform": "news-medical.net",
-    "claim": "Americans favor information and school restrictions for ultra processed foods",
-    "url": "https://www.news-medical.net/news/20260623/Americans-favor-information-and-school-restrictions-for-ultra-processed-foods.aspx",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "newswise.com",
-    "claim": "Americans hungry for information , policies around ultra - processed foods , study shows",
-    "url": "https://www.newswise.com/articles/americans-hungry-for-information-policies-around-ultra-processed-foods-study-shows",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "miragenews.com",
-    "claim": "Research : Americans Seek Info , Policies on Ultra - Processed Foods",
-    "url": "https://www.miragenews.com/research-americans-seek-info-policies-on-ultra-1697725/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "jamaica-gleaner.com",
-    "claim": "Nayo Swan | Healthy eating , active living : We need action now",
-    "url": "https://jamaica-gleaner.com/article/health/20260624/nayo-swan-healthy-eating-active-living-we-need-action-now",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "Jamaica"
-  },
-  {
-    "source": "News",
-    "platform": "fingerlakes1.com",
-    "claim": "Foods That Support Healthy Aging and Help Your Body Stay Younger",
-    "url": "https://www.fingerlakes1.com/2026/06/23/foods-that-support-healthy-aging-and-help-your-body-stay-younger/",
+    "claim": "Comprehensive gut microbiome analysis reveals robust colorectal cancer signature",
+    "url": "https://www.news-medical.net/news/20260624/Comprehensive-gut-microbiome-analysis-reveals-robust-colorectal-cancer-signature.aspx",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
