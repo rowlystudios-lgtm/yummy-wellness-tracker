@@ -1,28 +1,50 @@
 {
-  "week_headline": "Gut microbiome research takes centre stage as scientists edge closer to a stool-based early warning system for colorectal cancer",
-  "misleading_pct": "15%",
-  "true_pct": "85%",
+  "week_headline": "Heart health and brain protection dominate nutrition headlines as new research spotlights avocados and diet quality in ageing adults",
+  "misleading_pct": "10%",
+  "true_pct": "90%",
   "claims": [
+    {
+      "score": 72,
+      "score_label": "Nuanced",
+      "score_type": "mixed",
+      "claim_tag": "Partially true",
+      "verdict": "There is genuine science here \u2014 avocados are rich in monounsaturated fats, potassium, and fibre, and several peer-reviewed studies do link them to improved LDL cholesterol and cardiovascular markers. However, NaturalNews.com has a well-documented history of overstating findings, so the source deserves a raised eyebrow even when the underlying research is real. The heart-health signal is real, but avocados are one piece of a much bigger dietary puzzle \u2014 not a standalone cure.",
+      "verdict_highlight": "Real science, but source routinely overstates it",
+      "sources": [
+        "Journal of the American Heart Association (Dreher & Davenport, 2013 \u2014 avocado nutrient profile and cardiovascular effects)",
+        "Journal of Nutrition (Wang et al., 2022 \u2014 avocado consumption and cardiovascular disease risk)",
+        "Harvard T.H. Chan School of Public Health \u2014 The Nutrition Source (avocados overview)",
+        "EFSA \u2014 dietary fats and cardiovascular health guidance"
+      ],
+      "global_opinion": "In the United States, avocados have been heavily marketed as a 'superfood' and the research funding landscape includes industry ties worth noting \u2014 the Hass Avocado Board has co-funded some studies. In the UK, the NHS encourages unsaturated fats broadly but stops short of singling out avocados as uniquely protective. In Mexico and parts of Latin America, avocados are simply a traditional dietary staple rather than a health trend, consumed in moderation alongside a varied diet with little fanfare.",
+      "brit_take": "Avocado on toast may cost you a small fortune in London, but the heart benefits are at least partially real \u2014 just don't expect it to undo the full English you had before it.",
+      "source": "News",
+      "platform": "naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-06-25-avocado-consumption-linked-to-heart-health-benefits.html",
+      "claim": "Avocado Consumption Linked to Heart Health Benefits , Research Shows \u2013 NaturalNews . com",
+      "hours_ago": 12,
+      "engagement": 40
+    },
     {
       "score": 82,
       "score_label": "Nuanced",
       "score_type": "mixed",
       "claim_tag": "Partially true",
-      "verdict": "There is genuinely exciting science here. Large studies \u2014 including work published in Nature Medicine and backed by the Human Microbiome Project \u2014 have found that certain gut bacteria, like Fusobacterium nucleatum and Peptostreptococcus anaerobius, appear consistently elevated in people with colorectal cancer. The word 'robust' is doing some heavy lifting though \u2014 while the signature is reproducible across several populations, it is not yet clinically validated as a standalone diagnostic tool, and diet, geography, and antibiotic history all affect your microbiome in ways that can muddy the signal.",
-      "verdict_highlight": "Promising signal, not a diagnostic test yet",
+      "verdict": "The evidence linking overall diet quality to lower dementia risk is genuinely strong and growing \u2014 diets like the Mediterranean and MIND diet in particular have been associated with slower cognitive decline in multiple large observational studies. That said, 'tied to' is doing a lot of work here: these are mostly associations, not proven cause-and-effect, and genetics, physical activity, and social connection also play major roles. The science is encouraging and worth acting on, but no single diet has been proven to prevent dementia outright.",
+      "verdict_highlight": "Strong association, but not a proven prevention",
       "sources": [
-        "Nature Medicine \u2014 Gut microbiome and colorectal cancer studies (2019\u20132023)",
-        "NIH Human Microbiome Project",
-        "JAMA Oncology \u2014 Fusobacterium nucleatum and CRC prognosis (2018)",
-        "Lancet Gastroenterology & Hepatology \u2014 microbiome-based CRC screening reviews",
-        "World Cancer Research Fund \u2014 colorectal cancer evidence report"
+        "The Lancet Commission on Dementia Prevention, Intervention and Care (2020)",
+        "JAMA (Morris et al., 2015 \u2014 MIND diet and cognitive decline)",
+        "BMJ (2023 \u2014 dietary patterns and dementia risk in older adults)",
+        "NIH National Institute on Aging \u2014 diet and cognitive health overview",
+        "WHO \u2014 Risk reduction of cognitive decline and dementia guidelines (2019)"
       ],
-      "global_opinion": "In the US, the FDA has not yet approved any microbiome-based colorectal cancer screening test, and colonoscopy remains the gold standard. In Europe, EFSA and national health bodies are watching this research carefully but similarly stress it is pre-clinical for screening purposes. In China and Japan, where CRC rates are rising sharply, there is strong institutional investment in gut microbiome diagnostics and a handful of pilot programmes testing stool microbiome panels alongside existing FIT tests.",
-      "brit_take": "The NHS is quietly interested \u2014 anything that might reduce the colonoscopy waiting list gets attention pretty quickly. But they'll want a lot more evidence before swapping a camera for a bacteria count.",
+      "global_opinion": "In Japan, a diet rich in fish, vegetables, and fermented foods is culturally embedded and researchers there have studied its link to low dementia rates for decades, though causality remains debated. The EU and UK public health bodies broadly recommend Mediterranean-style eating for brain health as part of wider healthy ageing strategies, without making specific dementia-prevention claims. In the United States, the MIND diet \u2014 a hybrid of Mediterranean and DASH \u2014 has attracted the most research attention and is increasingly recommended by neurologists, though large randomised trials are still underway.",
+      "brit_take": "Turns out eating your greens and cutting back on processed food might help keep your mind sharp \u2014 your nan was basically doing the MIND diet before it had a name.",
       "source": "News",
-      "platform": "news-medical.net",
-      "url": "https://www.news-medical.net/news/20260624/Comprehensive-gut-microbiome-analysis-reveals-robust-colorectal-cancer-signature.aspx",
-      "claim": "Comprehensive gut microbiome analysis reveals robust colorectal cancer signature",
+      "platform": "miragenews.com",
+      "url": "https://www.miragenews.com/healthier-diet-tied-to-lower-dementia-risk-in-1699967/",
+      "claim": "Healthier Diet Tied to Lower Dementia Risk in Seniors",
       "hours_ago": 12,
       "engagement": 40
     }
