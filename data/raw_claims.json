@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "source": "News",
+    "platform": "popsci.com",
+    "claim": "A healthy diet may still make a difference for people at higher risk of\u00a0dementia",
+    "url": "https://www.popsci.com/health/a-healthy-diet-may-still-make-a-difference-for-people-at-higher-risk-of-dementia/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "Watermelon juice shows promise in lowering blood pressure , research suggests \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-06-29-watermelon-juice-shows-promise-lowering-blood-pressure.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "tribuneonlineng.com",
+    "claim": "Experimental heart drug shows promise in repairing damaged kidneys New study",
+    "url": "https://tribuneonlineng.com/experimental-heart-drug-shows-promise-in-repairing-damaged-kidneys-new-study/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Nigeria"
+  }
+]
