@@ -1,29 +1,20 @@
 [
   {
     "source": "News",
-    "platform": "popsci.com",
-    "claim": "A healthy diet may still make a difference for people at higher risk of\u00a0dementia",
-    "url": "https://www.popsci.com/health/a-healthy-diet-may-still-make-a-difference-for-people-at-higher-risk-of-dementia/",
+    "platform": "dailycoffeenews.com",
+    "claim": "Study Explores Coffee Gut - Brain Effects in Humans",
+    "url": "https://dailycoffeenews.com/2026/06/30/study-explores-coffees-gut-brain-effects-in-humans/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "naturalnews.com",
-    "claim": "Watermelon juice shows promise in lowering blood pressure , research suggests \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-06-29-watermelon-juice-shows-promise-lowering-blood-pressure.html",
+    "platform": "bristolpost.co.uk",
+    "claim": "Babe , it work says Sara Cox of vegan gut supplement that 71p a day",
+    "url": "https://www.bristolpost.co.uk/whats-on/shopping/it-works-sara-cox-supplement-11037184",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "tribuneonlineng.com",
-    "claim": "Experimental heart drug shows promise in repairing damaged kidneys New study",
-    "url": "https://tribuneonlineng.com/experimental-heart-drug-shows-promise-in-repairing-damaged-kidneys-new-study/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "Nigeria"
+    "source_country": "United Kingdom"
   }
 ]
