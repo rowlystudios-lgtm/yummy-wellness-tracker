@@ -1,29 +1,89 @@
 {
-  "week_headline": "Seed oils are dominating dinner table debates again, with viral posts claiming they are the root cause of modern disease \u2014 but the science tells a more measured story",
-  "misleading_pct": "45%",
-  "true_pct": "55%",
+  "week_headline": "Brain, gut, and longevity diets dominate headlines as researchers and biohackers race to find what we eat can do for how long we live",
+  "misleading_pct": "20%",
+  "true_pct": "80%",
   "claims": [
     {
-      "score": 52,
+      "score": 68,
       "score_label": "Nuanced",
       "score_type": "mixed",
       "claim_tag": "Partially true",
-      "verdict": "Seed oils like sunflower, canola, and soybean oil are not the silent killers some corners of the internet make them out to be \u2014 major health bodies including the WHO and American Heart Association still consider them preferable to saturated fats for heart health. There is a legitimate and ongoing scientific conversation about whether very high omega-6 intake relative to omega-3 may promote low-grade inflammation, but the evidence linking everyday cooking with seed oils to serious disease in humans is not strong or consistent. The real concern is overheating oils to their smoke point repeatedly, which can produce harmful compounds \u2014 so moderate heat and variety in your cooking fats is a sensible, evidence-grounded approach.",
-      "verdict_highlight": "Moderate use of seed oils is not a health crisis",
+      "verdict": "There is genuine, growing research linking anti-inflammatory diets \u2014 think Mediterranean-style eating \u2014 to slower cognitive decline and reduced dementia risk. A 2023 study in Neurology found the MIND diet associated with better cognitive outcomes. However, NaturalNews is not a peer-reviewed source and often overstates findings, so treat their framing with caution. The underlying science is real; the headline is doing a lot of heavy lifting.",
+      "verdict_highlight": "Real science, but source needs a reality check",
       "sources": [
-        "WHO \u2013 Fats and fatty acids in human nutrition (2010)",
-        "American Heart Association \u2013 Dietary Fats and Cardiovascular Disease (Circulation, 2017)",
-        "Harvard T.H. Chan School of Public Health \u2013 The Nutrition Source: Fats and Cholesterol",
-        "BMJ \u2013 Association of dietary linoleic acid with cardiovascular disease (2020)",
-        "Food Chemistry \u2013 Thermal degradation of cooking oils and formation of polar compounds (2019)",
-        "EFSA \u2013 Scientific opinion on dietary reference values for fats (2010)"
+        "Neurology (AAN Journal) 2023",
+        "NIH National Institute on Aging",
+        "Harvard T.H. Chan School of Public Health"
       ],
-      "global_opinion": "In the United States, seed oils have become politically charged, with some public health commentators and officials calling for their removal from the food supply despite mainstream dietetic bodies still endorsing them as heart-healthy swaps for saturated fat. In the UK, the NHS and British Dietetic Association maintain that unsaturated oils including seed oils are part of a balanced diet, and the debate has gained far less cultural traction. In parts of Southern Europe and the Mediterranean, olive oil dominates cooking culture and is strongly preferred on both traditional and scientific grounds, making the seed oil controversy feel largely irrelevant to everyday cooking habits there.",
-      "brit_take": "Most British kitchens have had a bottle of sunflower oil quietly sitting next to the hob for decades without incident \u2014 it turns out the chip pan was never the wholesome end of the story, but it was never a conspiracy either.",
+      "global_opinion": "In the Mediterranean region, this claim barely raises an eyebrow \u2014 anti-inflammatory eating is simply called 'lunch.' The US FDA has not approved any dietary claim for dementia prevention, keeping regulatory language cautious. Japan, with one of the world's lowest dementia rates, points to its traditional diet high in fish and vegetables as a contributing factor, though causality remains debated.",
+      "brit_take": "The British would say a good diet probably helps your brain, but they'd rather not be told by a website called NaturalNews while eating a Greggs sausage roll.",
       "source": "News",
-      "platform": "nzherald.co.nz",
-      "url": "https://www.nzherald.co.nz/the-listener/health/nutrition-myth-buster-how-worried-should-you-be-about-cooking-with-seed-oils/premium/RWYNTTYRLZHAVKN73G65OS65IE/",
-      "claim": "Nutrition myth buster : How worried should you be about cooking with seed oils ?",
+      "platform": "naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-07-09-anti-inflammatory-foods-may-reduce-dementia-risk.html",
+      "claim": "Study : Anti - Inflammatory Diet May Reduce Dementia Risk , Even With Early Alzheimer Markers \u2013 NaturalNews . com",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 82,
+      "score_label": "Nuanced",
+      "score_type": "true",
+      "claim_tag": "Evidence-based",
+      "verdict": "Nuts are genuinely good news for people with diabetes \u2014 they have a low glycaemic index, contain healthy unsaturated fats, fibre, and magnesium, all of which help with blood sugar regulation. Almonds, walnuts, cashews, and pistachios are consistently highlighted in research for improving HbA1c and reducing cardiovascular risk in diabetic patients. Portion size matters though \u2014 nuts are calorie-dense, so a small handful is the sweet spot, not a whole bag.",
+      "verdict_highlight": "Nuts genuinely help blood sugar \u2014 portion size matters",
+      "sources": [
+        "Diabetes Care (ADA Journal)",
+        "Journal of Nutrition 2022",
+        "NHS UK \u2013 Healthy eating for type 2 diabetes"
+      ],
+      "global_opinion": "In Indonesia and much of Southeast Asia, nuts like peanuts and cashews are dietary staples, making this claim culturally resonant and practically useful. The American Diabetes Association explicitly recommends nuts as part of a healthy diabetic eating pattern. In India, where diabetes prevalence is very high, clinical dietitians routinely recommend a small portion of mixed nuts as a between-meal snack.",
+      "brit_take": "Good news for anyone who has ever raided the peanut bowl at a pub \u2014 turns out it might actually be one of the healthier decisions of the evening.",
+      "source": "News",
+      "platform": "jpnn.com",
+      "url": "https://www.jpnn.com/news/4-jenis-kacang-yang-baik-untuk-penderita-diabetes",
+      "claim": "4 Jenis Kacang yang Baik untuk Penderita Diabetes",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 78,
+      "score_label": "Nuanced",
+      "score_type": "true",
+      "claim_tag": "Partially true",
+      "verdict": "This claim has solid foundations. Research, including a large study published in the European Heart Journal, shows that diets rich in fibre, fermented foods, and diverse plant matter support gut microbiome health, which in turn is linked to reduced inflammation and better cardiovascular outcomes. For people with coronary heart disease specifically, gut health appears to influence systemic inflammation \u2014 a key driver of disease progression. The link is real but the mechanism is still being mapped, so 'linked' is the right word \u2014 not 'proven to cause.'",
+      "verdict_highlight": "Gut-heart connection is real, causality still being mapped",
+      "sources": [
+        "European Heart Journal 2022",
+        "Lancet \u2013 Gut Microbiome Series",
+        "BMJ \u2013 Diet and cardiovascular outcomes"
+      ],
+      "global_opinion": "South Korea and Japan have long-standing fermented food traditions \u2014 kimchi and miso \u2014 and researchers there are actively investigating gut microbiome links to cardiovascular longevity. European regulators (EFSA) are cautious about making direct gut-health-to-heart-disease claims on food products, keeping the science ahead of the labels. In the US, this area is a major NIH research focus, with multiple ongoing clinical trials examining microbiome interventions for heart disease.",
+      "brit_take": "Britain, land of the overcooked vegetable, is quietly being told that a bit more fibre and a bit less beige food might actually save lives. The nation is considering it.",
+      "source": "News",
+      "platform": "news-medical.net",
+      "url": "https://www.news-medical.net/news/20260709/Gut-friendly-diet-linked-to-lower-mortality-risk-in-coronary-heart-disease.aspx",
+      "claim": "Gut - friendly diet linked to lower mortality risk in coronary heart disease",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 28,
+      "score_label": "Misleading",
+      "score_type": "false",
+      "claim_tag": "Overstated",
+      "verdict": "Bryan Johnson's longevity protocol is an extreme, expensive, and highly personalised medical experiment involving hundreds of supplements, constant biomarker testing, and strict dietary regimes \u2014 and it developing an autoimmune complication is a meaningful signal that more is not always more when it comes to biological intervention. Spending $2 million a year to 'cheat death' is not a transferable health plan; it is one wealthy person's self-experiment with no control group. The science of longevity is real and interesting, but Johnson's protocol is not evidence-based medicine \u2014 it is performance art with bloodwork.",
+      "verdict_highlight": "A $2M self-experiment is not a health plan",
+      "sources": [
+        "NEJM \u2013 Ageing and longevity biology reviews",
+        "Nature Ageing 2023",
+        "JAMA \u2013 Supplement safety and over-supplementation risks"
+      ],
+      "global_opinion": "In Silicon Valley, Johnson is treated as a pioneer; in most of the medical world, he is viewed as an outlier whose methods lack peer-reviewed validation. European regulators would flag many of his supplement doses as exceeding safe upper limits under EFSA guidelines. In Japan, where the world's longest-lived populations are studied closely, the longevity secret looks far more like community, moderate diet, and walking \u2014 not a $2M protocol.",
+      "brit_take": "Spending two million dollars a year to still get an autoimmune condition does feel like the universe sending a fairly pointed memo.",
+      "source": "News",
+      "platform": "businesstoday.in",
+      "url": "https://www.businesstoday.in/latest/trends/story/care-for-life-as-bryan-johnsons-2-million-a-year-cheating-death-plan-hits-autoimmune-wall-541983-2026-07-09",
+      "claim": "Care for life as ...: Bryan Johnson $2 million a year  cheating death  plan hits autoimmune wall",
       "hours_ago": 12,
       "engagement": 40
     }

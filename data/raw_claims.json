@@ -1,11 +1,38 @@
 [
   {
     "source": "News",
-    "platform": "nzherald.co.nz",
-    "claim": "Nutrition myth buster : How worried should you be about cooking with seed oils ?",
-    "url": "https://www.nzherald.co.nz/the-listener/health/nutrition-myth-buster-how-worried-should-you-be-about-cooking-with-seed-oils/premium/RWYNTTYRLZHAVKN73G65OS65IE/",
+    "platform": "naturalnews.com",
+    "claim": "Study : Anti - Inflammatory Diet May Reduce Dementia Risk , Even With Early Alzheimer Markers \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-07-09-anti-inflammatory-foods-may-reduce-dementia-risk.html",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "New Zealand"
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "jpnn.com",
+    "claim": "4 Jenis Kacang yang Baik untuk Penderita Diabetes",
+    "url": "https://www.jpnn.com/news/4-jenis-kacang-yang-baik-untuk-penderita-diabetes",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Indonesia"
+  },
+  {
+    "source": "News",
+    "platform": "news-medical.net",
+    "claim": "Gut - friendly diet linked to lower mortality risk in coronary heart disease",
+    "url": "https://www.news-medical.net/news/20260709/Gut-friendly-diet-linked-to-lower-mortality-risk-in-coronary-heart-disease.aspx",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "businesstoday.in",
+    "claim": "Care for life as ...: Bryan Johnson $2 million a year  cheating death  plan hits autoimmune wall",
+    "url": "https://www.businesstoday.in/latest/trends/story/care-for-life-as-bryan-johnsons-2-million-a-year-cheating-death-plan-hits-autoimmune-wall-541983-2026-07-09",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "India"
   }
 ]
