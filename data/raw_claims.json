@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "source": "News",
+    "platform": "scmp.com",
+    "claim": "Low - inflammation diet can cut dementia risk by almost 30 %, new study says . Here how",
+    "url": "https://www.scmp.com/lifestyle/health-wellness/article/3360062/low-inflammation-diet-can-cut-dementia-risk-almost-30-new-study-says-heres-how",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "China"
+  },
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "Study Links Common Food Emulsifiers to Gut Barrier Damage in Healthy Adults \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-07-13-study-common-food-emulsifiers-gut-barrier-damage.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "timesleader.com",
+    "claim": "People have been fermenting food for millennia . Here why more people are focused on gut health now",
+    "url": "https://www.timesleader.com/news/1748779/people-have-been-fermenting-food-for-millennia-heres-why-more-people-are-focused-on-gut-health-now",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "somersetlive.co.uk",
+    "claim": "Anyone taking sertraline or fluoxetine warned to avoid common supplement",
+    "url": "https://www.somersetlive.co.uk/news/health/anyone-taking-sertraline-fluoxetine-warned-11056774",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United Kingdom"
+  }
+]
