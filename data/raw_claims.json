@@ -1,12 +1,30 @@
 [
   {
     "source": "News",
-    "platform": "scmp.com",
-    "claim": "Low - inflammation diet can cut dementia risk by almost 30 %, new study says . Here how",
-    "url": "https://www.scmp.com/lifestyle/health-wellness/article/3360062/low-inflammation-diet-can-cut-dementia-risk-almost-30-new-study-says-heres-how",
+    "platform": "medicalnewstoday.com",
+    "claim": "Type 2 diabetes : Study links 6 gut bacteria to higher risk",
+    "url": "https://www.medicalnewstoday.com/articles/popular-good-gut-bacteria-may-signal-higher-diabetes-risk-years-advance",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "China"
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "news-medical.net",
+    "claim": "Distinct gut microbiome signatures identify frailty in older women",
+    "url": "https://www.news-medical.net/news/20260713/Distinct-gut-microbiome-signatures-identify-frailty-in-older-women.aspx",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "irishdentist.ie",
+    "claim": "Popular  good  gut bacteria may signal higher diabetes risk years in advance",
+    "url": "https://www.irishdentist.ie/popular-good-gut-bacteria-may-signal-higher-diabetes-risk-years-in-advance/20167/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Ireland"
   },
   {
     "source": "News",
@@ -19,20 +37,38 @@
   },
   {
     "source": "News",
-    "platform": "timesleader.com",
-    "claim": "People have been fermenting food for millennia . Here why more people are focused on gut health now",
-    "url": "https://www.timesleader.com/news/1748779/people-have-been-fermenting-food-for-millennia-heres-why-more-people-are-focused-on-gut-health-now",
+    "platform": "2minutemedicine.com",
+    "claim": "The Gut Health Supplement Industry Has Outrun the Science , Researchers Say",
+    "url": "https://www.2minutemedicine.com/the-gut-health-supplement-industry-has-outrun-the-science-researchers-say/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "somersetlive.co.uk",
-    "claim": "Anyone taking sertraline or fluoxetine warned to avoid common supplement",
-    "url": "https://www.somersetlive.co.uk/news/health/anyone-taking-sertraline-fluoxetine-warned-11056774",
+    "platform": "foodnavigator.com",
+    "claim": "Can the gut microbiome help unlock healthy ageing ?",
+    "url": "https://www.foodnavigator.com/Article/2026/07/14/can-the-gut-microbiome-help-unlock-healthy-ageing/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United Kingdom"
+  },
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "Study : Gut Bacterium May Help Immune System Fight Skin Cancer \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-07-13-gut-bacterium-immune-system-fight-skin-cancer.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "theyeshivaworld.com",
+    "claim": "People Have Been Fermenting Food For Millennia . Here Why More People Are Focused On Gut Health Now \u2013 The Yeshiva World",
+    "url": "https://www.theyeshivaworld.com/news/general/2574167/people-have-been-fermenting-food-for-millennia-heres-why-more-people-are-focused-on-gut-health-now.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
   }
 ]
