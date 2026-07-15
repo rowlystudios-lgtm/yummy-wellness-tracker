@@ -1,173 +1,27 @@
 {
-  "week_headline": "Gut health dominates health news this week, with new research linking the microbiome to diabetes risk, frailty, cancer immunity, and ageing \u2014 but experts warn the supplement industry is far ahead of the science.",
-  "misleading_pct": "15%",
-  "true_pct": "85%",
+  "week_headline": "Calcium supplements are back in the spotlight as bone health marketing floods health news feeds globally",
+  "misleading_pct": "40%",
+  "true_pct": "60%",
   "claims": [
-    {
-      "score": 72,
-      "score_label": "Nuanced",
-      "score_type": "mixed",
-      "claim_tag": "Partially true",
-      "verdict": "A growing body of research does link specific gut bacteria profiles to type 2 diabetes risk, and several studies have identified bacterial signatures associated with insulin resistance and glucose metabolism. However, association is not causation \u2014 we don't yet know if these bacteria drive diabetes or simply accompany the metabolic conditions that do. This is promising early science, not a diagnostic tool yet.",
-      "verdict_highlight": "Association found, but causation not proven",
-      "sources": [
-        "Nature Medicine (2023) \u2014 gut microbiome and metabolic disease",
-        "NIH National Institute of Diabetes and Digestive and Kidney Diseases",
-        "Lancet Diabetes & Endocrinology"
-      ],
-      "global_opinion": "In China, gut microbiome research tied to metabolic disease is heavily funded and taken seriously at a national level, partly due to rising T2D rates. European researchers (particularly in Denmark and Finland) have been central to this field through large cohort studies. In the US, the NIH's Human Microbiome Project has laid groundwork, though clinical translation remains cautious.",
-      "brit_take": "Fascinating science, but Britain's NHS isn't about to prescribe a bacteria test for diabetes just yet \u2014 we're still in the 'intriguing findings' phase, not the 'book your appointment' one.",
-      "source": "News",
-      "platform": "medicalnewstoday.com",
-      "url": "https://www.medicalnewstoday.com/articles/popular-good-gut-bacteria-may-signal-higher-diabetes-risk-years-advance",
-      "claim": "Type 2 diabetes : Study links 6 gut bacteria to higher risk",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 68,
-      "score_label": "Nuanced",
-      "score_type": "mixed",
-      "claim_tag": "Partially true",
-      "verdict": "Research into gut microbiome signatures in older adults is genuinely advancing, and some studies have found differences in microbial diversity between frail and robust older women. The challenge is that frailty is complex, multi-factorial, and varies across populations \u2014 so no single gut signature reliably predicts it yet. It's real science pointing in an interesting direction, not a validated clinical marker.",
-      "verdict_highlight": "Real signal, but not a reliable predictor yet",
-      "sources": [
-        "Journal of Cachexia, Sarcopenia and Muscle (2022)",
-        "Age and Ageing journal",
-        "NIH National Institute on Aging"
-      ],
-      "global_opinion": "Japan, with its focus on healthy longevity (ikigai and centenarian research), has invested significantly in microbiome and ageing studies, particularly around fermented food consumption. In Scandinavia, large population studies have begun mapping microbiome changes across the lifespan. The US and UK are funding similar research but clinical guidelines remain far off.",
-      "brit_take": "The idea that your gut bacteria might predict how well you age is genuinely exciting \u2014 though most of us would settle for a decent night's sleep and a good walk first.",
-      "source": "News",
-      "platform": "news-medical.net",
-      "url": "https://www.news-medical.net/news/20260713/Distinct-gut-microbiome-signatures-identify-frailty-in-older-women.aspx",
-      "claim": "Distinct gut microbiome signatures identify frailty in older women",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 65,
-      "score_label": "Nuanced",
-      "score_type": "mixed",
-      "claim_tag": "Partially true",
-      "verdict": "The claim likely refers to research on bacteria like Lactobacillus or certain Prevotella strains whose elevated presence has been associated with insulin resistance in some cohort studies. The word 'good' is doing a lot of heavy lifting here \u2014 bacteria considered beneficial in one context can have mixed effects in another. This is a nuanced finding, not a reason to ditch your probiotics.",
-      "verdict_highlight": "Context matters \u2014 'good' bacteria is never one-size-fits-all",
-      "sources": [
-        "Cell Host & Microbe",
-        "Diabetologia journal",
-        "Harvard T.H. Chan School of Public Health"
-      ],
-      "global_opinion": "Nordic countries, where large microbiome cohort studies run over decades, are leading this nuanced conversation about context-dependent bacterial roles. In the US, media coverage tends to flatten complexity into 'good vs bad' bacteria narratives. The European Food Safety Authority (EFSA) has consistently cautioned against oversimplifying probiotic health claims.",
-      "brit_take": "Turns out even gut bacteria contain multitudes \u2014 which is very human of them, really.",
-      "source": "News",
-      "platform": "irishdentist.ie",
-      "url": "https://www.irishdentist.ie/popular-good-gut-bacteria-may-signal-higher-diabetes-risk-years-in-advance/20167/",
-      "claim": "Popular  good  gut bacteria may signal higher diabetes risk years in advance",
-      "hours_ago": 12,
-      "engagement": 40
-    },
     {
       "score": 52,
       "score_label": "Nuanced",
       "score_type": "mixed",
-      "claim_tag": "Overstated",
-      "verdict": "There is legitimate peer-reviewed research suggesting certain emulsifiers \u2014 like carboxymethylcellulose and polysorbate-80 \u2014 may affect gut barrier integrity and microbiome composition, particularly in animal models and some human cell studies. The NaturalNews source is known for sensationalising findings, so treat the framing with caution. Human evidence exists but is early-stage, and most regulatory bodies consider approved emulsifiers safe at current dietary levels.",
-      "verdict_highlight": "Real concern, but heavily overstated by this source",
-      "sources": [
-        "Nature journal \u2014 Chassaing et al. (2015) emulsifier study",
-        "EFSA food additive safety assessments",
-        "BMJ \u2014 ultra-processed food research"
-      ],
-      "global_opinion": "The EU has tightened scrutiny on certain emulsifiers in recent years, with EFSA re-evaluating several additives under updated safety frameworks. In the US, the FDA still classifies most common emulsifiers as GRAS (Generally Recognised As Safe). France has been notably proactive, with researchers at INSERM publishing some of the most cited human cohort data on emulsifier consumption and gut inflammation.",
-      "brit_take": "NaturalNews finding a sinister angle in food additives is not exactly breaking news \u2014 but the underlying science here is worth watching calmly.",
-      "source": "News",
-      "platform": "naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-07-13-study-common-food-emulsifiers-gut-barrier-damage.html",
-      "claim": "Study Links Common Food Emulsifiers to Gut Barrier Damage in Healthy Adults \u2013 NaturalNews . com",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 82,
-      "score_label": "Nuanced",
-      "score_type": "mixed",
-      "claim_tag": "Evidence-based",
-      "verdict": "This is a well-grounded critique backed by multiple researchers and systematic reviews. The gut health supplement market \u2014 probiotics, prebiotics, postbiotics \u2014 has expanded enormously, but clinical evidence for most products in healthy populations remains thin. Specific strains in specific doses have shown benefit for specific conditions (like IBS or antibiotic-associated diarrhoea), but general 'gut health' supplements often lack robust trials. The researchers are right to flag this gap.",
-      "verdict_highlight": "Supplement industry has genuinely outpaced the evidence",
-      "sources": [
-        "BMJ \u2014 probiotic efficacy reviews",
-        "JAMA Internal Medicine \u2014 supplement industry analysis",
-        "Cochrane Reviews on probiotics"
-      ],
-      "global_opinion": "In Germany, where evidence-based medicine culture is strong, health authorities have been slow to endorse gut supplements without solid trial data. Australia's TGA requires more substantive evidence for therapeutic claims than many US supplement labels meet. In the US, the supplement industry operates under lighter regulatory oversight, which critics argue enables misleading health claims to proliferate.",
-      "brit_take": "The British instinct to be a bit sceptical about wellness trends turns out to have been quietly correct all along \u2014 who knew.",
-      "source": "News",
-      "platform": "2minutemedicine.com",
-      "url": "https://www.2minutemedicine.com/the-gut-health-supplement-industry-has-outrun-the-science-researchers-say/",
-      "claim": "The Gut Health Supplement Industry Has Outrun the Science , Researchers Say",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 78,
-      "score_label": "Nuanced",
-      "score_type": "mixed",
       "claim_tag": "Partially true",
-      "verdict": "The link between gut microbiome diversity and healthy ageing is one of the most active and credible areas of current research. Studies consistently show that older adults with greater microbial diversity tend to have better metabolic, immune, and cognitive markers. What remains unclear is whether a diverse microbiome causes healthy ageing or simply reflects a healthy lifestyle \u2014 diet, exercise, sleep \u2014 that drives both. Promising, not proven as a mechanism yet.",
-      "verdict_highlight": "Diversity linked to healthy ageing, causation still unclear",
+      "verdict": "Calcium is genuinely important for bone health, but the idea that a supplement is your best route is more complicated than the headline suggests. For most people eating a reasonably varied diet, food sources like dairy, leafy greens, and fortified foods do the job well \u2014 and come with other nutrients that help absorption. Research, including a 2012 BMJ meta-analysis, raised real concerns that high-dose calcium supplements may increase cardiovascular risk in some people, so popping pills without a clinical reason isn't a straightforward win.",
+      "verdict_highlight": "Food first; supplements carry real caveats",
       "sources": [
-        "Nature Metabolism \u2014 ageing and microbiome",
-        "Cell (2021) \u2014 microbiome diversity in centenarians",
-        "NIH National Institute on Aging"
+        "BMJ 2012 \u2014 Calcium supplements and cardiovascular risk meta-analysis",
+        "NIH Office of Dietary Supplements \u2014 Calcium fact sheet",
+        "NHS \u2014 Vitamins and minerals: Calcium",
+        "Harvard T.H. Chan School of Public Health \u2014 Calcium and bone health"
       ],
-      "global_opinion": "Italy and Sardinia, home to some of the world's highest concentrations of centenarians, have been the backdrop for landmark microbiome and longevity studies. Japan's focus on gut health through fermented foods like miso and natto is deeply cultural, with emerging science to support some benefits. In the UK, the British Gut Project has contributed large-scale citizen science data to this field.",
-      "brit_take": "The idea that eating well and staying active gives you a healthier gut \u2014 and vice versa \u2014 is the kind of virtuous circle we can all quietly get behind.",
+      "global_opinion": "In the US, calcium supplements are heavily marketed and widely used, though the US Preventive Services Task Force advises against routine supplementation for fracture prevention in healthy postmenopausal women. The UK's NHS takes a food-first stance and only recommends supplements when dietary intake is clearly insufficient or a clinician identifies deficiency. In Japan, where dairy consumption is traditionally lower, calcium-fortified foods and dietary counselling tend to be favoured over supplementation as a cultural and regulatory norm.",
+      "brit_take": "In Britain we've been quietly getting calcium from a strong cup of tea with milk for centuries \u2014 turns out grandma's brew was doing some heavy lifting all along.",
       "source": "News",
-      "platform": "foodnavigator.com",
-      "url": "https://www.foodnavigator.com/Article/2026/07/14/can-the-gut-microbiome-help-unlock-healthy-ageing/",
-      "claim": "Can the gut microbiome help unlock healthy ageing ?",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 55,
-      "score_label": "Nuanced",
-      "score_type": "mixed",
-      "claim_tag": "Overstated",
-      "verdict": "There is genuine emerging research on how certain gut bacteria influence immune responses, including anti-tumour immunity \u2014 Akkermansia muciniphila and Faecalibacterium prausnitzii are among those studied in cancer immunotherapy contexts. However, NaturalNews consistently overstates early-stage findings, and this appears to reflect a preliminary study rather than established treatment evidence. Interesting science, but 'may help fight skin cancer' is a long way from a clinical recommendation.",
-      "verdict_highlight": "Early-stage finding, nowhere near a treatment claim",
-      "sources": [
-        "Science journal \u2014 microbiome and immunotherapy response (2018)",
-        "Nature Medicine \u2014 gut bacteria and melanoma outcomes",
-        "National Cancer Institute"
-      ],
-      "global_opinion": "Israel has published some of the most cited work on gut microbiome composition predicting immunotherapy response in melanoma patients. In the US, several cancer centres are now studying faecal microbiota transplants alongside checkpoint inhibitor therapies. The European Society for Medical Oncology has flagged this as a promising but very early research direction, urging patients not to self-treat.",
-      "brit_take": "The science here is genuinely fascinating \u2014 but NaturalNews as a source is a bit like getting your oncology advice from a chatty stranger at a health food shop.",
-      "source": "News",
-      "platform": "naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-07-13-gut-bacterium-immune-system-fight-skin-cancer.html",
-      "claim": "Study : Gut Bacterium May Help Immune System Fight Skin Cancer \u2013 NaturalNews . com",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 85,
-      "score_label": "Well supported",
-      "score_type": "true",
-      "claim_tag": "Evidence-based",
-      "verdict": "This is well-grounded history and science. Fermentation has been used for at least 10,000 years across virtually every food culture \u2014 from Korean kimchi to European sauerkraut to African fermented porridges. Modern interest in gut health has given this ancient practice a scientific framework, with research supporting benefits of fermented foods for microbiome diversity and immune function. The renewed focus is driven by genuine science, not just wellness trend cycles.",
-      "verdict_highlight": "Ancient practice, now backed by modern microbiome science",
-      "sources": [
-        "Journal of Nutrition \u2014 fermented foods and microbiome diversity",
-        "Cell (2021) \u2014 Sonnenburg lab fermented food trial",
-        "WHO traditional food safety and fermentation data"
-      ],
-      "global_opinion": "South Korea has long integrated fermented foods like kimchi into national dietary guidelines, with government-backed research supporting gut health benefits. In Eastern Europe, fermented foods are cultural staples with generational continuity rather than trend status. The US and UK are experiencing a notable commercial revival of fermented foods, blending genuine science with considerable wellness marketing.",
-      "brit_take": "Turns out our great-grandmothers were onto something with the pickled cabbage \u2014 they just didn't have a podcast about it.",
-      "source": "News",
-      "platform": "theyeshivaworld.com",
-      "url": "https://www.theyeshivaworld.com/news/general/2574167/people-have-been-fermenting-food-for-millennia-heres-why-more-people-are-focused-on-gut-health-now.html",
-      "claim": "People Have Been Fermenting Food For Millennia . Here Why More People Are Focused On Gut Health Now \u2013 The Yeshiva World",
+      "platform": "denverpost.com",
+      "url": "https://www.denverpost.com/2026/07/09/support-your-bone-health-with-the-best-calcium-supplement/",
+      "claim": "Support your bone health with the best calcium supplement",
       "hours_ago": 12,
       "engagement": 40
     }

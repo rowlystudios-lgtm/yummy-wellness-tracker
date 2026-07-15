@@ -1,72 +1,9 @@
 [
   {
     "source": "News",
-    "platform": "medicalnewstoday.com",
-    "claim": "Type 2 diabetes : Study links 6 gut bacteria to higher risk",
-    "url": "https://www.medicalnewstoday.com/articles/popular-good-gut-bacteria-may-signal-higher-diabetes-risk-years-advance",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "news-medical.net",
-    "claim": "Distinct gut microbiome signatures identify frailty in older women",
-    "url": "https://www.news-medical.net/news/20260713/Distinct-gut-microbiome-signatures-identify-frailty-in-older-women.aspx",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "irishdentist.ie",
-    "claim": "Popular  good  gut bacteria may signal higher diabetes risk years in advance",
-    "url": "https://www.irishdentist.ie/popular-good-gut-bacteria-may-signal-higher-diabetes-risk-years-in-advance/20167/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "Ireland"
-  },
-  {
-    "source": "News",
-    "platform": "naturalnews.com",
-    "claim": "Study Links Common Food Emulsifiers to Gut Barrier Damage in Healthy Adults \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-07-13-study-common-food-emulsifiers-gut-barrier-damage.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "2minutemedicine.com",
-    "claim": "The Gut Health Supplement Industry Has Outrun the Science , Researchers Say",
-    "url": "https://www.2minutemedicine.com/the-gut-health-supplement-industry-has-outrun-the-science-researchers-say/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "foodnavigator.com",
-    "claim": "Can the gut microbiome help unlock healthy ageing ?",
-    "url": "https://www.foodnavigator.com/Article/2026/07/14/can-the-gut-microbiome-help-unlock-healthy-ageing/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United Kingdom"
-  },
-  {
-    "source": "News",
-    "platform": "naturalnews.com",
-    "claim": "Study : Gut Bacterium May Help Immune System Fight Skin Cancer \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-07-13-gut-bacterium-immune-system-fight-skin-cancer.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "theyeshivaworld.com",
-    "claim": "People Have Been Fermenting Food For Millennia . Here Why More People Are Focused On Gut Health Now \u2013 The Yeshiva World",
-    "url": "https://www.theyeshivaworld.com/news/general/2574167/people-have-been-fermenting-food-for-millennia-heres-why-more-people-are-focused-on-gut-health-now.html",
+    "platform": "denverpost.com",
+    "claim": "Support your bone health with the best calcium supplement",
+    "url": "https://www.denverpost.com/2026/07/09/support-your-bone-health-with-the-best-calcium-supplement/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
