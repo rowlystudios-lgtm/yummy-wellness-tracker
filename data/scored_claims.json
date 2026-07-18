@@ -1,28 +1,170 @@
 {
-  "week_headline": "Coffee gets another moment in the health spotlight as studies link heavy consumption to liver protection",
-  "misleading_pct": "15%",
-  "true_pct": "85%",
+  "week_headline": "Gut health dominates the conversation this week, with new science, new databases, and new products all vying for attention \u2014 while artificial sweeteners face fresh scrutiny.",
+  "misleading_pct": "12%",
+  "true_pct": "88%",
   "claims": [
     {
       "score": 82,
       "score_label": "Nuanced",
       "score_type": "mixed",
       "claim_tag": "Partially true",
-      "verdict": "The core finding here is actually well-supported \u2014 multiple large studies and meta-analyses do show that regular coffee drinkers have meaningfully lower rates of liver cirrhosis and liver cancer (hepatocellular carcinoma). The catch is the source: NaturalNews.com has a history of sensationalising legitimate science, so the framing may overstate certainty or strip out important context like the fact that coffee is not a treatment and cannot reverse existing liver damage. The relationship is real and encouraging, but 'high consumption' needs a caveat \u2014 most benefit is seen at 2-4 cups a day, and very high intake carries its own risks for some people.",
-      "verdict_highlight": "Real link, but coffee is not a liver cure",
+      "verdict": "A major new gut microbiome database has genuinely been developed \u2014 researchers have catalogued thousands of previously unknown gut bacteria, which is a real step forward. But 'breakthrough' is a strong word; this is foundational science, not a cure for anything yet. It expands what we know, and that matters, but don't expect clinical treatments tomorrow.",
+      "verdict_highlight": "Real science, but 'breakthrough' overstates it",
       "sources": [
-        "BMJ Open \u2014 Poole et al. (2017) umbrella review of coffee and health outcomes",
-        "Journal of Hepatology \u2014 Kennedy et al. meta-analysis on coffee and cirrhosis risk",
-        "World Journal of Gastroenterology \u2014 Sang et al. on coffee and hepatocellular carcinoma",
-        "NHS \u2014 guidance on coffee and liver health",
-        "NIH National Cancer Institute \u2014 coffee and cancer research summaries"
+        "Nature (2024) \u2014 Unified Human Gastrointestinal Genome catalogue",
+        "NIH Human Microbiome Project"
       ],
-      "global_opinion": "In the UK and across much of Europe, health authorities have acknowledged the liver-protective signal from coffee research while stopping short of making formal dietary recommendations around it. In the US, the FDA and major cancer institutions treat the evidence as promising but not conclusive enough to advise therapeutic use. In Japan, where both green tea and coffee consumption are high and liver cancer rates are closely studied, researchers have explored similar associations, though cultural preference for tea means coffee findings get less public traction there.",
-      "brit_take": "Turns out the office coffee machine may be doing more good than we thought \u2014 though HR probably won't start prescribing it just yet.",
+      "global_opinion": "The UK's Wellcome Sanger Institute contributed significantly to microbiome mapping efforts and tends to frame these cautiously as long-term research investments. In the US, media coverage often amplifies 'breakthrough' language more than the science warrants. Asian research communities, particularly in Japan and China, have been running parallel microbiome databases with a stronger focus on diet-specific microbial profiles.",
+      "brit_take": "A genuinely useful scientific catalogue \u2014 though calling it a breakthrough is a bit like calling a very good library a revolution in reading.",
       "source": "News",
-      "platform": "naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-07-16-high-coffee-consumption-lower-liver-disease-risk.html",
-      "claim": "Study : High coffee consumption associated with lower risk of liver cancer , cirrhosis \u2013 NaturalNews . com",
+      "platform": "taipeitimes.com",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/18/2003860963",
+      "claim": "Breakthrough made in gut health with new database",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 82,
+      "score_label": "Nuanced",
+      "score_type": "mixed",
+      "claim_tag": "Partially true",
+      "verdict": "This is the same story as claim 1 \u2014 the Taipei Times covering the gut microbiome database research. The science is solid and the global interest is real. Taiwan and broader East Asia have strong research interest in gut health given dietary patterns rich in fermented foods. The 'breakthrough' framing remains a mild overstatement wherever it appears.",
+      "verdict_highlight": "Same solid science, same mild overstatement",
+      "sources": [
+        "Nature (2024) \u2014 Unified Human Gastrointestinal Genome catalogue",
+        "WHO \u2014 Global research on microbiome health"
+      ],
+      "global_opinion": "Taiwan has an active nutrition science community and high public interest in gut health, partly driven by traditional dietary culture. Taiwanese media tends to translate Western health research quickly, sometimes amplifying headline claims. Across East Asia broadly, gut health research is well-funded and taken seriously at an institutional level.",
+      "brit_take": "Nice to see Taipei on the gut health beat \u2014 the science travels well even if the headline hype travels a little too fast.",
+      "source": "News",
+      "platform": "news.ltn.com.tw",
+      "url": "https://news.ltn.com.tw/news/focus/breakingnews/5509175",
+      "claim": "\u300a TAIPEI TIMES \u300b Breakthrough made in gut health with new database - \u7126\u9ede",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 38,
+      "score_label": "Misleading",
+      "score_type": "false",
+      "claim_tag": "Overstated",
+      "verdict": "A new granola product is not a gut health intervention \u2014 it's a marketing claim. Kashi's granola may contain fibre and whole grains, which genuinely support digestive health, but calling a commercial cereal a gut health product is a stretch. Whole grains and fibre are good for you, but one branded granola won't transform your microbiome. Look at your overall diet, not a single product.",
+      "verdict_highlight": "Fibre is good; one granola changes little",
+      "sources": [
+        "Harvard T.H. Chan School of Public Health \u2014 Whole Grains and Gut Health",
+        "Journal of Nutrition \u2014 Dietary fibre and microbiome diversity (2022)"
+      ],
+      "global_opinion": "In the US, the FDA allows relatively broad 'gut health' marketing language on food products as long as certain fibre thresholds are met. The EU and UK have stricter food labelling rules under EFSA, making such claims harder to put on packaging without robust evidence. In Australia, the FSANZ framework similarly demands substantiation for health claims on food labels.",
+      "brit_take": "Bless Kashi for the effort, but sticking 'gut health' on a granola box is the nutritional equivalent of calling a biscuit a spa treatment.",
+      "source": "News",
+      "platform": "prnewswire.com",
+      "url": "https://www.prnewswire.com/news-releases/kashi-introduces-new-kashi-gut-health-granola-302828014.html",
+      "claim": "Kashi Introduces New Kashi Gut Health Granola",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 88,
+      "score_label": "Well supported",
+      "score_type": "true",
+      "claim_tag": "Evidence-based",
+      "verdict": "Yes, certain foods genuinely cause more gas \u2014 beans, lentils, cruciferous vegetables like broccoli and cabbage, onions, and high-fructose foods are well-documented culprits. This happens because gut bacteria ferment fibres and certain sugars, producing gas as a byproduct. It's not harmful \u2014 in fact, those foods are often very good for you \u2014 but the gassiness is real and well understood.",
+      "verdict_highlight": "Gassy foods are often the healthiest ones",
+      "sources": [
+        "NHS \u2014 Foods that cause wind and bloating",
+        "Gastroenterology Journal \u2014 FODMAP research (2021)",
+        "Monash University FODMAP Diet research"
+      ],
+      "global_opinion": "In Australia, Monash University has done some of the world's leading research on FODMAPs and digestive gas, influencing dietary guidelines globally. In India, where lentils and legumes are dietary staples, managing gas is a practical daily concern and traditional remedies like asafoetida (hing) are commonly used. In the US and UK, the low-FODMAP diet has become a mainstream clinical tool for IBS management.",
+      "brit_take": "Sprouts at Christmas making everyone uncomfortable is not a myth \u2014 it's peer-reviewed. We just collectively agreed never to discuss it.",
+      "source": "News",
+      "platform": "prevention.com",
+      "url": "https://www.prevention.com/food-nutrition/a72691407/foods-that-make-you-gassy/",
+      "claim": "Gut Health Experts Say These Are the Foods Making You Gassy",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 52,
+      "score_label": "Nuanced",
+      "score_type": "mixed",
+      "claim_tag": "Partially true",
+      "verdict": "Quince does contain polyphenols and antioxidants, and the gut-brain axis is a genuinely active area of research. However, specific evidence for quince extract improving brain health via the gut is early-stage \u2014 mostly animal studies and small lab research. It's plausible and interesting, but nowhere near established enough to recommend quince extract as a brain health supplement.",
+      "verdict_highlight": "Interesting early science, not ready for shelves yet",
+      "sources": [
+        "Frontiers in Neuroscience \u2014 Gut-brain axis review (2023)",
+        "Food Chemistry \u2014 Quince polyphenol content studies",
+        "NIH \u2014 Gut-brain axis and dietary polyphenols"
+      ],
+      "global_opinion": "In Mediterranean countries like Spain and Portugal, quince is a traditional food used in cooking and folk medicine, and there's cultural familiarity with its health properties. Iran and Turkey have longstanding herbal medicine traditions that include quince for digestive health, predating modern research. In the US and UK, quince remains relatively niche, so extract-based claims will likely appear in supplement marketing before solid clinical evidence catches up.",
+      "brit_take": "Quince is best known in Britain for making a very good jelly to go with cheese \u2014 the brain benefits are a lovely bonus if the science holds up.",
+      "source": "News",
+      "platform": "nutraingredients.com",
+      "url": "https://www.nutraingredients.com/Article/2026/07/17/quince-extract-may-support-brain-health-through-the-gutbrain-axis/",
+      "claim": "Quince extract may support brain health through the gut \u2013 brain axis",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 74,
+      "score_label": "Nuanced",
+      "score_type": "mixed",
+      "claim_tag": "Partially true",
+      "verdict": "There is real and growing evidence linking high artificial sweetener consumption to cardiovascular risk \u2014 a large 2022 French study published in the BMJ found associations with stroke and heart disease. However, 'tied to' doesn't mean 'causes' \u2014 these are observational studies and causation isn't confirmed. Moderate use by healthy people is likely low risk, but the evidence is enough to warrant some caution, especially with high daily intake.",
+      "verdict_highlight": "Association found, causation not yet proven",
+      "sources": [
+        "BMJ (2022) \u2014 Artificial sweeteners and cardiovascular disease risk, NUTRINET-Sant\u00e9 cohort",
+        "WHO (2023) \u2014 Guidance on non-sugar sweeteners",
+        "EFSA \u2014 Sweetener safety assessments"
+      ],
+      "global_opinion": "The WHO issued a notable 2023 advisory recommending against using non-sugar sweeteners for weight management, citing insufficient long-term benefit evidence \u2014 this was influential in Europe. In the US, the FDA still classifies most artificial sweeteners as generally safe, and industry pushback on the BMJ study has been strong. In some Scandinavian countries, public health messaging has already begun nudging people toward water and unsweetened drinks over diet alternatives.",
+      "brit_take": "The diet fizzy drink you've been guiltily enjoying may deserve a slightly more suspicious look \u2014 not panic, just a raised eyebrow.",
+      "source": "News",
+      "platform": "prevention.com",
+      "url": "https://www.prevention.com/health/a71978529/artificial-sweeteners-cardiometabolic-disease-link-study/",
+      "claim": "Artificial Sweeteners Tied to Increased Cardiovascular Disease Risk , Scientists Say",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 90,
+      "score_label": "Well supported",
+      "score_type": "true",
+      "claim_tag": "Evidence-based",
+      "verdict": "Fermentation is one of humanity's oldest food technologies, and the current gut health focus is backed by a genuine explosion in microbiome science over the past decade. We now understand far better how fermented foods like yogurt, kimchi, kefir, and sauerkraut support microbial diversity. The renewed cultural interest is well-timed with the science \u2014 this isn't a fad, it's a convergence of ancient practice and modern evidence.",
+      "verdict_highlight": "Ancient practice, now backed by modern science",
+      "sources": [
+        "Cell (2021) \u2014 Sonnenburg et al., fermented foods increase microbiome diversity",
+        "Harvard T.H. Chan School of Public Health \u2014 Fermented Foods",
+        "Lancet \u2014 Gut microbiome and health outcomes review (2023)"
+      ],
+      "global_opinion": "Korea has long championed kimchi as a national health food, and its probiotic properties are now well-studied internationally. In Eastern Europe and Central Asia, fermented dairy like kefir has centuries of use and is now mainstream in Western health circles. Japan's traditional consumption of miso, natto, and pickled vegetables aligns closely with what modern microbiome science recommends \u2014 the culture got there well before the clinical trials.",
+      "brit_take": "Turns out our great-grandmothers pickling everything in sight weren't just being thrifty \u2014 they were ahead of the microbiome curve by about a century.",
+      "source": "News",
+      "platform": "baltimoresun.com",
+      "url": "https://www.baltimoresun.com/2026/07/17/people-have-been-fermenting-food-for-millennia-heres-why-more-people-are-focused-on-gut-health-now/",
+      "claim": "People have been fermenting food for millennia . Here why more people are focused on gut health now \u2013 Baltimore Sun",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 85,
+      "score_label": "Well supported",
+      "score_type": "true",
+      "claim_tag": "Evidence-based",
+      "verdict": "The 30 plants per week target is backed by solid research \u2014 the large American Gut Project found that people eating 30 or more different plant foods weekly had significantly more diverse gut microbiomes. Diversity of plant types matters, not just quantity. It sounds like a lot, but herbs, spices, nuts, seeds, and legumes all count \u2014 it's more achievable than it sounds.",
+      "verdict_highlight": "30 plants weekly genuinely boosts microbiome diversity",
+      "sources": [
+        "American Gut Project \u2014 McDonald et al., mSystems (2018)",
+        "Zoe Nutrition Science \u2014 Plant diversity and gut health",
+        "British Journal of Nutrition \u2014 Dietary diversity and microbiome (2022)"
+      ],
+      "global_opinion": "In the UK, this recommendation has been widely adopted in public health messaging and popularised by researchers like Tim Spector and the ZOE project. In the US, it's gaining traction but the ultra-processed food environment makes 30 weekly plants a significant lifestyle shift for many. In Mediterranean countries, traditional diets already naturally hit this range, which may partly explain the well-documented health outcomes associated with that dietary pattern.",
+      "brit_take": "Thirty plants a week sounds daunting until you remember that a sprinkle of mixed herbs on your pasta counts \u2014 suddenly it's very doable.",
+      "source": "News",
+      "platform": "timesofindia.indiatimes.com",
+      "url": "https://timesofindia.indiatimes.com/etimes/wellness/want-a-healthier-gut-science-says-eating-more-than-30-different-plant-foods-a-week-could-make-a-difference/articleshow/132474550.cms",
+      "claim": "Want a healthier gut ? Science says eating more than 30 different plant foods a week could make a difference",
       "hours_ago": 12,
       "engagement": 40
     }
