@@ -1,56 +1,74 @@
 [
   {
     "source": "News",
-    "platform": "news-medical.net",
-    "claim": "Gut microbial metabolites may shape vulnerability to stress - related mental disorders",
-    "url": "https://www.news-medical.net/news/20260720/Gut-microbial-metabolites-may-shape-vulnerability-to-stress-related-mental-disorders.aspx",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "olivemagazine.com",
-    "claim": "From your gut to your weight : 9 surprising ways travel affects your body",
-    "url": "https://www.olivemagazine.com/wellbeing/unexpected-ways-travelling-affects-your-body/",
+    "platform": "theguardian.com",
+    "claim": "If all else fails , sue : how ultra - processed food firms are using the courts to obstruct health rules | Ultra - processed foods",
+    "url": "https://www.theguardian.com/society/2026/jul/22/processed-food-firms-courts-obstruct-health-regulations",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United Kingdom"
   },
   {
     "source": "News",
-    "platform": "economictimes.indiatimes.com",
-    "claim": "Forget detox drinks . Harvard - trained gastroenterologist Dr Saurabh Sethi shares 3 simple habits that naturally improve gut health",
-    "url": "https://economictimes.indiatimes.com/magazines/panache/forget-detox-drinks-harvard-trained-gastroenterologist-dr-saurabh-sethi-shares-3-simple-habits-that-naturally-improve-gut-health/articleshow/132527789.cms",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "India"
-  },
-  {
-    "source": "News",
-    "platform": "hindustantimes.com",
-    "claim": "Want to add more fibre ? Gastroenterologist Dr Joseph Salhab shares the easiest hack to make chia seeds more gut - friendly",
-    "url": "https://www.hindustantimes.com/lifestyle/health/want-to-add-more-fibre-gastroenterologist-dr-joseph-salhab-shares-a-chia-seed-hack-to-make-it-more-gut-friendly-101784629832747.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "India"
-  },
-  {
-    "source": "News",
-    "platform": "vaildaily.com",
-    "claim": "Opinion | Haims : Foods we consume may help the fight against cancer",
-    "url": "https://www.vaildaily.com/opinion/opinion-haims-foods-we-consume-may-help-the-fight-against-cancer/",
+    "platform": "womansworld.com",
+    "claim": "What Foods Should You Avoid on the MIND Diet ? Research - Backed Tips",
+    "url": "https://www.womansworld.com/aging/alzheimers/what-foods-should-you-avoid-on-the-mind-diet-research-backed-tips",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "straitstimes.com",
-    "claim": "Omega - 3 supplements : good for your brain ?",
-    "url": "https://www.straitstimes.com/life/are-omega-3-supplements-actually-good-for-your-brain",
+    "platform": "foodnavigator.com",
+    "claim": "Beef tallow market growth fuels seed oil replacement in CPG",
+    "url": "https://www.foodnavigator.com/Article/2026/07/21/beef-tallow-market-growth-fuels-seed-oil-replacement-in-cpg/",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "Singapore"
+    "source_country": "United Kingdom"
+  },
+  {
+    "source": "News",
+    "platform": "timesofindia.indiatimes.com",
+    "claim": "Your second brain is in your gut : This World Brain Day , neurologist explains the hidden connection",
+    "url": "https://timesofindia.indiatimes.com/health/your-second-brain-is-in-your-gut-this-world-brain-day-neurologist-explains-the-hidden-connection/articleshow/132551616.cms",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "India"
+  },
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "Gut Bacterium Akkermansia Tied to Reduced Weight Regain in Small Trial \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-07-21-gut-bacterium-akkermansia-reduced-weight-regain-study.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "columbian.com",
+    "claim": "Fermented foods good for gut health",
+    "url": "https://www.columbian.com/news/2026/jul/21/fermented-foods-good-for-gut-health/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "prevention.com",
+    "claim": "Doctors Explain Common Causes of Green Poop",
+    "url": "https://www.prevention.com/health/a73194969/doctors-explain-causes-of-green-poop/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "prevention.com",
+    "claim": "Grapes Vs . Apples : Dietitians Say Which Is Best for Blood Sugar",
+    "url": "https://www.prevention.com/food-nutrition/a73197087/grapes-vs-apples-for-blood-sugar/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
   }
 ]
