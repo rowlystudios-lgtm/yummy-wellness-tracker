@@ -1,74 +1,38 @@
 [
   {
     "source": "News",
-    "platform": "theguardian.com",
-    "claim": "If all else fails , sue : how ultra - processed food firms are using the courts to obstruct health rules | Ultra - processed foods",
-    "url": "https://www.theguardian.com/society/2026/jul/22/processed-food-firms-courts-obstruct-health-regulations",
+    "platform": "sbs.com.au",
+    "claim": "Danni was diagnosed with bowel cancer at 39 . It made her rethink what she ate growing up",
+    "url": "https://www.sbs.com.au/news/insight/article/danni-was-diagnosed-with-bowel-cancer-at-39-it-made-her-rethink-what-she-ate-growing-up/fsja0ytmo",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "United Kingdom"
-  },
-  {
-    "source": "News",
-    "platform": "womansworld.com",
-    "claim": "What Foods Should You Avoid on the MIND Diet ? Research - Backed Tips",
-    "url": "https://www.womansworld.com/aging/alzheimers/what-foods-should-you-avoid-on-the-mind-diet-research-backed-tips",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "foodnavigator.com",
-    "claim": "Beef tallow market growth fuels seed oil replacement in CPG",
-    "url": "https://www.foodnavigator.com/Article/2026/07/21/beef-tallow-market-growth-fuels-seed-oil-replacement-in-cpg/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United Kingdom"
-  },
-  {
-    "source": "News",
-    "platform": "timesofindia.indiatimes.com",
-    "claim": "Your second brain is in your gut : This World Brain Day , neurologist explains the hidden connection",
-    "url": "https://timesofindia.indiatimes.com/health/your-second-brain-is-in-your-gut-this-world-brain-day-neurologist-explains-the-hidden-connection/articleshow/132551616.cms",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "India"
+    "source_country": "Australia"
   },
   {
     "source": "News",
     "platform": "naturalnews.com",
-    "claim": "Gut Bacterium Akkermansia Tied to Reduced Weight Regain in Small Trial \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-07-21-gut-bacterium-akkermansia-reduced-weight-regain-study.html",
+    "claim": "Federal crackdown on ultra - processed foods targets hidden health risks fueling America chronic disease crisis \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-07-22-federal-crackdown-on-upf-targets-hidden-health-risks.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "columbian.com",
-    "claim": "Fermented foods good for gut health",
-    "url": "https://www.columbian.com/news/2026/jul/21/fermented-foods-good-for-gut-health/",
+    "platform": "israelnationalnews.com",
+    "claim": "Israeli study : Reducing ultra - processed foods may come at environmental cost",
+    "url": "https://www.israelnationalnews.com/news/430598",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "United States"
+    "source_country": "Israel"
   },
   {
     "source": "News",
-    "platform": "prevention.com",
-    "claim": "Doctors Explain Common Causes of Green Poop",
-    "url": "https://www.prevention.com/health/a73194969/doctors-explain-causes-of-green-poop/",
+    "platform": "theguardian.com",
+    "claim": "Cutting down on ultra - processed foods isnt easy . Here are eight tips that worked for my family | Well actually",
+    "url": "https://www.theguardian.com/wellness/2026/jul/22/tips-on-cutting-ultra-processed-food",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "prevention.com",
-    "claim": "Grapes Vs . Apples : Dietitians Say Which Is Best for Blood Sugar",
-    "url": "https://www.prevention.com/food-nutrition/a73197087/grapes-vs-apples-for-blood-sugar/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
+    "source_country": "United Kingdom"
   }
 ]
