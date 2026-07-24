@@ -1,38 +1,38 @@
 [
   {
     "source": "News",
-    "platform": "sbs.com.au",
-    "claim": "Danni was diagnosed with bowel cancer at 39 . It made her rethink what she ate growing up",
-    "url": "https://www.sbs.com.au/news/insight/article/danni-was-diagnosed-with-bowel-cancer-at-39-it-made-her-rethink-what-she-ate-growing-up/fsja0ytmo",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "Australia"
-  },
-  {
-    "source": "News",
-    "platform": "naturalnews.com",
-    "claim": "Federal crackdown on ultra - processed foods targets hidden health risks fueling America chronic disease crisis \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-07-22-federal-crackdown-on-upf-targets-hidden-health-risks.html",
+    "platform": "sciencealert.com",
+    "claim": "One Diet Helped Aging Mice Lose Fat While Preserving Muscle",
+    "url": "https://www.sciencealert.com/scientists-found-a-diet-that-helped-aging-mice-lose-fat-while-preserving-muscle",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "israelnationalnews.com",
-    "claim": "Israeli study : Reducing ultra - processed foods may come at environmental cost",
-    "url": "https://www.israelnationalnews.com/news/430598",
+    "platform": "dailymail.com",
+    "claim": "Doctor warning about the supermarket after  super fit and healthy  Aussie mum linked ultra - processed foods as a kid to her shock cancer diagnosis",
+    "url": "https://www.dailymail.com/lifestyle/article-16001497/Doctors-warning-supermarket-super-fit-healthy-Aussie-mum-linked-ultra-processed-foods-kid-shock-cancer-diagnosis.html",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "Israel"
+    "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "theguardian.com",
-    "claim": "Cutting down on ultra - processed foods isnt easy . Here are eight tips that worked for my family | Well actually",
-    "url": "https://www.theguardian.com/wellness/2026/jul/22/tips-on-cutting-ultra-processed-food",
+    "platform": "nutraingredients.com",
+    "claim": "It not about how loud you shout : Glanbia on AI and nutrition transparency",
+    "url": "https://www.nutraingredients.com/Article/2026/07/23/its-not-about-how-loud-you-shout-glanbia-on-ai-and-nutrition-transparency/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United Kingdom"
+  },
+  {
+    "source": "News",
+    "platform": "dailymail.com",
+    "claim": "Ive helped more than 5 , 000 families manage neurodiversity . These are the simple dietary swaps that can hugely improve ADHD symptoms . Start now and see difference by end of summer holidays : SARAH WARLEY",
+    "url": "https://www.dailymail.com/health/article-16000729/Ive-helped-5-000-families-manage-neurodiversity-simple-dietary-swaps-hugely-improve-ADHD-symptoms-Start-difference-end-summer-holidays-SARAH-WARLEY.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
   }
 ]
