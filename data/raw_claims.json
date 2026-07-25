@@ -1,9 +1,36 @@
 [
   {
     "source": "News",
-    "platform": "sciencealert.com",
-    "claim": "One Diet Helped Aging Mice Lose Fat While Preserving Muscle",
-    "url": "https://www.sciencealert.com/scientists-found-a-diet-that-helped-aging-mice-lose-fat-while-preserving-muscle",
+    "platform": "news-medical.net",
+    "claim": "Cleveland Clinic study links gut microbe byproduct to heart arrhythmia",
+    "url": "https://www.news-medical.net/news/20260724/Cleveland-Clinic-study-links-gut-microbe-byproduct-to-heart-arrhythmia.aspx",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "medicalnewstoday.com",
+    "claim": "39 popular sweeteners can alter key gut bacteria , lab study finds",
+    "url": "https://www.medicalnewstoday.com/articles/artificial-sweeteners-may-disrupt-gut-bacteria-especially-combined-antidepressants",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "miragenews.com",
+    "claim": "Cleveland Clinic Finds Gut Bacteria Tied to Heart Rhythm",
+    "url": "https://www.miragenews.com/cleveland-clinic-finds-gut-bacteria-tied-to-1716205/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "aol.com",
+    "claim": "The 20 Best Foods to Help Relieve Constipation , According to Doctors and Dietitians",
+    "url": "https://www.aol.com/articles/20-best-foods-help-relieve-115159000.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
@@ -11,26 +38,8 @@
   {
     "source": "News",
     "platform": "dailymail.com",
-    "claim": "Doctor warning about the supermarket after  super fit and healthy  Aussie mum linked ultra - processed foods as a kid to her shock cancer diagnosis",
-    "url": "https://www.dailymail.com/lifestyle/article-16001497/Doctors-warning-supermarket-super-fit-healthy-Aussie-mum-linked-ultra-processed-foods-kid-shock-cancer-diagnosis.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "nutraingredients.com",
-    "claim": "It not about how loud you shout : Glanbia on AI and nutrition transparency",
-    "url": "https://www.nutraingredients.com/Article/2026/07/23/its-not-about-how-loud-you-shout-glanbia-on-ai-and-nutrition-transparency/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United Kingdom"
-  },
-  {
-    "source": "News",
-    "platform": "dailymail.com",
-    "claim": "Ive helped more than 5 , 000 families manage neurodiversity . These are the simple dietary swaps that can hugely improve ADHD symptoms . Start now and see difference by end of summer holidays : SARAH WARLEY",
-    "url": "https://www.dailymail.com/health/article-16000729/Ive-helped-5-000-families-manage-neurodiversity-simple-dietary-swaps-hugely-improve-ADHD-symptoms-Start-difference-end-summer-holidays-SARAH-WARLEY.html",
+    "claim": "Eating eggs linked to dangerous heart condition that triggers stroke , new study suggests",
+    "url": "https://www.dailymail.com/health/article-16002439/Eating-eggs-linked-dangerous-heart-condition-triggers-stroke-new-study-suggests.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
