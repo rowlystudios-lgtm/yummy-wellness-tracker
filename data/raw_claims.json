@@ -1,47 +1,11 @@
 [
   {
     "source": "News",
-    "platform": "news-medical.net",
-    "claim": "Cleveland Clinic study links gut microbe byproduct to heart arrhythmia",
-    "url": "https://www.news-medical.net/news/20260724/Cleveland-Clinic-study-links-gut-microbe-byproduct-to-heart-arrhythmia.aspx",
+    "platform": "simonroughneen.com",
+    "claim": "No sugarcoating it : sweeteners found to disrupt good gut bacteria \u2013 DPA",
+    "url": "https://www.simonroughneen.com/environment-energy-and-resources/no-sugarcoating-it-sweeteners-found-to-disrupt-good-gut-bacteria-dpa/",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "medicalnewstoday.com",
-    "claim": "39 popular sweeteners can alter key gut bacteria , lab study finds",
-    "url": "https://www.medicalnewstoday.com/articles/artificial-sweeteners-may-disrupt-gut-bacteria-especially-combined-antidepressants",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "miragenews.com",
-    "claim": "Cleveland Clinic Finds Gut Bacteria Tied to Heart Rhythm",
-    "url": "https://www.miragenews.com/cleveland-clinic-finds-gut-bacteria-tied-to-1716205/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "aol.com",
-    "claim": "The 20 Best Foods to Help Relieve Constipation , According to Doctors and Dietitians",
-    "url": "https://www.aol.com/articles/20-best-foods-help-relieve-115159000.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "dailymail.com",
-    "claim": "Eating eggs linked to dangerous heart condition that triggers stroke , new study suggests",
-    "url": "https://www.dailymail.com/health/article-16002439/Eating-eggs-linked-dangerous-heart-condition-triggers-stroke-new-study-suggests.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
+    "source_country": "Indonesia"
   }
 ]

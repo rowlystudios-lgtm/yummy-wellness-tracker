@@ -1,111 +1,28 @@
 {
-  "week_headline": "The gut-heart connection dominates health headlines this week, as new research links microbiome activity to heart rhythm and stroke risk sparks egg debate",
-  "misleading_pct": "20%",
-  "true_pct": "80%",
+  "week_headline": "Sweeteners are under the microscope this week as new research links artificial additives to changes in gut bacteria balance",
+  "misleading_pct": "30%",
+  "true_pct": "70%",
   "claims": [
     {
-      "score": 72,
+      "score": 58,
       "score_label": "Nuanced",
       "score_type": "mixed",
       "claim_tag": "Partially true",
-      "verdict": "A real Cleveland Clinic study published in Nature Cardiovascular Research found that TMAO, a gut bacteria byproduct produced when you digest certain foods like red meat and eggs, is associated with atrial fibrillation risk. This is genuinely interesting science, but association is not causation \u2014 the researchers are careful not to say TMAO directly causes arrhythmia. It adds to a growing body of work on the gut-heart axis, but it is too early to change your diet based on this alone.",
-      "verdict_highlight": "Association found, but causation not proven yet",
+      "verdict": "There is genuine emerging evidence that some artificial sweeteners \u2014 particularly saccharin, sucralose, and aspartame \u2014 can alter the composition of gut microbiota in certain studies, including a notable 2022 paper in Cell. However, most of this research is in animals or small human trials, and we don't yet know if the changes are harmful in the long run. Calling it 'disruption' is a bit strong for where the science actually sits right now.",
+      "verdict_highlight": "Real signal, but too early to panic",
       "sources": [
-        "Nature Cardiovascular Research (2024)",
-        "Cleveland Clinic",
-        "NIH National Heart, Lung, and Blood Institute"
+        "Cell (Suez et al., 2022) \u2013 Non-caloric sweeteners and the microbiome",
+        "EFSA \u2013 Re-evaluation of aspartame safety, 2023",
+        "WHO \u2013 Sweeteners advisory report, 2023",
+        "Nature Medicine \u2013 Gut microbiome and dietary additives review",
+        "BMJ \u2013 Ultra-processed foods and microbiome health"
       ],
-      "global_opinion": "In the US, this finding is being discussed within cardiology circles as a potential new biomarker target. European researchers, particularly in Scandinavia, have been investigating TMAO for several years and tend to frame it cautiously within overall dietary patterns rather than as a standalone villain. In Japan, where fermented food consumption is high and gut microbiome diversity is well studied, scientists note that TMAO levels vary significantly by population, complicating direct comparisons.",
-      "brit_take": "The British Heart Foundation has been watching TMAO research with interest for a few years now \u2014 it is promising, but your cardiologist is not about to prescribe a microbiome test just yet.",
+      "global_opinion": "In the EU, EFSA has been cautious and is actively reviewing sweetener safety, with some member states like Denmark historically restricting certain additives earlier than others. The US FDA still considers approved sweeteners generally safe, though the WHO issued a 2023 advisory recommending against using non-sugar sweeteners for weight management. In Japan, regulatory culture tends toward stricter additive approvals, and fermented-food-rich diets there have kept gut health a mainstream public health conversation for decades.",
+      "brit_take": "We've been putting sweeteners in our Diet Coke and 'guilt-free' biscuits for forty years, so it's a bit unsettling to hear the gut might have opinions about it too.",
       "source": "News",
-      "platform": "news-medical.net",
-      "url": "https://www.news-medical.net/news/20260724/Cleveland-Clinic-study-links-gut-microbe-byproduct-to-heart-arrhythmia.aspx",
-      "claim": "Cleveland Clinic study links gut microbe byproduct to heart arrhythmia",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 62,
-      "score_label": "Nuanced",
-      "score_type": "mixed",
-      "claim_tag": "Context missing",
-      "verdict": "This comes from a lab study, likely using cell cultures or animal models, which means results cannot be directly applied to what happens inside a real human gut. The finding that sweeteners like saccharin, sucralose, and aspartame may alter certain gut bacteria is consistent with earlier research including a 2022 Cell study, but the scale and real-world impact remain debated. Eating a sweetener-containing drink occasionally is a very different exposure to the concentrated doses often used in lab settings.",
-      "verdict_highlight": "Lab results don't always translate to real life",
-      "sources": [
-        "Cell (Suez et al., 2022)",
-        "EFSA sweetener safety reviews",
-        "Journal of Nutrition"
-      ],
-      "global_opinion": "The European Food Safety Authority completed a full aspartame safety review in 2023 and maintained it is safe at current consumption levels, while acknowledging emerging microbiome data needs more research. In the US, the FDA continues to list these sweeteners as generally recognised as safe. Brazil and several Latin American countries have tightened labelling rules around sweeteners partly in response to growing public concern, even where regulatory thresholds remain unchanged.",
-      "brit_take": "The NHS still broadly considers approved sweeteners safe in normal amounts \u2014 though if you are drinking ten cans of diet cola a day, your gut bacteria are probably not your biggest problem.",
-      "source": "News",
-      "platform": "medicalnewstoday.com",
-      "url": "https://www.medicalnewstoday.com/articles/artificial-sweeteners-may-disrupt-gut-bacteria-especially-combined-antidepressants",
-      "claim": "39 popular sweeteners can alter key gut bacteria , lab study finds",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 72,
-      "score_label": "Nuanced",
-      "score_type": "mixed",
-      "claim_tag": "Partially true",
-      "verdict": "This is the same Cleveland Clinic research as claim one, framed slightly differently with a focus on heart rhythm specifically. The association between gut bacteria metabolism and atrial fibrillation is a legitimate and emerging area of research. It is worth following, but one study does not rewrite cardiology guidelines \u2014 the researchers themselves are calling for further investigation before any clinical recommendations are made.",
-      "verdict_highlight": "Promising early science, not a clinical guideline yet",
-      "sources": [
-        "Nature Cardiovascular Research (2024)",
-        "Cleveland Clinic Lerner Research Institute",
-        "American Heart Association"
-      ],
-      "global_opinion": "American cardiology institutions are treating this as a meaningful signal worth investigating further, particularly given the rising prevalence of AFib. German and Dutch research groups have been exploring microbiome-cardiovascular links through large cohort studies like the Lifelines study, lending some European corroboration. Australian cardiologists have noted the findings but emphasise that established AFib risk factors like hypertension, sleep apnoea, and alcohol remain far better evidenced targets for prevention.",
-      "brit_take": "It is intriguing science and the kind of thing that will surface at a GP conference in about three years \u2014 for now, keeping your blood pressure in check is still the more actionable advice.",
-      "source": "News",
-      "platform": "miragenews.com",
-      "url": "https://www.miragenews.com/cleveland-clinic-finds-gut-bacteria-tied-to-1716205/",
-      "claim": "Cleveland Clinic Finds Gut Bacteria Tied to Heart Rhythm",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 88,
-      "score_label": "Well supported",
-      "score_type": "true",
-      "claim_tag": "Evidence-based",
-      "verdict": "This is solid, well-established nutrition guidance. Foods high in soluble and insoluble fibre such as prunes, kiwi, flaxseed, oats, and leafy greens have strong evidence behind them for improving bowel regularity and relieving constipation. Kiwifruit in particular has been highlighted in several recent trials for its effectiveness. Hydration alongside fibre is key \u2014 fibre without enough water can actually make constipation worse, which is the one nuance often left out of these lists.",
-      "verdict_highlight": "Fibre-rich foods genuinely help \u2014 hydration matters too",
-      "sources": [
-        "American Journal of Gastroenterology",
-        "NHS dietary fibre guidance",
-        "Journal of Nutritional Science (kiwifruit trials, 2023)"
-      ],
-      "global_opinion": "Dietary fibre recommendations are broadly consistent across WHO, NHS, and US dietary guidelines, all pointing to 25 to 30 grams per day as a target most people fall short of. In Japan, fermented foods like natto and miso are part of the cultural approach to digestive health alongside fibre. In parts of sub-Saharan Africa and South Asia where traditional plant-rich diets are still common, constipation rates are notably lower, which researchers partly attribute to naturally higher fibre intake.",
-      "brit_take": "Prunes have been quietly solving this problem for generations of British grandparents \u2014 sometimes the old remedies are old because they actually work.",
-      "source": "News",
-      "platform": "aol.com",
-      "url": "https://www.aol.com/articles/20-best-foods-help-relieve-115159000.html",
-      "claim": "The 20 Best Foods to Help Relieve Constipation , According to Doctors and Dietitians",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 38,
-      "score_label": "Nuanced",
-      "score_type": "false",
-      "claim_tag": "Overstated",
-      "verdict": "The headline is doing a lot of heavy lifting here. The underlying research likely relates to dietary choline in eggs contributing to TMAO production, which connects back to the Cleveland Clinic gut-heart research \u2014 meaning this may not even be a separate study at all. Decades of large-scale research including Harvard cohort studies and a 2020 BMJ meta-analysis found that moderate egg consumption of up to one per day is not significantly associated with cardiovascular disease in healthy people. The word 'dangerous' in the headline is not well supported by the weight of evidence.",
-      "verdict_highlight": "Moderate egg eating is not dangerous for most people",
-      "sources": [
-        "BMJ meta-analysis (2020)",
-        "Harvard T.H. Chan School of Public Health",
-        "American Heart Association dietary guidelines",
-        "NEJM TMAO studies"
-      ],
-      "global_opinion": "The UK's NHS and the British Heart Foundation both removed the longstanding egg consumption limit years ago and now say eggs can be part of a healthy balanced diet. In the US, dietary guidelines no longer set a specific cholesterol cap, reflecting updated evidence. Some East Asian nutritional bodies, particularly in South Korea and China, still advise modest caution around daily egg intake for people with existing cardiovascular risk, though this is increasingly being revised in line with global evidence.",
-      "brit_take": "The egg has had more health scares than any food deserves \u2014 it was cleared of the cholesterol rap years ago, and one study hinting at TMAO links does not put it back in the dock.",
-      "source": "News",
-      "platform": "dailymail.com",
-      "url": "https://www.dailymail.com/health/article-16002439/Eating-eggs-linked-dangerous-heart-condition-triggers-stroke-new-study-suggests.html",
-      "claim": "Eating eggs linked to dangerous heart condition that triggers stroke , new study suggests",
+      "platform": "simonroughneen.com",
+      "url": "https://www.simonroughneen.com/environment-energy-and-resources/no-sugarcoating-it-sweeteners-found-to-disrupt-good-gut-bacteria-dpa/",
+      "claim": "No sugarcoating it : sweeteners found to disrupt good gut bacteria \u2013 DPA",
       "hours_ago": 12,
       "engagement": 40
     }
