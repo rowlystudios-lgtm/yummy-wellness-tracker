@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "source": "News",
+    "platform": "thehindu.com",
+    "claim": "ICMR - NIN calls for new framework to regulate processed foods",
+    "url": "https://www.thehindu.com/news/national/telangana/icmr-nin-calls-for-new-framework-to-regulate-processed-foods/article71273946.ece",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "India"
+  },
+  {
+    "source": "News",
+    "platform": "goodhousekeeping.com",
+    "claim": "10 Things Cardiologists Want You to Stop Doing for Heart Health",
+    "url": "https://www.goodhousekeeping.com/health/a73194595/heart-health-habits-cardiologists-want-you-to-stop/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "news-medical.net",
+    "claim": "Plant - based diets reshape gut microbes to boost healthy metabolites",
+    "url": "https://www.news-medical.net/news/20260727/Plant-based-diets-reshape-gut-microbes-to-boost-healthy-metabolites.aspx",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "english.pravda.ru",
+    "claim": "Dietitian Reveals 3 Drinks That May Help Slow Aging Naturally",
+    "url": "https://english.pravda.ru/news/health/167513-anti-aging-healthy-drinks/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Russia"
+  }
+]
