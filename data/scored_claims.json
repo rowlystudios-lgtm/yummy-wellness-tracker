@@ -1,89 +1,49 @@
 {
-  "week_headline": "Ultra-processed food regulation and gut health dominate global nutrition headlines as experts push for stronger dietary guidelines",
-  "misleading_pct": "15%",
-  "true_pct": "85%",
+  "week_headline": "Vitamins and supplements for brain and energy health are dominating headlines, with bold claims often outpacing the actual science behind them.",
+  "misleading_pct": "35%",
+  "true_pct": "65%",
   "claims": [
-    {
-      "score": 82,
-      "score_label": "Nuanced",
-      "score_type": "mixed",
-      "claim_tag": "Partially true",
-      "verdict": "India's ICMR-NIN raising the alarm on processed food regulation is well-grounded \u2014 their 2024 dietary guidelines flagged excess salt, sugar, and fat in packaged foods as a serious public health concern. A regulatory framework is genuinely needed, but the details matter enormously: labelling rules, enforcement capacity, and industry lobbying all shape whether such frameworks actually change what people eat. This is a legitimate policy push backed by solid nutritional science, even if outcomes depend on political will.",
-      "verdict_highlight": "Regulation is needed, but enforcement is everything",
-      "sources": [
-        "ICMR-NIN Dietary Guidelines for Indians 2024",
-        "WHO Global Action Plan on NCDs",
-        "BMJ 2023 - Ultra-processed food consumption and health outcomes"
-      ],
-      "global_opinion": "The EU has led on front-of-pack nutrition labelling with the Nutri-Score system, though adoption varies by member state. Brazil's ANVISA is widely praised for its bold black warning labels on high-sugar and high-sodium foods. The US relies heavily on voluntary industry guidelines, which public health researchers have criticised as insufficient.",
-      "brit_take": "The UK brought in the sugar tax on soft drinks in 2018 and quietly watched manufacturers reformulate recipes overnight \u2014 turns out regulation does work when there are teeth behind it.",
-      "source": "News",
-      "platform": "thehindu.com",
-      "url": "https://www.thehindu.com/news/national/telangana/icmr-nin-calls-for-new-framework-to-regulate-processed-foods/article71273946.ece",
-      "claim": "ICMR - NIN calls for new framework to regulate processed foods",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 78,
-      "score_label": "Nuanced",
-      "score_type": "mixed",
-      "claim_tag": "Partially true",
-      "verdict": "Cardiologist-led advice on heart health is generally well-supported by evidence, covering things like reducing sedentary behaviour, cutting ultra-processed foods, managing stress, and not ignoring sleep \u2014 all backed by strong research. The catch is that listicle formats often bundle rock-solid advice with more speculative tips, and individual risk profiles vary hugely. Take the evidence-based parts seriously \u2014 quitting smoking, moving more, managing blood pressure \u2014 and be a little sceptical of anything that sounds like a quick fix.",
-      "verdict_highlight": "Core advice is solid; watch for oversimplification",
-      "sources": [
-        "American Heart Association 2023 Guidelines",
-        "NEJM - Cardiovascular risk factor management",
-        "Lancet 2021 - Global burden of cardiovascular disease"
-      ],
-      "global_opinion": "Japan emphasises dietary pattern and portion control through its traditional Washoku guidelines, with notably low cardiovascular mortality rates. Scandinavian countries integrate heart health into national food policy with strong state support for preventive care. In the US, the focus often leans toward pharmaceutical intervention alongside lifestyle advice, reflecting both healthcare system structure and cultural norms.",
-      "brit_take": "British cardiologists have been saying 'move more, eat less junk, stress less' for decades \u2014 the advice hasn't changed much, but apparently we still need reminding every January and post-Christmas.",
-      "source": "News",
-      "platform": "goodhousekeeping.com",
-      "url": "https://www.goodhousekeeping.com/health/a73194595/heart-health-habits-cardiologists-want-you-to-stop/",
-      "claim": "10 Things Cardiologists Want You to Stop Doing for Heart Health",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 74,
-      "score_label": "Nuanced",
-      "score_type": "mixed",
-      "claim_tag": "Partially true",
-      "verdict": "There is genuinely solid evidence that plant-based diets shift the gut microbiome in meaningful ways \u2014 more fibre feeds beneficial bacteria like Bifidobacterium and Lactobacillus, which produce short-chain fatty acids linked to reduced inflammation and better metabolic health. However, 'boost healthy metabolites' is doing a lot of heavy lifting here: the research is promising but still largely observational, and not all plant-based diets are equal \u2014 a vegan diet of chips and fizzy drinks won't do your microbiome any favours. The direction of evidence is encouraging, but we're not at definitive proof yet.",
-      "verdict_highlight": "Fibre-rich plants genuinely feed good gut bacteria",
-      "sources": [
-        "Nature Medicine 2021 - Gut microbiome and diet",
-        "Cell 2022 - Microbiome response to plant-based diet",
-        "Journal of Nutrition 2023 - Short-chain fatty acids and metabolic health"
-      ],
-      "global_opinion": "In Japan, traditional fermented foods like miso and natto are considered culturally inseparable from gut health, and Japan has a long tradition of researching probiotic benefits. Mediterranean countries show strong research interest in how olive oil and plant diversity jointly affect the microbiome. In India, plant-forward diets are the norm for large portions of the population, though research into their specific microbiome effects in South Asian cohorts is still catching up.",
-      "brit_take": "Britain has quietly gone from a nation of meat-and-two-veg to one of the biggest plant-based food markets in Europe \u2014 the gut bacteria seem to approve, even if grandad doesn't.",
-      "source": "News",
-      "platform": "news-medical.net",
-      "url": "https://www.news-medical.net/news/20260727/Plant-based-diets-reshape-gut-microbes-to-boost-healthy-metabolites.aspx",
-      "claim": "Plant - based diets reshape gut microbes to boost healthy metabolites",
-      "hours_ago": 12,
-      "engagement": 40
-    },
     {
       "score": 52,
       "score_label": "Nuanced",
       "score_type": "mixed",
       "claim_tag": "Overstated",
-      "verdict": "Green tea, red wine in moderation, and drinks rich in polyphenols do have real antioxidant and anti-inflammatory properties backed by peer-reviewed research \u2014 so this isn't nonsense. But 'slow aging naturally' is a big claim for a beverage, and the human evidence is mostly observational rather than from controlled trials. Drinking green tea is genuinely a good habit; thinking it's meaningfully rewinding your biological clock is a stretch the science doesn't fully support yet.",
-      "verdict_highlight": "Polyphenol-rich drinks help, but won't stop aging",
+      "verdict": "There are some vitamins and nutrients with genuine research behind brain health \u2014 omega-3s, B vitamins, and vitamin E have real peer-reviewed backing for cognitive support, especially in people who are deficient. But NaturalNews has a track record of stretching findings well beyond what studies actually show, and 'linked to' does not mean 'proven to boost.' Most evidence is observational or based on deficiency correction, not healthy people popping extra supplements.",
+      "verdict_highlight": "Linked to does not mean proven to boost",
       "sources": [
-        "Harvard T.H. Chan School of Public Health - Antioxidants",
-        "EFSA 2023 - Polyphenols and health claims review",
-        "BMJ 2022 - Green tea consumption and longevity associations"
+        "NIH Office of Dietary Supplements",
+        "Harvard T.H. Chan School of Public Health",
+        "JAMA Neurology",
+        "Lancet Neurology"
       ],
-      "global_opinion": "Japan's longstanding research into green tea consumption correlates it with lower rates of certain cancers and cardiovascular disease, and it's a cultural staple there. In France, the so-called 'French paradox' around red wine and heart health has fuelled decades of research, though recent WHO guidance has pushed back on any 'safe' alcohol level. The US supplement and wellness industry has heavily commercialised polyphenol claims in ways that often outrun the underlying science.",
-      "brit_take": "A nice cup of tea has been the British answer to everything from heartbreak to health scares for centuries \u2014 turns out there might be something in it, just perhaps not quite as much as the wellness industry would like.",
+      "global_opinion": "In the US, supplement marketing is loosely regulated and brain health claims are widespread, often based on minimal evidence. The EU and EFSA apply stricter rules \u2014 many brain health claims on supplements are not approved for use on product labels in Europe. Japan has a regulated 'Foods with Function Claims' system that requires more rigorous evidence before cognitive benefits can be advertised.",
+      "brit_take": "In the UK we tend to trust a cup of tea for mental clarity \u2014 but seriously, the NHS only recommends specific supplements for specific deficiencies, not general brain boosts.",
       "source": "News",
-      "platform": "english.pravda.ru",
-      "url": "https://english.pravda.ru/news/health/167513-anti-aging-healthy-drinks/",
-      "claim": "Dietitian Reveals 3 Drinks That May Help Slow Aging Naturally",
+      "platform": "naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-07-28-nine-vitamins-supplements-linked-brain-health-studies.html",
+      "claim": "Nine Vitamins and Supplements Linked to Brain Health : What the Evidence Shows \u2013 NaturalNews . com",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 72,
+      "score_label": "Nuanced",
+      "score_type": "mixed",
+      "claim_tag": "Partially true",
+      "verdict": "There is solid, peer-reviewed evidence that vitamin D deficiency is associated with fatigue and low energy \u2014 multiple studies, including work published in the BMJ and reviewed by the NIH, support this connection. The nuance is that correcting a deficiency in someone who is genuinely low can meaningfully improve energy, but supplementing when your levels are already normal is unlikely to give you a boost. The source, NaturalNews, has a history of sensationalising findings, so the underlying science is real but the framing likely overstates how dramatic the effect is.",
+      "verdict_highlight": "Correcting deficiency helps \u2014 extras won't supercharge you",
+      "sources": [
+        "NIH Office of Dietary Supplements",
+        "BMJ",
+        "EFSA",
+        "NHS"
+      ],
+      "global_opinion": "In Nordic countries like Norway and Finland, vitamin D deficiency is taken very seriously due to limited sunlight, and supplementation is widely recommended by national health authorities. The UK's NHS advises everyone to consider a daily vitamin D supplement in autumn and winter, acknowledging widespread deficiency. In sunnier regions like Australia and parts of the Middle East, health authorities are more cautious, noting that over-supplementation carries its own risks including toxicity.",
+      "brit_take": "Given the UK sees roughly four sunny days a year, vitamin D deficiency is genuinely common here \u2014 the NHS quietly agrees this one has legs, even if NaturalNews makes it sound like a revelation.",
+      "source": "News",
+      "platform": "naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-07-28-vitamin-d-deficiency-linked-to-low-energy-fatigue.html",
+      "claim": "Vitamin D Deficiency Linked to Low Energy , Fatigue , Studies Find \u2013 NaturalNews . com",
       "hours_ago": 12,
       "engagement": 40
     }
