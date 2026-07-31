@@ -1,49 +1,27 @@
 {
-  "week_headline": "Vitamins and supplements for brain and energy health are dominating headlines, with bold claims often outpacing the actual science behind them.",
-  "misleading_pct": "35%",
-  "true_pct": "65%",
+  "week_headline": "Gen Z's 'tanmaxxing' trend sparks dermatologist warnings as deliberate tanning surges across social media",
+  "misleading_pct": "15%",
+  "true_pct": "85%",
   "claims": [
     {
-      "score": 52,
-      "score_label": "Nuanced",
-      "score_type": "mixed",
-      "claim_tag": "Overstated",
-      "verdict": "There are some vitamins and nutrients with genuine research behind brain health \u2014 omega-3s, B vitamins, and vitamin E have real peer-reviewed backing for cognitive support, especially in people who are deficient. But NaturalNews has a track record of stretching findings well beyond what studies actually show, and 'linked to' does not mean 'proven to boost.' Most evidence is observational or based on deficiency correction, not healthy people popping extra supplements.",
-      "verdict_highlight": "Linked to does not mean proven to boost",
+      "score": 88,
+      "score_label": "Well supported",
+      "score_type": "true",
+      "claim_tag": "Evidence-based",
+      "verdict": "This one is pretty well grounded. Tanmaxxing \u2014 deliberately maximising a tan through prolonged UV exposure, often skipping sunscreen \u2014 does carry real, well-documented risks. UV radiation is the leading cause of skin cancer, including melanoma, and cumulative sun damage accelerates skin ageing. The WHO and major cancer bodies are clear: there is no such thing as a 'safe' tan from UV exposure.",
+      "verdict_highlight": "No such thing as a safe UV tan",
       "sources": [
-        "NIH Office of Dietary Supplements",
-        "Harvard T.H. Chan School of Public Health",
-        "JAMA Neurology",
-        "Lancet Neurology"
+        "WHO \u2013 Ultraviolet radiation and skin cancer",
+        "CDC \u2013 Skin Cancer Prevention",
+        "British Journal of Dermatology \u2013 UV exposure and melanoma risk",
+        "American Academy of Dermatology \u2013 Tanning and skin cancer"
       ],
-      "global_opinion": "In the US, supplement marketing is loosely regulated and brain health claims are widespread, often based on minimal evidence. The EU and EFSA apply stricter rules \u2014 many brain health claims on supplements are not approved for use on product labels in Europe. Japan has a regulated 'Foods with Function Claims' system that requires more rigorous evidence before cognitive benefits can be advertised.",
-      "brit_take": "In the UK we tend to trust a cup of tea for mental clarity \u2014 but seriously, the NHS only recommends specific supplements for specific deficiencies, not general brain boosts.",
+      "global_opinion": "In Australia, where melanoma rates are among the world's highest, public health campaigns like 'Slip, Slop, Slap' have long made deliberate tanning culturally frowned upon and medically condemned. In parts of Northern Europe and the UK, where sun is scarce, tanning is still socially prized and the risks are sometimes downplayed informally. In South Korea and much of East Asia, pale skin is broadly preferred aesthetically, so tanmaxxing has very little cultural traction there.",
+      "brit_take": "In a country where actual sunshine is a twice-yearly surprise, spending hours baking yourself for a TikTok glow-up feels like a particularly ambitious commitment. Still, the skin cancer risk is real wherever you are.",
       "source": "News",
-      "platform": "naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-07-28-nine-vitamins-supplements-linked-brain-health-studies.html",
-      "claim": "Nine Vitamins and Supplements Linked to Brain Health : What the Evidence Shows \u2013 NaturalNews . com",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 72,
-      "score_label": "Nuanced",
-      "score_type": "mixed",
-      "claim_tag": "Partially true",
-      "verdict": "There is solid, peer-reviewed evidence that vitamin D deficiency is associated with fatigue and low energy \u2014 multiple studies, including work published in the BMJ and reviewed by the NIH, support this connection. The nuance is that correcting a deficiency in someone who is genuinely low can meaningfully improve energy, but supplementing when your levels are already normal is unlikely to give you a boost. The source, NaturalNews, has a history of sensationalising findings, so the underlying science is real but the framing likely overstates how dramatic the effect is.",
-      "verdict_highlight": "Correcting deficiency helps \u2014 extras won't supercharge you",
-      "sources": [
-        "NIH Office of Dietary Supplements",
-        "BMJ",
-        "EFSA",
-        "NHS"
-      ],
-      "global_opinion": "In Nordic countries like Norway and Finland, vitamin D deficiency is taken very seriously due to limited sunlight, and supplementation is widely recommended by national health authorities. The UK's NHS advises everyone to consider a daily vitamin D supplement in autumn and winter, acknowledging widespread deficiency. In sunnier regions like Australia and parts of the Middle East, health authorities are more cautious, noting that over-supplementation carries its own risks including toxicity.",
-      "brit_take": "Given the UK sees roughly four sunny days a year, vitamin D deficiency is genuinely common here \u2014 the NHS quietly agrees this one has legs, even if NaturalNews makes it sound like a revelation.",
-      "source": "News",
-      "platform": "naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-07-28-vitamin-d-deficiency-linked-to-low-energy-fatigue.html",
-      "claim": "Vitamin D Deficiency Linked to Low Energy , Fatigue , Studies Find \u2013 NaturalNews . com",
+      "platform": "theifp.ca",
+      "url": "https://www.theifp.ca/life/beauty-and-fashion/gen-zs-are-tanmaxxing-and-tan-lines-are-in-again-despite-known-dangers/article_3c6a881d-35db-5402-bd44-5c64cf570f98.html",
+      "claim": "Gen Z is  tanmaxxing  despite skin damage and cancer risk",
       "hours_ago": 12,
       "engagement": 40
     }
