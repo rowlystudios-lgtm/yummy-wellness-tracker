@@ -1,27 +1,152 @@
 {
-  "week_headline": "Gen Z's 'tanmaxxing' trend sparks dermatologist warnings as deliberate tanning surges across social media",
-  "misleading_pct": "15%",
-  "true_pct": "85%",
+  "week_headline": "Childhood diet habits and plant-forward eating dominate health headlines, with bold percentage claims sparking widespread debate about what we eat and how early it matters.",
+  "misleading_pct": "29%",
+  "true_pct": "71%",
   "claims": [
+    {
+      "score": 72,
+      "score_label": "Nuanced",
+      "score_type": "mixed",
+      "claim_tag": "Partially true",
+      "verdict": "A 28% reduction in heart disease risk from plant-forward diets is plausible and backed by solid research, but that exact figure depends heavily on which study you're reading, which population was studied, and how 'plant-forward' was defined. Large reviews in journals like the BMJ and Lancet do consistently show meaningful cardiovascular benefit from diets rich in vegetables, legumes, and whole grains. The direction is right \u2014 the precise number is doing a lot of heavy lifting.",
+      "verdict_highlight": "Direction is right, exact number overstates certainty",
+      "sources": [
+        "BMJ 2019 \u2013 plant-based diets and cardiovascular risk",
+        "Lancet 2019 \u2013 Global Burden of Disease dietary risk factors",
+        "Harvard T.H. Chan School of Public Health \u2013 The Nutrition Source"
+      ],
+      "global_opinion": "In the Mediterranean region, plant-forward eating is cultural norm rather than health trend, and European cardiological societies broadly endorse it with strong confidence. In the US, the American Heart Association supports plant-rich diets but avoids pinning a single risk-reduction percentage. In parts of East Asia, traditional diets are already largely plant-based, so researchers there focus more on the protective role of specific foods like fermented soy rather than broad dietary patterns.",
+      "brit_take": "Britain has been quietly told to eat more veg since the 1990s \u2014 turns out that advice was basically right all along, just without the snappy percentage.",
+      "source": "News",
+      "platform": "medindia.net",
+      "url": "https://www.medindia.net/news/healthwatch/plant-forward-diet-may-cut-heart-disease-risk-by-28-224421-1.htm",
+      "claim": "Plant - Forward Diet May Cut Heart Disease Risk by 28 %",
+      "hours_ago": 12,
+      "engagement": 40
+    },
     {
       "score": 88,
       "score_label": "Well supported",
       "score_type": "true",
       "claim_tag": "Evidence-based",
-      "verdict": "This one is pretty well grounded. Tanmaxxing \u2014 deliberately maximising a tan through prolonged UV exposure, often skipping sunscreen \u2014 does carry real, well-documented risks. UV radiation is the leading cause of skin cancer, including melanoma, and cumulative sun damage accelerates skin ageing. The WHO and major cancer bodies are clear: there is no such thing as a 'safe' tan from UV exposure.",
-      "verdict_highlight": "No such thing as a safe UV tan",
+      "verdict": "This one is well grounded. Harvard's long-running cohort studies consistently show that people who maintain healthy habits in midlife \u2014 not smoking, moderate alcohol, regular movement, a decent diet, and healthy weight \u2014 live significantly more years free from major chronic diseases like diabetes, heart disease, and cancer. The research tracks real people over decades, not just short trials. Middle age really is a critical window where lifestyle choices compound powerfully.",
+      "verdict_highlight": "Middle age is a genuinely critical lifestyle window",
       "sources": [
-        "WHO \u2013 Ultraviolet radiation and skin cancer",
-        "CDC \u2013 Skin Cancer Prevention",
-        "British Journal of Dermatology \u2013 UV exposure and melanoma risk",
-        "American Academy of Dermatology \u2013 Tanning and skin cancer"
+        "Harvard T.H. Chan School of Public Health \u2013 Healthy Lifestyle and Disease-Free Life Expectancy",
+        "BMJ 2020 \u2013 lifestyle factors and healthy ageing",
+        "NEJM \u2013 long-term cohort studies on lifestyle and longevity"
       ],
-      "global_opinion": "In Australia, where melanoma rates are among the world's highest, public health campaigns like 'Slip, Slop, Slap' have long made deliberate tanning culturally frowned upon and medically condemned. In parts of Northern Europe and the UK, where sun is scarce, tanning is still socially prized and the risks are sometimes downplayed informally. In South Korea and much of East Asia, pale skin is broadly preferred aesthetically, so tanmaxxing has very little cultural traction there.",
-      "brit_take": "In a country where actual sunshine is a twice-yearly surprise, spending hours baking yourself for a TikTok glow-up feels like a particularly ambitious commitment. Still, the skin cancer risk is real wherever you are.",
+      "global_opinion": "Japan's concept of 'ikigai' and community-centred lifestyle aligns with these findings, and Japanese public health policy actively promotes midlife health screening. Scandinavian countries have embedded similar principles into national wellness programmes with measurable population-level results. In lower-income countries, the conversation shifts \u2014 structural barriers to healthy food and safe exercise mean individual lifestyle advice has less traction without broader policy support.",
+      "brit_take": "Basically: give up the fags, go for a walk, eat something green occasionally, and your sixties will thank you. The NHS has been saying this for years, bless it.",
       "source": "News",
-      "platform": "theifp.ca",
-      "url": "https://www.theifp.ca/life/beauty-and-fashion/gen-zs-are-tanmaxxing-and-tan-lines-are-in-again-despite-known-dangers/article_3c6a881d-35db-5402-bd44-5c64cf570f98.html",
-      "claim": "Gen Z is  tanmaxxing  despite skin damage and cancer risk",
+      "platform": "hsph.harvard.edu",
+      "url": "https://hsph.harvard.edu/news/healthy-lifestyle-in-middle-age-increases-years-free-of-chronic-diseases/",
+      "claim": "Following healthy lifestyle habits at middle age may increase years lived free of chronic diseases | Harvard T . H . Chan School of Public Health",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 52,
+      "score_label": "Nuanced",
+      "score_type": "mixed",
+      "claim_tag": "Overstated",
+      "verdict": "A 46% lower Alzheimer's risk is an eye-catching number, but observational studies linking childhood diet to dementia decades later are genuinely hard to do well \u2014 recall bias, confounding variables, and the sheer gap in time make clean conclusions tricky. There is real and growing evidence that early dietary patterns, particularly those rich in omega-3s, antioxidants, and low in ultra-processed foods, may support long-term brain health. But 'linked to' is doing serious work in that headline \u2014 it does not mean the diet caused the lower risk.",
+      "verdict_highlight": "'Linked to' is not the same as 'causes'",
+      "sources": [
+        "Journal of Alzheimer's Disease \u2013 diet and dementia risk reviews",
+        "NIH National Institute on Aging \u2013 nutrition and brain health",
+        "Lancet 2020 \u2013 dementia prevention commission report"
+      ],
+      "global_opinion": "The MIND diet \u2014 a hybrid of Mediterranean and DASH eating \u2014 has attracted the most research attention in the US and Europe, with American neurologists increasingly recommending it as a preventive strategy. In Japan, researchers focus specifically on fish consumption in childhood and its association with lower dementia rates in later life. The UK's Alzheimer's Society acknowledges the diet-dementia link as promising but cautions that evidence remains preliminary for specific childhood habits.",
+      "brit_take": "If your mum made you eat your greens and fish fingers, she may have been doing more good than she knew \u2014 though the causation police would like a word.",
+      "source": "News",
+      "platform": "newsweek.com",
+      "url": "https://www.newsweek.com/one-childhood-diet-habit-was-linked-to-a-46-lower-alzheimers-risk-12269630",
+      "claim": "One Childhood Diet Habit Was Linked to a 46 % Lower Alzheimer Risk",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 22,
+      "score_label": "Misleading",
+      "score_type": "false",
+      "claim_tag": "Conspiracy framing",
+      "verdict": "NaturalNews is not a peer-reviewed source and has a well-documented history of publishing health claims that outrun the evidence \u2014 it is worth knowing that before trusting the headline. There is some preliminary research suggesting antioxidants, including vitamin C, may play a role in immune regulation relevant to multiple sclerosis, but no large robust trial currently supports vitamin C supplementation as a meaningful MS risk reducer. The NHS and neurological research bodies are clear that no single supplement has been shown to prevent MS.",
+      "verdict_highlight": "No reliable evidence vitamin C supplements prevent MS",
+      "sources": [
+        "NHS \u2013 Multiple Sclerosis overview and lifestyle guidance",
+        "EFSA \u2013 vitamin C health claims assessment",
+        "Multiple Sclerosis Trust \u2013 diet and supplements evidence review"
+      ],
+      "global_opinion": "In the UK, the MS Society explicitly cautions against over-interpreting supplement research due to the risk of people replacing proven treatments. In the US, the National MS Society takes a similarly cautious stance, noting that while a healthy diet matters, no supplement has cleared the bar for MS prevention. Some European integrative medicine circles are more open to antioxidant supplementation as adjunct support, but this remains outside mainstream neurological guidance.",
+      "brit_take": "NaturalNews turning up as a source is a bit like getting your mortgage advice from a bloke at a car boot sale \u2014 well-meaning, possibly, but not the place to stake your health decisions.",
+      "source": "News",
+      "platform": "naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-07-31-vitamin-c-supplementation-linked-lower-multiple-sclerosis-risk.html",
+      "claim": "Vitamin C Supplementation Linked to Lower Multiple Sclerosis Risk in Large united kingdom Study \u2013 NaturalNews . com",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 55,
+      "score_label": "Nuanced",
+      "score_type": "mixed",
+      "claim_tag": "Partially true",
+      "verdict": "There is genuine science connecting diet and acne \u2014 high glycaemic foods, dairy, and certain inflammatory dietary patterns have shown associations with acne severity in multiple studies. So the idea of food swaps having an effect is not made up. However, acne is multifactorial: hormones, genetics, skin microbiome, and stress all play significant roles. A Delhi nutritionist's six swaps may be reasonable, but presenting diet alone as a clear-skin solution oversimplifies what dermatologists know to be a more complex picture.",
+      "verdict_highlight": "Diet matters for acne, but it's one piece of a complex puzzle",
+      "sources": [
+        "Journal of the Academy of Nutrition and Dietetics \u2013 diet and acne review",
+        "JAMA Dermatology \u2013 glycaemic load and acne",
+        "British Journal of Dermatology \u2013 dairy and acne associations"
+      ],
+      "global_opinion": "In South Korea and Japan, where skincare culture is highly sophisticated, dietary factors in acne are widely discussed and low-glycaemic eating is actively recommended alongside topical routines. In Western dermatology, clinical guidelines in the UK and US have historically been cautious about diet-acne links, though recent evidence has shifted the conversation toward acknowledging diet as a legitimate contributing factor. Indian Ayurvedic tradition has long connected certain foods to skin inflammation, so this framing resonates culturally even where the specific science is still catching up.",
+      "brit_take": "Cutting out the daily meal deal crisps probably won't hurt your skin \u2014 and your wallet might quietly thank you too.",
+      "source": "News",
+      "platform": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/magazines/panache/acne-wont-go-away-delhi-nutritionist-says-these-6-simple-food-swaps-could-help-clear-your-skin/articleshow/132786960.cms",
+      "claim": "Acne wont go away ? Delhi nutritionist says these 6 simple food swaps could help clear your skin",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 60,
+      "score_label": "Nuanced",
+      "score_type": "mixed",
+      "claim_tag": "Partially true",
+      "verdict": "The yo-yo dieting and gut microbiome connection is a genuinely exciting area of research. Studies \u2014 including work published in Nature \u2014 have shown that certain gut bacteria populations can persist after weight loss in patterns that promote faster weight regain when caloric intake increases again. However, we are still in early days: the specific bacteria involved, how clinically actionable this is, and whether probiotic interventions can meaningfully prevent regain in humans remain open questions. Promising, but not yet ready to be a treatment headline.",
+      "verdict_highlight": "Gut bacteria and weight regain is real science, still early days",
+      "sources": [
+        "Nature \u2013 microbiome memory and post-diet weight regain (Elinav et al.)",
+        "Cell \u2013 gut microbiota and obesity research",
+        "NIH \u2013 human microbiome project and metabolic health"
+      ],
+      "global_opinion": "Israeli researchers at the Weizmann Institute have been at the forefront of this work and their findings have been widely cited in European science media. In Italy, where this story appears to originate from Italian-language coverage, interest in gut health and the Mediterranean microbiome is strong and culturally resonant. In the US, the probiotic supplement industry has been quick to amplify microbiome research, sometimes faster than the science warrants \u2014 consumer scepticism is healthy here.",
+      "brit_take": "So your gut might be quietly plotting to undo your January diet by March \u2014 honestly, at this point, that feels about right.",
+      "source": "News",
+      "platform": "focustech.it",
+      "url": "https://focustech.it/scienza/effetto-yo-yo-dopo-la-dieta-un-batterio-intestinale-potrebbe-aiutare-a-evitare-di-riprendere-peso/",
+      "claim": "Effetto yo - yo dopo la dieta : un batterio intestinale potrebbe aiutare a evitare di riprendere peso",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 52,
+      "score_label": "Nuanced",
+      "score_type": "mixed",
+      "claim_tag": "Overstated",
+      "verdict": "This is a duplicate of claim 3 and scores identically. The 46% figure comes from an observational study and deserves the same careful reading \u2014 promising directional evidence that early diet may influence long-term brain health, but the headline overstates the certainty of a causal link. Alzheimer's develops over decades through multiple interacting pathways, and no single childhood habit has been established as a dominant protective factor in controlled research.",
+      "verdict_highlight": "Promising research, but causation far from established",
+      "sources": [
+        "Journal of Alzheimer's Disease \u2013 dietary patterns and dementia risk",
+        "Lancet 2020 \u2013 dementia prevention commission",
+        "NIH National Institute on Aging \u2013 lifestyle and Alzheimer's risk"
+      ],
+      "global_opinion": "This claim received wide pickup in US digital media where Alzheimer's prevention stories consistently generate high engagement. In the UK, Alzheimer's Research UK welcomed the broader conversation about early diet but noted the study's observational limitations in their public commentary. Australian public health researchers have similarly emphasised that the cumulative diet pattern over a lifetime matters more than any single childhood food habit.",
+      "brit_take": "Running the same study twice through different headlines doesn't make the evidence stronger \u2014 but it does make for a very busy news week.",
+      "source": "News",
+      "platform": "highlandstoday.com",
+      "url": "https://highlandstoday.com/one-childhood-diet-habit-was-linked-to-a-46-lower-risk-of-alzheimers-disease-study-finds/",
+      "claim": "One Childhood Diet Habit Was Linked to a 46 % Lower Risk of Alzheimer Disease , Study Finds",
       "hours_ago": 12,
       "engagement": 40
     }
