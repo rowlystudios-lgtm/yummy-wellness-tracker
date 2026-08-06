@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "source": "News",
+    "platform": "cgiar.org",
+    "claim": "Urban living linked to slightly healthier diets but also higher overweight and obesity among adolescents in Viet Nam",
+    "url": "https://www.cgiar.org/news-events/news/urban-living-linked-slightly-healthier-diets-also-higher-overweight-and-obesity-0",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "dailymail.com",
+    "claim": "Depressed , overweight and hurtling towards Type 2 diabetes : Comic Mo Gilligan reveals damage eating only fried chicken for a month for his new Netflix film has had on his health",
+    "url": "https://www.dailymail.com/lifestyle/article-16030363/Depressed-overweight-Type-2-diabetes-Mo-Gilligan-fried-chicken.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "Dietitian identifies five nutrients needed for energy production \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-08-05-dietitian-identifies-five-nutrients-needed-for-energy-production.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  }
+]
