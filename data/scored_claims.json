@@ -1,47 +1,27 @@
 {
-  "week_headline": "Gut health, red meat risks, and budget superfoods are dominating nutrition headlines as people hunt for affordable, evidence-backed ways to manage weight and energy",
-  "misleading_pct": "25%",
-  "true_pct": "75%",
+  "week_headline": "Gut health and updated dietary guidelines are dominating nutrition headlines as people rethink what ends up on their plate",
+  "misleading_pct": "20%",
+  "true_pct": "80%",
   "claims": [
     {
       "score": 72,
       "score_label": "Nuanced",
       "score_type": "mixed",
       "claim_tag": "Partially true",
-      "verdict": "The food in question is almost certainly oats, which genuinely do contain beta-glucan \u2014 a soluble fibre with solid evidence behind it for modest cholesterol reduction and sustained energy release. The 'prevents tiredness' part is a stretch; oats help maintain blood sugar steadiness, which can reduce energy dips, but they're not a fatigue cure. The cholesterol benefit is real but modest \u2014 think 5\u201310% LDL reduction with consistent daily intake, not a dramatic fix.",
-      "verdict_highlight": "Oat beta-glucan genuinely lowers LDL cholesterol modestly",
+      "verdict": "The headline is doing a lot of heavy lifting with 'one thing' \u2014 real gut and cancer research points to ultra-processed foods, red and processed meats, and low fibre intake as the main dietary culprits, not a single villain. The link between processed meat and colorectal cancer is genuinely strong (the WHO classifies it as Group 1 carcinogenic), and gut microbiome research consistently backs high-fibre, diverse plant-based diets. But collapsing that into one magic avoid is a simplification that can mislead more than it helps.",
+      "verdict_highlight": "Processed meat link to cancer is real and solid",
       "sources": [
-        "EFSA health claim approval on beta-glucan and cholesterol (2011)",
-        "Harvard T.H. Chan School of Public Health \u2013 The Nutrition Source: Oats",
-        "BMJ Open 2016 \u2013 beta-glucan and cardiovascular risk markers"
+        "WHO IARC Monographs on processed meat (2015)",
+        "Harvard T.H. Chan School of Public Health \u2013 The Nutrition Source: Gut Microbiome",
+        "BMJ 2023 \u2013 Ultra-processed food consumption and cancer risk",
+        "Lancet Oncology \u2013 Diet and colorectal cancer evidence review"
       ],
-      "global_opinion": "In the US, the FDA approved a heart-health claim for oat beta-glucan back in 1997, so this is well established regulatory territory. Scandinavian countries have long included oats as a dietary staple with cardiovascular benefit. The UK NHS also endorses oats as part of a cholesterol-lowering diet, so there's rare cross-border agreement here.",
-      "brit_take": "Porridge getting a headline glow-up at 9p a serving is very on-brand for Britain in 2024. We've always known it was good \u2014 we just needed Aldi to make it newsworthy.",
+      "global_opinion": "In the US, dietitian messaging tends to focus on cutting processed meat and added sugar, influenced by strong American Cancer Society guidance. In Japan, dietary advice emphasises variety and fermented foods like miso and natto for gut health rather than single-item avoidance. The UK's NHS Eatwell Guide spreads the message across food groups rather than isolating one thing to cut.",
+      "brit_take": "We're a nation that invented the full English breakfast, so being told there's just 'one thing' to avoid is genuinely the most optimistic thing we've heard all week.",
       "source": "News",
-      "platform": "mirror.co.uk",
-      "url": "https://www.mirror.co.uk/news/health/aldi-9p-breakfast-food-prevents-37525610",
-      "claim": "Aldi 9p breakfast food prevents tiredness and lowers cholesterol",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 35,
-      "score_label": "Misleading",
-      "score_type": "false",
-      "claim_tag": "Overstated",
-      "verdict": "The underlying rat study likely reflects real biological signals \u2014 early-life diet does influence hippocampal development and memory function, and that's worth taking seriously. However, NaturalNews is not a peer-reviewed source and routinely amplifies animal studies beyond what the evidence supports. Rat findings on diet and cognition do not map directly onto human children, and without seeing the original journal source, the framing should be treated with caution.",
-      "verdict_highlight": "Rat study findings cannot directly apply to human children",
-      "sources": [
-        "NIH National Institute of Child Health and Human Development \u2013 diet and brain development",
-        "Journal of Nutrition 2020 \u2013 early dietary patterns and cognitive outcomes",
-        "BMJ guidance on interpreting animal studies in nutrition research"
-      ],
-      "global_opinion": "In the US, NaturalNews is widely flagged by fact-checkers as an unreliable amplifier of science stories. European regulatory bodies like EFSA tend to require human trial data before drawing dietary conclusions from animal models. Australian nutrition researchers have noted the genuine interest in early-life diet and cognition, but stress the gap between rodent models and paediatric human evidence.",
-      "brit_take": "A rat eating junk food and struggling to remember things feels uncomfortably relatable, but that's not quite how science works. Worth watching the space \u2014 just not via that particular website.",
-      "source": "News",
-      "platform": "naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-08-07-early-junk-food-consumption-disrupts-memory-study.html",
-      "claim": "Early - Life Junk Food Diet May Disrupt Memory in Rats , Study Finds \u2013 NaturalNews . com",
+      "platform": "businessinsider.com",
+      "url": "https://www.businessinsider.com/1-thing-dietitians-agree-you-should-cut-better-health-2026-8",
+      "claim": "Dietitians : 1 Thing to Avoid for Better Gut Health , Lower Cancer Risk",
       "hours_ago": 12,
       "engagement": 40
     },
@@ -50,40 +30,20 @@
       "score_label": "Nuanced",
       "score_type": "mixed",
       "claim_tag": "Partially true",
-      "verdict": "The link between processed and unprocessed red meat and increased type 2 diabetes risk is supported by multiple large cohort studies, including data from the Nurses' Health Study and the EPIC cohort. The association is clearest for processed red meat \u2014 bacon, sausages, deli meats \u2014 with unprocessed red meat showing a weaker but present signal. This is an association, not proof of direct causation, and overall diet pattern, portion size, and cooking method all matter significantly.",
-      "verdict_highlight": "Processed red meat shows the strongest diabetes risk link",
+      "verdict": "New dietary guidelines in several countries are genuinely shifting away from the old food pyramid \u2014 moving toward plate-based models, higher plant food emphasis, and reduced reliance on refined grains at the base. The US 2020\u20132025 Dietary Guidelines and updates from bodies like EFSA and Health Canada reflect real scientific consensus that the original pyramid oversimplified things and nudged people toward too many refined carbs. That said, 'flipping' is a bit dramatic \u2014 it's more of a thoughtful rebalancing than a revolution, and most updates still align on the core: more vegetables, legumes, whole grains, and less ultra-processed food.",
+      "verdict_highlight": "A rebalancing, not a revolution in nutrition science",
       "sources": [
-        "The Lancet Diabetes & Endocrinology 2023 \u2013 red meat consumption and T2D risk",
-        "Harvard T.H. Chan School of Public Health \u2013 red meat and diabetes",
-        "EPIC cohort study \u2013 European Prospective Investigation into Cancer and Nutrition"
+        "USDA Dietary Guidelines for Americans 2020\u20132025",
+        "EFSA \u2013 Dietary Reference Values and Food-Based Dietary Guidelines",
+        "Health Canada \u2013 Canada's Food Guide 2019",
+        "New England Journal of Medicine \u2013 Dietary patterns and chronic disease prevention"
       ],
-      "global_opinion": "Germany and Austria, where this story likely originated in German media, have strong cultural ties to red and processed meat consumption, making this finding particularly resonant and contested. The WHO has classified processed meat as a Group 1 carcinogen since 2015, which shapes European public health messaging. In contrast, some US and Argentine dietary cultures push back strongly on red meat restrictions, citing protein needs and traditional food identity.",
-      "brit_take": "The full English breakfast has been taking hits from science for decades now. The sausages and bacon are the real culprits here \u2014 the beans might actually be helping.",
+      "global_opinion": "Canada made a notably bold move with its 2019 Food Guide, ditching the dairy category as a standalone group and emphasising water over milk \u2014 a shift that sparked significant debate. Australia's dietary guidelines updated their visual model toward a plate format, closely echoing Harvard's Healthy Eating Plate. In contrast, some European countries have been slower to revise visual guides, though the underlying nutritional science recommendations have quietly converged.",
+      "brit_take": "Britain has quietly been using the Eatwell Guide plate model for years, so we're slightly baffled anyone is still working off a pyramid \u2014 though we'll admit our plate does sometimes look more like a pie chart of beige.",
       "source": "News",
-      "platform": "merkur.de",
-      "url": "https://www.merkur.de/leben/genuss/rotes-fleisch-studien-sehen-hoeheres-typ-diabetes-risiko-94433482.html",
-      "claim": "Rotes Fleisch : Studien sehen h\u00f6heres Typ - 2 - Diabetes - Risiko",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 28,
-      "score_label": "Misleading",
-      "score_type": "false",
-      "claim_tag": "Overstated",
-      "verdict": "GLP-1 is the hormone pathway behind blockbuster weight-loss drugs like semaglutide, so it's understandable why 'natural GLP-1 boosting' supplements are gaining traction. However, postbiotic supplements that claim to meaningfully raise endogenous GLP-1 to a level that drives weight loss have very limited clinical evidence behind them \u2014 most data is from small, short-term, or industry-funded trials. Your gut does produce GLP-1 naturally in response to food, especially fibre and protein, but a supplement replicating drug-level effects is a very big claim with very thin proof right now.",
-      "verdict_highlight": "No supplement currently replicates GLP-1 drug-level effects",
-      "sources": [
-        "NEJM 2021 \u2013 semaglutide and weight management trial",
-        "NIH National Institute of Diabetes \u2013 GLP-1 receptor agonists overview",
-        "Journal of Nutrition 2022 \u2013 dietary factors and endogenous GLP-1 secretion"
-      ],
-      "global_opinion": "In the US, the supplement industry is largely self-regulated, allowing GLP-1 adjacent marketing claims that would not pass muster under EU or UK regulations. The European Food Safety Authority (EFSA) has not approved any postbiotic health claim related to GLP-1 or weight loss. In Japan, where postbiotics have a longer research tradition, the focus remains on gut barrier function and immunity rather than weight-loss hormone pathways.",
-      "brit_take": "If a supplement could genuinely do what Ozempic does for a fraction of the price, the NHS would be all over it. That it's not tells you most of what you need to know.",
-      "source": "News",
-      "platform": "newscientist.com",
-      "url": "https://www.newscientist.com/article/2583831-postbiotic-supplement-boosts-bodys-own-glp-1-and-weight-loss/",
-      "claim": "Postbiotic supplement boosts body own GLP - 1 and weight loss",
+      "platform": "norfolkdailynews.com",
+      "url": "https://norfolkdailynews.com/select/flipping-the-pyramid-a-breakdown-of-new-dietary-guidelines/article_be68de44-ca12-4c29-8c24-8b01fbb378be.html",
+      "claim": "Flipping the pyramid : A breakdown of new dietary guidelines",
       "hours_ago": 12,
       "engagement": 40
     }

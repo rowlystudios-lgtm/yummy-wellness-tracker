@@ -1,36 +1,18 @@
 [
   {
     "source": "News",
-    "platform": "mirror.co.uk",
-    "claim": "Aldi 9p breakfast food prevents tiredness and lowers cholesterol",
-    "url": "https://www.mirror.co.uk/news/health/aldi-9p-breakfast-food-prevents-37525610",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United Kingdom"
-  },
-  {
-    "source": "News",
-    "platform": "naturalnews.com",
-    "claim": "Early - Life Junk Food Diet May Disrupt Memory in Rats , Study Finds \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-08-07-early-junk-food-consumption-disrupts-memory-study.html",
+    "platform": "businessinsider.com",
+    "claim": "Dietitians : 1 Thing to Avoid for Better Gut Health , Lower Cancer Risk",
+    "url": "https://www.businessinsider.com/1-thing-dietitians-agree-you-should-cut-better-health-2026-8",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "merkur.de",
-    "claim": "Rotes Fleisch : Studien sehen h\u00f6heres Typ - 2 - Diabetes - Risiko",
-    "url": "https://www.merkur.de/leben/genuss/rotes-fleisch-studien-sehen-hoeheres-typ-diabetes-risiko-94433482.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "Germany"
-  },
-  {
-    "source": "News",
-    "platform": "newscientist.com",
-    "claim": "Postbiotic supplement boosts body own GLP - 1 and weight loss",
-    "url": "https://www.newscientist.com/article/2583831-postbiotic-supplement-boosts-bodys-own-glp-1-and-weight-loss/",
+    "platform": "norfolkdailynews.com",
+    "claim": "Flipping the pyramid : A breakdown of new dietary guidelines",
+    "url": "https://norfolkdailynews.com/select/flipping-the-pyramid-a-breakdown-of-new-dietary-guidelines/article_be68de44-ca12-4c29-8c24-8b01fbb378be.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
