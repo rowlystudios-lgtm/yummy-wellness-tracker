@@ -1,18 +1,54 @@
 [
   {
     "source": "News",
-    "platform": "businessinsider.com",
-    "claim": "Dietitians : 1 Thing to Avoid for Better Gut Health , Lower Cancer Risk",
-    "url": "https://www.businessinsider.com/1-thing-dietitians-agree-you-should-cut-better-health-2026-8",
+    "platform": "naturalnews.com",
+    "claim": "Plant - based diets linked to lower risk of chronic kidney disease , study finds \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-08-09-plant-based-diets-lower-risk-kidney-disease.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "norfolkdailynews.com",
-    "claim": "Flipping the pyramid : A breakdown of new dietary guidelines",
-    "url": "https://norfolkdailynews.com/select/flipping-the-pyramid-a-breakdown-of-new-dietary-guidelines/article_be68de44-ca12-4c29-8c24-8b01fbb378be.html",
+    "platform": "naturalnews.com",
+    "claim": "Curcumin Lowers Two Inflammation Markers , Analysis of 21 Trials Finds \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-08-09-curcumin-lowers-two-inflammation-markers-analysis-finds.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "Vegan Diet Shows Weight Loss Comparable to Semaglutide , Study Finds \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-08-09-vegan-diet-shows-weight-loss-comparable-to-semaglutide.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "nzherald.co.nz",
+    "claim": "Why are more young women developing heart disease ?",
+    "url": "https://www.nzherald.co.nz/lifestyle/why-are-more-young-women-developing-heart-disease/premium/QG6HLHBJ2VAETGEYVW4D6K33GM/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "New Zealand"
+  },
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "Experts urge more attention to scalp health as key to strong , healthy hair \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-08-09-experts-urge-more-attention-to-scalp-health.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "bostonglobe.com",
+    "claim": "A Harvard professor new book ,  Fed Up , tests out popular diets",
+    "url": "https://www.bostonglobe.com/2026/08/06/magazine/eight-healthful-eating-tips/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
