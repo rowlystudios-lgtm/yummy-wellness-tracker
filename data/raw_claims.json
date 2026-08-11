@@ -1,54 +1,90 @@
 [
   {
     "source": "News",
-    "platform": "naturalnews.com",
-    "claim": "Plant - based diets linked to lower risk of chronic kidney disease , study finds \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-08-09-plant-based-diets-lower-risk-kidney-disease.html",
+    "platform": "lecceprima.it",
+    "claim": "Dieta mediterranea e salute . Il libro fa tappa a Nard\u00f2",
+    "url": "https://www.lecceprima.it/eventi/dieta-mediterranea-e-salute-il-libro-fa-tappa-a-nardo-14976426.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Italy"
+  },
+  {
+    "source": "News",
+    "platform": "goodhousekeeping.com",
+    "claim": "Are Liquid Vitamins Better Than Capsules ? Here the Truth",
+    "url": "https://www.goodhousekeeping.com/health/a73376917/liquid-vitamins-benefits/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "naturalnews.com",
-    "claim": "Curcumin Lowers Two Inflammation Markers , Analysis of 21 Trials Finds \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-08-09-curcumin-lowers-two-inflammation-markers-analysis-finds.html",
+    "platform": "skeptic.org.uk",
+    "claim": "From growing basil to curing disease , pseudoscientists find support in the Quran",
+    "url": "https://www.skeptic.org.uk/2026/07/from-growing-basil-to-curing-disease-pseudoscientists-find-support-in-the-quran/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United Kingdom"
+  },
+  {
+    "source": "News",
+    "platform": "knst.iheart.com",
+    "claim": "Kennedy Tackles Ultra - Processed Foods",
+    "url": "https://knst.iheart.com/content/2026-08-10-kennedy-tackles-ultra-processed-foods/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "naturalnews.com",
-    "claim": "Vegan Diet Shows Weight Loss Comparable to Semaglutide , Study Finds \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-08-09-vegan-diet-shows-weight-loss-comparable-to-semaglutide.html",
+    "platform": "knrs.iheart.com",
+    "claim": "Kennedy Tackles Ultra - Processed Foods | Talk Radio 105 . 9",
+    "url": "https://knrs.iheart.com/content/2026-08-10-kennedy-tackles-ultra-processed-foods/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "nzherald.co.nz",
-    "claim": "Why are more young women developing heart disease ?",
-    "url": "https://www.nzherald.co.nz/lifestyle/why-are-more-young-women-developing-heart-disease/premium/QG6HLHBJ2VAETGEYVW4D6K33GM/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "New Zealand"
-  },
-  {
-    "source": "News",
-    "platform": "naturalnews.com",
-    "claim": "Experts urge more attention to scalp health as key to strong , healthy hair \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-08-09-experts-urge-more-attention-to-scalp-health.html",
+    "platform": "newsradio1049.iheart.com",
+    "claim": "Kennedy Tackles Ultra - Processed Foods | NewsRadio 104 . 9 WBUV",
+    "url": "https://newsradio1049.iheart.com/content/2026-08-10-kennedy-tackles-ultra-processed-foods/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "bostonglobe.com",
-    "claim": "A Harvard professor new book ,  Fed Up , tests out popular diets",
-    "url": "https://www.bostonglobe.com/2026/08/06/magazine/eight-healthful-eating-tips/",
+    "platform": "kfyr.iheart.com",
+    "claim": "Kennedy Tackles Ultra - Processed Foods | KFYR 550 AM / 99 . 7 FM",
+    "url": "https://kfyr.iheart.com/content/2026-08-10-kennedy-tackles-ultra-processed-foods/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "kfbk.iheart.com",
+    "claim": "Kennedy Tackles Ultra - Processed Foods | KFBK News Radio",
+    "url": "https://kfbk.iheart.com/content/2026-08-10-kennedy-tackles-ultra-processed-foods/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "1190kex.iheart.com",
+    "claim": "Kennedy Tackles Ultra - Processed Foods | News Radio 1190 KEX",
+    "url": "https://1190kex.iheart.com/content/2026-08-10-kennedy-tackles-ultra-processed-foods/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "970kfbx.iheart.com",
+    "claim": "Kennedy Tackles Ultra - Processed Foods | Newsradio 970 KFBX - AM",
+    "url": "https://970kfbx.iheart.com/content/2026-08-10-kennedy-tackles-ultra-processed-foods/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
