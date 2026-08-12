@@ -1,92 +1,38 @@
 [
   {
     "source": "News",
-    "platform": "lecceprima.it",
-    "claim": "Dieta mediterranea e salute . Il libro fa tappa a Nard\u00f2",
-    "url": "https://www.lecceprima.it/eventi/dieta-mediterranea-e-salute-il-libro-fa-tappa-a-nardo-14976426.html",
+    "platform": "ynetnews.com",
+    "claim": "Waking up at night ? Your gut or muscles may be why",
+    "url": "https://www.ynetnews.com/health_science/article/sk39amtufl",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "Italy"
+    "source_country": "Israel"
   },
   {
     "source": "News",
-    "platform": "goodhousekeeping.com",
-    "claim": "Are Liquid Vitamins Better Than Capsules ? Here the Truth",
-    "url": "https://www.goodhousekeeping.com/health/a73376917/liquid-vitamins-benefits/",
+    "platform": "nepalnational.com",
+    "claim": "Lord Mark Industries Becomes India First and Only Company to Receive License for Gut Microbiome Analytics Platform",
+    "url": "http://www.nepalnational.com/news/279234115/lord-mark-industries-becomes-india-first-and-only-company-to-receive-license-for-gut-microbiome-analytics-platform",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Nepal"
+  },
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "Kefir shown to target high blood pressure through gut - brain connection \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-08-11-kefir-shown-to-target-high-blood-pressure.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "skeptic.org.uk",
-    "claim": "From growing basil to curing disease , pseudoscientists find support in the Quran",
-    "url": "https://www.skeptic.org.uk/2026/07/from-growing-basil-to-curing-disease-pseudoscientists-find-support-in-the-quran/",
+    "platform": "olivemagazine.com",
+    "claim": "Im a nutritionist and this is what I eat for a healthy gut",
+    "url": "https://www.olivemagazine.com/wellbeing/nutritionist-what-eat-for-a-healthy-gut/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United Kingdom"
-  },
-  {
-    "source": "News",
-    "platform": "knst.iheart.com",
-    "claim": "Kennedy Tackles Ultra - Processed Foods",
-    "url": "https://knst.iheart.com/content/2026-08-10-kennedy-tackles-ultra-processed-foods/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "knrs.iheart.com",
-    "claim": "Kennedy Tackles Ultra - Processed Foods | Talk Radio 105 . 9",
-    "url": "https://knrs.iheart.com/content/2026-08-10-kennedy-tackles-ultra-processed-foods/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "newsradio1049.iheart.com",
-    "claim": "Kennedy Tackles Ultra - Processed Foods | NewsRadio 104 . 9 WBUV",
-    "url": "https://newsradio1049.iheart.com/content/2026-08-10-kennedy-tackles-ultra-processed-foods/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "kfyr.iheart.com",
-    "claim": "Kennedy Tackles Ultra - Processed Foods | KFYR 550 AM / 99 . 7 FM",
-    "url": "https://kfyr.iheart.com/content/2026-08-10-kennedy-tackles-ultra-processed-foods/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "kfbk.iheart.com",
-    "claim": "Kennedy Tackles Ultra - Processed Foods | KFBK News Radio",
-    "url": "https://kfbk.iheart.com/content/2026-08-10-kennedy-tackles-ultra-processed-foods/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "1190kex.iheart.com",
-    "claim": "Kennedy Tackles Ultra - Processed Foods | News Radio 1190 KEX",
-    "url": "https://1190kex.iheart.com/content/2026-08-10-kennedy-tackles-ultra-processed-foods/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "970kfbx.iheart.com",
-    "claim": "Kennedy Tackles Ultra - Processed Foods | Newsradio 970 KFBX - AM",
-    "url": "https://970kfbx.iheart.com/content/2026-08-10-kennedy-tackles-ultra-processed-foods/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
   }
 ]
