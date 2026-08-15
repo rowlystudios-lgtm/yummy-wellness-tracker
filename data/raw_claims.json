@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "source": "News",
+    "platform": "manilatimes.net",
+    "claim": "SodaSlim Introduces Five - Ingredient Daily Capsule Formula Enters the U . S . Market as a Dietary Supplement for Weight - Management Support",
+    "url": "https://www.manilatimes.net/2026/08/14/tmt-newswire/globenewswire/sodaslim-introduces-five-ingredient-daily-capsule-formula-enters-the-us-market-as-a-dietary-supplement-for-weight-management-support/2405874",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Philippines"
+  },
+  {
+    "source": "News",
+    "platform": "timesofindia.indiatimes.com",
+    "claim": "From stale bread to expired rava : FDA raids reputed hospital canteen ; 6 homemade healthy meals to pack instead",
+    "url": "https://timesofindia.indiatimes.com/life-style/food-news/from-stale-bread-to-expired-rava-fda-raids-reputed-hospital-canteen-6-homemade-healthy-meals-to-pack-instead/articleshow/133240138.cms",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "India"
+  },
+  {
+    "source": "News",
+    "platform": "punchng.com",
+    "claim": "5 Proven Ways to Cut Your Heart Attack Risk",
+    "url": "https://punchng.com/5-proven-ways-to-cut-your-heart-attack-risk/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Nigeria"
+  },
+  {
+    "source": "News",
+    "platform": "huffingtonpost.co.uk",
+    "claim": "Why 5 - A - Day Isnt Enough : The Essential Micronutrient Missing From Your Diet",
+    "url": "https://www.huffingtonpost.co.uk/entry/five-a-day-micronutrient-nutrition-diet-health_uk_6a7cbffbe4b083918b31e59b",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United Kingdom"
+  },
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "The secret diet to perfect teeth : Natural cavity - fighting foods \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-08-14-secret-to-perfect-teeth-cavity-fighting-foods.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  }
+]
