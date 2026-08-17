@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "source": "News",
+    "platform": "oxfordmail.co.uk",
+    "claim": "Oxford audience invited to hear scientist research on diet",
+    "url": "https://www.oxfordmail.co.uk/news/26464451.oxford-audience-invited-hear-scientists-research-diet/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United Kingdom"
+  },
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "Study : Arginine deficiency may weaken immune system \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-08-16-study-arginine-deficiency-may-weaken-immune-system.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "prevention.com",
+    "claim": "Scientists Say This 1 Food May Combat Fatty Liver Disease",
+    "url": "https://www.prevention.com/health/health-conditions/a73424386/tomatoes-fatty-liver-disease-study/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "dw.com",
+    "claim": "Fatty food raises risk of colorectal cancer",
+    "url": "https://www.dw.com/en/fatty-food-raises-risk-of-colorectal-cancer/a-78284704",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Germany"
+  }
+]
