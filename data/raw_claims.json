@@ -1,38 +1,65 @@
 [
   {
     "source": "News",
-    "platform": "oxfordmail.co.uk",
-    "claim": "Oxford audience invited to hear scientist research on diet",
-    "url": "https://www.oxfordmail.co.uk/news/26464451.oxford-audience-invited-hear-scientists-research-diet/",
+    "platform": "massey.ac.nz",
+    "claim": "New research finds gut bacteria connection to celiac disease",
+    "url": "https://www.massey.ac.nz/about/news/new-research-finds-gut-bacteria-connection-to-celiac-disease/",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "United Kingdom"
+    "source_country": "New Zealand"
   },
   {
     "source": "News",
     "platform": "naturalnews.com",
-    "claim": "Study : Arginine deficiency may weaken immune system \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-08-16-study-arginine-deficiency-may-weaken-immune-system.html",
+    "claim": "Study : Vegetable - Rich Diet Pattern Linked to Up to 8 . 3 Additional Years of Life \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-08-17-high-vegetable-eating-pattern-additional-years-life.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "prevention.com",
-    "claim": "Scientists Say This 1 Food May Combat Fatty Liver Disease",
-    "url": "https://www.prevention.com/health/health-conditions/a73424386/tomatoes-fatty-liver-disease-study/",
+    "platform": "liputan6.com",
+    "claim": "Mengenal Diet Anti - Inflammatory , Pola Makan yang Bantu Meredakan Peradangan",
+    "url": "https://www.liputan6.com/lifestyle/read/8272017/mengenal-diet-anti-inflammatory-pola-makan-yang-bantu-meredakan-peradangan",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Indonesia"
+  },
+  {
+    "source": "News",
+    "platform": "outsideonline.com",
+    "claim": "Stop Demonizing Ultra - Processed Foods . Theyre Not All Bad .",
+    "url": "https://www.outsideonline.com/health/nutrition/stop-demonizing-protein-bars-ultraprocessed-foods/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "dw.com",
-    "claim": "Fatty food raises risk of colorectal cancer",
-    "url": "https://www.dw.com/en/fatty-food-raises-risk-of-colorectal-cancer/a-78284704",
+    "platform": "medindia.net",
+    "claim": "Are Ultra - Processed Foods Raising Men Prostate Cancer Risk ?",
+    "url": "https://www.medindia.net/news/healthwatch/are-ultra-processed-foods-raising-mens-prostate-cancer-risk-224702-1.htm",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "Germany"
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "Gut Microbiome Linked to Athletic Recovery , Review Suggests \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-08-17-gut-microbiome-linked-to-athletic-recovery-review.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "nutraingredients.com",
+    "claim": "GLP - 1 levels increased with OEA supplementation , says Australian study",
+    "url": "https://www.nutraingredients.com/Article/2026/08/18/glp-1-levels-increased-with-oea-supplementation-says-australian-study/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United Kingdom"
   }
 ]
