@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "source": "News",
+    "platform": "science20.com",
+    "claim": "Nutrition Is Vital , So Why Arent The New Dietary Guidelines More Science Based ?",
+    "url": "http://science20.com/hank_campbell/nutrition_is_vital_so_why_arent_the_new_dietary_guidelines_more_science_based-254781",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "hngn.com",
+    "claim": "How Nicholas Mukhtar Helped Healthy Detroit Raise $100 Million : 5 Lessons for Founders Building a Coalition",
+    "url": "https://www.hngn.com/articles/272832/20260820/how-nicholas-mukhtar-helped-healthy-detroit-raise-100-million-5-lessons-founders-building.htm",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  }
+]
