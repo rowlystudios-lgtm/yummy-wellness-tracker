@@ -1,18 +1,81 @@
 [
   {
     "source": "News",
-    "platform": "science20.com",
-    "claim": "Nutrition Is Vital , So Why Arent The New Dietary Guidelines More Science Based ?",
-    "url": "http://science20.com/hank_campbell/nutrition_is_vital_so_why_arent_the_new_dietary_guidelines_more_science_based-254781",
+    "platform": "denik.cz",
+    "claim": "Takzvan\u00e1 biblick\u00e1 dieta je trendem soci\u00e1ln\u00edch s\u00edt\u00ed . Ale zav\u00e1n\u00ed dezinformacemi",
+    "url": "https://www.denik.cz/zdravi/biblicka-dieta/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Czech Republic"
+  },
+  {
+    "source": "News",
+    "platform": "kpq.com",
+    "claim": "Heart Surgeon 5 Things to Avoid After 8 , 000 Procedures",
+    "url": "https://kpq.com/ixp/1137/p/heart-health-habits-avoid/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "hngn.com",
-    "claim": "How Nicholas Mukhtar Helped Healthy Detroit Raise $100 Million : 5 Lessons for Founders Building a Coalition",
-    "url": "https://www.hngn.com/articles/272832/20260820/how-nicholas-mukhtar-helped-healthy-detroit-raise-100-million-5-lessons-founders-building.htm",
+    "platform": "theepochtimes.com",
+    "claim": "Why Your Immune System Ages and How to Slow It Down",
+    "url": "https://www.theepochtimes.com/health/why-your-immune-system-ages-and-how-to-slow-it-down-6074871",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "fakt.pl",
+    "claim": "8 zasad diety eksperta . Te produkty je codziennie , innych unika",
+    "url": "https://www.fakt.pl/zdrowie/8-zasad-diety-eksperta-te-produkty-je-codziennie-innych-unika/w2wtsn9",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Poland"
+  },
+  {
+    "source": "News",
+    "platform": "vogue.co.uk",
+    "claim": "The 8 Best Breakfasts For Your Gut",
+    "url": "https://www.vogue.co.uk/article/best-breakfasts-for-your-gut",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United Kingdom"
+  },
+  {
+    "source": "News",
+    "platform": "medscape.com",
+    "claim": "Novonesis Expects Results From Weight - loss Drug Supplement Study in 2027",
+    "url": "https://www.medscape.com/s/viewarticle/novonesis-expects-results-weight-loss-drug-supplement-study-2026a1000t07",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "opednews.com",
+    "claim": "Article : Women Health After 40 : The Ultimate Guide to Hormones , Gut Health , and Longevity",
+    "url": "https://www.opednews.com/populum/page.php?f=Women-s-Health-After-40-T-Balance_Habits_Health_Women-260820-524.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "bgnes.com",
+    "claim": "Walnuts : The Best Bedtime Snack for a Healthy Heart",
+    "url": "http://www.bgnes.com/health/walnuts-the-best-bedtime-snack-for-a-healthy-heart",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Bulgaria"
+  },
+  {
+    "source": "News",
+    "platform": "cbn.com",
+    "claim": "Harness the Power of the Brain Immune Cells to Help Prevent Alzheimer Disease",
+    "url": "https://cbn.com/news/health/harness-power-brains-immune-cells-help-prevent-alzheimers-disease",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
