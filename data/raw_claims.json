@@ -1,81 +1,72 @@
 [
   {
     "source": "News",
-    "platform": "denik.cz",
-    "claim": "Takzvan\u00e1 biblick\u00e1 dieta je trendem soci\u00e1ln\u00edch s\u00edt\u00ed . Ale zav\u00e1n\u00ed dezinformacemi",
-    "url": "https://www.denik.cz/zdravi/biblicka-dieta/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "Czech Republic"
-  },
-  {
-    "source": "News",
-    "platform": "kpq.com",
-    "claim": "Heart Surgeon 5 Things to Avoid After 8 , 000 Procedures",
-    "url": "https://kpq.com/ixp/1137/p/heart-health-habits-avoid/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "theepochtimes.com",
-    "claim": "Why Your Immune System Ages and How to Slow It Down",
-    "url": "https://www.theepochtimes.com/health/why-your-immune-system-ages-and-how-to-slow-it-down-6074871",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "fakt.pl",
-    "claim": "8 zasad diety eksperta . Te produkty je codziennie , innych unika",
-    "url": "https://www.fakt.pl/zdrowie/8-zasad-diety-eksperta-te-produkty-je-codziennie-innych-unika/w2wtsn9",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "Poland"
-  },
-  {
-    "source": "News",
-    "platform": "vogue.co.uk",
-    "claim": "The 8 Best Breakfasts For Your Gut",
-    "url": "https://www.vogue.co.uk/article/best-breakfasts-for-your-gut",
+    "platform": "foodnavigator.com",
+    "claim": "Doctors sue USDA and HHS over 2025 Dietary Guidelines for Americans",
+    "url": "https://www.foodnavigator.com/Article/2026/08/21/doctors-sue-usda-and-hhs-over-2025-dietary-guidelines-for-americans/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United Kingdom"
   },
   {
     "source": "News",
-    "platform": "medscape.com",
-    "claim": "Novonesis Expects Results From Weight - loss Drug Supplement Study in 2027",
-    "url": "https://www.medscape.com/s/viewarticle/novonesis-expects-results-weight-loss-drug-supplement-study-2026a1000t07",
+    "platform": "theatlantic.com",
+    "claim": "It Low - Calorie and Packed With Protein . Is It Healthy ?",
+    "url": "https://www.theatlantic.com/health/2026/08/ultra-processed-food-healthy-ice-cream/688364/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "opednews.com",
-    "claim": "Article : Women Health After 40 : The Ultimate Guide to Hormones , Gut Health , and Longevity",
-    "url": "https://www.opednews.com/populum/page.php?f=Women-s-Health-After-40-T-Balance_Habits_Health_Women-260820-524.html",
+    "platform": "catcountry1029.com",
+    "claim": "Montana Farm Rethinks Grain , Whole Foods and Healthy Eating",
+    "url": "https://catcountry1029.com/montana-farm-ancient-grains/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "bgnes.com",
-    "claim": "Walnuts : The Best Bedtime Snack for a Healthy Heart",
-    "url": "http://www.bgnes.com/health/walnuts-the-best-bedtime-snack-for-a-healthy-heart",
+    "platform": "sciencefocus.com",
+    "claim": "Nutrition experts think theyve solved vegan cheese biggest flaw",
+    "url": "https://www.sciencefocus.com/science/cheese-future-vegan",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "Bulgaria"
+    "source_country": "United Kingdom"
   },
   {
     "source": "News",
-    "platform": "cbn.com",
-    "claim": "Harness the Power of the Brain Immune Cells to Help Prevent Alzheimer Disease",
-    "url": "https://cbn.com/news/health/harness-power-brains-immune-cells-help-prevent-alzheimers-disease",
+    "platform": "wbur.org",
+    "claim": "Brainwaves : How does a brain stay healthy ?",
+    "url": "https://www.wbur.org/onpoint/2026/08/21/brainwaves-brain-stay-healthy",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "health.yahoo.com",
+    "claim": "A gut health scientist easily eats 50 grams of fiber a day . Here her breakfast , lunch , and dinner .",
+    "url": "https://health.yahoo.com/wellness/nutrition/healthy-eating/articles/gut-health-scientist-easily-eats-093601765.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "businessinsider.com",
+    "claim": "How a Gut Health Scientist and Dietitian Eats 50 Grams of Fiber a Day",
+    "url": "https://www.businessinsider.com/how-to-eat-50-grams-fiber-daily-gut-health-fibermaxxing-2026-8",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "scienceblog.com",
+    "claim": "A 2026 study has added to evidence that the gut microbiome may be linked to human cognition , finding genetic signatures associated with particular gut bacteria also associated with cognitive performance another clue that the gut \u2013 brain connection m...",
+    "url": "https://scienceblog.com/t-gut-microbiome-genetic-signatures-cognitive-performance-2026/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
