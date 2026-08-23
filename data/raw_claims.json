@@ -1,72 +1,36 @@
 [
   {
     "source": "News",
-    "platform": "foodnavigator.com",
-    "claim": "Doctors sue USDA and HHS over 2025 Dietary Guidelines for Americans",
-    "url": "https://www.foodnavigator.com/Article/2026/08/21/doctors-sue-usda-and-hhs-over-2025-dietary-guidelines-for-americans/",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United Kingdom"
-  },
-  {
-    "source": "News",
-    "platform": "theatlantic.com",
-    "claim": "It Low - Calorie and Packed With Protein . Is It Healthy ?",
-    "url": "https://www.theatlantic.com/health/2026/08/ultra-processed-food-healthy-ice-cream/688364/",
+    "platform": "aol.com",
+    "claim": "The 4 Best Fruits to Lower Colon Cancer Risk , According to a Gastroenterologist",
+    "url": "https://www.aol.com/articles/4-best-fruits-lower-colon-174326000.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "catcountry1029.com",
-    "claim": "Montana Farm Rethinks Grain , Whole Foods and Healthy Eating",
-    "url": "https://catcountry1029.com/montana-farm-ancient-grains/",
+    "platform": "ocregister.com",
+    "claim": "Why you need to diversify your heart health portfolio",
+    "url": "https://www.ocregister.com/2026/08/22/why-you-need-to-diversify-your-heart-health-portfolio/",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "sciencefocus.com",
-    "claim": "Nutrition experts think theyve solved vegan cheese biggest flaw",
-    "url": "https://www.sciencefocus.com/science/cheese-future-vegan",
+    "platform": "momsmoney.kontan.co.id",
+    "claim": "Kaya Nutrisi ! Ini 7 Manfaat Agar - Agar Plain untuk Kesehatan , Dukung Diet Anda",
+    "url": "https://momsmoney.kontan.co.id/news/kaya-nutrisi-ini-7-manfaat-agar-agar-plain-untuk-kesehatan-dukung-diet-anda",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "United Kingdom"
+    "source_country": "Indonesia"
   },
   {
     "source": "News",
-    "platform": "wbur.org",
-    "claim": "Brainwaves : How does a brain stay healthy ?",
-    "url": "https://www.wbur.org/onpoint/2026/08/21/brainwaves-brain-stay-healthy",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "health.yahoo.com",
-    "claim": "A gut health scientist easily eats 50 grams of fiber a day . Here her breakfast , lunch , and dinner .",
-    "url": "https://health.yahoo.com/wellness/nutrition/healthy-eating/articles/gut-health-scientist-easily-eats-093601765.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "businessinsider.com",
-    "claim": "How a Gut Health Scientist and Dietitian Eats 50 Grams of Fiber a Day",
-    "url": "https://www.businessinsider.com/how-to-eat-50-grams-fiber-daily-gut-health-fibermaxxing-2026-8",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "scienceblog.com",
-    "claim": "A 2026 study has added to evidence that the gut microbiome may be linked to human cognition , finding genetic signatures associated with particular gut bacteria also associated with cognitive performance another clue that the gut \u2013 brain connection m...",
-    "url": "https://scienceblog.com/t-gut-microbiome-genetic-signatures-cognitive-performance-2026/",
+    "platform": "naturalnews.com",
+    "claim": "Are diet sodas really helping you stay slim ? \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-08-22-are-sodas-really-helping-you-stay-slim.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
