@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "source": "News",
+    "platform": "smh.com.au",
+    "claim": "Legumes , fermented foods , Greek yoghurt , vegetables : The healthy foods a gut specialist buys at the supermarket",
+    "url": "https://www.smh.com.au/goodfood/tips-and-advice/the-everyday-foods-a-leading-gut-expert-always-adds-to-her-supermarket-basket-20260727-p60ixo.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Australia"
+  },
+  {
+    "source": "News",
+    "platform": "timesofindia.indiatimes.com",
+    "claim": "The Oval Obese : Trump junk food habit crashes into Make America Healthy Again ( MAHA ) crusade",
+    "url": "https://timesofindia.indiatimes.com/world/us/the-oval-obese-trumps-junk-food-habit-crashes-into-make-america-healthy-again-maha-crusade/articleshow/133472938.cms",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "India"
+  },
+  {
+    "source": "News",
+    "platform": "womansworld.com",
+    "claim": "What Causes Food Cravings and How To Quiet Food Noise Fast",
+    "url": "https://www.womansworld.com/wellness/what-causes-food-cravings-and-how-to-quiet-food-noise-fast",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "today.duke.edu",
+    "claim": "What Good About The Teen Gut",
+    "url": "https://today.duke.edu/2026/08/whats-good-about-teen-gut",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  }
+]
