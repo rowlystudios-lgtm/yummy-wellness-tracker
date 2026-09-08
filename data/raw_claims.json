@@ -1,29 +1,11 @@
 [
   {
     "source": "News",
-    "platform": "hindustantimes.com",
-    "claim": "Grabbing a protein bar for breakfast every day ? Colorectal surgeon shares 8 foods that he avoids to protect gut health",
-    "url": "https://www.hindustantimes.com/lifestyle/health/grabbing-a-protein-bar-for-breakfast-every-day-colorectal-surgeon-shares-8-foods-that-he-avoids-to-protect-gut-health-101788761623482.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "India"
-  },
-  {
-    "source": "News",
-    "platform": "smh.com.au",
-    "claim": "The dietitian guide to eating healthy without overthinking it",
-    "url": "https://www.smh.com.au/goodfood/tips-and-advice/simple-ways-to-eat-healthier-every-day-without-overthinking-it-20260903-p60u19.html",
+    "platform": "brisbanetimes.com.au",
+    "claim": "Estrobolome explained : How your gut microbiome impacts menopause symptoms and why fibre matters",
+    "url": "https://www.brisbanetimes.com.au/lifestyle/health-and-wellness/japanese-women-have-fewer-hot-flashes-during-menopause-this-could-be-why-20260901-p60tdr.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "Australia"
-  },
-  {
-    "source": "News",
-    "platform": "economictimes.indiatimes.com",
-    "claim": "No crash diets or supplements : Delhi nutritionist shares 5 daily habits for better health and longevity .  The most powerful medicine does not come in a bottle",
-    "url": "https://economictimes.indiatimes.com/magazines/panache/no-crash-diets-or-supplements-delhi-nutritionist-shares-5-daily-habits-for-better-health-and-longevity-the-most-powerful-medicine-does-not-come-in-a-bottle/articleshow/133860345.cms",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "India"
   }
 ]

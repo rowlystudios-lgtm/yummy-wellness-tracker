@@ -1,72 +1,28 @@
 {
-  "week_headline": "Gut health and sustainable eating dominate headlines as experts push back against ultra-processed convenience foods and quick-fix diet culture",
+  "week_headline": "The gut-hormone connection is having a moment \u2014 estrobolome research is making menopause science far more interesting than anyone expected",
   "misleading_pct": "15%",
   "true_pct": "85%",
   "claims": [
     {
-      "score": 72,
+      "score": 78,
       "score_label": "Nuanced",
       "score_type": "mixed",
       "claim_tag": "Partially true",
-      "verdict": "A colorectal surgeon's personal food avoidance list is a legitimate perspective, but one clinician's habits are not the same as clinical guidelines. Many protein bars do contain high levels of ultra-processed ingredients, added sugars, and emulsifiers that emerging research links to gut microbiome disruption \u2014 but the evidence varies enormously by product. The core concern about ultra-processed foods and colorectal health is genuinely supported by science, even if the 'list' format makes it feel more absolute than it is.",
-      "verdict_highlight": "Ultra-processed bars are worth scrutinising, not all bars",
+      "verdict": "The estrobolome \u2014 the collection of gut bacteria that help metabolise oestrogen \u2014 is a genuinely real and researched concept, and there is solid emerging evidence that gut microbiome composition influences circulating oestrogen levels, which could affect menopause symptoms. Fibre genuinely feeds the beneficial bacteria involved in this process, so the fibre angle is well-grounded. That said, most studies are still observational or in early stages, so while the direction of evidence is promising, we are not yet at 'eat more fibre and fix your menopause' territory \u2014 the clinical picture is more complex than headlines suggest.",
+      "verdict_highlight": "Real science, but still early-stage evidence",
       "sources": [
-        "BMJ 2019 \u2014 Ultra-processed food intake and colorectal cancer risk cohort study",
-        "IARC/WHO classification of processed meat and cancer risk",
-        "Nature Reviews Gastroenterology \u2014 dietary emulsifiers and gut microbiota",
-        "Journal of Nutrition \u2014 ultra-processed food and bowel health"
+        "Journal of Clinical Endocrinology & Metabolism \u2014 Baker et al. on estrobolome and oestrogen metabolism",
+        "Maturitas Journal \u2014 gut microbiome and menopause symptom research",
+        "NIH National Institute on Aging \u2014 microbiome and hormonal ageing studies",
+        "Nutrients Journal \u2014 dietary fibre and gut microbiota composition",
+        "EFSA \u2014 dietary fibre intake recommendations and gut health evidence"
       ],
-      "global_opinion": "In the US, high-protein bars are heavily marketed as health foods and FDA labelling rules allow considerable flexibility in sugar and additive disclosure. The EU and UK have stricter HFSS (high fat, sugar, salt) product regulations and growing public health campaigns flagging ultra-processed foods. In India, FSSAI is still building out its ultra-processed food policy framework, though awareness is rising fast among urban consumers.",
-      "brit_take": "We've been eating cereal bars for breakfast and calling it wellness since the nineties \u2014 it's probably time we read the back of the packet.",
+      "global_opinion": "In the US, functional medicine practitioners have enthusiastically embraced estrobolome messaging, sometimes ahead of the clinical evidence, leading to a boom in gut-hormone supplement marketing. In the UK, the NHS and NICE remain cautious, emphasising that menopause management should centre on evidence-based HRT and lifestyle rather than microbiome supplements until stronger trials exist. Japanese researchers have shown particular interest given Japan's traditionally high-fibre diet and historically lower rates of reported menopause symptoms, though separating diet from cultural reporting differences is methodologically tricky.",
+      "brit_take": "Lovely that your gut bacteria are finally getting credit for something other than causing embarrassment on the Tube. Just maybe hold off on the \u00a360 probiotic subscription until the randomised trials catch up.",
       "source": "News",
-      "platform": "hindustantimes.com",
-      "url": "https://www.hindustantimes.com/lifestyle/health/grabbing-a-protein-bar-for-breakfast-every-day-colorectal-surgeon-shares-8-foods-that-he-avoids-to-protect-gut-health-101788761623482.html",
-      "claim": "Grabbing a protein bar for breakfast every day ? Colorectal surgeon shares 8 foods that he avoids to protect gut health",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 88,
-      "score_label": "Well supported",
-      "score_type": "true",
-      "claim_tag": "Evidence-based",
-      "verdict": "The message here \u2014 eat a varied, balanced diet without obsessing over every meal \u2014 is strongly backed by nutritional science and behavioural research. Dietary perfectionism and orthorexic thinking are associated with worse long-term eating outcomes, and simple, flexible frameworks consistently outperform rigid rules in adherence studies. This kind of guidance aligns well with advice from the Harvard T.H. Chan School of Public Health, NHS Eatwell Guide, and the Mediterranean diet evidence base.",
-      "verdict_highlight": "Flexible, simple eating beats rigid rules long-term",
-      "sources": [
-        "Harvard T.H. Chan School of Public Health \u2014 Healthy Eating Plate",
-        "NHS Eatwell Guide",
-        "NEJM \u2014 Mediterranean diet and cardiovascular outcomes (PREDIMED study)",
-        "Appetite Journal \u2014 dietary flexibility and long-term adherence"
-      ],
-      "global_opinion": "Japan's traditional dietary guidelines emphasise variety and moderation across 30 different foods daily, reflecting a cultural norm that aligns with this low-stress approach. France similarly promotes enjoyment and balance over calorie counting, with public health messaging focused on meal structure rather than restriction. In the US, diet culture remains more prescriptive, though registered dietitian voices are increasingly pushing back toward this simpler, more sustainable framing.",
-      "brit_take": "Turns out eating a bit of everything without agonising over it is what most of our grandparents just called having dinner \u2014 nice to have it confirmed.",
-      "source": "News",
-      "platform": "smh.com.au",
-      "url": "https://www.smh.com.au/goodfood/tips-and-advice/simple-ways-to-eat-healthier-every-day-without-overthinking-it-20260903-p60u19.html",
-      "claim": "The dietitian guide to eating healthy without overthinking it",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 82,
-      "score_label": "Well supported",
-      "score_type": "true",
-      "claim_tag": "Evidence-based",
-      "verdict": "The core claim \u2014 that consistent daily lifestyle habits like sleep, movement, hydration, and whole-food eating are more powerful for long-term health than supplements or crash diets \u2014 is robustly supported by decades of research. The Blue Zones research, the PREDIMED trial, and CDC chronic disease prevention data all point in the same direction: it's the unglamorous daily stuff that adds healthy years. The phrase 'most powerful medicine does not come in a bottle' is a touch poetic but not inaccurate \u2014 it's essentially what preventive medicine has been saying for thirty years.",
-      "verdict_highlight": "Daily habits consistently outperform supplements for longevity",
-      "sources": [
-        "NIH \u2014 National Institute on Aging, lifestyle and longevity research",
-        "Blue Zones Project \u2014 Buettner et al, longevity habit patterns",
-        "CDC \u2014 chronic disease prevention and lifestyle behaviours",
-        "Lancet \u2014 global burden of disease attributable to dietary risks",
-        "NEJM \u2014 PREDIMED trial, lifestyle and long-term health outcomes"
-      ],
-      "global_opinion": "In Japan and Okinawa specifically, longevity research consistently attributes long healthy lives to diet, social connection, and purposeful daily movement \u2014 not supplementation. Scandinavian countries embed these principles into public health policy with strong results in population health metrics. In India, Ayurvedic tradition has long emphasised daily routine or 'dinacharya' as foundational to health, making this message culturally resonant even as it is now validated by modern epidemiology.",
-      "brit_take": "A brisk walk, decent sleep, and fewer biscuits \u2014 apparently that's still the plan, and honestly it tracks.",
-      "source": "News",
-      "platform": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/magazines/panache/no-crash-diets-or-supplements-delhi-nutritionist-shares-5-daily-habits-for-better-health-and-longevity-the-most-powerful-medicine-does-not-come-in-a-bottle/articleshow/133860345.cms",
-      "claim": "No crash diets or supplements : Delhi nutritionist shares 5 daily habits for better health and longevity .  The most powerful medicine does not come in a bottle",
+      "platform": "brisbanetimes.com.au",
+      "url": "https://www.brisbanetimes.com.au/lifestyle/health-and-wellness/japanese-women-have-fewer-hot-flashes-during-menopause-this-could-be-why-20260901-p60tdr.html",
+      "claim": "Estrobolome explained : How your gut microbiome impacts menopause symptoms and why fibre matters",
       "hours_ago": 12,
       "engagement": 40
     }
