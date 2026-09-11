@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "source": "News",
+    "platform": "adn.com",
+    "claim": "Why scientists are starting to worry popular supplements could harm the aging brain",
+    "url": "https://www.adn.com/nation-world/2026/09/10/why-scientists-are-starting-to-worry-popular-supplements-could-harm-the-aging-brain/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "walesonline.co.uk",
+    "claim": "New warning for anyone taking menopause supplements",
+    "url": "https://www.walesonline.co.uk/news/uk-news/new-warning-anyone-taking-menopause-34601083",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United Kingdom"
+  }
+]

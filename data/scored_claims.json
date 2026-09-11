@@ -1,28 +1,50 @@
 {
-  "week_headline": "The gut-hormone connection is having a moment \u2014 estrobolome research is making menopause science far more interesting than anyone expected",
-  "misleading_pct": "15%",
-  "true_pct": "85%",
+  "week_headline": "Supplement safety is dominating health headlines this week, with new concerns emerging about popular pills and the aging brain and menopause support",
+  "misleading_pct": "25%",
+  "true_pct": "75%",
   "claims": [
     {
-      "score": 78,
+      "score": 62,
       "score_label": "Nuanced",
       "score_type": "mixed",
       "claim_tag": "Partially true",
-      "verdict": "The estrobolome \u2014 the collection of gut bacteria that help metabolise oestrogen \u2014 is a genuinely real and researched concept, and there is solid emerging evidence that gut microbiome composition influences circulating oestrogen levels, which could affect menopause symptoms. Fibre genuinely feeds the beneficial bacteria involved in this process, so the fibre angle is well-grounded. That said, most studies are still observational or in early stages, so while the direction of evidence is promising, we are not yet at 'eat more fibre and fix your menopause' territory \u2014 the clinical picture is more complex than headlines suggest.",
-      "verdict_highlight": "Real science, but still early-stage evidence",
+      "verdict": "There is genuine and growing scientific concern that certain popular supplements \u2014 particularly high-dose B vitamins, antioxidants like vitamin E, and some herbal products \u2014 may not be as brain-friendly as their marketing suggests, and in some cases could cause harm in older adults. However, 'supplements' is a huge category, and the evidence varies wildly depending on which one you're talking about. Omega-3s and vitamin D, for example, still have reasonable support for brain health in deficient populations, so a blanket worry about all supplements overstates what the research actually says.",
+      "verdict_highlight": "Harm depends entirely on which supplement",
       "sources": [
-        "Journal of Clinical Endocrinology & Metabolism \u2014 Baker et al. on estrobolome and oestrogen metabolism",
-        "Maturitas Journal \u2014 gut microbiome and menopause symptom research",
-        "NIH National Institute on Aging \u2014 microbiome and hormonal ageing studies",
-        "Nutrients Journal \u2014 dietary fibre and gut microbiota composition",
-        "EFSA \u2014 dietary fibre intake recommendations and gut health evidence"
+        "JAMA (2023) \u2014 high-dose antioxidant supplements and cognitive outcomes in older adults",
+        "NIH Office of Dietary Supplements \u2014 supplement safety and aging",
+        "Lancet Neurology \u2014 review of nutritional interventions and dementia risk",
+        "Harvard Health Publishing \u2014 supplements and brain health overview"
       ],
-      "global_opinion": "In the US, functional medicine practitioners have enthusiastically embraced estrobolome messaging, sometimes ahead of the clinical evidence, leading to a boom in gut-hormone supplement marketing. In the UK, the NHS and NICE remain cautious, emphasising that menopause management should centre on evidence-based HRT and lifestyle rather than microbiome supplements until stronger trials exist. Japanese researchers have shown particular interest given Japan's traditionally high-fibre diet and historically lower rates of reported menopause symptoms, though separating diet from cultural reporting differences is methodologically tricky.",
-      "brit_take": "Lovely that your gut bacteria are finally getting credit for something other than causing embarrassment on the Tube. Just maybe hold off on the \u00a360 probiotic subscription until the randomised trials catch up.",
+      "global_opinion": "In the US, supplements are loosely regulated by the FDA, meaning products reach shelves without pre-market safety testing, which amplifies concern among researchers. The EU and UK apply stricter controls through EFSA and the MHRA respectively, limiting maximum doses of certain vitamins that are freely sold at higher doses in North America. In Japan, functional foods and supplements occupy a heavily regulated middle ground, and older adults are generally guided toward food-first approaches rather than high-dose pills.",
+      "brit_take": "In the UK we tend to trust the NHS advice \u2014 vitamin D in winter, folic acid in pregnancy, and mostly leave the rest alone. The wall of supplements in American pharmacies genuinely baffles most Brits.",
       "source": "News",
-      "platform": "brisbanetimes.com.au",
-      "url": "https://www.brisbanetimes.com.au/lifestyle/health-and-wellness/japanese-women-have-fewer-hot-flashes-during-menopause-this-could-be-why-20260901-p60tdr.html",
-      "claim": "Estrobolome explained : How your gut microbiome impacts menopause symptoms and why fibre matters",
+      "platform": "adn.com",
+      "url": "https://www.adn.com/nation-world/2026/09/10/why-scientists-are-starting-to-worry-popular-supplements-could-harm-the-aging-brain/",
+      "claim": "Why scientists are starting to worry popular supplements could harm the aging brain",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 68,
+      "score_label": "Nuanced",
+      "score_type": "mixed",
+      "claim_tag": "Partially true",
+      "verdict": "The warning is worth taking seriously but needs context \u2014 most menopause supplements like black cohosh, red clover, and phytoestrogens are not rigorously tested to the standard of prescribed HRT, and some carry real interactions with medications like blood thinners and certain antidepressants. The concern isn't that they're universally dangerous, it's that many women take them assuming they're both effective and automatically safe because they're 'natural', and the evidence for most of them is actually quite thin. Talking to a GP or pharmacist before starting is genuinely good advice, not overcaution.",
+      "verdict_highlight": "Natural does not automatically mean safe",
+      "sources": [
+        "MHRA (UK) \u2014 herbal medicines and menopause safety guidance",
+        "EFSA \u2014 phytoestrogens and female health review",
+        "NEJM \u2014 drug-supplement interactions in midlife women",
+        "BMJ Menopause \u2014 evidence review of non-hormonal supplements for menopause symptoms",
+        "WHO \u2014 traditional and complementary medicine safety frameworks"
+      ],
+      "global_opinion": "In the UK, the MHRA has issued specific guidance flagging black cohosh and certain herbal blends as carrying rare but real risks of liver toxicity. In the US, the FDA does not require menopause supplements to prove efficacy before sale, so the market is flooded with products of wildly varying quality and evidence. In Germany, phytomedicines like black cohosh are actually licensed and regulated as medicines rather than supplements, meaning they come with clearer dosing guidance and safety monitoring \u2014 a model many researchers wish other countries would adopt.",
+      "brit_take": "The UK has quietly had better herbal medicine regulation than most people realise \u2014 but that still doesn't mean everything on the Holland & Barrett shelf has been properly tested for your specific situation. A quick chat with your GP costs nothing.",
+      "source": "News",
+      "platform": "walesonline.co.uk",
+      "url": "https://www.walesonline.co.uk/news/uk-news/new-warning-anyone-taking-menopause-34601083",
+      "claim": "New warning for anyone taking menopause supplements",
       "hours_ago": 12,
       "engagement": 40
     }
