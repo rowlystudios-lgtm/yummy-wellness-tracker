@@ -1,20 +1,29 @@
 [
   {
     "source": "News",
-    "platform": "adn.com",
-    "claim": "Why scientists are starting to worry popular supplements could harm the aging brain",
-    "url": "https://www.adn.com/nation-world/2026/09/10/why-scientists-are-starting-to-worry-popular-supplements-could-harm-the-aging-brain/",
+    "platform": "freepressjournal.in",
+    "claim": "No Junk Food Near Schools As Madhya Pradesh Child Rights Panel Seeks 50 - Metre Healthy Food Zone",
+    "url": "https://www.freepressjournal.in/bhopal/no-junk-food-near-schools-as-madhya-pradesh-child-rights-panel-seeks-50-metre-healthy-food-zone",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "India"
+  },
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "Daily Sugary Drink Consumption Linked to Increased Gastric Cancer Risk \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-09-11-daily-sugary-drink-increased-gastric-cancer-risk.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "walesonline.co.uk",
-    "claim": "New warning for anyone taking menopause supplements",
-    "url": "https://www.walesonline.co.uk/news/uk-news/new-warning-anyone-taking-menopause-34601083",
+    "platform": "chennaionline.com",
+    "claim": "SC seeks clear timeline for FSSAI food warning label rollout , calls for nutritional literacy in schools \u2013 Chennaionline",
+    "url": "https://www.chennaionline.com/life/sc-seeks-clear-timeline-for-fssais-food-warning-label-rollout-calls-for-nutritional-literacy-in-schools/",
     "engagement": 40,
     "hours_ago": 12,
-    "source_country": "United Kingdom"
+    "source_country": "India"
   }
 ]
