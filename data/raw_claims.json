@@ -1,27 +1,18 @@
 [
   {
     "source": "News",
-    "platform": "freepressjournal.in",
-    "claim": "No Junk Food Near Schools As Madhya Pradesh Child Rights Panel Seeks 50 - Metre Healthy Food Zone",
-    "url": "https://www.freepressjournal.in/bhopal/no-junk-food-near-schools-as-madhya-pradesh-child-rights-panel-seeks-50-metre-healthy-food-zone",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "India"
-  },
-  {
-    "source": "News",
     "platform": "naturalnews.com",
-    "claim": "Daily Sugary Drink Consumption Linked to Increased Gastric Cancer Risk \u2013 NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-09-11-daily-sugary-drink-increased-gastric-cancer-risk.html",
+    "claim": "Prolonged Sitting Linked to Higher Cancer Death Risk , Study Finds \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-09-12-prolonged-sitting-linked-higher-cancer-death-risk.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "United States"
   },
   {
     "source": "News",
-    "platform": "chennaionline.com",
-    "claim": "SC seeks clear timeline for FSSAI food warning label rollout , calls for nutritional literacy in schools \u2013 Chennaionline",
-    "url": "https://www.chennaionline.com/life/sc-seeks-clear-timeline-for-fssais-food-warning-label-rollout-calls-for-nutritional-literacy-in-schools/",
+    "platform": "hindustantimes.com",
+    "claim": "Fatty fish should be a part of your regular diet : Physician Dr Kunal Sood lists 5 healthy habits women should know about",
+    "url": "https://www.hindustantimes.com/lifestyle/health/fatty-fish-should-be-a-part-of-your-regular-diet-physician-dr-kunal-sood-lists-5-healthy-habits-women-should-know-about-101789284595855.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "India"
