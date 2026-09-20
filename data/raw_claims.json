@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "Coconut Water Does Not Cleanse Kidneys , but May Aid Hydration , Research Indicates \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-09-19-coconut-water-doesnt-cleanse-kidneys-may-aid-hydration.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "mykxlg.com",
+    "claim": "Prime Biome Reviews : Launches Ten - Ingredient Daily Probiotic Gummy Supplement for Skin and Gut Wellness in the U . S .",
+    "url": "https://www.mykxlg.com/online_features/press_releases/prime-biome-reviews-launches-ten-ingredient-daily-probiotic-gummy-supplement-for-skin-and-gut-wellness/article_c703f5fc-cd34-53d4-914f-986aa4b4b9b1.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  }
+]
