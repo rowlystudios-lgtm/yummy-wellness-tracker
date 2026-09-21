@@ -1,50 +1,27 @@
 {
-  "week_headline": "Natural hydration myths and probiotic supplement hype dominate wellness headlines this week",
-  "misleading_pct": "50%",
-  "true_pct": "50%",
+  "week_headline": "Gut health dominates headlines this week as people search for practical, food-first fixes for digestive regularity beyond the usual oatmeal advice",
+  "misleading_pct": "10%",
+  "true_pct": "90%",
   "claims": [
     {
-      "score": 62,
+      "score": 82,
       "score_label": "Nuanced",
       "score_type": "mixed",
       "claim_tag": "Partially true",
-      "verdict": "Coconut water is a decent natural hydrator with electrolytes like potassium and magnesium, which can support general kidney health indirectly by keeping you well-hydrated. However, there is no credible peer-reviewed evidence that it 'cleanses' the kidneys in any meaningful clinical sense \u2014 that's not really how kidneys work. Your kidneys filter blood continuously on their own; they don't need a special drink to do a reset.",
-      "verdict_highlight": "Kidneys self-clean \u2014 no drink changes that",
+      "verdict": "There genuinely are several breakfast foods beyond oatmeal that support healthy digestion and regularity \u2014 think flaxseeds, kiwi, prunes, Greek yogurt with live cultures, whole grain bread, and berries. The science behind dietary fibre, prebiotics, and probiotics for gut motility is solid. That said, no single food is a magic fix \u2014 overall diet, hydration, and physical activity all matter just as much as any one breakfast choice.",
+      "verdict_highlight": "Fibre and probiotics genuinely support regularity",
       "sources": [
-        "NIH National Library of Medicine \u2014 electrolytes and hydration",
-        "Journal of the International Society of Sports Nutrition \u2014 coconut water hydration study",
-        "NHS \u2014 how kidneys work",
-        "Harvard Health \u2014 kidney cleanse myths"
+        "NIH National Institute of Diabetes and Digestive and Kidney Diseases",
+        "Harvard T.H. Chan School of Public Health \u2014 The Nutrition Source (Fiber)",
+        "Journal of Nutrition \u2014 dietary fibre and gut motility research",
+        "BMJ \u2014 kiwifruit and constipation clinical trials"
       ],
-      "global_opinion": "In South and Southeast Asia, coconut water has been consumed for centuries as a natural rehydration remedy and is broadly trusted as a health food, with some regional medical practitioners recommending it for mild kidney stone prevention due to its potassium content. In the US and UK, regulatory bodies like the FDA and NHS have not endorsed any kidney-cleansing claims and are cautious about supplement-style marketing around coconut water. The European Food Safety Authority (EFSA) has not approved any kidney detox health claims for coconut water products sold in Europe.",
-      "brit_take": "A nice cold coconut water on a hot day is genuinely refreshing \u2014 just don't expect it to hoover out your kidneys like some sort of tropical Dyson.",
+      "global_opinion": "In Japan, fermented breakfast foods like natto and miso soup are everyday gut-health staples backed by long cultural tradition and growing clinical interest. In the US and UK, the conversation is shifting from high-fibre cereals toward whole foods like kiwi and flaxseed as dietitians move away from overly processed options. Nordic countries have long favoured rye bread at breakfast, which research increasingly supports as particularly effective for digestive regularity due to its dense fibre content.",
+      "brit_take": "A good cup of tea, some rye toast, and a handful of berries and you're sorted \u2014 turns out breakfast has been doing quiet digestive work for years without needing a headline.",
       "source": "News",
-      "platform": "naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-09-19-coconut-water-doesnt-cleanse-kidneys-may-aid-hydration.html",
-      "claim": "Coconut Water Does Not Cleanse Kidneys , but May Aid Hydration , Research Indicates \u2013 NaturalNews . com",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 28,
-      "score_label": "Misleading",
-      "score_type": "false",
-      "claim_tag": "Overstated",
-      "verdict": "Probiotic research is a genuinely exciting and fast-moving field, but the evidence for a specific ten-ingredient gummy improving both skin and gut health is almost certainly ahead of what the science currently supports. The gut-skin axis is a real area of emerging research, but most robust studies involve specific well-characterised strains at tested doses \u2014 not proprietary blends in a gummy format where sugar content and survivability of live cultures through digestion are real concerns. Without published clinical trials for this specific product, the launch claims should be treated as marketing rather than medicine.",
-      "verdict_highlight": "No product trials means marketing, not medicine",
-      "sources": [
-        "NIH \u2014 probiotics fact sheet",
-        "JAMA Dermatology \u2014 gut-skin axis review",
-        "Lancet \u2014 probiotic strain specificity evidence",
-        "EFSA \u2014 probiotic health claims regulation",
-        "Journal of Nutrition \u2014 probiotic survivability in supplement formats"
-      ],
-      "global_opinion": "In the US, the FDA does not require supplement companies to prove efficacy before launching a product, which means claims like these can reach shelves without clinical validation \u2014 a regulatory gap that consumer advocates frequently flag. The EU takes a stricter stance, with EFSA rejecting the vast majority of probiotic health claims submitted by manufacturers due to insufficient evidence, meaning a product like this would face much tougher scrutiny in Europe. In Japan, the FOSHU (Foods for Specified Health Uses) system requires evidence-based approval before gut health claims can be made, setting a higher bar than most Western markets.",
-      "brit_take": "Ten ingredients in a gummy sounds impressive until you remember that a Haribo also has a long ingredients list, and nobody's claiming that fixes your gut microbiome.",
-      "source": "News",
-      "platform": "mykxlg.com",
-      "url": "https://www.mykxlg.com/online_features/press_releases/prime-biome-reviews-launches-ten-ingredient-daily-probiotic-gummy-supplement-for-skin-and-gut-wellness/article_c703f5fc-cd34-53d4-914f-986aa4b4b9b1.html",
-      "claim": "Prime Biome Reviews : Launches Ten - Ingredient Daily Probiotic Gummy Supplement for Skin and Gut Wellness in the U . S .",
+      "platform": "aol.com",
+      "url": "https://www.aol.com/articles/6-best-breakfast-foods-help-230000000.html",
+      "claim": "The 6 Best Breakfast Foods to Help You Poop That Arent Oatmeal , According to Dietitians",
       "hours_ago": 12,
       "engagement": 40
     }
