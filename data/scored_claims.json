@@ -1,27 +1,27 @@
 {
-  "week_headline": "Gut health dominates headlines this week as people search for practical, food-first fixes for digestive regularity beyond the usual oatmeal advice",
-  "misleading_pct": "10%",
-  "true_pct": "90%",
+  "week_headline": "Vitamin D is dominating health conversations this week, with millions questioning whether their supplement is actually the right form",
+  "misleading_pct": "20%",
+  "true_pct": "80%",
   "claims": [
     {
-      "score": 82,
+      "score": 78,
       "score_label": "Nuanced",
       "score_type": "mixed",
       "claim_tag": "Partially true",
-      "verdict": "There genuinely are several breakfast foods beyond oatmeal that support healthy digestion and regularity \u2014 think flaxseeds, kiwi, prunes, Greek yogurt with live cultures, whole grain bread, and berries. The science behind dietary fibre, prebiotics, and probiotics for gut motility is solid. That said, no single food is a magic fix \u2014 overall diet, hydration, and physical activity all matter just as much as any one breakfast choice.",
-      "verdict_highlight": "Fibre and probiotics genuinely support regularity",
+      "verdict": "D3 does appear to raise blood levels of vitamin D more effectively than D2 in most studies, and it sticks around in the body longer \u2014 so on balance, D3 is the better pick for most people. That said, D2 still works, is widely used in fortified foods, and is the preferred option for vegans since D3 is typically derived from lanolin in sheep's wool. The gap between them is real but often overstated \u2014 both beat doing nothing if you're deficient.",
+      "verdict_highlight": "D3 raises levels better, but D2 still works",
       "sources": [
-        "NIH National Institute of Diabetes and Digestive and Kidney Diseases",
-        "Harvard T.H. Chan School of Public Health \u2014 The Nutrition Source (Fiber)",
-        "Journal of Nutrition \u2014 dietary fibre and gut motility research",
-        "BMJ \u2014 kiwifruit and constipation clinical trials"
+        "American Journal of Clinical Nutrition (Tripkovic et al., 2017 \u2014 D3 vs D2 meta-analysis)",
+        "NIH Office of Dietary Supplements \u2014 Vitamin D Fact Sheet",
+        "BMJ (Lanham-New et al., 2022)",
+        "EFSA Panel on Dietetic Products, Nutrition and Allergies"
       ],
-      "global_opinion": "In Japan, fermented breakfast foods like natto and miso soup are everyday gut-health staples backed by long cultural tradition and growing clinical interest. In the US and UK, the conversation is shifting from high-fibre cereals toward whole foods like kiwi and flaxseed as dietitians move away from overly processed options. Nordic countries have long favoured rye bread at breakfast, which research increasingly supports as particularly effective for digestive regularity due to its dense fibre content.",
-      "brit_take": "A good cup of tea, some rye toast, and a handful of berries and you're sorted \u2014 turns out breakfast has been doing quiet digestive work for years without needing a headline.",
+      "global_opinion": "In the UK and much of Europe, D2 has historically dominated food fortification programmes and prescription supplements, so many Europeans have been getting D2 for years without issue. The US has shifted more toward D3 in over-the-counter products, reflecting the growing evidence of its superior bioavailability. In parts of South Asia and the Middle East, vitamin D deficiency is widespread despite sun exposure, and local health bodies are increasingly recommending D3 supplementation regardless of form debates.",
+      "brit_take": "Half the UK is quietly deficient from October to March anyway, so arguing about which form to take is a lovely problem to have \u2014 just take one of them, preferably with your toast.",
       "source": "News",
-      "platform": "aol.com",
-      "url": "https://www.aol.com/articles/6-best-breakfast-foods-help-230000000.html",
-      "claim": "The 6 Best Breakfast Foods to Help You Poop That Arent Oatmeal , According to Dietitians",
+      "platform": "goodhousekeeping.com",
+      "url": "https://www.goodhousekeeping.com/health/diet-nutrition/a73824087/vitamin-d2-vs-d3-supplements/",
+      "claim": "Experts Share What to Know About Vitamin D2 vs . D3 Supplements",
       "hours_ago": 12,
       "engagement": 40
     }
