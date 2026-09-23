@@ -1,27 +1,70 @@
 {
-  "week_headline": "Vitamin D is dominating health conversations this week, with millions questioning whether their supplement is actually the right form",
-  "misleading_pct": "20%",
-  "true_pct": "80%",
+  "week_headline": "Ultra-processed foods are dominating health headlines this week, with warnings linking meal deals and UPFs to heart disease, cancer, and early death",
+  "misleading_pct": "33%",
+  "true_pct": "67%",
   "claims": [
     {
-      "score": 78,
+      "score": 38,
+      "score_label": "Misleading",
+      "score_type": "false",
+      "claim_tag": "Overstated",
+      "verdict": "The headline is dramatic and oversimplified. Meal deal items like crisps, sandwiches, and fizzy drinks are often ultra-processed and regularly eating them as your main diet is associated with higher cardiovascular risk over time \u2014 but a single meal deal does not cause a heart attack or stroke. The science is about long-term dietary patterns, not individual purchases. Framing it as a direct cause is misleading and unhelpful.",
+      "verdict_highlight": "Patterns matter, not individual purchases",
+      "sources": [
+        "BMJ 2019 \u2014 Fiolet et al., UPF intake and cardiovascular disease",
+        "Harvard T.H. Chan School of Public Health \u2014 Dietary patterns and heart disease",
+        "NHS \u2014 Eat well guidelines"
+      ],
+      "global_opinion": "In the UK, meal deals are a cultural institution and Public Health England has nudged retailers to improve nutritional quality rather than ban items outright. France has implemented the Nutri-Score labelling system to help consumers identify healthier options at a glance. In the US, the FDA focuses on sodium and saturated fat limits rather than the UPF category specifically, so the framing of 'meal deals cause heart attacks' would be seen as sensationalist in most regulatory contexts.",
+      "brit_take": "Telling the nation their \u00a33.99 meal deal is a cardiac event waiting to happen is a bold move \u2014 though perhaps swapping the Quavers for an apple occasionally wouldn't hurt.",
+      "source": "News",
+      "platform": "mirror.co.uk",
+      "url": "https://www.mirror.co.uk/news/health/meal-deal-heart-attack-upfs-37688818",
+      "claim": "Warning items in supermarket meal deals lead to heart attacks and strokes",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 82,
       "score_label": "Nuanced",
       "score_type": "mixed",
       "claim_tag": "Partially true",
-      "verdict": "D3 does appear to raise blood levels of vitamin D more effectively than D2 in most studies, and it sticks around in the body longer \u2014 so on balance, D3 is the better pick for most people. That said, D2 still works, is widely used in fortified foods, and is the preferred option for vegans since D3 is typically derived from lanolin in sheep's wool. The gap between them is real but often overstated \u2014 both beat doing nothing if you're deficient.",
-      "verdict_highlight": "D3 raises levels better, but D2 still works",
+      "verdict": "This one is broadly well-supported. Large cohort studies consistently show that higher UPF intake is associated with increased risks of obesity, type 2 diabetes, cardiovascular disease, and some cancers. The key word is 'linked' \u2014 these are associations from observational studies, not proven direct causes, and factors like overall diet quality, lifestyle, and socioeconomic status all play a role. The direction of the evidence is clear though: less UPF is generally better for long-term health.",
+      "verdict_highlight": "Association is real, causation still being confirmed",
       "sources": [
-        "American Journal of Clinical Nutrition (Tripkovic et al., 2017 \u2014 D3 vs D2 meta-analysis)",
-        "NIH Office of Dietary Supplements \u2014 Vitamin D Fact Sheet",
-        "BMJ (Lanham-New et al., 2022)",
-        "EFSA Panel on Dietetic Products, Nutrition and Allergies"
+        "BMJ 2024 \u2014 Lane et al., UPF umbrella review",
+        "The Lancet 2023 \u2014 Monteiro et al., NOVA classification and health outcomes",
+        "JAMA Internal Medicine 2021 \u2014 UPF consumption and mortality risk",
+        "NIH \u2014 National Cancer Institute dietary research"
       ],
-      "global_opinion": "In the UK and much of Europe, D2 has historically dominated food fortification programmes and prescription supplements, so many Europeans have been getting D2 for years without issue. The US has shifted more toward D3 in over-the-counter products, reflecting the growing evidence of its superior bioavailability. In parts of South Asia and the Middle East, vitamin D deficiency is widespread despite sun exposure, and local health bodies are increasingly recommending D3 supplementation regardless of form debates.",
-      "brit_take": "Half the UK is quietly deficient from October to March anyway, so arguing about which form to take is a lovely problem to have \u2014 just take one of them, preferably with your toast.",
+      "global_opinion": "Brazil, where the NOVA classification system was developed, has integrated UPF warnings into its national dietary guidelines since 2014 \u2014 arguably the most progressive stance globally. The European Food Safety Authority (EFSA) acknowledges the growing evidence but emphasises that processing alone is not sufficient to classify a food as harmful without considering its full nutritional profile. Australia and Canada are still debating whether to formally adopt UPF-based frameworks in their dietary guidelines.",
+      "brit_take": "The evidence is solid enough that ignoring it feels unwise \u2014 though the British ability to live on beige food while remaining cheerful is genuinely impressive.",
       "source": "News",
-      "platform": "goodhousekeeping.com",
-      "url": "https://www.goodhousekeeping.com/health/diet-nutrition/a73824087/vitamin-d2-vs-d3-supplements/",
-      "claim": "Experts Share What to Know About Vitamin D2 vs . D3 Supplements",
+      "platform": "news-medical.net",
+      "url": "https://www.news-medical.net/news/20260922/Higher-ultra-processed-food-intake-linked-to-multiple-health-risks.aspx",
+      "claim": "Higher ultra - processed food intake linked to multiple health risks",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 62,
+      "score_label": "Nuanced",
+      "score_type": "mixed",
+      "claim_tag": "Partially true",
+      "verdict": "Each condition listed \u2014 heart disease, cancer, obesity, diabetes, depression, and premature death \u2014 does have some peer-reviewed evidence linking it to high UPF consumption, so this isn't made up. However, bundling them all into one sweeping headline makes it sound like UPFs are a poison with guaranteed consequences, which overstates the science. These are population-level risk associations, and the strength of evidence varies significantly across conditions \u2014 cardiovascular links are stronger, depression links are emerging but less definitive.",
+      "verdict_highlight": "Evidence varies; cardiovascular links are strongest",
+      "sources": [
+        "BMJ 2024 \u2014 Lane et al., UPF and 32 health outcomes meta-analysis",
+        "The Lancet Psychiatry 2022 \u2014 Diet quality and depression",
+        "NEJM 2023 \u2014 Obesity and dietary patterns review",
+        "World Health Organization \u2014 Diet and noncommunicable diseases"
+      ],
+      "global_opinion": "In the United States, ultra-processed foods make up nearly 60% of average caloric intake, and public health bodies are increasingly vocal about the risks, though regulatory action remains limited. The UK's National Food Strategy (Dimbleby Report) specifically called out UPFs as a major driver of diet-related ill health, prompting ongoing policy debate. Meanwhile, Japan, whose traditional diet is low in UPFs, tends to study these harms from the outside looking in \u2014 their lower rates of obesity and diet-related disease are frequently cited as indirect evidence supporting the claim.",
+      "brit_take": "Technically accurate as a list, but reading it out loud at dinner would clear the room faster than mentioning the football result.",
+      "source": "News",
+      "platform": "bristolpost.co.uk",
+      "url": "https://www.bristolpost.co.uk/news/health/upfs-linked-heart-attacks-cancer-11167387",
+      "claim": "UPFs linked to heart attacks , cancer , obesity , diabetes , depression and death",
       "hours_ago": 12,
       "engagement": 40
     }
