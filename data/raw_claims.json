@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "source": "News",
+    "platform": "news-medical.net",
+    "claim": "Exercise may reshape your gut microbiome to support recovery",
+    "url": "https://www.news-medical.net/news/20260929/Exercise-may-reshape-your-gut-microbiome-to-support-recovery.aspx",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "goodhousekeeping.com",
+    "claim": "The Best Foods to Eat for Better Colon Health , According to Dietitians",
+    "url": "https://www.goodhousekeeping.com/health/diet-nutrition/a73905621/colon-health-foods/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "pharmacytimes.com",
+    "claim": "Harnessing the Gut Microbiome for Enhanced CAR T Cell Therapy",
+    "url": "https://www.pharmacytimes.com/view/harnessing-the-gut-microbiome-for-enhanced-car-t-cell-therapy",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "bgnes.com",
+    "claim": "From espresso to boiled coffee : what actually reaches the gut",
+    "url": "http://www.bgnes.com/health/from-espresso-to-boiled-coffee-what-actually-reaches-the-gut",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Bulgaria"
+  },
+  {
+    "source": "News",
+    "platform": "thepeninsulaqatar.com",
+    "claim": "WCM - Q researchers explore role of inflammation in colorectal cancer",
+    "url": "http://thepeninsulaqatar.com/article/29/09/2026/wcm-q-researchers-explore-role-of-inflammation-in-colorectal-cancer",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "Qatar"
+  }
+]
