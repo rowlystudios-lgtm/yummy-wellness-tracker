@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "source": "News",
+    "platform": "prevention.com",
+    "claim": "Sugar Can Worsen Gut Health While You Take Antibiotics , New Study Finds",
+    "url": "https://www.prevention.com/health/a73981410/sugar-antibiotics-gut-health-study/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "naturalnews.com",
+    "claim": "Prebiotic Fruits Tied to Gut Health in Nutrition Reports \u2013 NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-10-01-prebiotic-fruits-tied-gut-health-nutrition-reports.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "aol.com",
+    "claim": "Antibiotics Mess With Your Gut and This Common Food Might Make It Worse",
+    "url": "https://www.aol.com/articles/antibiotics-mess-gut-common-food-173639000.html",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  },
+  {
+    "source": "News",
+    "platform": "t-g.com",
+    "claim": "BookTrib Bites : Hidden Truths , Ancient Secrets and the Search for Answers",
+    "url": "http://www.t-g.com/premium/newsusa/stories/booktribs-bites-hidden-truths-ancient-secrets-and-the-search-for-answers,229099",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United States"
+  }
+]
