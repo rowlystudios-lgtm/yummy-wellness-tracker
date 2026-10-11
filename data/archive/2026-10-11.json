@@ -1,0 +1,96 @@
+{
+  "published": "2026-10-11T16:35:06.252288+00:00",
+  "next_refresh": "2026-10-12T11:00:00+00:00",
+  "week_headline": "Gut health is dominating headlines this week, with new research spotlighting how sugar and antibiotics interact to disrupt your microbiome",
+  "stats": {
+    "misleading_pct": "25%",
+    "true_pct": "75%",
+    "total_scored": 4
+  },
+  "top10": [
+    {
+      "rank": 1,
+      "claim": "Sugar Can Worsen Gut Health While You Take Antibiotics , New Study Finds",
+      "source": "News",
+      "platform": "prevention.com",
+      "url": "https://www.prevention.com/health/a73981410/sugar-antibiotics-gut-health-study/",
+      "hours_ago": 12,
+      "score": 78,
+      "score_label": "Nuanced",
+      "score_type": "mixed",
+      "claim_tag": "Partially true",
+      "verdict": "There is real, growing evidence that high sugar intake can feed harmful bacteria and reduce microbial diversity, and this effect may be amplified during antibiotic use when your gut is already disrupted. However, the specific 'new study' framing should be treated with some caution \u2014 this is an emerging area and most research is still in animal models or small human trials. The direction of the evidence is credible, but it's not yet a closed case.",
+      "verdict_highlight": "Sugar and antibiotics together is a real concern",
+      "sources": [
+        "Cell Host & Microbe (2023)",
+        "Nature Reviews Microbiology",
+        "NIH National Institute of Diabetes and Digestive and Kidney Diseases"
+      ],
+      "global_opinion": "In Scandinavia, dietary guidance during antibiotic courses increasingly recommends reducing added sugars, reflecting early adoption of microbiome research. In the US, this nuance rarely makes it into clinical advice yet. The WHO has begun acknowledging the diet-microbiome-antibiotic connection in its antimicrobial resistance frameworks.",
+      "brit_take": "If you're on antibiotics and reaching for a Lucozade to feel better, this might be the week to swap it for water. Your gut's having a rough enough time as it is."
+    },
+    {
+      "rank": 2,
+      "claim": "Prebiotic Fruits Tied to Gut Health in Nutrition Reports \u2013 NaturalNews . com",
+      "source": "News",
+      "platform": "naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-10-01-prebiotic-fruits-tied-gut-health-nutrition-reports.html",
+      "hours_ago": 12,
+      "score": 62,
+      "score_label": "Nuanced",
+      "score_type": "mixed",
+      "claim_tag": "Partially true",
+      "verdict": "Prebiotic-rich fruits \u2014 think bananas, apples, and berries \u2014 do genuinely support the growth of beneficial gut bacteria, and this is reasonably well supported by nutrition science. The concern here is the source: NaturalNews.com has a track record of overstating evidence and sometimes misrepresenting studies. The underlying claim about prebiotic fruits and gut health is sound, but always check what study is actually being cited before sharing.",
+      "verdict_highlight": "Good claim, unreliable messenger \u2014 check the source",
+      "sources": [
+        "Journal of Nutrition (2022)",
+        "British Journal of Nutrition",
+        "EFSA Dietary Fibre Opinion"
+      ],
+      "global_opinion": "Japan has long embedded prebiotic-rich foods like burdock root and fermented soy into national dietary guidance, reflecting a cultural head start on gut health thinking. The EU's EFSA takes a cautious, evidence-gated approach to prebiotic health claims on food labels. In Australia, public health messaging around fibre and gut health is growing but prebiotics specifically remain under-discussed in official guidelines.",
+      "brit_take": "An apple a day keeping the doctor away might have been onto something after all \u2014 just don't get your medical advice from a website that also sells colloidal silver."
+    },
+    {
+      "rank": 3,
+      "claim": "Antibiotics Mess With Your Gut and This Common Food Might Make It Worse",
+      "source": "News",
+      "platform": "aol.com",
+      "url": "https://www.aol.com/articles/antibiotics-mess-gut-common-food-173639000.html",
+      "hours_ago": 12,
+      "score": 80,
+      "score_label": "Nuanced",
+      "score_type": "mixed",
+      "claim_tag": "Partially true",
+      "verdict": "Antibiotics are well-documented to reduce gut microbiome diversity, sometimes for months after a course ends, and this is not in dispute. The 'common food' angle \u2014 almost certainly referring to sugar \u2014 has legitimate science behind it, with studies showing sugar can selectively feed opportunistic bacteria that thrive when beneficial species are depleted. The headline is a little sensational but the core message is grounded in real evidence.",
+      "verdict_highlight": "Antibiotics plus sugar is a legitimate gut health concern",
+      "sources": [
+        "Cell (2021)",
+        "The Lancet Gastroenterology & Hepatology",
+        "Harvard T.H. Chan School of Public Health"
+      ],
+      "global_opinion": "Germany and the Netherlands have relatively advanced probiotic and dietary co-prescription practices alongside antibiotics, reflecting earlier clinical uptake of microbiome research. In the US, most antibiotic prescriptions come with no dietary guidance at all. The NHS in the UK is beginning to pilot microbiome-aware clinical pathways but this is not yet standard practice.",
+      "brit_take": "Turns out your nan telling you to eat plain yogurt when you're on antibiotics wasn't just old-fashioned fussing \u2014 she was ahead of the clinical curve."
+    },
+    {
+      "rank": 4,
+      "claim": "BookTrib Bites : Hidden Truths , Ancient Secrets and the Search for Answers",
+      "source": "News",
+      "platform": "t-g.com",
+      "url": "http://www.t-g.com/premium/newsusa/stories/booktribs-bites-hidden-truths-ancient-secrets-and-the-search-for-answers,229099",
+      "hours_ago": 12,
+      "score": 18,
+      "score_label": "Misleading",
+      "score_type": "false",
+      "claim_tag": "Conspiracy framing",
+      "verdict": "This headline \u2014 'Hidden Truths, Ancient Secrets and the Search for Answers' \u2014 is classic conspiracy-adjacent framing, the kind that implies established science is concealing something. Without a specific health claim to evaluate, there is nothing here to fact-check, but the framing itself is a red flag. Content packaged this way often bypasses critical thinking by triggering curiosity and distrust of mainstream sources simultaneously.",
+      "verdict_highlight": "Vague 'hidden truth' framing is a red flag",
+      "sources": [
+        "WHO Infodemic Management Framework",
+        "BMJ Analysis on Health Misinformation (2022)",
+        "Reuters Institute Digital News Report"
+      ],
+      "global_opinion": "In the US, this style of health content proliferates widely on social media with limited platform regulation. The EU's Digital Services Act is beginning to push platforms to reduce the reach of unsubstantiated health claims. In the UK, the NHS has invested in health literacy campaigns specifically to help people identify misleading framing like this.",
+      "brit_take": "If someone's promising ancient secrets and hidden truths in the same sentence, they're probably selling something \u2014 and it's not peer review."
+    }
+  ]
+}
