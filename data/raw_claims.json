@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "source": "News",
+    "platform": "plymouthherald.co.uk",
+    "claim": "NHS doctor names two supplements that  shorten  winter colds and flu",
+    "url": "https://www.plymouthherald.co.uk/news/health/nhs-doctor-names-two-supplements-11199953",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United Kingdom"
+  },
+  {
+    "source": "News",
+    "platform": "nutraingredients.com",
+    "claim": "Are billion - dollar supplement deals becoming the new benchmark ?",
+    "url": "https://www.nutraingredients.com/Article/2026/10/15/are-billion-dollar-supplement-deals-becoming-the-new-benchmark/",
+    "engagement": 40,
+    "hours_ago": 12,
+    "source_country": "United Kingdom"
+  }
+]
