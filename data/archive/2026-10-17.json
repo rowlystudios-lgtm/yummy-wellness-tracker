@@ -1,0 +1,56 @@
+{
+  "published": "2026-10-17T14:05:07.208823+00:00",
+  "next_refresh": "2026-10-18T11:00:00+00:00",
+  "week_headline": "Supplement culture reaches fever pitch as billion-dollar deals and cold-fighting claims dominate health headlines this week",
+  "stats": {
+    "misleading_pct": "35%",
+    "true_pct": "65%",
+    "total_scored": 2
+  },
+  "top10": [
+    {
+      "rank": 1,
+      "claim": "NHS doctor names two supplements that  shorten  winter colds and flu",
+      "source": "News",
+      "platform": "plymouthherald.co.uk",
+      "url": "https://www.plymouthherald.co.uk/news/health/nhs-doctor-names-two-supplements-11199953",
+      "hours_ago": 12,
+      "score": 62,
+      "score_label": "Nuanced",
+      "score_type": "mixed",
+      "claim_tag": "Partially true",
+      "verdict": "There is decent evidence that zinc and vitamin C \u2014 the two most commonly cited here \u2014 can modestly reduce the duration of colds, but 'shorten flu' is a bigger stretch. A well-known Cochrane review found zinc lozenges taken within 24 hours of symptoms could cut cold duration by about a day. Vitamin C shows a small benefit mainly in people under physical stress. Neither is a magic bullet, and 'flu' is a different beast from a common cold.",
+      "verdict_highlight": "Modest cold reduction, not a cure",
+      "sources": [
+        "Cochrane Database of Systematic Reviews \u2014 Zinc for the common cold (2015)",
+        "NHS \u2014 Vitamins and minerals: Vitamin C",
+        "JAMA \u2014 Vitamin C supplementation and common cold duration",
+        "NIH Office of Dietary Supplements \u2014 Zinc fact sheet"
+      ],
+      "global_opinion": "In the US, zinc lozenges are widely marketed and bought over the counter with mainstream acceptance, while the FDA stops short of approving any cold-cure claims. In Germany, zinc and vitamin C supplements are commonly recommended by pharmacists as supportive care during cold season, reflecting a broader European comfort with evidence-based supplementation. In Japan, the focus tends to lean more toward dietary sources of these nutrients \u2014 like seafood for zinc \u2014 rather than isolated supplements.",
+      "brit_take": "Britons have been reaching for vitamin C at the first sign of a sniffle for decades \u2014 nice to know there's at least a little science behind the habit, even if it won't save your sick days."
+    },
+    {
+      "rank": 2,
+      "claim": "Are billion - dollar supplement deals becoming the new benchmark ?",
+      "source": "News",
+      "platform": "nutraingredients.com",
+      "url": "https://www.nutraingredients.com/Article/2026/10/15/are-billion-dollar-supplement-deals-becoming-the-new-benchmark/",
+      "hours_ago": 12,
+      "score": 28,
+      "score_label": "Misleading",
+      "score_type": "false",
+      "claim_tag": "Overstated",
+      "verdict": "Billion-dollar supplement acquisitions are real business news, but framing them as a health benchmark is a logical leap worth questioning. A company being worth a billion dollars tells you about investor appetite and marketing muscle \u2014 not about whether the products actually work. The supplement industry is famously under-regulated compared to pharmaceuticals, and a large valuation does not equal clinical validation. The WHO and EFSA both consistently note that most supplements are unnecessary for people eating a balanced diet.",
+      "verdict_highlight": "Big valuation does not mean big evidence",
+      "sources": [
+        "WHO \u2014 Food supplements advisory guidance",
+        "EFSA \u2014 Dietary supplements risk assessment framework",
+        "BMJ \u2014 The supplement industry and the limits of regulation (2023)",
+        "Harvard T.H. Chan School of Public Health \u2014 The Nutrition Source: Vitamins and Minerals"
+      ],
+      "global_opinion": "In the United States, the supplement industry operates under DSHEA legislation that requires companies to self-certify safety rather than prove efficacy before sale, making billion-dollar deals easier to build on softer foundations. The European Union applies stricter pre-market rules through EFSA, meaning large deals in Europe face more regulatory scrutiny before health claims can be made on labels. In Australia, the TGA requires listed supplements to demonstrate safety and some evidence of efficacy, placing it somewhere between the US and EU in terms of rigour.",
+      "brit_take": "In a country where we still argue about whether vitamin D tablets are worth it through a grey November, a billion-dollar supplement deal feels a bit like buying a very expensive umbrella and calling it climate control."
+    }
+  ]
+}
