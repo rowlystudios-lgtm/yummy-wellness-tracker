@@ -1,49 +1,71 @@
 {
-  "week_headline": "Supplement culture reaches fever pitch as billion-dollar deals and cold-fighting claims dominate health headlines this week",
-  "misleading_pct": "35%",
-  "true_pct": "65%",
+  "week_headline": "Food labelling deception is under the global spotlight this week, as regulators, dietitians, and entrepreneurs all challenge what 'healthy' really means on a package.",
+  "misleading_pct": "33%",
+  "true_pct": "67%",
   "claims": [
+    {
+      "score": 88,
+      "score_label": "Well supported",
+      "score_type": "true",
+      "claim_tag": "Evidence-based",
+      "verdict": "Dietitians are right to flag this. Terms like 'natural', 'superfood', 'light', and even 'low-fat' are often loosely regulated and can mislead shoppers into thinking a product is healthier than it really is. The FDA, WHO, and nutrition researchers have repeatedly shown that front-of-pack health claims frequently don't reflect the full nutritional picture \u2014 high sugar or sodium can hide behind a 'high protein' badge. Reading the actual nutrition panel is still your best move.",
+      "verdict_highlight": "Health labels often don't reflect full nutrition",
+      "sources": [
+        "FDA (U.S. Food and Drug Administration) \u2013 Labeling & Nutrition guidelines",
+        "WHO \u2013 Nutrition labelling policy brief",
+        "BMJ \u2013 Front-of-pack nutrition labelling evidence review",
+        "Journal of Nutrition \u2013 Consumer interpretation of health claims studies"
+      ],
+      "global_opinion": "In the EU, health claims on food must be pre-approved against a strict list regulated by EFSA, making misleading labels less common than in the US, where enforcement is lighter. The UK's NHS-backed traffic light system gives shoppers a quick colour-coded guide, and the UK Food Standards Agency actively challenges vague 'natural' claims. In Australia and New Zealand, Food Standards Australia New Zealand (FSANZ) requires substantiated evidence for health claims, though marketing language in grey areas still slips through.",
+      "brit_take": "We've had 'reduced fat' biscuits for decades and somehow the nation's health didn't transform \u2014 turns out eating the whole packet cancels out the label. Worth a thought.",
+      "source": "News",
+      "platform": "aol.com",
+      "url": "https://www.aol.com/articles/m-dietitian-healthy-food-labels-123500000.html",
+      "claim": "Im a Dietitian , and These  Healthy  Food Labels Dont Mean What You Think",
+      "hours_ago": 12,
+      "engagement": 40
+    },
+    {
+      "score": 82,
+      "score_label": "Well supported",
+      "score_type": "true",
+      "claim_tag": "Evidence-based",
+      "verdict": "India's food regulator FSSAI taking action against misleading health claims on popular products like Horlicks and others is a legitimate and well-founded regulatory move. Global nutrition science consistently shows that many fortified or 'health drink' products marketed to children and families carry high sugar loads that undercut their claimed benefits. Regulatory scrutiny of this kind is exactly what bodies like the WHO and UNICEF have been calling for across South and Southeast Asia.",
+      "verdict_highlight": "Regulatory action on health drink claims is justified",
+      "sources": [
+        "FSSAI \u2013 Food Safety and Standards Authority of India official guidelines",
+        "WHO \u2013 Guidance on ending inappropriate promotion of foods for infants and young children",
+        "UNICEF \u2013 Marketing of breast-milk substitutes and related products",
+        "Lancet \u2013 Ultra-processed food and health outcomes in low- and middle-income countries"
+      ],
+      "global_opinion": "In the UK, similar 'health drink' products like Ovaltine and Horlicks (once owned by GSK, now by Unilever in some markets) have faced pressure to reformulate due to sugar content, and NHS guidance no longer recommends them as health supplements. In the US, the FDA has tightened its definition of 'healthy' for labelling purposes and scrutinises fortified drink claims closely. Across Southeast Asia, including the Philippines and Indonesia, advocacy groups have long campaigned against aggressive health-drink marketing targeted at children with limited regulatory backing until recently.",
+      "brit_take": "Horlicks was once a British bedtime staple prescribed for 'nourishment' \u2014 it's a gentle reminder that nostalgia and nutrition science don't always agree.",
+      "source": "News",
+      "platform": "moneylife.in",
+      "url": "https://www.moneylife.in/article/fssai-flags-horlicks-health-claims-nestl-nutrition-product-initiates-prosecution-against-priyagold-maker-dodla-dairy/81977.html",
+      "claim": "FSSAI Flags Horlicks Health Claims , Nestl\u00e9 Nutrition Product ; Initiates Prosecution Against Priyagold Maker , Dodla Dairy",
+      "hours_ago": 12,
+      "engagement": 40
+    },
     {
       "score": 62,
       "score_label": "Nuanced",
       "score_type": "mixed",
       "claim_tag": "Partially true",
-      "verdict": "There is decent evidence that zinc and vitamin C \u2014 the two most commonly cited here \u2014 can modestly reduce the duration of colds, but 'shorten flu' is a bigger stretch. A well-known Cochrane review found zinc lozenges taken within 24 hours of symptoms could cut cold duration by about a day. Vitamin C shows a small benefit mainly in people under physical stress. Neither is a magic bullet, and 'flu' is a different beast from a common cold.",
-      "verdict_highlight": "Modest cold reduction, not a cure",
+      "verdict": "Susan Warui's story is an inspiring entrepreneurial narrative about building an animal nutrition business in Africa, but as a health claim it needs context. Animal nutrition \u2014 improving feed quality and livestock health \u2014 does have a genuine downstream impact on human nutrition through better-quality protein sources, especially in protein-deficient regions. However, the link between animal feed innovation and direct human health outcomes is indirect and depends heavily on access, affordability, and food system equity, so it's promising but not a straightforward health win yet.",
+      "verdict_highlight": "Animal nutrition gains only indirectly improve human health",
       "sources": [
-        "Cochrane Database of Systematic Reviews \u2014 Zinc for the common cold (2015)",
-        "NHS \u2014 Vitamins and minerals: Vitamin C",
-        "JAMA \u2014 Vitamin C supplementation and common cold duration",
-        "NIH Office of Dietary Supplements \u2014 Zinc fact sheet"
+        "FAO \u2013 Livestock and food security in Sub-Saharan Africa",
+        "WHO \u2013 Animal source foods and nutrition in low-income settings",
+        "Lancet \u2013 Food systems, animal agriculture and human nutrition nexus",
+        "NIH \u2013 Dietary protein quality and animal-source foods in developing regions"
       ],
-      "global_opinion": "In the US, zinc lozenges are widely marketed and bought over the counter with mainstream acceptance, while the FDA stops short of approving any cold-cure claims. In Germany, zinc and vitamin C supplements are commonly recommended by pharmacists as supportive care during cold season, reflecting a broader European comfort with evidence-based supplementation. In Japan, the focus tends to lean more toward dietary sources of these nutrients \u2014 like seafood for zinc \u2014 rather than isolated supplements.",
-      "brit_take": "Britons have been reaching for vitamin C at the first sign of a sniffle for decades \u2014 nice to know there's at least a little science behind the habit, even if it won't save your sick days.",
+      "global_opinion": "In East Africa, where livestock is central to livelihoods and food security, improving animal nutrition is widely seen as a practical public health lever \u2014 the African Union's Agenda 2063 explicitly ties livestock productivity to human welfare goals. In Europe, the conversation about animal agriculture is more focused on sustainability and reducing meat consumption, so the framing sits differently there. In the US and Canada, animal nutrition is a large industry, but the human health framing is less prominent than in food-insecure regions where protein access is a genuine concern.",
+      "brit_take": "We tend to think of nutrition as what's on our plate, not what was in the feed of what's on our plate \u2014 but honestly, it's a fair point that the chain starts much earlier.",
       "source": "News",
-      "platform": "plymouthherald.co.uk",
-      "url": "https://www.plymouthherald.co.uk/news/health/nhs-doctor-names-two-supplements-11199953",
-      "claim": "NHS doctor names two supplements that  shorten  winter colds and flu",
-      "hours_ago": 12,
-      "engagement": 40
-    },
-    {
-      "score": 28,
-      "score_label": "Misleading",
-      "score_type": "false",
-      "claim_tag": "Overstated",
-      "verdict": "Billion-dollar supplement acquisitions are real business news, but framing them as a health benchmark is a logical leap worth questioning. A company being worth a billion dollars tells you about investor appetite and marketing muscle \u2014 not about whether the products actually work. The supplement industry is famously under-regulated compared to pharmaceuticals, and a large valuation does not equal clinical validation. The WHO and EFSA both consistently note that most supplements are unnecessary for people eating a balanced diet.",
-      "verdict_highlight": "Big valuation does not mean big evidence",
-      "sources": [
-        "WHO \u2014 Food supplements advisory guidance",
-        "EFSA \u2014 Dietary supplements risk assessment framework",
-        "BMJ \u2014 The supplement industry and the limits of regulation (2023)",
-        "Harvard T.H. Chan School of Public Health \u2014 The Nutrition Source: Vitamins and Minerals"
-      ],
-      "global_opinion": "In the United States, the supplement industry operates under DSHEA legislation that requires companies to self-certify safety rather than prove efficacy before sale, making billion-dollar deals easier to build on softer foundations. The European Union applies stricter pre-market rules through EFSA, meaning large deals in Europe face more regulatory scrutiny before health claims can be made on labels. In Australia, the TGA requires listed supplements to demonstrate safety and some evidence of efficacy, placing it somewhere between the US and EU in terms of rigour.",
-      "brit_take": "In a country where we still argue about whether vitamin D tablets are worth it through a grey November, a billion-dollar supplement deal feels a bit like buying a very expensive umbrella and calling it climate control.",
-      "source": "News",
-      "platform": "nutraingredients.com",
-      "url": "https://www.nutraingredients.com/Article/2026/10/15/are-billion-dollar-supplement-deals-becoming-the-new-benchmark/",
-      "claim": "Are billion - dollar supplement deals becoming the new benchmark ?",
+      "platform": "the-star.co.ke",
+      "url": "https://www.the-star.co.ke/news/2026-10-19-warui-from-hotelier-dreams-to-building-an-african-animal-nutrition-powerhouse",
+      "claim": "Susan Warui : From hotelier dreams to building an African animal - nutrition powerhouse",
       "hours_ago": 12,
       "engagement": 40
     }
