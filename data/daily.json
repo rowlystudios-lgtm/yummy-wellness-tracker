@@ -1,78 +1,35 @@
 {
-  "published": "2026-10-19T17:22:00.238818+00:00",
-  "next_refresh": "2026-10-20T11:00:00+00:00",
-  "week_headline": "Food labelling deception is under the global spotlight this week, as regulators, dietitians, and entrepreneurs all challenge what 'healthy' really means on a package.",
+  "published": "2026-10-20T15:35:05.627069+00:00",
+  "next_refresh": "2026-10-21T11:00:00+00:00",
+  "week_headline": "India's food regulator FSSAI puts health supplement brands on notice over misleading labels, sparking wider debate about supplement industry accountability",
   "stats": {
-    "misleading_pct": "33%",
-    "true_pct": "67%",
-    "total_scored": 3
+    "misleading_pct": "25%",
+    "true_pct": "75%",
+    "total_scored": 1
   },
   "top10": [
     {
       "rank": 1,
-      "claim": "Im a Dietitian , and These  Healthy  Food Labels Dont Mean What You Think",
+      "claim": "FSSAI warns health supplement makers over labelling violations , threatens action",
       "source": "News",
-      "platform": "aol.com",
-      "url": "https://www.aol.com/articles/m-dietitian-healthy-food-labels-123500000.html",
-      "hours_ago": 12,
-      "score": 88,
-      "score_label": "Well supported",
-      "score_type": "true",
-      "claim_tag": "Evidence-based",
-      "verdict": "Dietitians are right to flag this. Terms like 'natural', 'superfood', 'light', and even 'low-fat' are often loosely regulated and can mislead shoppers into thinking a product is healthier than it really is. The FDA, WHO, and nutrition researchers have repeatedly shown that front-of-pack health claims frequently don't reflect the full nutritional picture \u2014 high sugar or sodium can hide behind a 'high protein' badge. Reading the actual nutrition panel is still your best move.",
-      "verdict_highlight": "Health labels often don't reflect full nutrition",
-      "sources": [
-        "FDA (U.S. Food and Drug Administration) \u2013 Labeling & Nutrition guidelines",
-        "WHO \u2013 Nutrition labelling policy brief",
-        "BMJ \u2013 Front-of-pack nutrition labelling evidence review",
-        "Journal of Nutrition \u2013 Consumer interpretation of health claims studies"
-      ],
-      "global_opinion": "In the EU, health claims on food must be pre-approved against a strict list regulated by EFSA, making misleading labels less common than in the US, where enforcement is lighter. The UK's NHS-backed traffic light system gives shoppers a quick colour-coded guide, and the UK Food Standards Agency actively challenges vague 'natural' claims. In Australia and New Zealand, Food Standards Australia New Zealand (FSANZ) requires substantiated evidence for health claims, though marketing language in grey areas still slips through.",
-      "brit_take": "We've had 'reduced fat' biscuits for decades and somehow the nation's health didn't transform \u2014 turns out eating the whole packet cancels out the label. Worth a thought."
-    },
-    {
-      "rank": 2,
-      "claim": "FSSAI Flags Horlicks Health Claims , Nestl\u00e9 Nutrition Product ; Initiates Prosecution Against Priyagold Maker , Dodla Dairy",
-      "source": "News",
-      "platform": "moneylife.in",
-      "url": "https://www.moneylife.in/article/fssai-flags-horlicks-health-claims-nestl-nutrition-product-initiates-prosecution-against-priyagold-maker-dodla-dairy/81977.html",
+      "platform": "moneycontrol.com",
+      "url": "https://www.moneycontrol.com/news/india/fssai-warns-health-supplement-makers-over-labelling-violations-threatens-action-14055748.html",
       "hours_ago": 12,
       "score": 82,
-      "score_label": "Well supported",
-      "score_type": "true",
-      "claim_tag": "Evidence-based",
-      "verdict": "India's food regulator FSSAI taking action against misleading health claims on popular products like Horlicks and others is a legitimate and well-founded regulatory move. Global nutrition science consistently shows that many fortified or 'health drink' products marketed to children and families carry high sugar loads that undercut their claimed benefits. Regulatory scrutiny of this kind is exactly what bodies like the WHO and UNICEF have been calling for across South and Southeast Asia.",
-      "verdict_highlight": "Regulatory action on health drink claims is justified",
-      "sources": [
-        "FSSAI \u2013 Food Safety and Standards Authority of India official guidelines",
-        "WHO \u2013 Guidance on ending inappropriate promotion of foods for infants and young children",
-        "UNICEF \u2013 Marketing of breast-milk substitutes and related products",
-        "Lancet \u2013 Ultra-processed food and health outcomes in low- and middle-income countries"
-      ],
-      "global_opinion": "In the UK, similar 'health drink' products like Ovaltine and Horlicks (once owned by GSK, now by Unilever in some markets) have faced pressure to reformulate due to sugar content, and NHS guidance no longer recommends them as health supplements. In the US, the FDA has tightened its definition of 'healthy' for labelling purposes and scrutinises fortified drink claims closely. Across Southeast Asia, including the Philippines and Indonesia, advocacy groups have long campaigned against aggressive health-drink marketing targeted at children with limited regulatory backing until recently.",
-      "brit_take": "Horlicks was once a British bedtime staple prescribed for 'nourishment' \u2014 it's a gentle reminder that nostalgia and nutrition science don't always agree."
-    },
-    {
-      "rank": 3,
-      "claim": "Susan Warui : From hotelier dreams to building an African animal - nutrition powerhouse",
-      "source": "News",
-      "platform": "the-star.co.ke",
-      "url": "https://www.the-star.co.ke/news/2026-10-19-warui-from-hotelier-dreams-to-building-an-african-animal-nutrition-powerhouse",
-      "hours_ago": 12,
-      "score": 62,
       "score_label": "Nuanced",
       "score_type": "mixed",
       "claim_tag": "Partially true",
-      "verdict": "Susan Warui's story is an inspiring entrepreneurial narrative about building an animal nutrition business in Africa, but as a health claim it needs context. Animal nutrition \u2014 improving feed quality and livestock health \u2014 does have a genuine downstream impact on human nutrition through better-quality protein sources, especially in protein-deficient regions. However, the link between animal feed innovation and direct human health outcomes is indirect and depends heavily on access, affordability, and food system equity, so it's promising but not a straightforward health win yet.",
-      "verdict_highlight": "Animal nutrition gains only indirectly improve human health",
+      "verdict": "FSSAI's warnings are real and well-documented \u2014 the regulator has repeatedly flagged supplement brands for overstating benefits, hiding ingredient quantities, and using unapproved health claims on packaging. That said, the story is less about a dramatic crackdown and more about an ongoing, slow-moving regulatory tussle. The supplement industry in India operates in a genuinely grey zone where enforcement has historically been patchy, so the warnings carry weight but their follow-through is what actually matters.",
+      "verdict_highlight": "Labels overpromise; enforcement is the real test",
       "sources": [
-        "FAO \u2013 Livestock and food security in Sub-Saharan Africa",
-        "WHO \u2013 Animal source foods and nutrition in low-income settings",
-        "Lancet \u2013 Food systems, animal agriculture and human nutrition nexus",
-        "NIH \u2013 Dietary protein quality and animal-source foods in developing regions"
+        "FSSAI official notices and guidelines (fssai.gov.in)",
+        "WHO guidelines on nutrition labelling",
+        "EFSA (European Food Safety Authority) supplement labelling standards",
+        "Journal of Nutrition \u2014 review of supplement label accuracy studies",
+        "BMJ \u2014 'Regulation of dietary supplements' commentary"
       ],
-      "global_opinion": "In East Africa, where livestock is central to livelihoods and food security, improving animal nutrition is widely seen as a practical public health lever \u2014 the African Union's Agenda 2063 explicitly ties livestock productivity to human welfare goals. In Europe, the conversation about animal agriculture is more focused on sustainability and reducing meat consumption, so the framing sits differently there. In the US and Canada, animal nutrition is a large industry, but the human health framing is less prominent than in food-insecure regions where protein access is a genuine concern.",
-      "brit_take": "We tend to think of nutrition as what's on our plate, not what was in the feed of what's on our plate \u2014 but honestly, it's a fair point that the chain starts much earlier."
+      "global_opinion": "In the EU, EFSA maintains a strict approved-claims list meaning supplement makers cannot print health benefits without pre-authorised scientific backing \u2014 a standard India is still moving toward. The US FDA takes a post-market approach, meaning products can launch freely but face action after complaints, which critics argue lets misleading labels circulate too long. Australia's TGA sits somewhere in between, requiring pre-approval for therapeutic claims, which has generally kept its supplement market more tightly labelled than India's current framework.",
+      "brit_take": "In the UK, the FSA quietly does a version of this every few months and nobody really notices \u2014 until someone finds 'supports your immune system' on a gummy bear and wonders what that actually means."
     }
   ]
 }

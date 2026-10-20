@@ -1,29 +1,11 @@
 [
   {
     "source": "News",
-    "platform": "aol.com",
-    "claim": "Im a Dietitian , and These  Healthy  Food Labels Dont Mean What You Think",
-    "url": "https://www.aol.com/articles/m-dietitian-healthy-food-labels-123500000.html",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "United States"
-  },
-  {
-    "source": "News",
-    "platform": "moneylife.in",
-    "claim": "FSSAI Flags Horlicks Health Claims , Nestl\u00e9 Nutrition Product ; Initiates Prosecution Against Priyagold Maker , Dodla Dairy",
-    "url": "https://www.moneylife.in/article/fssai-flags-horlicks-health-claims-nestl-nutrition-product-initiates-prosecution-against-priyagold-maker-dodla-dairy/81977.html",
+    "platform": "moneycontrol.com",
+    "claim": "FSSAI warns health supplement makers over labelling violations , threatens action",
+    "url": "https://www.moneycontrol.com/news/india/fssai-warns-health-supplement-makers-over-labelling-violations-threatens-action-14055748.html",
     "engagement": 40,
     "hours_ago": 12,
     "source_country": "India"
-  },
-  {
-    "source": "News",
-    "platform": "the-star.co.ke",
-    "claim": "Susan Warui : From hotelier dreams to building an African animal - nutrition powerhouse",
-    "url": "https://www.the-star.co.ke/news/2026-10-19-warui-from-hotelier-dreams-to-building-an-african-animal-nutrition-powerhouse",
-    "engagement": 40,
-    "hours_ago": 12,
-    "source_country": "Kenya"
   }
 ]
