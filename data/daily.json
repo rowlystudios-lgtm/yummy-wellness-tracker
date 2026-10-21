@@ -1,35 +1,35 @@
 {
-  "published": "2026-10-20T15:35:05.627069+00:00",
-  "next_refresh": "2026-10-21T11:00:00+00:00",
-  "week_headline": "India's food regulator FSSAI puts health supplement brands on notice over misleading labels, sparking wider debate about supplement industry accountability",
+  "published": "2026-10-21T15:51:49.147144+00:00",
+  "next_refresh": "2026-10-22T11:00:00+00:00",
+  "week_headline": "Gut health supplements flood social media as consumers question whether probiotic and prebiotic products live up to the hype",
   "stats": {
-    "misleading_pct": "25%",
-    "true_pct": "75%",
+    "misleading_pct": "45%",
+    "true_pct": "55%",
     "total_scored": 1
   },
   "top10": [
     {
       "rank": 1,
-      "claim": "FSSAI warns health supplement makers over labelling violations , threatens action",
+      "claim": "Viral gut health supplements : are they safe and effective ?",
       "source": "News",
-      "platform": "moneycontrol.com",
-      "url": "https://www.moneycontrol.com/news/india/fssai-warns-health-supplement-makers-over-labelling-violations-threatens-action-14055748.html",
+      "platform": "kfyrtv.com",
+      "url": "https://www.kfyrtv.com/2026/10/20/viral-gut-health-supplements-are-they-safe-effective/",
       "hours_ago": 12,
-      "score": 82,
+      "score": 52,
       "score_label": "Nuanced",
       "score_type": "mixed",
       "claim_tag": "Partially true",
-      "verdict": "FSSAI's warnings are real and well-documented \u2014 the regulator has repeatedly flagged supplement brands for overstating benefits, hiding ingredient quantities, and using unapproved health claims on packaging. That said, the story is less about a dramatic crackdown and more about an ongoing, slow-moving regulatory tussle. The supplement industry in India operates in a genuinely grey zone where enforcement has historically been patchy, so the warnings carry weight but their follow-through is what actually matters.",
-      "verdict_highlight": "Labels overpromise; enforcement is the real test",
+      "verdict": "Some gut health supplements \u2014 particularly specific probiotic strains like Lactobacillus rhamnosus GG and Bifidobacterium longum \u2014 have genuine, well-studied benefits for things like antibiotic-associated diarrhoea and IBS symptom relief. The safety profile for most healthy adults is generally good. But the word 'gut health supplement' covers an enormous range of products, and the marketing tends to run way ahead of the evidence \u2014 many products on shelves have little to no human trial data behind them.",
+      "verdict_highlight": "Specific strains matter; blanket claims don't",
       "sources": [
-        "FSSAI official notices and guidelines (fssai.gov.in)",
-        "WHO guidelines on nutrition labelling",
-        "EFSA (European Food Safety Authority) supplement labelling standards",
-        "Journal of Nutrition \u2014 review of supplement label accuracy studies",
-        "BMJ \u2014 'Regulation of dietary supplements' commentary"
+        "NIH National Center for Complementary and Integrative Health \u2014 Probiotics: What You Need To Know (2023)",
+        "BMJ \u2014 Probiotics for treating acute infectious diarrhoea (Cochrane Review)",
+        "EFSA \u2014 Scientific Opinion on the substantiation of health claims related to live yoghurt cultures",
+        "Harvard T.H. Chan School of Public Health \u2014 The Nutrition Source: Probiotics",
+        "Lancet Gastroenterology & Hepatology \u2014 Microbiome and gut health supplement review (2022)"
       ],
-      "global_opinion": "In the EU, EFSA maintains a strict approved-claims list meaning supplement makers cannot print health benefits without pre-authorised scientific backing \u2014 a standard India is still moving toward. The US FDA takes a post-market approach, meaning products can launch freely but face action after complaints, which critics argue lets misleading labels circulate too long. Australia's TGA sits somewhere in between, requiring pre-approval for therapeutic claims, which has generally kept its supplement market more tightly labelled than India's current framework.",
-      "brit_take": "In the UK, the FSA quietly does a version of this every few months and nobody really notices \u2014 until someone finds 'supports your immune system' on a gummy bear and wonders what that actually means."
+      "global_opinion": "In the EU, EFSA has rejected most probiotic health claims on product labels due to insufficient evidence, so European consumers see far more cautious marketing than elsewhere. In the US, the FDA classifies most of these products as dietary supplements \u2014 meaning they don't require proof of efficacy before hitting shelves, which allows bolder claims. Japan has a long cultural tradition of fermented foods like natto and kefir for gut wellbeing, and its regulatory body FOSHU grants health claims only after review, sitting somewhere between the EU strictness and US permissiveness.",
+      "brit_take": "We've collectively spent a fortune on little bottles of bacteria \u2014 which is either cutting-edge self-care or very expensive yoghurt, depending on which study you read last."
     }
   ]
 }
