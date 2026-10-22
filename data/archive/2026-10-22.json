@@ -1,0 +1,56 @@
+{
+  "published": "2026-10-22T15:49:02.841498+00:00",
+  "next_refresh": "2026-10-23T11:00:00+00:00",
+  "week_headline": "Ultra-processed foods are dominating health headlines this week, with new research linking them to hidden brain damage in otherwise healthy adults.",
+  "stats": {
+    "misleading_pct": "15%",
+    "true_pct": "85%",
+    "total_scored": 2
+  },
+  "top10": [
+    {
+      "rank": 1,
+      "claim": "Ultra - Processed Food Intake Linked to Silent Strokes in Healthy Middle - Aged Adults , Study Finds",
+      "source": "News",
+      "platform": "northdallasgazette.com",
+      "url": "https://northdallasgazette.com/2026/10/21/ultra-processed-food-intake-linked-to-silent-strokes-in-healthy-middle-aged-adults-study-finds/",
+      "hours_ago": 12,
+      "score": 78,
+      "score_label": "Nuanced",
+      "score_type": "mixed",
+      "claim_tag": "Partially true",
+      "verdict": "There is genuine and growing evidence that high ultra-processed food (UPF) intake is associated with increased cardiovascular and cerebrovascular risk, including silent strokes (white matter lesions detected on MRI). However, most studies in this space are observational, meaning they show association, not direct cause. Factors like overall diet quality, sedentary lifestyle, and pre-existing metabolic conditions often travel alongside high UPF consumption, making it hard to pin the blame solely on UPFs.",
+      "verdict_highlight": "Association is real, but causation unproven",
+      "sources": [
+        "NEJM Evidence \u2013 Hall et al. ultra-processed food trials",
+        "BMJ 2019 \u2013 Srour et al. UPF and cardiovascular risk cohort study",
+        "Stroke (AHA Journal) 2021 \u2013 dietary patterns and silent cerebrovascular disease",
+        "NIH National Institute of Neurological Disorders and Stroke"
+      ],
+      "global_opinion": "In Brazil, where the NOVA food classification system that defines UPFs was developed, public health guidelines already formally advise limiting ultra-processed foods \u2014 it is embedded in their national dietary guidelines. In the US and UK, regulators have been slower to act, though the NHS and CDC acknowledge the broader risks of processed food consumption. France has invested heavily in the Nutri-Score labelling system partly in response to UPF research, reflecting a stronger regulatory appetite for action than seen in North America.",
+      "brit_take": "Half the nation's tea biscuits just became a neurological event. Perhaps that's one warning label too many for a Tuesday morning."
+    },
+    {
+      "rank": 2,
+      "claim": "Kennedy , Bean to meet Florida health leaders in Orange Park on national nutrition pledges",
+      "source": "News",
+      "platform": "news4jax.com",
+      "url": "https://www.news4jax.com/news/local/2026/10/21/kennedy-bean-to-meet-florida-leaders-in-orange-park-on-nutrition-pledges/",
+      "hours_ago": 12,
+      "score": 32,
+      "score_label": "Misleading",
+      "score_type": "false",
+      "claim_tag": "Context missing",
+      "verdict": "This is a political and public relations story, not a nutrition science finding. A meeting between officials to discuss nutrition pledges tells us very little about whether any specific health claim is true or any policy will be effective. Kennedy's broader 'Make America Healthy Again' platform includes some evidence-based ideas around reducing UPF consumption, but also incorporates positions \u2014 like vaccine scepticism and opposition to fluoride \u2014 that contradict established public health consensus from the CDC and WHO. Attaching credibility to nutrition science simply because politicians are meeting about it conflates advocacy with evidence.",
+      "verdict_highlight": "Political meetings are not peer-reviewed evidence",
+      "sources": [
+        "CDC \u2013 Nutrition and Healthy Eating guidelines",
+        "WHO \u2013 Global Action Plan on Non-Communicable Diseases",
+        "Harvard T.H. Chan School of Public Health \u2013 Dietary Guidelines commentary",
+        "JAMA 2023 \u2013 commentary on US food policy and public health"
+      ],
+      "global_opinion": "In the EU, nutrition policy is typically shaped through bodies like EFSA with formal scientific review processes, making high-profile political meetups less central to how dietary guidance is formed. In the UK, the Food Standards Agency operates at arm's length from ministers, meaning individual politicians have less direct influence over nutritional messaging. In the US, the intersection of politics and nutrition guidance is historically more pronounced, which can be a strength for public awareness but a vulnerability when political agendas outpace the evidence.",
+      "brit_take": "A meeting about pledges is not quite the same as a salad. Good intentions are a start, but the science still has to show up on time."
+    }
+  ]
+}
