@@ -1,56 +1,34 @@
 {
-  "published": "2026-10-24T14:17:21.131489+00:00",
-  "next_refresh": "2026-10-25T11:00:00+00:00",
-  "week_headline": "Gut health takes centre stage as fermented foods and the protein-fibre connection dominate nutrition conversations this week",
+  "published": "2026-10-25T14:51:55.113792+00:00",
+  "next_refresh": "2026-10-26T11:00:00+00:00",
+  "week_headline": "Diet soda is back in the spotlight as debates heat up over whether zero-calorie drinks actually help or hinder weight loss",
   "stats": {
-    "misleading_pct": "15%",
-    "true_pct": "85%",
-    "total_scored": 2
+    "misleading_pct": "60%",
+    "true_pct": "40%",
+    "total_scored": 1
   },
   "top10": [
     {
       "rank": 1,
-      "claim": "Danone united states Contributes to New Digital Nutrition Science Tool to Advance Culinary Adoption of Fermented Foods",
+      "claim": "Will Drinking Diet Soda Help You Lose Weight ?",
       "source": "News",
-      "platform": "prnewswire.com",
-      "url": "https://www.prnewswire.com/news-releases/danone-usa-contributes-to-new-digital-nutrition-science-tool-to-advance-culinary-adoption-of-fermented-foods-302917436.html",
+      "platform": "foodconsumer.org",
+      "url": "https://www.foodconsumer.org/will_drinking_diet_soda_help_you_lose_weight_0815141231/",
       "hours_ago": 12,
-      "score": 72,
-      "score_label": "Nuanced",
-      "score_type": "mixed",
-      "claim_tag": "Partially true",
-      "verdict": "Fermented foods like yogurt, kefir, kimchi and sauerkraut do have genuine, growing scientific support for gut microbiome benefits \u2014 a 2021 Stanford study in Cell showed a high-fermented-food diet increased microbiome diversity and reduced inflammation markers. The nuance here is that Danone, a major dairy and fermented food producer, is funding and shaping this tool, which is worth knowing as a consumer. The science is real, but the messenger has a commercial interest, so treat it as a useful resource rather than purely independent guidance.",
-      "verdict_highlight": "Science is real, but the funder sells yogurt",
+      "score": 38,
+      "score_label": "Misleading",
+      "score_type": "false",
+      "claim_tag": "Overstated",
+      "verdict": "Swapping sugary drinks for diet soda can reduce calorie intake in the short term, but the broader evidence suggests it rarely leads to meaningful weight loss on its own. Studies find that artificial sweeteners may disrupt hunger signals and gut bacteria in ways that can actually increase cravings for sweet, high-calorie foods. The strongest research, including a 2023 WHO review, concludes that diet soda is not an effective weight management tool and shouldn't be relied on as one.",
+      "verdict_highlight": "Diet soda alone won't move the scales",
       "sources": [
-        "Cell (Sonnenburg & Gardner, Stanford 2021)",
-        "Harvard T.H. Chan School of Public Health \u2014 The Nutrition Source",
-        "EFSA Scientific Opinion on Fermented Foods",
-        "BMJ Nutrition, Prevention & Health"
+        "WHO: Use of non-sugar sweeteners guidelines, 2023",
+        "BMJ: Artificially sweetened beverages and weight outcomes meta-analysis, 2017",
+        "JAMA Internal Medicine: Long-term dietary beverage consumption and weight, 2016",
+        "NIH National Institute of Diabetes and Digestive and Kidney Diseases: Sugar substitutes fact sheet"
       ],
-      "global_opinion": "In South Korea and Japan, fermented foods like kimchi and miso have been dietary staples for centuries and are widely endorsed by national health bodies without needing corporate tools to promote them. In Europe, EFSA has been cautious about specific probiotic health claims, requiring strong evidence before permitting them on labels. In the US, the FDA does not yet formally classify most fermented food benefits as approved health claims, making industry-led educational tools particularly influential in shaping public perception.",
-      "brit_take": "We've been eating Marmite and Branston Pickle for decades without needing a Silicon Valley nutrition portal \u2014 though we'll admit we never knew they were good for our gut bacteria either."
-    },
-    {
-      "rank": 2,
-      "claim": "Are you ignoring this key nutrient while chasing protein ? Nutritionist reveals an important link between protein and fibre",
-      "source": "News",
-      "platform": "hindustantimes.com",
-      "url": "https://www.hindustantimes.com/lifestyle/health/are-you-ignoring-this-key-nutrient-while-chasing-protein-nutritionist-reveals-an-important-link-between-protein-and-fibre-101792665482490.html",
-      "hours_ago": 12,
-      "score": 82,
-      "score_label": "Nuanced",
-      "score_type": "mixed",
-      "claim_tag": "Partially true",
-      "verdict": "This one is largely on the money. Fibre and protein genuinely work together \u2014 dietary fibre feeds the gut bacteria that help regulate appetite, and without enough fibre, a high-protein diet can slow digestion and reduce the diversity of your gut microbiome over time. Research published in the Journal of Nutrition and supported by NHS guidelines consistently shows that most people chasing protein goals through meat and supplements still fall well short of the recommended 30g of daily fibre. The 'nutritionist reveals' framing slightly oversells it as a secret \u2014 it isn't, but it is something many people overlook.",
-      "verdict_highlight": "Protein without fibre is only half the story",
-      "sources": [
-        "Journal of Nutrition (Dietary Fibre and Gut Microbiome, 2022)",
-        "NHS \u2014 Fibre intake recommendations",
-        "NIH National Library of Medicine \u2014 Protein and Gut Health",
-        "Harvard T.H. Chan School of Public Health \u2014 Fiber"
-      ],
-      "global_opinion": "In Nordic countries, high fibre intake is deeply embedded in dietary guidelines and everyday eating \u2014 rye bread alone contributes significantly to daily fibre targets, so the protein-fibre imbalance is less of a cultural issue there. In the US and UK, where high-protein diets like keto and carnivore have surged in popularity, low fibre intake is a genuine public health concern flagged by the CDC and NHS respectively. In India, traditional plant-forward diets naturally combine protein and fibre through lentils and legumes, though urbanisation is shifting eating patterns toward more processed, lower-fibre foods.",
-      "brit_take": "Britain is a nation that bulk-buys protein powder and forgets to eat a single vegetable \u2014 so yes, this reminder is very much for us, and we know it."
+      "global_opinion": "In the US, diet soda is still widely marketed as a weight-loss-friendly choice and many Americans use it as a daily swap, though the FDA has faced growing pressure to review artificial sweetener safety labels. The EU and UK have taken a more cautious regulatory tone, with the NHS explicitly stating that diet drinks are not a proven weight loss aid and that water remains the best choice. In some parts of Asia, particularly Japan and South Korea, low-sugar functional beverages have largely replaced traditional diet sodas, reflecting a cultural preference for drinks positioned around gut health rather than calorie counting.",
+      "brit_take": "We've been reaching for Diet Coke at the chippy for thirty years and somehow the chips are still the problem. Funny how that works."
     }
   ]
 }
