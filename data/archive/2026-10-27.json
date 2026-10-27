@@ -1,0 +1,34 @@
+{
+  "published": "2026-10-27T16:13:33.557095+00:00",
+  "next_refresh": "2026-10-28T11:00:00+00:00",
+  "week_headline": "Diet soda is back in the spotlight as debates heat up over whether zero-calorie drinks actually help or hinder weight loss",
+  "stats": {
+    "misleading_pct": "60%",
+    "true_pct": "40%",
+    "total_scored": 1
+  },
+  "top10": [
+    {
+      "rank": 1,
+      "claim": "Will Drinking Diet Soda Help You Lose Weight ?",
+      "source": "News",
+      "platform": "foodconsumer.org",
+      "url": "https://www.foodconsumer.org/will_drinking_diet_soda_help_you_lose_weight_0815141231/",
+      "hours_ago": 12,
+      "score": 38,
+      "score_label": "Misleading",
+      "score_type": "false",
+      "claim_tag": "Overstated",
+      "verdict": "Swapping sugary drinks for diet soda can reduce calorie intake in the short term, but the broader evidence suggests it rarely leads to meaningful weight loss on its own. Studies find that artificial sweeteners may disrupt hunger signals and gut bacteria in ways that can actually increase cravings for sweet, high-calorie foods. The strongest research, including a 2023 WHO review, concludes that diet soda is not an effective weight management tool and shouldn't be relied on as one.",
+      "verdict_highlight": "Diet soda alone won't move the scales",
+      "sources": [
+        "WHO: Use of non-sugar sweeteners guidelines, 2023",
+        "BMJ: Artificially sweetened beverages and weight outcomes meta-analysis, 2017",
+        "JAMA Internal Medicine: Long-term dietary beverage consumption and weight, 2016",
+        "NIH National Institute of Diabetes and Digestive and Kidney Diseases: Sugar substitutes fact sheet"
+      ],
+      "global_opinion": "In the US, diet soda is still widely marketed as a weight-loss-friendly choice and many Americans use it as a daily swap, though the FDA has faced growing pressure to review artificial sweetener safety labels. The EU and UK have taken a more cautious regulatory tone, with the NHS explicitly stating that diet drinks are not a proven weight loss aid and that water remains the best choice. In some parts of Asia, particularly Japan and South Korea, low-sugar functional beverages have largely replaced traditional diet sodas, reflecting a cultural preference for drinks positioned around gut health rather than calorie counting.",
+      "brit_take": "We've been reaching for Diet Coke at the chippy for thirty years and somehow the chips are still the problem. Funny how that works."
+    }
+  ]
+}
