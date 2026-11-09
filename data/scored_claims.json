@@ -1,27 +1,28 @@
 {
-  "week_headline": "Diet soda is back in the spotlight as debates heat up over whether zero-calorie drinks actually help or hinder weight loss",
-  "misleading_pct": "60%",
-  "true_pct": "40%",
+  "week_headline": "Your gut microbiome is stealing the spotlight this week, with coffee, vegetables, and exercise all linked to the same surprising biological pathway inside your digestive system.",
+  "misleading_pct": "15%",
+  "true_pct": "85%",
   "claims": [
     {
-      "score": 38,
-      "score_label": "Misleading",
-      "score_type": "false",
-      "claim_tag": "Overstated",
-      "verdict": "Swapping sugary drinks for diet soda can reduce calorie intake in the short term, but the broader evidence suggests it rarely leads to meaningful weight loss on its own. Studies find that artificial sweeteners may disrupt hunger signals and gut bacteria in ways that can actually increase cravings for sweet, high-calorie foods. The strongest research, including a 2023 WHO review, concludes that diet soda is not an effective weight management tool and shouldn't be relied on as one.",
-      "verdict_highlight": "Diet soda alone won't move the scales",
+      "score": 82,
+      "score_label": "Nuanced",
+      "score_type": "mixed",
+      "claim_tag": "Partially true",
+      "verdict": "There is genuinely good science here. Coffee, vegetables, and exercise all increase the diversity and abundance of beneficial gut bacteria \u2014 particularly short-chain fatty acid producers like Lactobacillus and Bifidobacterium \u2014 and reduce gut inflammation through overlapping mechanisms. Coffee's polyphenols, vegetable fibre, and exercise-induced gut motility changes each nudge the microbiome in similar helpful directions, which is a real and emerging finding. That said, 'surprising connection' slightly oversells the novelty \u2014 researchers have known about these overlapping gut effects for several years, and the headline makes it sound more like a hidden secret than an evolving area of solid nutrition science.",
+      "verdict_highlight": "All three genuinely feed your good gut bacteria",
       "sources": [
-        "WHO: Use of non-sugar sweeteners guidelines, 2023",
-        "BMJ: Artificially sweetened beverages and weight outcomes meta-analysis, 2017",
-        "JAMA Internal Medicine: Long-term dietary beverage consumption and weight, 2016",
-        "NIH National Institute of Diabetes and Digestive and Kidney Diseases: Sugar substitutes fact sheet"
+        "Nature Reviews Microbiology (2019) \u2014 exercise and gut microbiome diversity",
+        "Journal of Nutrition (2020) \u2014 coffee polyphenols and gut microbiota",
+        "Cell Host & Microbe (2021) \u2014 dietary fibre and short-chain fatty acid production",
+        "BMJ (2022) \u2014 plant-based diets and microbiome health",
+        "NIH National Institute of Diabetes \u2014 gut microbiome overview"
       ],
-      "global_opinion": "In the US, diet soda is still widely marketed as a weight-loss-friendly choice and many Americans use it as a daily swap, though the FDA has faced growing pressure to review artificial sweetener safety labels. The EU and UK have taken a more cautious regulatory tone, with the NHS explicitly stating that diet drinks are not a proven weight loss aid and that water remains the best choice. In some parts of Asia, particularly Japan and South Korea, low-sugar functional beverages have largely replaced traditional diet sodas, reflecting a cultural preference for drinks positioned around gut health rather than calorie counting.",
-      "brit_take": "We've been reaching for Diet Coke at the chippy for thirty years and somehow the chips are still the problem. Funny how that works.",
+      "global_opinion": "In Japan, the connection between fermented foods, plant-rich diets, and gut health has been culturally embedded for centuries, so this finding feels less 'surprising' and more like scientific confirmation of lived tradition. In the United States, where ultra-processed food consumption is high, researchers are actively studying whether coffee and exercise can partially compensate for a fibre-poor diet, with cautiously optimistic early results. The European Food Safety Authority (EFSA) takes a measured stance, noting strong evidence for dietary fibre and gut health but calling for more standardised research before making sweeping claims about coffee specifically.",
+      "brit_take": "Turns out your morning coffee, your reluctant jog, and your Sunday roast vegetables are all quietly doing the same favour for your gut \u2014 which is at least three good reasons to stop feeling guilty about the coffee.",
       "source": "News",
-      "platform": "foodconsumer.org",
-      "url": "https://www.foodconsumer.org/will_drinking_diet_soda_help_you_lose_weight_0815141231/",
-      "claim": "Will Drinking Diet Soda Help You Lose Weight ?",
+      "platform": "news-medical.net",
+      "url": "https://www.news-medical.net/news/20261108/Coffee-vegetables-and-exercise-share-a-surprising-connection-in-your-gut.aspx",
+      "claim": "Coffee , vegetables and exercise share a surprising connection in your gut",
       "hours_ago": 12,
       "engagement": 40
     }
