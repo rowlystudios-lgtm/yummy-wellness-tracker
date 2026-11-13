@@ -1,0 +1,35 @@
+{
+  "published": "2026-11-13T18:24:29.957350+00:00",
+  "next_refresh": "2026-11-14T11:00:00+00:00",
+  "week_headline": "Your gut microbiome is stealing the spotlight this week, with coffee, vegetables, and exercise all linked to the same surprising biological pathway inside your digestive system.",
+  "stats": {
+    "misleading_pct": "15%",
+    "true_pct": "85%",
+    "total_scored": 1
+  },
+  "top10": [
+    {
+      "rank": 1,
+      "claim": "Coffee , vegetables and exercise share a surprising connection in your gut",
+      "source": "News",
+      "platform": "news-medical.net",
+      "url": "https://www.news-medical.net/news/20261108/Coffee-vegetables-and-exercise-share-a-surprising-connection-in-your-gut.aspx",
+      "hours_ago": 12,
+      "score": 82,
+      "score_label": "Nuanced",
+      "score_type": "mixed",
+      "claim_tag": "Partially true",
+      "verdict": "There is genuinely good science here. Coffee, vegetables, and exercise all increase the diversity and abundance of beneficial gut bacteria \u2014 particularly short-chain fatty acid producers like Lactobacillus and Bifidobacterium \u2014 and reduce gut inflammation through overlapping mechanisms. Coffee's polyphenols, vegetable fibre, and exercise-induced gut motility changes each nudge the microbiome in similar helpful directions, which is a real and emerging finding. That said, 'surprising connection' slightly oversells the novelty \u2014 researchers have known about these overlapping gut effects for several years, and the headline makes it sound more like a hidden secret than an evolving area of solid nutrition science.",
+      "verdict_highlight": "All three genuinely feed your good gut bacteria",
+      "sources": [
+        "Nature Reviews Microbiology (2019) \u2014 exercise and gut microbiome diversity",
+        "Journal of Nutrition (2020) \u2014 coffee polyphenols and gut microbiota",
+        "Cell Host & Microbe (2021) \u2014 dietary fibre and short-chain fatty acid production",
+        "BMJ (2022) \u2014 plant-based diets and microbiome health",
+        "NIH National Institute of Diabetes \u2014 gut microbiome overview"
+      ],
+      "global_opinion": "In Japan, the connection between fermented foods, plant-rich diets, and gut health has been culturally embedded for centuries, so this finding feels less 'surprising' and more like scientific confirmation of lived tradition. In the United States, where ultra-processed food consumption is high, researchers are actively studying whether coffee and exercise can partially compensate for a fibre-poor diet, with cautiously optimistic early results. The European Food Safety Authority (EFSA) takes a measured stance, noting strong evidence for dietary fibre and gut health but calling for more standardised research before making sweeping claims about coffee specifically.",
+      "brit_take": "Turns out your morning coffee, your reluctant jog, and your Sunday roast vegetables are all quietly doing the same favour for your gut \u2014 which is at least three good reasons to stop feeling guilty about the coffee."
+    }
+  ]
+}
