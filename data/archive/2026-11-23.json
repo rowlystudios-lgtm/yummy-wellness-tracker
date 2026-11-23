@@ -1,0 +1,78 @@
+{
+  "published": "2026-11-23T22:28:30.481298+00:00",
+  "next_refresh": "2026-11-24T11:00:00+00:00",
+  "week_headline": "Low-carb myths, pill-free blood pressure fixes, and daily diet soda spark heated debate across health communities this week.",
+  "stats": {
+    "misleading_pct": "25%",
+    "true_pct": "75%",
+    "total_scored": 3
+  },
+  "top10": [
+    {
+      "rank": 1,
+      "claim": "Mitos Seputar Diet Rendah Karbohidrat yang Terbantahkan",
+      "source": "News",
+      "platform": "olret.viva.co.id",
+      "url": "https://olret.viva.co.id/kesehatan/32371-mitos-seputar-diet-rendah-karbohidrat-yang-terbantahkan",
+      "hours_ago": 12,
+      "score": 62,
+      "score_label": "Nuanced",
+      "score_type": "mixed",
+      "claim_tag": "Partially true",
+      "verdict": "Low-carb diets do have genuine benefits \u2014 solid evidence supports them for short-term weight loss and blood sugar management, especially in type 2 diabetes. But headlines 'debunking myths' often swing too far, implying low-carb is universally superior, which the evidence doesn't fully support. Long-term outcomes depend heavily on diet quality, food choices within the approach, and the individual's health context.",
+      "verdict_highlight": "Low-carb works, but it's not for everyone",
+      "sources": [
+        "NEJM (Sacks et al., 2009 \u2014 diet comparison trials)",
+        "Lancet Public Health (2018 \u2014 low-carb and mortality)",
+        "Harvard T.H. Chan School of Public Health \u2014 carbohydrate quality and health",
+        "Journal of Nutrition (2022 \u2014 low-carb dietary patterns review)"
+      ],
+      "global_opinion": "In the US, low-carb and keto diets enjoy strong popular and some clinical support, with many physicians recommending them for metabolic conditions. In Indonesia and Southeast Asia, where rice is a cultural staple, 'low-carb' messaging can feel disconnected from dietary reality and local nutritional research. Nordic countries and the UK tend to favour balanced dietary guidelines over elimination approaches, guided by NHS and European Food Safety Authority frameworks.",
+      "brit_take": "Britain tried Atkins in the early 2000s, quietly put the bread back, and has been suspicious of carb panic ever since. We do love a crumpet."
+    },
+    {
+      "rank": 2,
+      "claim": "Simple lifestyle tweaks that lower your blood pressure WITHOUT taking pills : Cardiologist DR ANDREA TORDINI reveals game - changing two minute exercise \u2026 and the surprising mistakes that keep readings dangerously high",
+      "source": "News",
+      "platform": "dailymail.com",
+      "url": "https://www.dailymail.com/health/article-16285375/cardiologist-lower-blood-pressure.html",
+      "hours_ago": 12,
+      "score": 72,
+      "score_label": "Nuanced",
+      "score_type": "mixed",
+      "claim_tag": "Partially true",
+      "verdict": "The core message is legitimate \u2014 lifestyle changes like exercise, dietary adjustments, stress reduction, and sleep genuinely lower blood pressure, and this is well supported by cardiological guidelines. The 'two-minute exercise' angle likely refers to isometric exercises like wall squats, which a 2023 British Journal of Sports Medicine meta-analysis did find effective for blood pressure reduction. The 'without pills' framing is worth a gentle flag \u2014 for many people, lifestyle changes complement rather than replace medication, and stopping or avoiding prescribed treatment without medical guidance can be risky.",
+      "verdict_highlight": "Lifestyle changes are real, but don't ditch your meds alone",
+      "sources": [
+        "British Journal of Sports Medicine (2023 \u2014 isometric exercise and blood pressure meta-analysis)",
+        "American Heart Association \u2014 lifestyle management of hypertension guidelines",
+        "NICE (UK) \u2014 hypertension clinical guidelines",
+        "BMJ (2020 \u2014 non-pharmacological interventions for hypertension)"
+      ],
+      "global_opinion": "In the UK, NICE guidelines formally recommend lifestyle intervention as a first-line approach for stage 1 hypertension, so this claim aligns reasonably with clinical practice there. In the US, the American Heart Association echoes this but strongly cautions that moderate-to-high hypertension almost always requires medication alongside lifestyle changes. In parts of South and Southeast Asia, where hypertension rates are rising rapidly, overstating pill-free solutions can be particularly risky given lower rates of regular medical monitoring.",
+      "brit_take": "A brisk walk and cutting back on the crisps genuinely does help your blood pressure \u2014 though your GP would still rather you kept taking the lisinopril. Both can be true."
+    },
+    {
+      "rank": 3,
+      "claim": "What Happens to Your Brain When You Drink a Diet Soda Every Day",
+      "source": "News",
+      "platform": "aol.com",
+      "url": "https://www.aol.com/articles/happens-brain-drink-diet-soda-180000000.html",
+      "hours_ago": 12,
+      "score": 48,
+      "score_label": "Nuanced",
+      "score_type": "mixed",
+      "claim_tag": "Overstated",
+      "verdict": "There is real and growing research suggesting that artificial sweeteners \u2014 particularly aspartame in diet sodas \u2014 may influence brain reward pathways, appetite signalling, and possibly mood, but most findings are observational or from animal studies and can't yet confirm direct harm from daily consumption at typical levels. The WHO's 2023 advisory on non-sugar sweeteners added legitimate caution, but 'what happens to your brain' headlines often dramatise findings that are still preliminary. For most healthy adults, an occasional diet soda is unlikely to cause measurable brain harm \u2014 but daily heavy use as a 'healthy' swap for water isn't a great habit either.",
+      "verdict_highlight": "Early signals exist, but daily diet soda isn't proven harmful",
+      "sources": [
+        "WHO (2023 \u2014 non-sugar sweeteners advisory)",
+        "EFSA (2023 \u2014 aspartame safety re-evaluation)",
+        "Cell Metabolism (2021 \u2014 sweetener and brain reward signalling)",
+        "JAMA Network Open (2022 \u2014 artificially sweetened beverages and health outcomes)"
+      ],
+      "global_opinion": "France and some EU member states have moved toward cautionary public health messaging on artificial sweeteners following the WHO 2023 guidance, with EFSA conducting its own updated aspartame review. In the US, the FDA still considers aspartame safe at current consumption levels and has not changed its guidance. Australia and New Zealand's food authority FSANZ similarly maintains approved-safe status, noting that typical intake levels fall well below any concerning threshold.",
+      "brit_take": "The nation that invented the custard cream isn't about to panic over a Diet Coke \u2014 but maybe don't pretend it's basically the same as water. It isn't."
+    }
+  ]
+}
